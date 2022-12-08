@@ -31,7 +31,7 @@ copyright: ©2022 WSO2 LLC.
 
 # Configuration
 theme:
-  name: material # pip install mkdocs-material
+  name: material
 
 #Breaks build if there's a warning
 strict: false
