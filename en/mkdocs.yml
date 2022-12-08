@@ -1,0 +1,69 @@
+# Copyright (c) 2022, WSO2 LLC. (http://www.wso2.org) All Rights Reserved.
+#
+# WSO2 Inc. licenses this file to you under the Apache License,
+# Version 2.0 (the "License"); you may not use this file except
+# in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+# Project information
+site_name: Ballerina VS Code Plugin Documentation
+site_description: Ballerina VS Code Plugin Documentation
+site_author: WSO2
+site_url: https://wso2.com/ballerina/vscode/docs
+
+# Repository
+repo_name: docs-ballerina-visual-studio-code-plugin
+repo_url: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin
+edit_uri: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/edit/dev/en/docs/
+dev_addr: localhost:8000
+
+# Copyright
+copyright: ©2022 WSO2 LLC.
+
+# Configuration
+theme:
+  name: material # pip install mkdocs-material
+
+#Breaks build if there's a warning
+strict: false
+# Navigation
+nav:
+  - Home: index.md
+  - Get started:
+      - Install Ballerina plugin: get-started/install.md
+      - Open packages: get-started/open-packages.md
+  - Release notes:
+      - Version 3.3.0: release-notes/version-3.3.0.md
+  - Build and run:
+      - Run: build-and-run/build-and-run.md
+      - Tryit Tools:
+            - GraphQL tool: build-and-run/tryit-tools/graphql-tool.md
+            - OpenAPI tool: build-and-run/tryit-tools/openapi-tool.md
+  - Edit the code:
+      - IntelliSense: edit-the-code/intellisense.md
+      - Code navigation: edit-the-code/code-navigation.md
+      - Code actions: edit-the-code/code-actions.md
+      - Diagnostics: edit-the-code/diagnostics.md
+  - Debug: debug.md
+  - Test: test.md
+  - Visual programming:
+      - Sequence diagram view: visual-programming/sequence-diagram-view.md
+      - Data mapper: visual-programming/data-mapper.md
+  - Architecture diagram: architecture-diagram.md
+  - Notebooks: notebooks.md
+  - Configurations: configurations.md
+  - References:
+      - How to use statement editor: references/how-to-use-statement-editor.md
+      - How to use record editor: references/how-to-use-record-editor.md
+      - How to paste JSON as records: references/how-to-paste-json-as-records.md
+  - Troubleshooting: troubleshooting.md
+  - License: license.md
