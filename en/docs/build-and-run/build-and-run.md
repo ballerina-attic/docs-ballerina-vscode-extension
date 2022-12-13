@@ -4,6 +4,8 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 
 <img src="../img/running-your-program.gif" width="100%" />
 
+</br>
+
 <details open>
   <summary>Code View</summary>
 
@@ -37,6 +39,8 @@ Follow the steps below to create a sample Ballerina program in VS Code.
     <img src="../img/debug-button.png" width="100%" />
 </details>
 
+</br>
+
 <details open>
   <summary>Diagram View</summary>
   
@@ -59,5 +63,14 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 
 </details>
 
+</br>
+
 The integrated terminal will open automatically and run the program.
   <img src="../img/run-output.png" width="100%" />
+
+</br>
+
+# Try-it tools
+Ballerina VSCode plugin allows you to try and debug an HTTP/GraphQL service while you develop it to check how it works. Without using any third party tools.
+* [Swagger (HTTP) Try-it tool](tryit-tools/swagger-tool.md)
+* [GraphQL Try-it tool](tryit-tools/graphql-tool.md)
