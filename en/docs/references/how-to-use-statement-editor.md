@@ -1,4 +1,4 @@
-# Constrcut Statements using the Statement-Editor
+# Construct Statements using the Statement-Editor
 
 
 The Statement-Editor allows you to construct Ballerina statements depending on the use case you want to build. It is an intuitive visual editor that is easy to use even without an in-depth knowledge of the [Ballerina Programming Language](https://ballerina.io/).
@@ -28,7 +28,7 @@ To build the statement, follow these steps:
 
     ![Add variable statement](../img/statement-editor/add-variable-statement.png)
 
-    The **Variable** pane opens displaying the syntax for a variable statement with **`<add-expression>`** selected by default.
+    The Statement-Editor opens displaying the syntax for a variable statement with **`<add-expression>`** selected by default.
 
 2. Click the **var** type descriptor on the statement and click **string** on the **Suggestions** tab.
 
@@ -88,7 +88,7 @@ To build the statement, follow these steps:
       !!! note
           When a function or a method call requires a particular parameter to work, the Statement-Editor selects the appropriate parameter by default and does not allow you to clear it.
 
-8. Change the **n** and **ns** parameter values to integers. To make each parameter value editable, you can double-click the corresponding **`<add_expression>`** on the variable statement. Let's change them as follows:
+8. Change the **n** and **ns** parameter values to integers. To make each parameter value editable, you can double-click the corresponding placeholder, **`<add_n> or <add_ns>`** on the variable statement. Let's change them as follows:
 
      | **Parameter** | **Value** |
      |---------------|-----------|
@@ -97,7 +97,7 @@ To build the statement, follow these steps:
 
 9. Select **int0:max(30,-89)** and click **Suggestions**. Click **toString()** in the suggestions list to convert the value that the expression derived to a string format.
 
-     ![Convert to string](../../assets/img/statement-editor/convert-to-string.gif){.cInlineImage-half}
+     ![Convert to string](../img/statement-editor/convert-to-string.gif)
 
      Note that the Statement-Editor has cleared all the diagnostics messages, indicating that the statement is valid.
 
