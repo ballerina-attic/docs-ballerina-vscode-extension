@@ -1,6 +1,6 @@
 # Project Design Diagram
 
-With the increasing size and complexity, software applications have evolved to be a composition of multiple interrelated components. When the number and/or depth of such components grow, it becomes necessary to have a overview of the system as a whole. The Ballerina project design view is deployed with the intention of providing a convenient way to generate a high-level picture of such applications, purely based on the source code. In addition to the component interactions, the project design view is also capable of visualizing the Ballerina record types in the project workspace and their associations.
+With the increasing size and complexity, software applications have evolved to be a composition of multiple interrelated components. When the number and/or depth of such components grow, it becomes convenient to have a high-level picture of the system components and their interactions with one another. The Ballerina project design view is deployed with the intention of providing a convenient way to generate such a high-level picture of projects, purely based on the source code. In addition to the component interactions, the project design view is also capable of visualizing the Ballerina record types in the project workspace and their associations.
 
 ## Set up the prerequisites
 
