@@ -53,7 +53,7 @@ Let's walk through a simple use case where you will input person data and course
 ```
 
 ## Open the Data Mapper
-There are two different ways of opening the Data mapper.
+There are two different ways of opening the Data Mapper.
 1. Open with the `Design` code lens
 
 Add the code below to the `main.bal` file of the package to define an empty expression bodied function.
@@ -97,7 +97,7 @@ Map the `person id` to the `student id` as shown below.
 ### Diagnose and fix mapping errors
 Use the `toBalString` lang lib function to convert the int to string as shown below.
 
->**Info:** When you map the input to an output fields, some of them might not be compatible due to type mismatch. In this example, if you map the `person age` to `student` age, it will result in an error for type mismatch since the `input age` type is an integer and `output age` type is string. In this case, the Data Mapper will connect the two fields with a red line and show an alert sign. You can see the error by hovering over the alert sign. In this case, it will show `incompatible types: expected 'string', found 'int'`. To fix the error, hover over the alert sign and click `Fix by editing expression`. Then, the data mapper will pop out the expression editor for the specific expression. Now, you can modify the expression to return a string.
+>**Info:** When you map the input to an output fields, some of them might not be compatible due to type mismatch. In this example, if you map the `person age` to `student` age, it will result in an error for type mismatch since the `input age` type is an integer and `output age` type is string. In this case, the Data Mapper will connect the two fields with a red line and show an alert sign. You can see the error by hovering over the alert sign. In this case, it will show `incompatible types: expected 'string', found 'int'`. To fix the error, hover over the alert sign and click `Fix by editing expression`. Then, the Data Mapper will pop out the expression editor for the specific expression. Now, you can modify the expression to return a string.
 
 ![Fix Errors](img/dm-fix-diagnostics.gif "Fix incompatible types error")
 
@@ -105,7 +105,7 @@ Once you fix the error, the connection appears in blue to indicate that there ar
 
 ### Aggregate multiple input fields to one output field
 You can derive one output parameter by combining two or more input parameters. In this example, the value for the fullName output parameter is a combination the values for the firstName and lastName input parameters. You can map them as shown below:
->**Info:** To aggregate fields, you can map two or more fields to the same output field. The data mapper will automatically combine the two fields and assign it to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the code button and customize the expression with the expression editor.
+>**Info:** To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign it to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the code button and customize the expression with the expression editor.
 
 ![Concatenate](img/dm-concatination.gif "Aggregate multiple input fields")
 
@@ -114,17 +114,26 @@ To convert from one array type to another, you can simply map the input array to
 
 >**Info:** You can use Ballerina query support to convert one array type to another. To use a query in a Data Mapper, you can select the array by clicking on it. Then, it will provide you with several buttons. Click the code action button (bulb sign) and select **Convert to query**. Then, the Data Mapper will convert the mapping to a query. Then, move into the query and do the mapping between the array types.
 
-// Add Gif
+![Convert to Query](img/dm-convert-to-query.gif "Map via query expression")
 
 #### Further process the data
+You can further process the data within the query expression. Currently, the Data Mapper supports the following intermediate clauses.
+- Where clause: filter data based on a given condition
+- Let clause: define local variables within the query expression
+- Limit clause: limit the number of elements returns from the query expression
+- Order by clause: sort data within the query expression in `ascending` or `descending` directions
+- Join clause: performs an inner or left outer join
+- Outer join clause: performs an outer join
+
+![Further Processing](img/dm-further-processing.gif "Process via intermediate clauses")
 
 Once array type mapping is completed, select the transform function name in the top breadcrumb bar to navigate to the root view of mapping.
 
 ### Add local variables
-You can define local variables within the transformation function reuse in multiple places to avoid duplications.
+You can define local variables within the transformation function and re-use in multiple places to avoid duplications.
 >**Info:** If there are no existing local variables, you can open up the local variable pane by clicking on the `Add Local Variable` button. Otherwise, the defined local variables are listed down under local variables in the RHS of the UI. You will be able to access the local variable pane by clicking on the edit button there.
 
-// Add Gif
+![Local Variable](img/dm-add-local-variable.gif "Add local variable")
 
 ### Manipulate fields without drawing connections
 Click on the triple dots button at the end of the field to see the actions that can be performed for the selected field.
@@ -134,16 +143,18 @@ Click on the triple dots button at the end of the field to see the actions that 
 
 Once the array is initialized, you can add array elements by clicking on the `+ Add Element` button.
 Furthermore, clicking on the triple dots button on any array element will provide option to delete that element.
-// Add Gif
+
+![Array Manipulation](img/dm-array-manipulation.gif "Manipulate arrays")
 
 #### Add/Edit constant values/expressions 
 >**Info:** If a particular field is empty and accepting constant/expression you will see `Add value` action after clicking on the triple dots button. Click on it will open up the expression editor and there you will be able to provide a constant value or construct any complex expression.
 
-Let's add the `visaType` for the foreign students by using the `getVisaType` util function which returns the visaType of the given `student Id`.
+Let's add hard coded visa type for the foreign students.
 
-// Add Gif
+![Add Expression](img/dm-add-inline-expr.gif "Add expression to an output field")
 
 >**Info:** If a particular field is having a value, you will see `Edit value` action once you click on the triple dots button.
 
 For each foreign student, Let's add 'F' suffix to the `student id`.
-// Add Gif
+
+![Edit Expression](img/dm-edit-inline-expr.gif "Edit expression of an output field")
