@@ -65,9 +65,13 @@ function name() => ();
 ```
 Once you add the above function, the VS Code plugin will display a code lens called `Design` on top of the function. Click the Design code lens to go to the Data Mapper view.
 
+![Open Data Mapper](img/dm-open-via-code-lens.gif "Open Data Mapper via code lens")
+
 2. Open with the diagram view
 
 Open the file in diagram view and click the `+` icon on the page. Then click Data Mapper in the Add Constructs pane.
+
+![Open Data Mapper](img/dm-open-via-diagram.gif "Open Data Mapper via diagram")
 
 ## Provide inputs and output
 Once the Data mapper is opened, it will prompt you to provide inputs and output of the transformation function. Inputs and the output can be any data type in Ballerina. This example converts JSON and array of JSON to JSON, and thereby, you can use Ballerina record types as inputs and output.
@@ -76,7 +80,7 @@ In the Data Mapper form, you have several options to provide input and output re
 
 This example imports JSON files and creates the records as shown below.
 
-// Add Gif
+![Configure Data Mapper](img/dm-define-inputs-n-output.gif "Define Inputs and Output for Data Mapper")
 
 Once you defined inputs and the output types, click Save to open the mapping view. 
 
@@ -88,15 +92,14 @@ Let's see how to map fields in inputs with fields in the output JSON.
 Map the `person id` to the `student id` as shown below.
 >**Info:** The mapping view will have the **Inputs** on the left hand side of the UI and the **Output** on the right. To map the fields, click on the input field port and then, click the output field port. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.
 
-// Add Gif
-
+![Basic Mapping](img/dm-basic-mapping.gif "Basic mapping")
 
 ### Diagnose and fix mapping errors
 Use the `toBalString` lang lib function to convert the int to string as shown below.
 
 >**Info:** When you map the input to an output fields, some of them might not be compatible due to type mismatch. In this example, if you map the `person age` to `student` age, it will result in an error for type mismatch since the `input age` type is an integer and `output age` type is string. In this case, the Data Mapper will connect the two fields with a red line and show an alert sign. You can see the error by hovering over the alert sign. In this case, it will show `incompatible types: expected 'string', found 'int'`. To fix the error, hover over the alert sign and click `Fix by editing expression`. Then, the data mapper will pop out the expression editor for the specific expression. Now, you can modify the expression to return a string.
 
-// Add Gif
+![Fix Errors](img/dm-fix-diagnostics.gif "Fix incompatible types error")
 
 Once you fix the error, the connection appears in blue to indicate that there are no errors.
 
@@ -104,7 +107,7 @@ Once you fix the error, the connection appears in blue to indicate that there ar
 You can derive one output parameter by combining two or more input parameters. In this example, the value for the fullName output parameter is a combination the values for the firstName and lastName input parameters. You can map them as shown below:
 >**Info:** To aggregate fields, you can map two or more fields to the same output field. The data mapper will automatically combine the two fields and assign it to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the code button and customize the expression with the expression editor.
 
-// Add Gif
+![Concatenate](img/dm-concatination.gif "Aggregate multiple input fields")
 
 ### Map the arrays
 To convert from one array type to another, you can simply map the input array to the output array. If the arrays are compatible, they will be connected with a blue line. If they are not compatible, the connecting line will appear in red.
