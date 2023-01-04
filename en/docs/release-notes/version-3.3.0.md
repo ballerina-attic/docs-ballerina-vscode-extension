@@ -7,11 +7,11 @@ We are happy to announce the Ballerina VS Code plugin 3.3.0 release, which has s
 - [Improved record editor](#record-editor) - Provides a better editing experience with suggestions 
 - [Project Design View](#record-editor) - Facilitates visualizing service interactions in your project
 
-If you are new to Ballerina, you can download the [installers](/downloads/#swanlake) to install it. You can install the Ballerina VSCode plugin from the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina). 
+If you are new to Ballerina, you can download the [installers](/downloads/#swanlake) to install it. You can install the Ballerina VSCode plugin from the [VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina). 
 
 ## Data Mapper
 
-![data-mapper](images/data-mapper.gif)
+![data-mapper](../img/release-notes/3.3.0/data-mapper.gif)
 
 - A powerful graphical editor, which allows you to easily create complex data transformations in a few minutes
 - Provides descriptive diagnostics, error highlighting, and code actions, which leverage the editing experience
@@ -19,21 +19,21 @@ If you are new to Ballerina, you can download the [installers](/downloads/#swanl
 - Currently, supports JSON to JSON transformations and will support more in the future
 
 ## Integrated GraphQL Tryit
-![graphql-tryit](images/graphql-tryit.gif)
+![graphql-tryit](../img/release-notes/3.3.0/graphql-tryit.gif)
 
 - You can try out the GraphQL services using the `Tryit` codelens 
 - You can send and test any request with headers to your GraphQL service in VS Code itself without using any third-party tools
 - The GraphQL explorer will help you to explore the available endpoints and generate the query for you
 
 ## Record editor
-![record-editor](images/record-editor.gif)
+![record-editor](../img/release-notes/3.3.0/record-editor.gif)
 
 - The expression editor is now combined with the record editor, which will give a better editing experience with suggestions and library support
 - Now, you can create records by importing a JSON file. All you need to do is select a sample JSON file under the `Import JSON file` section in the record creation.
 - Record creation using JSON samples now supports separate record creation for complex JSON records. 
 
 ## Project Design view (experimental)
-![design-view](images/design-view.gif)
+![design-view](../img/release-notes/3.3.0/design-view.gif)
 
 - This release includes an experimental feature that allows you to visualize service interactions in your project
 - It also comes with a view to see record-type compositions and relationship
