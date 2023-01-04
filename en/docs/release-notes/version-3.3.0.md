@@ -19,21 +19,21 @@ If you are new to Ballerina, you can download the [installers](/downloads/#swanl
 - Currently, supports JSON to JSON transformations and will support more in the future
 
 ## Integrated GraphQL Tryit
-![graphql-tryit](../img/release-notes/graphql-tryit.gif)
+![graphql-tryit](../../img/release-notes/graphql-tryit.gif)
 
 - You can try out the GraphQL services using the `Tryit` codelens 
 - You can send and test any request with headers to your GraphQL service in VS Code itself without using any third-party tools
 - The GraphQL explorer will help you to explore the available endpoints and generate the query for you
 
 ## Record editor
-![record-editor](../img/release-notes/3.3.0/record-editor.gif)
+![record-editor](../../img/release-notes/record-editor.gif)
 
 - The expression editor is now combined with the record editor, which will give a better editing experience with suggestions and library support
 - Now, you can create records by importing a JSON file. All you need to do is select a sample JSON file under the `Import JSON file` section in the record creation.
 - Record creation using JSON samples now supports separate record creation for complex JSON records. 
 
 ## Project Design view (experimental)
-![design-view](../img/release-notes/3.3.0/design-view.gif)
+![design-view](../../img/release-notes/design-view.gif)
 
 - This release includes an experimental feature that allows you to visualize service interactions in your project
 - It also comes with a view to see record-type compositions and relationship
