@@ -8,90 +8,73 @@ to bind the entity to the terms of this agreement and `you` or `your` will refer
 bound to this agreement, not to you as an individual.
 
 
-                                     Article 1
-                                    THE SOFTWARE
+## Article 1 - THE SOFTWARE
 
-1.1 License grant
+### 1.1 License grant
 
-    WSO2 grants you a worldwide, non-exclusive right to copy and use the software in 
-    accordance with these terms. If you violate these terms, your right to copy and use the 
-    software will automatically terminate.
+WSO2 grants you a worldwide, non-exclusive right to copy and use the software in accordance with these terms. If you violate these terms, your right to copy and use the software will automatically terminate.
 
-1.2 Use restrictions
+### 1.2 Use restrictions
 
-    You may not:
+You may not:
 
-    (1) remove or alter any copyright or license notices that appear in or on the software;
+1. Remove or alter any copyright or license notices that appear in or on the software;
 
-    (2) modify, create a derivative work of, reverse engineer, decompile, translate, 
+2. Modify, create a derivative work of, reverse engineer, decompile, translate, 
         disassemble, or otherwise attempt to extract any of the source code of the software;
 
-    (3) sublicense, transfer, or distribute any of the software;
+3. Sublicense, transfer, or distribute any of the software;
 
-    (4) sell, resell, or otherwise make the software available to a third party as part of a 
+4. Sell, resell, or otherwise make the software available to a third party as part of a 
         commercial offering, unless you obtain WSO2’s consent; or
 
-    (5) use the software in a manner that violates any law.
+5. Use the software in a manner that violates any law.
 
-1.3 Information sent from the software
+### 1.3 Information sent from the software
 
-    The software may send data, including code and code metadata, to WSO2 to provide additional 
-    functionality. WSO2 does not collect personally identifiable information through the 
-    software.
+The software may send data, including code and code metadata, to WSO2 to provide additional functionality. WSO2 does not collect personally identifiable information through the software.
 
-1.4 Ownership
+### 1.4 Ownership
 
-    WSO2 owns the software. Any content accessed or generated through use of the software is 
-    the property of the respective content owner. All rights not expressly granted are reserved 
-    by WSO2.
+WSO2 owns the software. Any content accessed or generated through use of the software is the property of the respective content owner. All rights not expressly granted are reserved by WSO2.
 
-1.5 Support services
+### 1.5 Support services
 
-    As this software is "as-is," WSO2 may not provide support services for it.
+As this software is "as-is," WSO2 may not provide support services for it.
 
 
-                                     Article 2
-                                    DISCLAIMERS
+## Article 2 - DISCLAIMERS
 
-2.1 Warranties
+### 2.1 Warranties
 
-    WSO2 is not making any warranty of merchantability or fitness for a particular purchase in 
-    connection with the software. The software is licensed "as-is."
+WSO2 is not making any warranty of merchantability or fitness for a particular purchase in connection with the software. The software is licensed "as-is".
 
-2.2 Limitation of liability
+### 2.2 Limitation of liability
 
-    You can recover from WSO2 only direct damages up to U.S. $5.00. WSO2 will not be liable for 
-    any other damages, even if WSO2 knew or should have known about the possibility of the 
-    damages, except where this limitation is prohibited by law.
+You can recover from WSO2 only direct damages up to U.S. $5.00. WSO2 will not be liable for any other damages, even if WSO2 knew or should have known about the possibility of the damages, except where this limitation is prohibited by law.
 
 
-                                     Article 3
-                                  INDEMNIFICATION
+## Article 3 - INDEMNIFICATION
 
-    You shall be liable to WSO2 for all pecuniary losses (including legal fees), whether 
-    actually, currently, or required to be incurred by WSO2 (the "Indemnifiable Losses") that
-    arise from your use of the software. 
+You shall be liable to WSO2 for all pecuniary losses (including legal fees), whether actually, currently, or required to be incurred by WSO2 (the "Indemnifiable Losses") that arise from your use of the software. 
 
 
-                                     Article 4
-                                   MISCELLANEOUS
+## Article 4 - MISCELLANEOUS
 
-4.1 Export controls
+### 4.1 Export controls
 
-    The software may be subject to export laws and regulations of the United States and other 
-    jurisdictions. You will not use the software in violation of any of these laws.
+The software may be subject to export laws and regulations of the United States and other jurisdictions. You will not use the software in violation of any of these laws.
 
-4.2 Entire agreement
+### 4.2 Entire agreement
 
-    This agreement, and any terms, policies, or writings referenced within it, constitutes the 
-    final and complete agreement between you and WSO2 with respect to the software.
+This agreement, and any terms, policies, or writings referenced within it, constitutes the final and complete agreement between you and WSO2 with respect to the software.
 
-4.3 Binding arbitration
+### 4.3 Binding arbitration
 
-    (1) All claims relating to this agreement ("dispute") will be governed by the laws of the 
+1. All claims relating to this agreement ("dispute") will be governed by the laws of the 
         state of California, USA, excluding California’s conflicts of laws rules.
 
-    (2) Any dispute not resolved by good faith discussion must be resolved by arbitration 
+2. Any dispute not resolved by good faith discussion must be resolved by arbitration 
         according to the American Arbitration Association’s Expedited Commercial Rules.
 
-    (3) Arbitration will be conducted in English in Santa Clara County, California, USA.
+3. Arbitration will be conducted in English in Santa Clara County, California, USA.
