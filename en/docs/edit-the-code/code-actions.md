@@ -1,6 +1,6 @@
 # Code actions
 
-In VS Code, Code Actions can provide both refactorings and Quick Fixes for detected issues.
+In VS Code, Code Actions can provide both refactorings and quick fixes for detected issues.
 
 ### QuickFixes
 
@@ -10,41 +10,50 @@ QuickFixes are suggested based on the diagnostic displayed at a given cursor pos
 
 The code actions below are available for creating a variable.
 - `Create variable`: Create a variable for an expression where the `Variable Assignment Required` diagnostic is present.
-
-  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/create-variable.gif?raw=true" width="100%" />
-
 - `Create variable and type guard`: Create a type guard to handle the error gracefully when the `Variable assignment Required` diagnostic is present.
 - `Create variable and check error`: Add a check expression when the `Variable assignment Required` diagnostic is present.
 - `Ignore return value`: Ignore the return value with the `_` where the `Variable Assignment Required` diagnostic is present.
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-variable-assignments.gif?raw=true" width="100%" />
 
 #### Quick fixes for type inference
 
 The code actions below are available for type inference.
 - `Create variable with type`: Create a variable for a remote method expression where the `Cannot infer the 'typedesc' argument for parameter` diagnostic is present.
 
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-type-inference.gif?raw=true" width="100%" />
+
 #### Quick fixes for missing check expressions
 
 The code actions below are available for missing check expressions.
-- `Add check error`: Add a check statement when there is an error union.
+- `Add 'check' error`: Add a check statement when there is an error union.
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-missing-check-expressions.gif?raw=true" width="100%" />
 
 #### Quick fixes for check expressions
 
 The code actions below are available for check expressions.
 - `Surround with do/on-fail`: Surround a check expression with do/on-fail clause. 
 
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-check-expressions.gif?raw=true" width="100%" />
+
 #### Quick fixes for Imports
 
 The code actions below are available for imports.
 - `Import a module`: Add the import statement for a module, which has a reference without an import statement. This supports only the language library and the standard library.
-- `Pull module`: Pull locally unavailable Ballerina packages from the Ballerina Central repository.
+- `Pull unresolved module`: Pull locally unavailable Ballerina packages from the Ballerina Central repository.
 - `Remove import`: Remove an unused or re-declared module import.
 - `Remove all unused imports`: Remove all unused imports except when there is a re-declared import statement.
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-imports.gif?raw=true" width="100%" />
 
 #### Quick fixes for Documentation
 
 The code actions below are available for documentation.
 - `Document this`: Add the documentation to the top-level constructs, resources and methods.
 - `Update documentation`: Update the existing documentation when parameters are missing or not documented. This depends on the warning diagnostics sent by the compiler.
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-documentation.gif?raw=true" width="100%" />
 
 #### Quick fixes for Incompatible Types
 
@@ -57,6 +66,10 @@ The code actions below are available for incompatible types.
 - `Convert to 'xml'/'string' template`: Add a subtype for a raw template.
 - `Add type cast for numeric expressions` Add a type cast for an unsupported numeric expression.
 
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-incompatible-types.gif?raw=true" width="100%" />
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-incompatible-types2.gif?raw=true" width="100%" />
+
 #### Quick fixes for Functions
 
 The code actions below are available for creating functions.
@@ -67,16 +80,24 @@ The code actions below are available for creating functions.
 - `Convert to public function` : Add access modifier to a function.
 - `Add isolated qualifier`: Add isolated qualifier to a function.
 
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-functions.gif?raw=true" width="100%" />
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-functions2.gif?raw=true" width="100%" />
+
 #### Quick fixes for Records
 
 The code actions below are available for records.
 - `Create record`: Create a record for an unknown type.
 - `Fill record fields`: Add missing record fields.
 
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-records.gif?raw=true" width="100%" />
+
 #### Quick fixes for Annotations
 
 The code actions below are available for annotations.
 - `Convert to constant`: Convert an annotation declaration to a constant declaration.
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-annotations.gif?raw=true" width="100%" />
 
 ### Refactoring actions
 
