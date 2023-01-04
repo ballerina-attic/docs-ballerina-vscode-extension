@@ -37,7 +37,7 @@ The code actions below are available for check expressions.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-check-expressions.gif?raw=true" width="100%" />
 
-#### Quick fixes for Imports
+#### Quick fixes for imports
 
 The code actions below are available for imports.
 - `Import a module`: Add the import statement for a module, which has a reference without an import statement. This supports only the language library and the standard library.
@@ -47,7 +47,7 @@ The code actions below are available for imports.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-imports.gif?raw=true" width="100%" />
 
-#### Quick fixes for Documentation
+#### Quick fixes for documentation
 
 The code actions below are available for documentation.
 - `Document this`: Add the documentation to the top-level constructs, resources and methods.
@@ -55,7 +55,7 @@ The code actions below are available for documentation.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-documentation.gif?raw=true" width="100%" />
 
-#### Quick fixes for Incompatible Types
+#### Quick fixes for incompatible types
 
 The code actions below are available for incompatible types.
 - `Change variable type`: Change the type of variable.
@@ -70,7 +70,7 @@ The code actions below are available for incompatible types.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-incompatible-types2.gif?raw=true" width="100%" />
 
-#### Quick fixes for Functions
+#### Quick fixes for functions
 
 The code actions below are available for creating functions.
 - `Create function`: Create a function using the selected variables/parameters.
@@ -84,7 +84,7 @@ The code actions below are available for creating functions.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-functions2.gif?raw=true" width="100%" />
 
-#### Quick fixes for Records
+#### Quick fixes for records
 
 The code actions below are available for records.
 - `Create record`: Create a record for an unknown type.
@@ -92,7 +92,7 @@ The code actions below are available for records.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-records.gif?raw=true" width="100%" />
 
-#### Quick fixes for Annotations
+#### Quick fixes for annotations
 
 The code actions below are available for annotations.
 - `Convert to constant`: Convert an annotation declaration to a constant declaration.
@@ -103,16 +103,20 @@ The code actions below are available for annotations.
 
 Refactoring actions are suggested when existing code can be rearranged or restructured to improve the quality and maintainability of your project while ensuring that the overall behavior of the code remains unchanged.
 
-#### Extract to Code Actions
+#### Extract to code actions
 
 - `Extract to constant`: Extract a constant expression to a constant.
 - `Extract to function`: Extract an expression or a statement to a function.
 - `Extract to local variable`: Extract an expression to a local variable.
 - `Extract type`: Extract anonymous records to record types.
 
-#### Rewrite Code actions
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/extract-to-actions.gif?raw=true" width="100%" />
+
+#### Rewrite code actions
 
 - `Map with a query expression`: Convert RHS variable assignment to a query expression. 
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/rewrite-actions.gif?raw=true" width="100%" />
 
 ### Source actions
 
@@ -124,14 +128,22 @@ Source actions are used to generate common code structures and recurring element
 - `Create a setter`: Generate a setter for class-level variables.
 - `Create getter and setter`: Generate both getter and setter for class-level variables.
 
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-getters-and-setters.gif?raw=true" width="100%" />
+
 #### Source actions for variables
 
 - `Type guard variable`: Type guard a variable if the variable is of the union type.
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-variable.gif?raw=true" width="100%" />
 
 #### Source actions for imports
 
 - `Optimize imports`: Optimize import statements to remove unused imports and arrange imports in alphabetical order.
 
-#### Source actions for Documentation
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-imports.gif?raw=true" width="100%" />
+
+#### Source actions for documentation
 
 - `Document all`: Document all the top-level constructs.
+
+  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-documentation.gif?raw=true" width="100%" />
