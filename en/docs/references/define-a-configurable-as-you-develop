@@ -1,0 +1,25 @@
+# Define a Configurable variable while developing another construct
+
+As you develop your construct, you may identify a parameter for which the value needs to be configurable and for which you have not already defined the required configurable. Then you can access the configurable variable template while defining/editing the current statement. 
+
+For example, if you are adding a variable and you want its value to be configurable, you can follow these steps:
+
+Let's say you were creating a variable **host** of type **string**. Next you decide the value of this variable to be a configurable.
+
+1. Click on the **`<add-expression>`** template and select the **Add-configurable** button from the toolbar.
+
+    ![Click new Configurable](../img/statement-editor/add-configurable-button-click.gif)
+
+
+    This will open up a new pane with the configurable variable statement template.
+
+ 2. You could update the variable name and value as required. Once completed click **Add** button. This will add the configurable variable to the soure-code and update the current statement as given below. 
+
+    ![Add new Configurable](../img/statement-editor/add-conifgurable.gif)
+
+ If you look at the source code generated, you can see a new configurable variable generated as given below
+
+ ```
+ configurable string dbHost = "localhost";
+ 
+ ```

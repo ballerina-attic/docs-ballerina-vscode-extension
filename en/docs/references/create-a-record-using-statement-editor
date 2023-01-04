@@ -1,0 +1,35 @@
+# Construct a record using the Statement-Editor
+
+1. Navigate to the record editor and select **Create New**.
+
+    ![Add record statement](../img/statement-editor/create-new-record.gif)
+
+2. Double click the default record name to change it.
+
+    ![Update record name](../img/statement-editor/update-record-name.gif)
+
+3. To add another field to the record, click on the **plus** button which appear when you hover over the current field
+
+    ![Add new field](../img/statement-editor/add-record-fields.gif)
+
+4. To convert the record field to a default valued field, Click on the **semicolon(;)**. This will select the complete record field and the **Expressions** tab will be selected. Click on the **Es=Ex** template.
+
+    ![Add default field](../img/statement-editor/add-default-record-field.gif)
+
+ As you can see the selected field is updated with the **`<add-expression>`** template. You could double click and update it
+
+5. To mark record field as an **Optional** field, you could follow two approaches. First select the variable name of the field that is needed to mark as optional. Then,
+    1. Select the **?** from the toolbar. OR
+    2. Select **Es?** template from the **Expressions** tab
+
+
+    ![Add optional field](../img/statement-editor/make-record-optional.gif)
+
+6. To convert the record to a open/closed record. First select the complete record by clicking on the record keyword.
+This will select the **Expressions** tab, where you are given the option make a record a closed record.
+
+
+    ![Closed record](../img/statement-editor/closed-record.gif)
+
+
+7. Once the record field configuration is done, click **Save**.
