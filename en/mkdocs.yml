@@ -27,7 +27,7 @@ edit_uri: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/edit/
 dev_addr: localhost:8000
 
 # Copyright
-copyright: ©2022 WSO2 LLC.
+copyright: Copyright © WSO2 LLC. 2022 | Content licensed under CC By 4.0. | Sample code licensed under Apache 2.0.
 
 # Configuration
 theme:

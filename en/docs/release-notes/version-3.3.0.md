@@ -11,7 +11,7 @@ If you are new to Ballerina, you can download the [installers](/downloads/#swanl
 
 ## Data Mapper
 
-![data-mapper](../img/release-notes/3.3.0/data-mapper.gif)
+![data-mapper](../../img/release-notes/data-mapper.gif)
 
 - A powerful graphical editor, which allows you to easily create complex data transformations in a few minutes
 - Provides descriptive diagnostics, error highlighting, and code actions, which leverage the editing experience
@@ -19,7 +19,7 @@ If you are new to Ballerina, you can download the [installers](/downloads/#swanl
 - Currently, supports JSON to JSON transformations and will support more in the future
 
 ## Integrated GraphQL Tryit
-![graphql-tryit](../img/release-notes/3.3.0/graphql-tryit.gif)
+![graphql-tryit](../img/release-notes/graphql-tryit.gif)
 
 - You can try out the GraphQL services using the `Tryit` codelens 
 - You can send and test any request with headers to your GraphQL service in VS Code itself without using any third-party tools
