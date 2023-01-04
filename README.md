@@ -1,4 +1,4 @@
-# Ballerina VSCode Documentation
+# Ballerina VS Code Documentation
 
 # Choreo Documentation
 
