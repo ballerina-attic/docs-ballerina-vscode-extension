@@ -1,6 +1,6 @@
 # IntelliSense
 
-### Code Completion and Snippets
+### Code completion and snippets
 The extension provides suggestions on variables, keywords, and code snippets of language constructs. (such as functions, type definitions, services, iterable constructs, etc.)
 
 <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/code-completion.gif?raw=true" width="100%" />
