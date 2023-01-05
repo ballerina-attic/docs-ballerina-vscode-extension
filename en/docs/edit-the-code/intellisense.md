@@ -8,7 +8,7 @@ The extension provides suggestions on variables, keywords, and code snippets of 
 Following are some key features of the code completion support provided by the extension.
 
 #### Context-aware completion items
-The completion item list is sorted based on the context of the current cursor position.
+The completion items list is sorted based on the context of the current cursor position.
 
 <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/context-aware-completions.gif?raw=true" width="100%" />
 
