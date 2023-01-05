@@ -1,6 +1,6 @@
-# Build executable jar file
+# Build the executable JAR file
 
-Follow the steps below to create a executable jar file to deploy. 
+Follow the steps below to create an executable JAR file to deploy. 
   
 1. Click **View** in the menu bar of the editor, and click **Command Palette**.
 

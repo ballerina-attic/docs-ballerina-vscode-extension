@@ -1,5 +1,5 @@
 # Try HTTP services in Swagger view with Ballerina
-While you develop an HTTP service, you need to try it and debug it to check how it works. The Ballerina VS Code plugin provides the Swagger Try it view, which gives the ability to try HTTP services within VS Code instead of using any third-party software.
+While you develop an HTTP service, you need to try it and debug it to check how it works. The Ballerina VS Code extension provides the Swagger Try it view, which gives the ability to try HTTP services within VS Code instead of using any third-party software.
 
 ## Write the HTTP service
 Add the code below to the `main.bal` file.
@@ -8,7 +8,7 @@ import ballerina/http;
 
 service / on new http:Listener(9090) {
 
-    // This function responds with `string` value `Hello, World!` to HTTP GET requests.
+    // This function responds with the `string` value `Hello, World!` to HTTP GET requests.
     resource function get greeting() returns string {
         return "Hello, World!";
     }
@@ -17,11 +17,11 @@ service / on new http:Listener(9090) {
 ```
 
 ## Try the HTTP service
-Once you add the above function, the VS Code plugin will display a code lens called **Try it** on top of the service.
+Once you add the above function, the VS Code extension will display a code lens called **Try it** on top of the service.
 
 1. Click the **Run** code lens to run the program. 
     
-    This opens the terminal and start running the service.
+    This opens the terminal and starts running the service.
 
 </br>
 
@@ -30,7 +30,7 @@ Once you add the above function, the VS Code plugin will display a code lens cal
 
   <img src="../../img/swagger-codelenses.png" width="100%" />
 
-You can open the swagger view in Diagram view by clicking the try it button under the option menu.
+You can open the swagger view in the Diagram view by clicking the **Try it** button under the **Options** menu.
   <img src="../../img/tryit-button.png" width="100%" />
   
 </br>
@@ -45,5 +45,5 @@ You can open the swagger view in Diagram view by clicking the try it button unde
 4. Click the execute button to see the response.
   <img src="../../img/swagger-view-response.png" width="100%" />
 
-   >**Info:** If the HTTP service require any data/paramter it will show parameters section.
+   >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
    <img src="../../img/swagger-view-parameters.png" width="100%" />
