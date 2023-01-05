@@ -2,12 +2,6 @@
 
 The extension offers a number of settings. These can be configured by modifying your [User or Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings), or by modifying the VSCode's ` settings.json ` file.
 
-<style>
-td, th {
-   border: 1px solid !important;
-}
-</style>
-
 | ID                                    | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
 | ballerina.codeLens.all.enabled        | Enable code lenses that appear in the editor view.           |
@@ -23,11 +17,6 @@ td, th {
 
 ### Advanced configurations
 These configurations are related to the plugin development process and not useful for plugin users.
-<style>
-td, th {
-   border: 1px solid !important;
-}
-</style>
 
 | ID                                    | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
