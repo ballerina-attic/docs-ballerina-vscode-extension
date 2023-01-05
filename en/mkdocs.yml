@@ -53,7 +53,7 @@ nav:
       - Code navigation: edit-the-code/code-navigation.md
       - Code actions: edit-the-code/code-actions.md
       - Diagnostics: edit-the-code/diagnostics.md
-  - Debug: debug.md
+  - Debug: debugging/debug.md
   - Test: test.md
   - Visual programming:
       - Sequence diagram view: visual-programming/sequence-diagram-view.md
