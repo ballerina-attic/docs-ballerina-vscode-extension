@@ -42,7 +42,7 @@ You can open the swagger view in the Diagram view by clicking the **Try it** but
 
 </br>
 
-4. Click the execute button to see the response.
+4. Click the **Execute** button to see the response.
   <img src="../../img/swagger-view-response.png" width="100%" />
 
    >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
