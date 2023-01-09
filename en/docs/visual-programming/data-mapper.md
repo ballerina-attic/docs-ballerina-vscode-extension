@@ -155,6 +155,6 @@ Let's add a hard-coded visa type for foreign students.
 
 >**Info:** If a particular field is having a value, you will see the **Edit value** action once you click the triple dots button.
 
-For each foreign student, Let's add 'F' suffix to the `student id`.
+Let's add an 'F' suffix to the `student id` of each foreign student.
 
 ![Edit Expression](img/dm-edit-inline-expr.gif "Edit expression of an output field")
