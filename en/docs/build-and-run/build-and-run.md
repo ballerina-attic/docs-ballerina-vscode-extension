@@ -9,7 +9,7 @@ Follow the steps below to create a sample Ballerina program in VS Code.
   
 1. Click **View** in the menu bar of the editor, and click **Command Palette**.
 
-  >**Tip:** You can use the shortcut methods `⌘ + ↑ + P` on Mac and `Ctrl + Shift + P` on Windows and Linux.
+    >**Tip:** You can use the shortcut methods `⌘ + ↑ + P` on Mac and `Ctrl + Shift + P` on Windows and Linux.
 
 2. In the search bar, type `Show Examples`, and click **Ballerina: Show Examples**.
 
@@ -18,39 +18,41 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 4. Run the program.
 
     - Option 1
-    Click on the **Run** code lens on the editor. 
-    <img src="../img/run-code-lense.png" width="100%" />
+      
+      Click on the **Run** code lens on the editor. 
+      ![Run codeLense](/en/docs/img/run-code-lense.png?raw=true)
 
     - Option 2
-    Click **Run** on the title bar of the editor.
-    <img src="../img/run-button.png" width="100%" />
+    
+      Click **Run** on the title bar of the editor.
+      ![Run button](/en/docs/img/run-button.png?raw=true)
 ## Use the Diagram View
   
-  1. View the diagram
-   - Option 1
+1. View the diagram
+    - Option 1
 
       Click **Show Diagram** on the title bar of the editor to view the graphical representation of the program.
-      <img src="../img/show-diagram-button.png" width="100%" />
+      ![Show diagram](/en/docs/img/show-diagram-button.png?raw=true)
 
-   - Option 2
+    - Option 2
 
       Click the Ballerina icon in the VS Code side menu to open the diagram explorer tree.
-      <img src="../img/diagram-explorer.png" width="100%" />
+      ![Diagram explorer](/en/docs/img/diagram-explorer.png?raw=true)
 
-  2. Run the program
+2. Run the program
 
-      Click **Run** in the diagram options menu.
-      <img src="../img/run-diagram-button.png" width="100%" />
+    Click **Run** in the diagram options menu.
+    ![Run diagram button](/en/docs/img/run-diagram-button.png?raw=true)
 
-      Alternatively, run the program by clicking the button on the title bar.
-      <img src="../img/run-diagram-header-button.png" width="100%" />
+    Alternatively, run the program by clicking the button on the title bar.
+    ![Header button](/en/docs/img/run-diagram-header-button.png?raw=true)
 
 The integrated terminal will open automatically and run the program.
-  <img src="../img/run-output.png" width="100%" />
+  ![Run output](/en/docs/img/run-output.png?raw=true)
 
 You just ran your first Ballerina program.
 >**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debugging/debug.md).
-<img src="../img/debug-button.png" width="100%" />
+![Debug button](/en/docs/img/debug-button.png?raw=true)
 
 ## Try-it tools
 The Ballerina VS Code extension allows you to try out and debug HTTP/GraphQL services (without using any third-party tools) while you develop them. 

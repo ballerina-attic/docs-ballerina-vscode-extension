@@ -26,18 +26,18 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 2. Click the **Try it** CodeLens to open the swagger Try it view.
    >**Note:** The service must be in the running state to use Try it view.
 
-    <img src="../../img/swagger-codelenses.png" width="100%" />
+    ![](/en/docs/img/swagger-codelenses.png?raw=true)
 
     You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
-      <img src="../../img/tryit-button.png" width="100%" />
+      ![](/en/docs/img/tryit-button.png?raw=true)
 
 3. Once the Swagger view is opened, click **Try it out**.
-  <img src="../../img/swagger-view-tryit-btn.png" width="100%" />
+  ![](/en/docs/img/swagger-view-tryit-btn.png?raw=true)
 
    >**Tip:** You can find all available APIs from the opened side menu.
 
 4. Click **Execute** to see the response.
-  <img src="../../img/swagger-view-response.png" width="100%" />
+  ![Swagger response](/en/docs/img/swagger-view-response.png?raw=true){:height="50%" width="50%"}
 
    >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
-   <img src="../../img/swagger-view-parameters.png" width="100%" />
+   ![Swagger parameters](/en/docs/img/swagger-view-parameters.png?raw=true)
