@@ -47,7 +47,7 @@ nav:
       - Run: build-and-run/build-and-run.md
       - Tryit Tools:
             - GraphQL tool: build-and-run/tryit-tools/graphql-tool.md
-            - OpenAPI tool: build-and-run/tryit-tools/openapi-tool.md
+            - Swagger tool: build-and-run/tryit-tools/swagger-tool.md
   - Edit the code:
       - IntelliSense: edit-the-code/intellisense.md
       - Code navigation: edit-the-code/code-navigation.md
