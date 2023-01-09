@@ -6,7 +6,7 @@ Diagnostics are the syntax and semantic errors that are identified in the source
 * The summary view and the PROBLEMS panel lists all of the current errors.
 * Errors or warnings in a Ballerina file will be rendered inline with the text and in the overview ruler.
 
-![Diagnostics](/en/docs/img/edit-the-code/diagnostics/diagnostics.png?raw=true)
+![Diagnostics](../img/edit-the-code/diagnostics/diagnostics.png?raw=true)
 
 ## Quick fixes
 
@@ -16,4 +16,4 @@ For example, the `variable assignment is required` diagnostic suggests two quick
 - Create a new variable
 - Ignore the return value
 
-![Quickfixes](/en/docs/img/edit-the-code/diagnostics/quickfixes.gif?raw=true)
+![Quickfixes](../img/edit-the-code/diagnostics/quickfixes.gif?raw=true)
