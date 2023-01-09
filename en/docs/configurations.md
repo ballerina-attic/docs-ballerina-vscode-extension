@@ -1,11 +1,11 @@
 # Configurations
 
-The extension offers a number of settings. These can be configured by modifying your [user or workspace settings](https://code.visualstudio.com/docs/getstarted/settings) or by modifying the` settings.json ` file of VS Code.
+The extension offers a number of settings. These can be configured by modifying your [user or workspace settings](https://code.visualstudio.com/docs/getstarted/settings) or by modifying the `settings.json` file of VS Code.
 
 | ID                                    | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
 | ballerina.codeLens.all.enabled        | Enable code lenses that appear in the editor view.           |
-| ballerina.enableConfigurableEditor    | Enable the configurable editor. This will open a  form to set values for [configurable variables](https://ballerina.io/learn/by-example/configurable-variables/) in the code when you [Run](../docs/build-and-run/build-and-run.md) the Ballerina code. |
+| ballerina.enableConfigurableEditor    | Enable the configurable editor. This will open a  form to set values for [configurable variables](https://ballerina.io/learn/by-example/configurable-variables/) in the code when you [run](../docs/build-and-run/build-and-run.md) the Ballerina code. |
 | ballerina.enableNotebookDebug         | Enable the debug feature in Ballerina notebook files (`.balnotebook`). |
 | ballerina.enablePerformanceForecast   | Enable the performance forecaster. This will show you the forecasted latency and other performance values for Ballerina services in the low-code diagram.     |
 | ballerina.enableSemanticHighlighting  | Enable [semantic code highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide).               |
@@ -21,4 +21,4 @@ These configurations are related to the extension development process and not us
 | ID                                    | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
 | ballerina.enableLanguageServerDebug   | Enable language server debugging.
-| ballerina.debugLog                    | Enable debug logs of the extension. This will print the extension debug logs to the Ballerina output channel in the VS Code output window. |
+| ballerina.debugLog                    | Enable the debug logs of the extension. This will print the extension debug logs to the Ballerina output channel in the VS Code output window. |
