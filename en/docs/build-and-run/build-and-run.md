@@ -18,7 +18,7 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 
     - **Option 1**
       
-        Click on the **Run** code lens on the editor. 
+        Click on the **Run** CodeLens on the editor. 
       
         ![Run codeLense](../img/run-code-lense.png?raw=true)
 
