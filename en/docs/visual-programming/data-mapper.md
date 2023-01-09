@@ -105,7 +105,7 @@ Once you fix the error, the connection appears in blue to indicate that there ar
 
 ### Aggregate multiple input fields to one output field
 You can derive one output parameter by combining two or more input parameters. In this example, the value for the `fullName` output parameter is a combination of the values of the `firstName` and `lastName` input parameters. You can map them as shown below:
->**Info:** To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign it to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the code button and customize the expression with the expression editor.
+>**Info:** To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign them to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the **Code** button and customize the expression with the expression editor.
 
 ![Concatenate](img/dm-concatination.gif "Aggregate multiple input fields")
 
