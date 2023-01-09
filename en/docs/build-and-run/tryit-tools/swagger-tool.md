@@ -30,19 +30,19 @@ Once you add the above function, the VS Code extension will display a code lens 
 
   <img src="../../img/swagger-codelenses.png" width="100%" />
 
-You can open the swagger view in the Diagram view by clicking the **Try it** button under the **Options** menu.
+You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
   <img src="../../img/tryit-button.png" width="100%" />
   
 </br>
 
-3. Once the Swagger view is opened, click the **Try it out** button.
+3. Once the Swagger view is opened, click **Try it out**.
   <img src="../../img/swagger-view-tryit-btn.png" width="100%" />
 
    >**Tip:** You can find all available APIs from the opened side menu.
 
 </br>
 
-4. Click the **Execute** button to see the response.
+4. Click **Execute** to see the response.
   <img src="../../img/swagger-view-response.png" width="100%" />
 
    >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
