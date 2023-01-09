@@ -18,6 +18,7 @@ service / on new http:Listener(9090) {
 ```
 
 ## Try the HTTP service
+
 Once you add the above function, the VS Code extension will display a CodeLens called **Try it** on top of the service.
 
 1. Click the **Run** CodeLens to run the program. 
