@@ -12,22 +12,22 @@ Ballerina VSCode extension provides rich support for [code navigation](https://c
 
 [Go to symbol](https://code.visualstudio.com/docs/editor/editingevolved#_go-to-symbol) feature allows you to navigate symbols inside a file.
 
-![Go to symbol](/en/docs/img/edit-the-code/code-navigation/go-to-symbol.gif?raw=true)
+![Go to symbol](https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/edit-the-code/code-navigation/go-to-symbol.gif?raw=true)
 
 ## Find all references
 
 Invoking the references (Right click on a symbol and select `Find All References`) on a symbol will prompt you with all the symbol references in the current project.
 
-![Find all references](/en/docs/img/edit-the-code/code-navigation/find-all-references.png?raw=true)
+![Find all references](https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/edit-the-code/code-navigation/find-all-references.png?raw=true)
 
 ## Peek
 
 This feature allows you to [peek](https://code.visualstudio.com/docs/editor/editingevolved#_peek) the definition or references of a given symbol.
 
-![Peek definition](/en/docs/img/edit-the-code/code-navigation/peek-definition.png?raw=true)
+![Peek definition](https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/edit-the-code/code-navigation/peek-definition.png?raw=true)
 
 ## Rename symbols
 This feature allows you to rename symbols by renaming all the references of the particular symbol.
 
-![Rename symbols](/en/docs/img/edit-the-code/code-navigation/rename-symbols.gif?raw=true)
+![Rename symbols](https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/edit-the-code/code-navigation/rename-symbols.gif?raw=true)
 
