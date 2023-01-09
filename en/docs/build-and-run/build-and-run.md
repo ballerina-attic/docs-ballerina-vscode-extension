@@ -51,12 +51,15 @@ Follow the steps below to create a sample Ballerina program in VS Code.
     ![Run diagram button](../img/run-diagram-button.png?raw=true)
 
     Alternatively, run the program by clicking the button on the title bar.
+
     ![Header button](../img/run-diagram-header-button.png?raw=true)
 
 The integrated terminal will open automatically and run the program.
-  ![Run output](../img/run-output.png?raw=true)
+
+![Run output](../img/run-output.png?raw=true)
 
 You just ran your first Ballerina program.
+
 >**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug.md).
 ![Debug button](../img/debug-button.png?raw=true)
 
