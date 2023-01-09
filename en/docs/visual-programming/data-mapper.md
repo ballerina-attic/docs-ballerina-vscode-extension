@@ -58,7 +58,7 @@ There are two different ways of opening the Data Mapper.
 
 Add the code below to the `main.bal` file of the package to define an empty expression bodied function.
 
->**Info:** The preferred way to model the transformation logic in Ballerina is via expression bodied functions. The expression bodied function below will simply return nil. The function body of it is an expression, which will return a nil value.
+>**Info:** The preferred way to model the transformation logic in Ballerina is via expression-bodied functions. The expression-bodied function below will simply return nil. The function body of it is an expression, which will return a nil value.
 
 ```ballerina
 function name() => ();
