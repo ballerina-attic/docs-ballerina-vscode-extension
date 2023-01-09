@@ -88,7 +88,7 @@ Once you define the input and the output types, click **Save** to open the mappi
 
 Let's see how to map the input fields with the fields in the JSON output.
 
-### Basic Mapping
+### Basic mapping
 Map the `person id` to the `student id` as shown below.
 >**Info:** The mapping view will have the **Inputs** on the left hand side of the UI and the **Output** on the right. To map the fields, click on the input field port and then, click the output field port. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.
 
