@@ -26,20 +26,18 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 2. Click the **Try it** CodeLens to open the swagger Try it view.
    >**Note:** The service must be in the running state to use Try it view.
 
-    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/swagger-codelenses.png?raw=true"  width="100%" />
+    ![](/en/docs/img/swagger-codelenses.png?raw=true)
 
     You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
-      <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/tryit-button.png?raw=true"  width="100%" />
+      ![](/en/docs/img/tryit-button.png?raw=true)
 
 3. Once the Swagger view is opened, click **Try it out**.
-  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/swagger-view-tryit-btn.png?raw=true"  width="100%" />
+  ![](/en/docs/img/swagger-view-tryit-btn.png?raw=true)
 
    >**Tip:** You can find all available APIs from the opened side menu.
 
 4. Click **Execute** to see the response.
-  <p align="center">
-    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/swagger-view-response.png?raw=true" height="500"/>
-  </p>
+  ![Swagger response](/en/docs/img/swagger-view-response.png?raw=true){:height="50%" width="50%"}
 
    >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
-   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/swagger-view-parameters.png?raw=true"  width="100%" />
+   ![Swagger parameters](/en/docs/img/swagger-view-parameters.png?raw=true)

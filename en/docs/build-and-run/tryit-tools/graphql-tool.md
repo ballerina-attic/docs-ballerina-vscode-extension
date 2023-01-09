@@ -33,7 +33,7 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 2. Click the **Try it** CodeLens to open the GraphQL Try it view.
    >**Note:** The service must be in the running state to use GraphQL Try it view.
 
-    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/graphql-codelenses.png?raw=true"  width="100%" />
+    ![Graphql CodeLenses](/en/docs/img/graphql-codelenses.png?raw=true)
 
 3. Once the GraphQL view is opened, click **Explorer** to open the **Explorer** view.
    >**Tip:** You can find the available APIs from the side menu that opens.
@@ -45,4 +45,4 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 
     The response is displayed in the right-side window.
 
-    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/graphql-tryit.gif?raw=true"  width="100%" />
+    ![Graphql try it](/en/docs/img/graphql-tryit.gif?raw=true)
