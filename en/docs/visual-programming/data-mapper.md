@@ -76,7 +76,7 @@ Open the file in the Diagram View and click the `+` icon on the page. Then, clic
 ## Provide inputs and output
 Once the Data mapper is opened, it will prompt you to provide inputs and output of the transformation function. Inputs and the output can be any data type in Ballerina. This example converts JSON and array of JSON to JSON, and thereby, you can use Ballerina record types as inputs and output.
 
-In the Data Mapper form, you have several options to provide input and output records. If the records are already defined in your package, you can select one of those. If you are starting from scratch, you can either create the record from the record editor view or import a JSON to create a matching record.
+In the Data Mapper form, you have several options to provide the input and output records. If the records are already defined in your package, you can select one of those. If you are starting from scratch, you can either create the record from the Record Editor view or import a JSON to create a matching record.
 
 This example imports JSON files and creates the records as shown below.
 
