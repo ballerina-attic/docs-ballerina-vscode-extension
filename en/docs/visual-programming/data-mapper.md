@@ -147,7 +147,7 @@ Furthermore, clicking the triple dots button on any array element will provide t
 ![Array Manipulation](img/dm-array-manipulation.gif "Manipulate arrays")
 
 #### Add/Edit constant values/expressions 
->**Info:** If a particular field is empty and accepting constant/expression you will see `Add value` action after clicking on the triple dots button. Click on it will open up the expression editor and there you will be able to provide a constant value or construct any complex expression.
+>**Info:** If a particular field is empty and accepting a constant/expression, you will see the **Add value** action after clicking the triple dots button. This will open up the expression editor and you will be able to provide a constant value or construct any complex expression in it.
 
 Let's add hard coded visa type for the foreign students.
 
