@@ -9,7 +9,7 @@ Follow the steps below to create a sample Ballerina program in VS Code.
   
 1. Click **View** in the menu bar of the editor, and click **Command Palette**.
 
-  >**Tip:** You can use the shortcut methods `⌘ + ↑ + P` on Mac and `Ctrl + Shift + P` on Windows and Linux.
+    >**Tip:** You can use the shortcut methods `⌘ + ↑ + P` on Mac and `Ctrl + Shift + P` on Windows and Linux.
 
 2. In the search bar, type `Show Examples`, and click **Ballerina: Show Examples**.
 
@@ -26,24 +26,24 @@ Follow the steps below to create a sample Ballerina program in VS Code.
     <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/run-button.png?raw=true" width="100%" />
 ## Use the Diagram View
   
-  1. View the diagram
-   - Option 1
+1. View the diagram
+  - Option 1
 
-      Click **Show Diagram** on the title bar of the editor to view the graphical representation of the program.
-      <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/show-diagram-button.png?raw=true" width="100%" />
+    Click **Show Diagram** on the title bar of the editor to view the graphical representation of the program.
+    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/show-diagram-button.png?raw=true" width="100%" />
 
-   - Option 2
+  - Option 2
 
-      Click the Ballerina icon in the VS Code side menu to open the diagram explorer tree.
-      <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/diagram-explorer.png?raw=true" width="100%" />
+    Click the Ballerina icon in the VS Code side menu to open the diagram explorer tree.
+    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/diagram-explorer.png?raw=true" width="100%" />
 
-  2. Run the program
+2. Run the program
 
-      Click **Run** in the diagram options menu.
-      <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/run-diagram-button.png?raw=true" width="100%" />
+    Click **Run** in the diagram options menu.
+    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/run-diagram-button.png?raw=true" width="100%" />
 
-      Alternatively, run the program by clicking the button on the title bar.
-      <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/run-diagram-header-button.png?raw=true" width="100%" />
+    Alternatively, run the program by clicking the button on the title bar.
+    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/run-diagram-header-button.png?raw=true" width="100%" />
 
 The integrated terminal will open automatically and run the program.
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/run-output.png?raw=true" width="100%" />
