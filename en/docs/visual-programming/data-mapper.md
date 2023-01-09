@@ -54,7 +54,7 @@ The below is a simple use case in which you will input data of people and course
 
 ## Open the Data Mapper
 There are two different ways of opening the Data Mapper.
-1. Open with the `Design` code lens
+1. Open with the `Design` code lens.
 
 Add the code below to the `main.bal` file of the package to define an empty expression bodied function.
 
