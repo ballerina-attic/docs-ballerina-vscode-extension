@@ -26,10 +26,10 @@ Once you add the above function, the VS Code extension will display a code lens 
 2. Click the **Try it** code lens to open the swagger Try it view.
    >**Note:** The service must be in the running state to use Try it view.
 
-  <img src="../../img/swagger-codelenses.png" width="100%" />
+    <img src="../../img/swagger-codelenses.png" width="100%" />
 
-You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
-  <img src="../../img/tryit-button.png" width="100%" />
+    You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
+      <img src="../../img/tryit-button.png" width="100%" />
 
 3. Once the Swagger view is opened, click **Try it out**.
   <img src="../../img/swagger-view-tryit-btn.png" width="100%" />
