@@ -82,7 +82,7 @@ This example imports JSON files and creates the records as shown below.
 
 ![Configure Data Mapper](img/dm-define-inputs-n-output.gif "Define Inputs and Output for Data Mapper")
 
-Once you defined inputs and the output types, click Save to open the mapping view. 
+Once you define the input and the output types, click **Save** to open the mapping view. 
 
 ## Do the Mappings
 
