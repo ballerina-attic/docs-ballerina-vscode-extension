@@ -29,15 +29,15 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 ## Use the Diagram View
   
 1. View the diagram
-  - Option 1
+    - Option 1
 
-    Click **Show Diagram** on the title bar of the editor to view the graphical representation of the program.
-    ![Show diagram](/en/docs/img/show-diagram-button.png?raw=true)
+      Click **Show Diagram** on the title bar of the editor to view the graphical representation of the program.
+      ![Show diagram](/en/docs/img/show-diagram-button.png?raw=true)
 
-  - Option 2
+    - Option 2
 
-    Click the Ballerina icon in the VS Code side menu to open the diagram explorer tree.
-    ![Diagram explorer](/en/docs/img/diagram-explorer.png?raw=true)
+      Click the Ballerina icon in the VS Code side menu to open the diagram explorer tree.
+      ![Diagram explorer](/en/docs/img/diagram-explorer.png?raw=true)
 
 2. Run the program
 
