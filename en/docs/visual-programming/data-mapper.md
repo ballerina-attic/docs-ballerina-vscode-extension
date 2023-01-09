@@ -121,7 +121,7 @@ You can further process the data within the query expression. Currently, the Dat
 - `Where` clause: filter data based on a given condition
 - `Let` clause: define local variables within the query expression
 - `Limit` clause: limit the number of elements returned from the query expression
-- Order by clause: sort data within the query expression in `ascending` or `descending` directions
+- `Order by` clause: sort data within the query expression in `ascending` or `descending` order
 - `Join` clause: performs an inner or left outer join
 - Outer join clause: performs an outer join
 
