@@ -122,8 +122,8 @@ You can further process the data within the query expression. Currently, the Dat
 - `Let` clause: define local variables within the query expression
 - `Limit` clause: limit the number of elements returned from the query expression
 - `Order by` clause: sort data within the query expression in `ascending` or `descending` order
-- `Join` clause: performs an inner or left outer join
-- Outer join clause: performs an outer join
+- `Join` clause: performs an inner join
+- `Outer join` clause: performs left outer join
 
 ![Further Processing](img/dm-further-processing.gif "Process via intermediate clauses")
 
