@@ -48,8 +48,6 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 The integrated terminal will open automatically and run the program.
   <img src="../img/run-output.png" width="100%" />
 
-</br>
-
 You just ran your first Ballerina program.
 >**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debugging/debug.md).
 <img src="../img/debug-button.png" width="100%" />
