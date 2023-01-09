@@ -37,8 +37,8 @@ Once you add the above function, the VS Code extension will display a CodeLens c
    >**Tip:** You can find all available APIs from the opened side menu.
 
 4. Click **Execute** to see the response.
-  
-  ![Swagger response](/en/docs/img/swagger-view-response.png?raw=true)
+    
+    ![Swagger response](/en/docs/img/swagger-view-response.png?raw=true)
 
-   >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
-   ![Swagger parameters](/en/docs/img/swagger-view-parameters.png?raw=true)
+>**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
+![Swagger parameters](/en/docs/img/swagger-view-parameters.png?raw=true)
