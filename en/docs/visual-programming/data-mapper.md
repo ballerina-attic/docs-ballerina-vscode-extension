@@ -6,7 +6,7 @@ When you map data via the user interface, the Data Mapper generates the required
 
 ## Set up the prerequisites
 
-1. Install the latest versions of [Ballerina](https://ballerina.io/downloads/) and [Ballerina Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
+1. Install the [latest Ballerina version](https://ballerina.io/downloads/) and the [Ballerina Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
 2. Execute the command below to create a package (if you are not already working on one).
 ```bash
 bal new convert
