@@ -141,7 +141,7 @@ Click on the triple dots button at the end of the field to see the actions that 
 #### Initialize arrays, Add and delete elements
 >**Info:** The actions are provided based on the type of the selected field. If you have click on the triple dots button of an array typed field, you will see `Initialize Array` option.
 
-Once the array is initialized, you can add array elements by clicking on the `+ Add Element` button.
+Once the array is initialized, you can add array elements by clicking the **+ Add Element** button.
 Furthermore, clicking the triple dots button on any array element will provide the option to delete that element.
 
 ![Array Manipulation](img/dm-array-manipulation.gif "Manipulate arrays")
