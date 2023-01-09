@@ -130,7 +130,7 @@ You can further process the data within the query expression. Currently, the Dat
 Once array type mapping is completed, select the transform function name in the top breadcrumb bar to navigate to the root view of mapping.
 
 ### Add local variables
-You can define local variables within the transformation function and re-use in multiple places to avoid duplications.
+You can define local variables within the transformation function and re-use them in multiple places to avoid duplications.
 >**Info:** If there are no existing local variables, you can open up the local variable pane by clicking on the `Add Local Variable` button. Otherwise, the defined local variables are listed down under local variables in the RHS of the UI. You will be able to access the local variable pane by clicking on the edit button there.
 
 ![Local Variable](img/dm-add-local-variable.gif "Add local variable")
