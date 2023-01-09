@@ -1,29 +1,27 @@
 # Code actions
 
-The Ballerina VS Code extension provides code actions for the two scenarios below.
+[Code actions](https://code.visualstudio.com/docs/editor/refactoring#_code-actions-quick-fixes-and-refactorings) is a feature in the VS Code Editor that enables **quick fixes** and code **refactoring** suggestions.
+The Ballerina VS Code extension enables the following code actions.
 
-1. Quick fixes for selected diagnostics
-2. Refactoring to improve code readability and suggest best practices
-
-### Quick fixes
+## Quick fixes
 
 Quick fixes are suggested based on the diagnostics displayed at a given cursor position.
 The Ballerina VS Code extension provides a wide range of quick fixes to such diagnostics.
 
 #### Quick fixes for variable assignment
 
-The code actions below are available for creating a variable.
+The following code actions are available as quick fixes when the `Variable assignment required` diagnostic is identified in your code.
 
-- `Create variable`: Create a variable for an expression in which the `Variable assignment required` diagnostic is present.
-- `Create variable and type guard`: Create a type guard to handle the error gracefully when the `Variable assignment required` diagnostic is present.
-- `Create variable and check error`: Add a check expression when the `Variable assignment required` diagnostic is present.
-- `Ignore return value`: Ignore the return value of a function call or a method call with `_` in which the `Variable assignment required` diagnostic is present.
+- `Create variable`: Create a variable for an expression.
+- `Create variable and type guard`: Create a type guard to handle the error gracefully.
+- `Create variable and check error`: Add a check expression.
+- `Ignore return value`: Ignore the return value of a function call or a method call with `_`.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-variable-assignments.gif?raw=true" width="100%" />
 
 #### Quick fixes for type inference
 
-The code actions below are available for type inference.
+The following quick fixes are available for type inference.
 
 - `Create variable with type`: Create a variable for a remote method expression in which the `Cannot infer the 'typedesc' argument for parameter` diagnostic is present.
 
@@ -31,15 +29,15 @@ The code actions below are available for type inference.
 
 #### Quick fixes for missing check expressions
 
-The code actions below are available for missing check expressions.
+The following quick fixes are available for missing check expressions.
 
-- `Add 'check' error`: Add the `check` keyword when the selected expression's type is a subtype of `error` or a union with an `error` member while the expected type isn't/doesn't contain an `error`.
+- `Add 'check' error`: Add the `check` keyword when the selected expression's type is a subtype of `error` or a union with an `error` member while the expected type doesn't contain an `error`.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-missing-check-expressions.gif?raw=true" width="100%" />
 
 #### Quick fixes for check expressions
 
-The code actions below are available for check expressions.
+The following quick fixes are available for check expressions.
 
 - `Surround with do/on-fail`: Surround a check expression with a do/on-fail clause.
 - `Change return type to 'error?'`: Change the return type of a function/method to `error?`.
@@ -48,10 +46,10 @@ The code actions below are available for check expressions.
 
 #### Quick fixes for imports
 
-The code actions below are available for imports.
+The following quick fixes are available for imports.
 
 - `Import module`: Add the import statement for a module that has a reference without an import statement.
-- `Pull unresolved module`: Pull Ballerina package/packages from Ballerina central that is/are imported in the source and is/are unavailable locally.
+- `Pull unresolved module`: Pull one or more Ballerina packages (which are imported in the source and are unavailable locally) from Ballerina central.
 - `Remove import`: Remove an unused or re-declared module import.
 - `Remove all unused imports`: Remove all unused imports except when there is a re-declared import statement.
 
@@ -59,16 +57,16 @@ The code actions below are available for imports.
 
 #### Quick fixes for documentation
 
-The code actions below are available for documentation.
+The following quick fixes are available for documentation.
 
-- `Document this`: Add the documentation to the closest documentable node.
+- `Document this`: Add the documentation to the closest node that can be documented.
 - `Update documentation`: Update the existing documentation when parameters are missing or not documented. This depends on the warning diagnostics issued by the compiler.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-documentation.gif?raw=true" width="100%" />
 
 #### Quick fixes for incompatible types
 
-The code actions below are available for incompatible types.
+The following quick fixes are available for incompatible types.
 
 - `Change variable type`: Change the type of variable.
 - `Add type cast`: Add a type cast for the incompatible type.
@@ -76,7 +74,7 @@ The code actions below are available for incompatible types.
 - `Change parameter type`: Change the type of a function/method parameter.
 - `Add conditional default value`: Add a conditional default value for the incompatible type.
 - `Convert to 'xml'/'string' template`: Convert a raw template into a subtype (`xml` or `string`).
-- `Add type cast for numeric expressions` Add a type cast for an unsupported numeric expression.
+- `Add type cast for numeric expressions`: Add a type cast for an unsupported numeric expression.
 
 The `Change variable type`, `Change parameter type`, `Add type cast`, and `Change return type` quick fixes are demonstrated below.
 
@@ -88,7 +86,7 @@ The `Add conditional default value` and `Convert to 'xml'/'string' template` qui
 
 #### Quick fixes for functions
 
-The code actions below are available for creating functions.
+The following quick fixes are available for creating functions.
 
 - `Create function`: Create a function when there's an undefined function invoked by a function call expression.
 - `Implement method`: Implement an unimplemented method declared by an included object type.
@@ -107,7 +105,7 @@ The `Add explicit return statement`, `Convert to public function`, and `Add isol
 
 #### Quick fixes for records
 
-The code actions below are available for records.
+The following quick fixes are available for records.
 
 - `Create record`: Create a record for an unknown type.
 - `Fill record fields`: Add missing record fields to a mapping constructor expression.
@@ -116,7 +114,7 @@ The code actions below are available for records.
 
 #### Quick fixes for annotations
 
-The code actions below are available for annotations.
+The following quick fixes are available for annotations.
 
 - `Convert to constant`: Convert an annotation declaration to a constant annotation declaration.
 
@@ -130,7 +128,7 @@ The code actions below are available for annotations.
 - `Convert module variable to listener declaration`: Convert a module var declaration statement to a listener declaration.
 - `Remove unreachable code`: Remove unreachable statements.
 
-The `Convert to readonly clone`, `Ignore unused variable` and `Remove unreachable code` quick fixes are demonstrated below.
+The `Convert to readonly clone`, `Ignore unused variable`, and `Remove unreachable code` quick fixes are demonstrated below.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/other-quick-fixes.gif?raw=true" width="100%" />
 
@@ -142,11 +140,13 @@ The `Convert module variable to listener declaration` quick fix is demonstrated 
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/other-quick-fixes3.gif?raw=true" width="100%" />
 
-### Refactoring actions
+## Refactoring actions
 
 Refactoring actions are suggested when the existing code can be rearranged or restructured to improve the quality and maintainability of your code while ensuring that the overall behavior of the code remains unaffected.
 
 #### Extract to code actions
+
+The following refactoring actions are available for extracting expressions.
 
 - `Extract to constant`: Extract a constant expression to a constant.
 - `Extract to function`: Extract an expression or a statement to a function.
@@ -157,15 +157,19 @@ Refactoring actions are suggested when the existing code can be rearranged or re
 
 #### Rewrite code actions
 
-- `Map with a query expression`: When both right-hand side (RHS) and left-hand side (LHS) types are array types, convert the RHS to a query expression. You can modify the query expression with additional clauses and mappings later.
+The following refactoring actions are available as rewrite actions.
+
+- `Map with a query expression`: When both the right-hand side (RHS) and left-hand side (LHS) types are array types, convert the RHS to a query expression. You can modify the query expression with additional clauses and mappings later.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/rewrite-actions.gif?raw=true" width="100%" />
 
-### Source actions
+## Source actions
 
 Source actions are used to generate common code structures and recurring elements.
 
 #### Source actions for generating getters and setters
+
+The following source actions are available for generating getters and setters.
 
 - `Create a getter`: Generate a getter for class-level variables.
 - `Create a setter`: Generate a setter for class-level variables.
@@ -175,17 +179,23 @@ Source actions are used to generate common code structures and recurring element
 
 #### Source actions for variables
 
+The following source actions are available for variables.
+
 - `Type guard variable`: Type guard a variable if the variable type is a union type.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-variable.gif?raw=true" width="100%" />
 
 #### Source actions for imports
 
+The following source actions are available for imports.
+
 - `Optimize imports`: Optimize import statements to remove unused imports and arrange imports in alphabetical order.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-imports.gif?raw=true" width="100%" />
 
 #### Source actions for documentation
+
+The following source actions are available for documentations.
 
 - `Document all`: Document all the top-level constructs.
 
