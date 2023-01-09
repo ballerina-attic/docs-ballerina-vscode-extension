@@ -16,7 +16,7 @@ bal new convert
 ### Sample use case
 The below is a simple use case in which you will input data of people and courses in a specific structure and convert and transform those to a different format.
 
-4. Create three files with the sample data below in JSON format
+4. Create three files with the sample data below in JSON format.
 
 **Input 1: Person**
 ```json
