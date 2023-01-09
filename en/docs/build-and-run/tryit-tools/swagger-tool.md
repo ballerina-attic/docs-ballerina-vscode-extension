@@ -37,7 +37,9 @@ Once you add the above function, the VS Code extension will display a CodeLens c
    >**Tip:** You can find all available APIs from the opened side menu.
 
 4. Click **Execute** to see the response.
-  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/swagger-view-response.png?raw=true"  width="100%" />
+  <p align="center">
+    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/swagger-view-response.png?raw=true" height="500"/>
+  </p>
 
    >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
    <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/swagger-view-parameters.png?raw=true"  width="100%" />
