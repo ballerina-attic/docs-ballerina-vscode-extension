@@ -84,7 +84,7 @@ This example imports JSON files and creates the records as shown below.
 
 Once you define the input and the output types, click **Save** to open the mapping view. 
 
-## Do the Mappings
+## Define the mappings
 
 Let's see how to map fields in inputs with fields in the output JSON.
 
