@@ -32,12 +32,13 @@ Once you add the above function, the VS Code extension will display a CodeLens c
       ![](/en/docs/img/tryit-button.png?raw=true)
 
 3. Once the Swagger view is opened, click **Try it out**.
-  ![](/en/docs/img/swagger-view-tryit-btn.png?raw=true)
+  ![Swagger view](/en/docs/img/swagger-view-tryit-btn.png?raw=true)
 
    >**Tip:** You can find all available APIs from the opened side menu.
 
 4. Click **Execute** to see the response.
-  ![Swagger response](/en/docs/img/swagger-view-response.png?raw=true){:height="50%" width="50%"}
+    
+    ![Swagger response](/en/docs/img/swagger-view-response.png?raw=true)
 
-   >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
-   ![Swagger parameters](/en/docs/img/swagger-view-parameters.png?raw=true)
+>**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
+![Swagger parameters](/en/docs/img/swagger-view-parameters.png?raw=true)
