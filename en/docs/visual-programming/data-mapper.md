@@ -14,7 +14,7 @@ bal new convert
 3. Open the created package in VS Code.
 
 ### Sample use case
-Let's walk through a simple use case where you will input person data and courses data in a specific structure and convert and transform those to a different format.
+The below is a simple use case in which you will input data of people and courses in a specific structure and convert and transform those to a different format.
 
 4. Create three files with the sample data below in JSON format
 
