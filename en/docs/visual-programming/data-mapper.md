@@ -69,7 +69,7 @@ Once you add the above function, the VS Code extension will display a code lens 
 
 2. Open with the Diagram View.
 
-Open the file in diagram view and click the `+` icon on the page. Then click Data Mapper in the Add Constructs pane.
+Open the file in the Diagram View and click the `+` icon on the page. Then, click **Data Mapper** in the **Add Constructs** pane.
 
 ![Open Data Mapper](img/dm-open-via-diagram.gif "Open Data Mapper via diagram")
 
