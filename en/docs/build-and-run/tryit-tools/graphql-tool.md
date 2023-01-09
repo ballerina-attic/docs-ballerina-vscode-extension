@@ -2,7 +2,9 @@
 GraphQL is an open-source data querying and manipulation language for APIs. While you develop a GraphQL service, you need to try it and debug it to check how it works. The Ballerina VS Code extension provides the GraphQL Try it view, which gives the ability to try GraphQL services within VS Code instead of using any third-party software.
 
 ## Write the GraphQL service
+
 Add the code below to the `main.bal` file.
+
 ```ballerina
 import ballerina/graphql;
 
