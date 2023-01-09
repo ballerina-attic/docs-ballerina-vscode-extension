@@ -119,7 +119,7 @@ To convert from one array type to another, you can simply map the input array to
 #### Further process the data
 You can further process the data within the query expression. Currently, the Data Mapper supports the following intermediate clauses.
 - `Where` clause: filter data based on a given condition
-- Let clause: define local variables within the query expression
+- `Let` clause: define local variables within the query expression
 - Limit clause: limit the number of elements returns from the query expression
 - Order by clause: sort data within the query expression in `ascending` or `descending` directions
 - `Join` clause: performs an inner or left outer join
