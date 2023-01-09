@@ -86,7 +86,7 @@ Once you define the input and the output types, click **Save** to open the mappi
 
 ## Define the mappings
 
-Let's see how to map fields in inputs with fields in the output JSON.
+Let's see how to map the input fields with the fields in the JSON output.
 
 ### Basic Mapping
 Map the `person id` to the `student id` as shown below.
