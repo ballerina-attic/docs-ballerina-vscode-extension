@@ -1,15 +1,15 @@
-# Ballerina VSCode extension (version 3.3.0) 
+# Ballerina VS Code extension (version 3.3.0) 
 
-We are happy to announce the Ballerina VS Code plugin 3.3.0 release, which has some exciting new features. Following are the highlights of this release.
+We are happy to announce the Ballerina VS Code extension 3.3.0 release, which has some exciting new features. Following are the highlights of this release.
 
 - [Visual Data Mapper](#data-mapper) - Helps you write and visualize data transformations easily.
 - [GraphQL Tryit](#integrated-graphql-tryit) - Facilitates trying out the GraphQL services with the integrated client.
 - [Record Editor](#record-editor) - Provides a better editing experience with suggestions. 
 - [Project Design View](#record-editor) - Facilitates visualizing service interactions in your project.
 
-If you are new to Ballerina, you can download the [installers](/downloads/#swanlake) to install it. You can install the Ballerina VSCode plugin from the [VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina). 
+If you are new to Ballerina, you can download the [installers](/downloads/#swanlake) to install it. You can install the Ballerina VS Code extension from the [VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina). 
 
-## Data Mapper
+## Visual Data Mapper
 
 ![data-mapper](../../img/release-notes/data-mapper.gif)
 
@@ -37,6 +37,4 @@ If you are new to Ballerina, you can download the [installers](/downloads/#swanl
 
 - This release includes an experimental feature that allows you to visualize service interactions in your project.
 - It also comes with a view to see record-type compositions and relationship.
-- Use the "Ballerina: Project Design" command to open design view.
-
-Apart from the above, there are lots of other bug fixes and improvements. For more details, see the [issue list](https://github.com/wso2/ballerina-plugin-vscode/issues?q=is%3Aissue+is%3Aclosed). 
+- Use the `Ballerina: Project Design` command to open the design view.
