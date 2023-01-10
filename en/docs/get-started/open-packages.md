@@ -8,7 +8,7 @@ You can work on a single [Ballerina Package](https://ballerina.io/learn/package-
 or
 - From VS Code, click **File > Open Folder ...** menu item
 
-## Opening multiple Ballerina Packages
+## Opening multiple Ballerina packages
 
 Once you have one Ballerina Package opened in the VS Code Editor, you can add other related packages to same workspace.
 
