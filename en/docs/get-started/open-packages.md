@@ -10,6 +10,6 @@ or
 
 ## Opening multiple Ballerina Packages
 
-Once you have one Ballerina Package opened in VS Code, you can add other related Packages to same workspace.
+Once you have one Ballerina Package opened in the VS Code Editor, you can add other related packages to same workspace.
 
 Please refer to VS Code [Adding Folders to Multi Root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_adding-folders) guide for more details.
