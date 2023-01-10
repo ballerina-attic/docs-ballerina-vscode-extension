@@ -24,8 +24,7 @@ end and this lifeline represent the flow of the function logic.
 Concurrent executions are supported in Ballerina through workers. Each worker has a lifeline that runs parallel to 
 the lifeline of the main function body. The diagram also captures asynchronous messaging between workers.
 
-The following example shows a sample of messages passing between workers and waiting in the main function until the 
-execution is finished.
+The following example shows how asynchronous messaging is represented in the diagram.
 
 ```ballerina
 public function FunctionWithWorker() {
