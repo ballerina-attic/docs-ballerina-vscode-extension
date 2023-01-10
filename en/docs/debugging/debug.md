@@ -78,11 +78,11 @@ Follow the steps below to start a program debug session.
 
 Follow the steps below to start a test debug session.
 
-1. Select **Ballerina Test** from the drop-down available in the upper left corner to start a test debugging session.
+1. Select **Ballerina Test** from the drop-down menu available in the upper-left corner to start a test debugging session.
 
-2. Click the **Start Debugging** icon on the upper left corner to start debugging.
+2. Click the **Start Debugging** icon in the upper-left corner to start debugging.
 
-   You view the output in the **DEBUG CONSOLE**.
+   You can view the output in the **DEBUG CONSOLE** as shown below.
 
    ![Test Debug](/img/test-debug.gif)
 
@@ -136,7 +136,7 @@ Follow the steps below to start a remote debug session.
 
 The Ballerina debugger supports various debug configuration options via the `launch.json` file.
 
->**Info:** You can either add the configurations to the existing `launch.json` file, which is located in your workspace root under the `.vscode` directory) or follow the steps below to generate the `launch.json` configurations file with the default values.
+>**Info:** You can either add the configurations to the existing `launch.json` file, which is located in your workspace root under the `.vscode` directory or follow the steps below to generate the `launch.json` configurations file with the default values.
 
 1. Click the **Run and Debug** icon in the left menu or press the **Control + Shift + D** keys to launch the Debugger view (for Mac - **Command + Shift +D**).
 
@@ -150,7 +150,7 @@ The Ballerina debugger supports various debug configuration options via the `lau
 
 <br/>
 
-The below are the default configurations generated for the Ballerina debugging:
+Given below are the default configurations generated for debugging Ballerina:
 
 ![Debug Configurations](/img/debug-configurations.png)
 
@@ -164,9 +164,9 @@ Each configuration supports a different set of attributes, which will be provide
 
 The following attributes are mandatory for all configurations.
 
-- `name` - The reader-friendly name to appear in the Debug launch configuration dropdown.
+- `name` - The reader-friendly name to appear in the Debug launch configuration drop-down menu.
 - `type` - The type of debugger to use for this launch configuration. The attribute value must be kept as `ballerina` for all Ballerina debugging configuration types.
-- `request` - The request type of this launch configuration. Currently, launch and attach are supported.
+- `request` - The request type of this launch configuration. Currently, `launch` and `attach` are supported.
 
 The following attributes are supported for all Ballerina `launch` configurations.
 
