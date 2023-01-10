@@ -78,6 +78,6 @@ function execute() returns error? {
 
 ## Developing programs in the visual mode
 You can interact with the diagram using the `plus` icons placed in the lifeline. You can add a statement at the 
-function execution flow by clicking the **Add** button.
+function execution flow by clicking the **Add**.
 ![interaction gif](./img/diagram-interaction.gif)
 
