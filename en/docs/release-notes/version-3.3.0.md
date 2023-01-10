@@ -37,6 +37,6 @@ If you are new to Ballerina, you can download the [installers](/downloads/#swanl
 
 - This release includes an experimental feature that allows you to visualize service interactions in your project.
 - It also comes with a view to see record-type compositions and relationship.
-- Use the "Ballerina: Project Design" command to open design view.
+- Use the `Ballerina: Project Design` command to open design view.
 
 For the other bug fixes and improvements that were done, see the [issue list](https://github.com/wso2/ballerina-plugin-vscode/issues?q=is%3Aissue+is%3Aclosed). 
