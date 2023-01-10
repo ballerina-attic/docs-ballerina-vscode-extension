@@ -9,16 +9,16 @@ with the different objects in the program.
 There are two methods for switching to the graphical mode using the VS Code extension.
 
 - Execute the `Ballerina: Show Diagram` command from the command palette.
-    ![command screenshot](./img/show-diagram-command-palette.png)
+    ![command screenshot](../img/show-diagram-command-palette.png)
 - Click the `Show Diagram` button in the editor group.
-    ![button screenshot](./img/editor-group-button.png)
+    ![button screenshot](../img/editor-group-button.png)
 
 ## Graphical representation of code
 
 ### Functions
 Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and 
 end and this lifeline represent the flow of the function logic. 
-![button screenshot](./img/function-sequence-diagram.png)
+![button screenshot](../img/function-sequence-diagram.png)
 
 ### Concurrent execution
 Concurrent executions are supported in Ballerina through workers. Each worker has a lifeline that runs parallel to 
@@ -55,7 +55,7 @@ public function FunctionWithWorker() {
     io:println("Woker A execution finished");
 }
 ```
-![worker screenshot](./img/worker_sample.png)
+![worker screenshot](../img/worker_sample.png)
 
 ### Remote endpoints and clients
 Ballerina has support to specify interactions with remote endpoints through its syntax. This ability also 
@@ -73,10 +73,10 @@ function execute() returns error? {
     http:Response response = check reportService->post("/report", result);
 }
 ```
-![graphical screenshot](./img/client-code-representations.png)
+![graphical screenshot](../img/client-code-representations.png)
 
 ## Developing programs in the visual mode
 You can interact with the diagram using the `plus` icons placed in the lifeline. You can add a statement at the 
 function execution flow by clicking the **Add**.
-![interaction gif](./img/diagram-interaction.gif)
+![interaction gif](../img/diagram-interaction.gif)
 
