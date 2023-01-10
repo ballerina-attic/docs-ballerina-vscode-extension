@@ -78,10 +78,10 @@ As per the [Related concepts](#a-project-workspace) section, each of these packa
 If the workspace has been set up accurately, you would be able to see the following folder structure in the explorer.
 >**Note:** The workspace name would be different if you set up the workspace from scratch.
 
-![Workspace Structure](images/workspace-structure.png)
+![Workspace Structure](../img/pdd-workspace-structure.png)
 
 Once the workspace has been set up, the Ballerina design diagram generator can be activated via the `Ballerina: Project Design` command. This command can be found in the VS Code command palette as shown below.
-![Extension Command](images/extension-command.gif)
+![Extension Command](../img/pdd-extension-command.gif)
 
 The execution of this command will open up a VS Code webview panel that will contain three types of design diagrams. You can navigate between these diagrams using the side panel available on the diagram webview.
 
@@ -89,23 +89,23 @@ The execution of this command will open up a VS Code webview panel that will con
 
 The Service Interaction Diagram is the entry point of the Project Design Diagram tool. This diagram displays all the services available within the workspace with directed links representing any interactions between them. The Service Interaction Diagram generated for the 10 Ballerina packages in the Google Cloud Platform demo project is shown below.
 
-![Service Interaction Diagram](images/service-interaction-diagram.png)
+![Service Interaction Diagram](../img/pdd-service-interaction-diagram.png)
 >**Info:** The directed link between the `Checkout` service and the `Email` service is an indication that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
 
 ### Detailed Service Interaction Diagram
 The detailed Service Interaction Diagram (Level 2) dives deeper into the compositions of the services and the interactions between them. The following diagram is the detailed representation of the demo project, and it depicts the individual resource/remote functions of the services and their invocations.
 
-![Detailed Service Interaction Diagram](images/detailed-service-interaction-diagram.png)
+![Detailed Service Interaction Diagram](../img/pdd-detailed-service-interaction-diagram.png)
 
 The data types of the request and response bodies of the interactions can be viewed by hovering over a particular invocation.
 
-![Detailed Service: Request Response Data Popups](images/request-response-data-popup.png)
+![Detailed Service: Request Response Data Popups](../img/pdd-request-response-data-popup.png)
 
 ### Types Diagram
 
 The types diagram provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations.
 
-   ![Types Diagram](images/types-diagram.png)
+   ![Types Diagram](../img/pdd-types-diagram.png)
 
    >**Info:** The multiplicities of the associations are represented on either side of the connector while the [type inclusions](https://ballerina.io/learn/by-example/type-inclusion-for-records/) are differentiated using a directed link (represents inheritance).
 
@@ -115,7 +115,7 @@ In addition to the above diagrams, the tool also provides the capability to view
 
 The following is the composition diagram generated for the `ContextSearchProductsResponse` record type seen in the [types diagram](#types-diagram) above.
    
-   ![Types Composition Diagram](images/type-composition-diagram.png)
+   ![Types Composition Diagram](../img/pdd-type-composition-diagram.png)
 
 
 ### Accessory features
