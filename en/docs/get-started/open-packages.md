@@ -4,9 +4,10 @@ You can work on a single [Ballerina Package](https://ballerina.io/learn/package-
 
 ## Opening a Ballerina package
 
-- From command line execute ```code <path-to-package-dir>```
-or
-- From VS Code, click **File > Open Folder ...** menu item
+Use one of the following options to open a Ballerina package:
+
+- From command line, execute `code <path-to-package-dir>`.
+- From VS Code, click **File > Open Folder ...**.
 
 ## Opening multiple Ballerina packages
 
