@@ -1,6 +1,6 @@
 # Debug Ballerina Programs
 
-When writing large-scale applications with complex logic, it is quite possible to have syntax, semantic,
+When writing large-scale applications with complex logic, you may encounter syntax, semantic,
 or runtime issues in your code. The Ballerina compiler comes in handy when detecting syntax and semantic issues.
 However, it is impossible for a compiler to detect runtime errors like logical errors because they occur during the
 program execution after a successful compilation. This is where the dedicated debugging tooling support becomes important.
@@ -48,7 +48,7 @@ Follow the steps below to start a debug session with configurations. All the con
 
 3. Click **create a launch.json** file and then select **Ballerina Debug** as the **Environment**.
 
-   You view the opened `launch.json` file.
+   You can view the opened `launch.json` file.
 
 4. Add/edit the relevant configurations for debugging in the `launch.json` file.
 
@@ -98,7 +98,7 @@ Follow the steps below to start a remote debug session.
 
 3. After setting the remote debug configurations, select **Ballerina Remote** from the drop-down available in the upper left corner to start a remote debugging session.
 
-4. Open the Terminal and execute the Ballerina command, which you want to debug out of the supported remote debugging commands below.
+4. Open a terminal and execute the debug command that is relevant to your requirement:
 
     - Debugging a Ballerina package or a single file:
 
