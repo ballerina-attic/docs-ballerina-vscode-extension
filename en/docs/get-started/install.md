@@ -18,4 +18,4 @@
 
 ## Troubleshooting
 
-Please check [Troubleshooting](../troubleshooting.md) guide if the extension did not activate properly for you.
+See the [troubleshooting guide](../troubleshooting.md) if the extension did not activate properly.
