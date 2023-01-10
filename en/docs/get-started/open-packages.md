@@ -1,4 +1,4 @@
-# Opening Ballerina Packages
+# Opening Ballerina packages
 
 You can work on a single [Ballerina Package](https://ballerina.io/learn/package-references/) at a time or use [Multi-Root workspaces]((https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina)) of VS Code to work on serverl related Ballerina Packages at the same time. 
 
