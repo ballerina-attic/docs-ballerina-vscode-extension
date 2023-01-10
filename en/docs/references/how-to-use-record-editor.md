@@ -24,12 +24,13 @@ In the record editor, you have the ability to create a record from scratch or cr
 
     ![Create new record](../img/record-editor/create-new.gif "Create new record via record editor")
 
-2. Double click the default record name to change it.
+2. Double-click the default record name to change it.
 
     ![Change record name](../img/record-editor/change-record-name.png "Change record name via record editor")
 
 3. Click the plus button at the end of the field to add new fields to the record.
->**Info:** Use the **Expressions** tab in the record editor to create nested records by selecting the particular record expression.
+
+    >**Info:** Use the **Expressions** tab in the record editor to create nested records by selecting the particular record expression.
 
     ![Add fields](../img/record-editor/add-fields.gif "Add fields to a record")
 
@@ -37,7 +38,7 @@ In the record editor, you have the ability to create a record from scratch or cr
 
     ![Add default value](../img/record-editor/default-value.gif "Add default value to a field")
 
-5. Select/Deselect the **isClosed** option to switch between the open and closed records.
+5. Use the **isClosed** option to switch between the open and closed records.
 
     ![Open Close](../img/record-editor/open-close-switch.gif "Switch between Open and Closed records")
 

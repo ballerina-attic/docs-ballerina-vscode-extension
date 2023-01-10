@@ -34,7 +34,7 @@ The Ballerina language provides an option to convert JSON files into record defi
     }
     ```
 
-2. In the record editor, select the **Import A JSON** option.
+2. In the record editor, select **Import A JSON**.
 
 3. Provide a name for the record.
 
