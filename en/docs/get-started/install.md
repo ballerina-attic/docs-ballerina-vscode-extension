@@ -8,7 +8,7 @@
 
 ## Installing the Ballerina extension
  
-1. Install the Ballerina VS Code Extension from [Marketplace](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina). 
+1. Install the Ballerina VS Code Extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina). 
 
 3. Open a Ballerina `(.bal)` file or a [Ballerina Package](https://ballerina.io/learn/package-references/) to activate the extension.
 
