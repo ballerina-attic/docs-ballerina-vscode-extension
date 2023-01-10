@@ -58,7 +58,7 @@ nav:
   - Visual programming:
       - Sequence diagram view: visual-programming/sequence-diagram-view.md
       - Data mapper: visual-programming/data-mapper.md
-  - Architecture diagram: architecture-diagram.md
+  - Architecture diagram: architecture-diagram/architecture-diagram.md
   - Notebooks: notebooks.md
   - Configurations: configurations.md
   - References:

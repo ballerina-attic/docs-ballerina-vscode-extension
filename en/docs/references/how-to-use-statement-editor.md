@@ -27,9 +27,7 @@ int id = 1234;
 public function main() returns error? {
    // Statement will be added here
 }
-
 ```
-
 
 Follow the steps below to build the statement.
 
@@ -39,9 +37,9 @@ Follow the steps below to build the statement.
 
     The Statement Editor opens displaying the syntax of a variable statement with the **`<add-expression>`** selected by default.v
 
-2. Click the **var** type descriptor on the statement and click **string** on the **Suggestions** tab.
+2.  Click the **var** type descriptor on the statement and click **string** on the **Suggestions** tab.
 
-   >**Info:** The **Suggestions** tab provides contextual suggestions based on the selected item. The **Suggestions** tab currently lists type suggestions because you selected the type descriptor.    
+    >**Info:** The **Suggestions** tab provides contextual suggestions based on the selected item. The **Suggestions** tab currently lists type suggestions because you selected the type descriptor.    
 
     ![Change type descriptor](../img/statement-editor/change-type-descriptor.gif)
 
@@ -108,7 +106,7 @@ Follow the steps below to build the statement.
      final string userIdMsg = "UserID : " + id.toString();
      ```
     
-Now, you constructed a valid statement via the Statement Editor.
+    Now, you constructed a valid statement via the Statement Editor.
 
 9. Click **Save** to add the variable statement to the low-code diagram.
 
