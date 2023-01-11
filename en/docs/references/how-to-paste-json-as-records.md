@@ -2,11 +2,11 @@
 
 The Ballerina language provides an option to convert JSON files into record definitions. Follow the steps below to create a record from a JSON.
 
-1. Create a file with the data below in JSON format.
+1.  Create a file with the data below in JSON format.
 
     >**Info:** The example below converts a `person` and a list of `courses` to a `Student` record. 
-
-    ```json
+    >
+    ```
     {
         "person": {
             "id": 1001,

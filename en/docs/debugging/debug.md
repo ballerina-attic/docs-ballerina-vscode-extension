@@ -25,7 +25,7 @@ Follow the steps below to start a quick debug session using CodeLens.
 
 3. Click the `Debug` CodeLens, which will appear just above the `main()` method.
 
-![Start_Main Quick Debug Session](/img/start-quick-main-debug-session.gif)
+![Start_Main Quick Debug Session](../img/debug/start-quick-main-debug-session.gif)
 
 <br/>
 
@@ -34,7 +34,7 @@ Follow the steps below to start a quick debug session using CodeLens.
 The Ballerina test functions can also be debugged using CodeLens. The `debug` CodeLens will automatically appear on top of each Ballerina test function
 and you are able to execute/debug only the selected test case by clicking on the corresponding CodeLens as shown below.
 
-![Start_Test Quick Debug Session](/img/start-quick-test-debug-session.gif)
+![Start_Test Quick Debug Session](../img/debug/start-quick-test-debug-session.gif)
 
 <br/>
 
@@ -54,7 +54,7 @@ Follow the steps below to start a debug session with configurations. All the con
 
 5. Add the debug points you require by clicking in front of the line numbers of the file you want to debug.
 
-![Start Debug Session](/img/start-debug-session.gif)
+![Start Debug Session](../img/debug/start-debug-session.gif)
 
 Then, you can start a program, test, or remote debug session as shown below.
 
@@ -70,7 +70,7 @@ Follow the steps below to start a program debug session.
 
    You view the output in the **DEBUG CONSOLE**.
 
-   ![Program Debug](/img/program-debug.gif)
+   ![Program Debug](../img/debug/program-debug.gif)
 
 <br/>
 
@@ -84,7 +84,7 @@ Follow the steps below to start a test debug session.
 
    You can view the output in the **DEBUG CONSOLE** as shown below.
 
-   ![Test Debug](/img/test-debug.gif)
+   ![Test Debug](../img/debug/test-debug.gif)
 
 <br/>
 
@@ -100,35 +100,35 @@ Follow the steps below to start a remote debug session.
 
 4. Open a terminal and execute the debug command that is relevant to your requirement:
 
-    - Debugging a Ballerina package or a single file:
+   -  Debugging a Ballerina package or a single file:
 
-    ```
-    bal run --debug <DEBUGGEE_PORT> <BAL_FILE_PATH/PACKAGE_PATH>
-    ```
+      ```
+      bal run --debug <DEBUGGEE_PORT> <BAL_FILE_PATH/PACKAGE_PATH>
+      ```
 
-    - Debugging a Ballerina executable JAR:
+   -  Debugging a Ballerina executable JAR:
 
-    ``` 
-    bal run --debug <DEBUGGEE_PORT> <EXECUTABLE_JAR_FILE_PATH>
-    ```
+      ``` 
+      bal run --debug <DEBUGGEE_PORT> <EXECUTABLE_JAR_FILE_PATH>
+      ```
 
-    - Debugging Ballerina tests:
+   -  Debugging Ballerina tests:
 
-    ```
-    bal test --debug <DEBUGGEE_PORT> <PACKAGE_PATH>
-    ```
+      ```
+      bal test --debug <DEBUGGEE_PORT> <PACKAGE_PATH>
+      ```
 
    The terminal will show the following log:
 
-    ```
-    Listening for transport dt_socket at address: 5005
-    ```
+   ```
+   Listening for transport dt_socket at address: 5005
+   ```
 
 5. Click the **Start Debugging** icon on the upper-left corner to start debugging.
 
    You can view the output in the **DEBUG CONSOLE** as shown below.
 
-   ![Remote Debug](/img/remote-debug.gif)
+   ![Remote Debug](../img/debug/remote-debug.gif)
 
 <br/>
 
@@ -142,17 +142,17 @@ The Ballerina debugger supports various debug configuration options via the `lau
 
 2. Click **create a launch.json file** and select **Ballerina Debug**.
 
-![Run And Debug](/img/run-and-debug.png)
+![Run And Debug](../img/debug/run-and-debug.png)
 
 <br/>
 
-![Ballerina Debug](/img/ballerina-debug.png)
+![Ballerina Debug](../img/debug/ballerina-debug.png)
 
 <br/>
 
 Given below are the default configurations generated for debugging Ballerina:
 
-![Debug Configurations](/img/debug-configurations.png)
+![Debug Configurations](../img/debug/debug-configurations.png)
 
 <br/>
 
@@ -212,7 +212,7 @@ The following debugging features are currently supported by the Ballerina VScode
 The Ballerina debugger provides the ability of setting Ballerina expression-based conditions for regular breakpoints.
 The debugger will suspend at the breakpoint whenever the expression evaluates to true.
 
-![Debugger Conditional Breakpoints](/img/debugger-conditional-breakpoints.gif)
+![Debugger Conditional Breakpoints](../img/debug/debugger-conditional-breakpoints.gif)
 
 <br/>
 
@@ -222,11 +222,11 @@ Logpoints are another variant of breakpoints, which do not "break" the program e
 
 Logpoints can also be enabled/disabled and can be controlled by conditions similar to regular breakpoints.
 
-![Debugger Logpoints](/img/debugger-logpoints.gif)
+![Debugger Logpoints](../img/debug/debugger-logpoints.gif)
 
 Log messages can either be plain texts or string templates, which can contain expressions to be evaluated within the `${}` syntax.
 
-![Debugger String Temaplate Logpoints](/img/debugger-logpoints-template.gif)
+![Debugger String Temaplate Logpoints](../img/debug/debugger-logpoints-template.gif)
 
 <br/>
 
@@ -235,7 +235,7 @@ Log messages can either be plain texts or string templates, which can contain ex
 Any running Ballerina programs can be suspended immediately at the current execution line of the program using the `pause` command in VS Code as shown below.
 With this feature, you are able to suspend (and resume) the remote VM resulting in a debug hit at the current execution line of the program.
 
-![Debugger Pause/Resume Commands](/img/debugger-pause-resume-commands.gif)
+![Debugger Pause/Resume Commands](../img/debug/debugger-pause-resume-commands.gif)
 
 This feature will be useful in contexts where the program seems to be hanged due to blocking operations/infinite loops and when you want to know the exact line that the program is waiting on.
 
@@ -247,11 +247,11 @@ The Ballerina VSCode debugger lets you evaluate expressions in the ways below.
 
 #### Use the debug console
 
-![Debugger Evaluation Console](/img/debugger-evaluation-console.gif)
+![Debugger Evaluation Console](../img/debug/debugger-evaluation-console.gif)
 
 #### Use the watch window
 
-![Debugger Watch Window](/img/debugger-watch-window.gif)
+![Debugger Watch Window](../img/debug/debugger-watch-window.gif)
 
 <br/>
 

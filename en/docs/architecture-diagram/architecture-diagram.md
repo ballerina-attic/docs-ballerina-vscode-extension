@@ -121,6 +121,7 @@ The following is the composition diagram generated for the `ContextSearchProduct
 ### Accessory features
 
 In addition to the above, the Ballerina Project Design Diagram tool also includes the following features.
-   1. Filter the services and types based on the packages
-   2. Rearrange the diagram as appropriate
-   3. Export the diagrams in JPEG format
+
+1. Filter the services and types based on the packages
+2. Rearrange the diagram as appropriate
+3. Export the diagrams in JPEG format
