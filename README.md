@@ -1,8 +1,8 @@
 # Ballerina VS Code Documentation
 
-This is the Ballerina VS Code plugin documentation repository. This repository is open and we welcome your contributions! 
+This is the Ballerina VS Code extension documentation repository. This repository is open and we welcome your contributions! 
 
-## Contribute to VS Code plugin documentation
+## Contribute to VS Code extension documentation
 
 Before you contribute, read the following guidelines to understand how you can start contributing:
 
