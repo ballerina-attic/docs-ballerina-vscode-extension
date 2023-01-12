@@ -39,7 +39,7 @@ strict: false
 nav:
   - Home: index.md
   - Get started:
-      - Install Ballerina plugin: get-started/install.md
+      - Install: get-started/install.md
       - Open packages: get-started/open-packages.md
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
