@@ -10,4 +10,4 @@ Follow the steps below to create an executable JAR file to deploy.
 
 The integrated terminal will open automatically and run the build command.
 
->The jar file can be found at the `/target/bin/` directory/
+>**Info:** The JAR file can be found in the `/target/bin/` directory/.

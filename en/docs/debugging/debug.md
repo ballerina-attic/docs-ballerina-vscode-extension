@@ -1,4 +1,4 @@
-# Debug Ballerina Programs
+# Debug Ballerina programs
 
 When writing large-scale applications with complex logic, you may encounter syntax, semantic,
 or runtime issues in your code. The Ballerina compiler comes in handy when detecting syntax and semantic issues.

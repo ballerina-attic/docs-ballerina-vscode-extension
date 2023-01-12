@@ -1,6 +1,5 @@
 # Construct statements using the Statement Editor
 
-
 The Statement Editor allows you to construct Ballerina statements depending on the use case you want to build. It is an intuitive visual editor that is easy to use without an in-depth knowledge of the [Ballerina Programming Language](https://ballerina.io/).
 
 It provides the following:

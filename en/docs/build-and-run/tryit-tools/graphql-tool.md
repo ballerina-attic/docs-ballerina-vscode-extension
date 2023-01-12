@@ -26,11 +26,12 @@ service / on new graphql:Listener(8090) {
 ```
 
 ## Try the GraphQL service
+
 Once you add the above function, the VS Code extension will display a CodeLens called **Try it** on top of the service.
 
 1. Click the **Run** CodeLens to run the program. 
     
-    This opens the terminal and starts running the service.
+    >**Info:** This opens the terminal and starts running the service.
 
 2. Click the **Try it** CodeLens to open the GraphQL Try it view.
    >**Note:** The service must be in the running state to use GraphQL Try it view.
