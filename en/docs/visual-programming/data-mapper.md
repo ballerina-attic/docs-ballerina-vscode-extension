@@ -181,7 +181,7 @@ var totalCredits = function(int total, record {string id; string name; int credi
 
 ![Edit Expression](../img/visual-programming/dm-use-reduce-array-function.gif "Use array reducer")
 
-Now you have successfully configured the transformation function using the Data Mapper.
+Now, you have successfully configured the transformation function using the Data Mapper.
 
 The following is the source associated with this guide along with a main function to invoke the transformation function with some sample data.
 
