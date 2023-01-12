@@ -171,3 +171,101 @@ Let's add a hard-coded visa type for foreign students.
 Let's add an 'F' suffix to the `student id` of each foreign student.
 
 ![Edit Expression](../img/visual-programming/dm-edit-inline-expr.gif "Edit expression of an output field")
+
+Finally, lets fill the `totalCredits` field by getting the summation of credits in each course.
+You can use [`reduce()`](https://lib.ballerina.io/ballerina/lang.array/0.0.0/functions#reduce) array function for this by passing the below combining function to get the sum.
+
+```ballerina
+var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + course.credits;
+```
+
+// TODO : Add gif
+
+Now you have successfully configured the transformation function using the Data Mapper.
+
+The following is the source associated with this guide along with a main function to invoke the transformation function with some sample data.
+
+```ballerina
+import ballerina/io;
+
+const D_TIER_4_VISA = "D tier-4";
+
+type Person record {
+    string id;
+    string firstName;
+    string lastName;
+    int age;
+    string country;
+};
+
+type Course record {
+    string id;
+    string name;
+    int credits;
+};
+
+type Student record {
+    string id;
+    string fullName;
+    string age;
+    record {
+        string title;
+        int credits;
+    }[] courses;
+    int totalCredits;
+    string visaType;
+};
+
+var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + course.credits;
+
+function transform(Person person, Course[] courses) returns Student => let var isForeign = person.country != "LK" in {
+        id: person.id + (isForeign ? "F" : ""),
+        age: person.age.toString(),
+        fullName: person.firstName + " " + person.lastName,
+        courses: from var coursesItem in courses
+            where coursesItem.id.startsWith("CS")
+            select {
+                title: coursesItem.id + " - " + coursesItem.name,
+                credits: coursesItem.credits
+            },
+        visaType: isForeign ? D_TIER_4_VISA : "n/a",
+        totalCredits: courses.reduce(totalCredits, 0)
+    };
+
+public function main() {
+    Person person = {
+        id: "1001",
+        firstName: "Vinnie",
+        lastName: "Hickman",
+        age: 15,
+        country: "UK"
+    };
+
+    Course[] courses = [
+            {
+                id: "CS6002",
+                name: "Computation Structures",
+                credits: 4
+            },
+            {
+                id: "CS6003",
+                name: "Circuits and Electronics",
+                credits: 3
+            },
+            {
+                id: "CM1001",
+                name: "Computational Statistics",
+                credits: 4
+            },
+            {
+                id: "CS6004",
+                name: "Signals and Systems",
+                credits: 3
+            }
+        ];
+
+    Student student = transform(person, courses);
+    io:println(student);
+}
+
+```
