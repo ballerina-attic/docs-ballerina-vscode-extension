@@ -44,8 +44,8 @@ nav:
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
   - Build and run:
-      - Run: build-and-run/build-and-run.md
-      - Tryit Tools:
+      - Build and run: build-and-run/build-and-run.md
+      - Tryit tools:
             - GraphQL tool: build-and-run/tryit-tools/graphql-tool.md
             - Swagger tool: build-and-run/tryit-tools/swagger-tool.md
   - Edit the code:
