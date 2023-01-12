@@ -172,14 +172,14 @@ Let's add an 'F' suffix to the `student id` of each foreign student.
 
 ![Edit Expression](../img/visual-programming/dm-edit-inline-expr.gif "Edit expression of an output field")
 
-Finally, lets fill the `totalCredits` field by getting the summation of credits in each course.
+Finally, lets fill the `totalCredits` field by getting the summation of credits in each CS course.
 You can use [`reduce()`](https://lib.ballerina.io/ballerina/lang.array/0.0.0/functions#reduce) array function for this by passing the below combining function to get the sum.
 
 ```ballerina
-var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + course.credits;
+var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + (course.id.startsWith("CS") ? course.credits : 0);
 ```
 
-// TODO : Add gif
+![Edit Expression](../img/visual-programming/dm-use-reduce-array-function.gif "Use array reducer")
 
 Now you have successfully configured the transformation function using the Data Mapper.
 
@@ -187,8 +187,6 @@ The following is the source associated with this guide along with a main functio
 
 ```ballerina
 import ballerina/io;
-
-const D_TIER_4_VISA = "D tier-4";
 
 type Person record {
     string id;
@@ -216,7 +214,9 @@ type Student record {
     string visaType;
 };
 
-var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + course.credits;
+const D_TIER_4_VISA = "D tier-4";
+
+var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + (course.id.startsWith("CS") ? course.credits : 0);
 
 function transform(Person person, Course[] courses) returns Student => let var isForeign = person.country != "LK" in {
         id: person.id + (isForeign ? "F" : ""),
