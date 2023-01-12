@@ -1,4 +1,4 @@
-# Install Ballerina plugin
+# Install Ballerina extension
 
 ## Setting up the prerequisites
 

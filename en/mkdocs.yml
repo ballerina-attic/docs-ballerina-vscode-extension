@@ -15,8 +15,8 @@
 # under the License.
 
 # Project information
-site_name: Ballerina VS Code Plugin Documentation
-site_description: Ballerina VS Code Plugin Documentation
+site_name: Ballerina VS Code Extension Documentation
+site_description: Ballerina VS Code Extension Documentation
 site_author: WSO2
 site_url: https://wso2.com/ballerina/vscode/docs
 
@@ -39,7 +39,7 @@ strict: false
 nav:
   - Home: index.md
   - Get started:
-      - Install Ballerina plugin: get-started/install.md
+      - Install Ballerina extension: get-started/install.md
       - Open packages: get-started/open-packages.md
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
