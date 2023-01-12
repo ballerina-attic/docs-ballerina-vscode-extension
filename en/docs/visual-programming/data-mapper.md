@@ -173,7 +173,7 @@ Let's add an 'F' suffix to the `student id` of each foreign student.
 ![Edit Expression](../img/visual-programming/dm-edit-inline-expr.gif "Edit expression of an output field")
 
 Finally, lets fill the `totalCredits` field by getting the summation of the credits in each CS course.
-You can use [`reduce()`](https://lib.ballerina.io/ballerina/lang.array/0.0.0/functions#reduce) array function for this by passing the below combining function to get the sum.
+You can use the [`reduce()`](https://lib.ballerina.io/ballerina/lang.array/0.0.0/functions#reduce) array function for this by passing the combining function below to get the sum.
 
 ```ballerina
 var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + (course.id.startsWith("CS") ? course.credits : 0);
