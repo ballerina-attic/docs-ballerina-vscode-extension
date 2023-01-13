@@ -3,7 +3,6 @@
 Follow the instructions given below to install and set up the Ballerina extension on your VS Code editor. 
 
 ## Prerequisites
-
 Before you get started:
 
 -	Make sure you have installed the [Visual Studio Code editor](https://code.visualstudio.com/download) version `1.60.0` or a later version.
@@ -26,6 +25,6 @@ To install and activate the extension:
 
 	<img src="https://github.com/wso2/ballerina-plugin-vscode/blob/main/resources/images/show-version-on-vscode.png?raw=true" width="70%" />
 
-## Troubleshooting
+## Troubleshoot
 
 See the [troubleshooting guide](../troubleshooting.md) if the extension did not activate properly.

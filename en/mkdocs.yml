@@ -15,15 +15,15 @@
 # under the License.
 
 # Project information
-site_name: Ballerina VS Code Plugin Documentation
-site_description: Ballerina VS Code Plugin Documentation
+site_name: Ballerina VS Code Extension Documentation
+site_description: Ballerina VS Code Extension Documentation
 site_author: WSO2
 site_url: https://wso2.com/ballerina/vscode/docs
 
 # Repository
 repo_name: docs-ballerina-visual-studio-code-plugin
 repo_url: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin
-edit_uri: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/edit/dev/en/docs/
+edit_uri: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/tree/main/en/docs
 dev_addr: localhost:8000
 
 # Copyright
@@ -56,8 +56,8 @@ nav:
   - Debug: debugging/debug.md
   - Test: test.md
   - Visual programming:
-      - Sequence diagram view: visual-programming/sequence-diagram-view.md
-      - Data mapper: visual-programming/data-mapper.md
+      - Sequence Diagram view: visual-programming/sequence-diagram-view.md
+      - Data Mapper: visual-programming/data-mapper.md
   - Architecture diagram: architecture-diagram/architecture-diagram.md
   - Notebooks: notebooks.md
   - Configurations: configurations.md
