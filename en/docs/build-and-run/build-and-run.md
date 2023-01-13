@@ -64,6 +64,7 @@ You just ran your first Ballerina program.
 ![Debug button](../img/debug-button.png?raw=true)
 
 ## Try-it tools
+
 The Ballerina VS Code extension allows you to try out and debug HTTP/GraphQL services (without using any third-party tools) while you develop them. 
 
 * [Swagger (HTTP) Try-it tool](tryit-tools/swagger-tool.md)

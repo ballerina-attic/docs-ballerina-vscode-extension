@@ -23,7 +23,7 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 
 1. Click the **Run** CodeLens to run the program. 
     
-    This opens the terminal and starts running the service.
+    >**Info:** This opens the terminal and starts running the service.
 
 2. Click the **Try it** CodeLens to open the swagger Try it view.
 
