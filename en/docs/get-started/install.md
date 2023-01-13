@@ -1,4 +1,4 @@
-# Install Ballerina extension
+# Install the Ballerina extension
 
 ## Set up the prerequisites
 
