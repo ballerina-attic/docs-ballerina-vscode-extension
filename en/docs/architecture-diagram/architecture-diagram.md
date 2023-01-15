@@ -62,7 +62,7 @@ isolated function getSupportedCurrencies() returns string[]|error {
 
 The resource invocations between services need to be done using [client access actions](https://ballerina.io/downloads/swan-lake-release-notes/swan-lake-2201.2.0#support-for-resource-methods-in-client-objects).
 
-## Open the Design Diagram view
+## Open the Project Design view
 
 > **Example project**
 >
@@ -86,7 +86,7 @@ The resource invocations between services need to be done using [client access a
 
       ![Extension Command](../img/pdd-extension-command.gif)
 
-## Explore the Design Diagram view
+## Explore the Project Design view
 
 Let's explore the features of the Design Diagram using the [Google Cloud Platform](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) Ballerina project that you set up in the previous topic.
 
