@@ -1,24 +1,17 @@
-# Project Design Diagram
+# Project Design view
 
-With the increasing size and complexity, software applications have evolved to be a composition of multiple interrelated components. When the number and/or depth of such components grow, it becomes convenient to have a high-level picture of the system components and their interactions with one another. The Ballerina Project Design View is deployed with the intention of providing a convenient way to generate such a high-level picture of projects purely based on the source code. In addition to the component interactions, the Project Design View is also capable of visualizing the Ballerina record types in the project workspace and their associations.
+Software applications have evolved into a composition of multiple interrelated components to be able to handle increasing complexities. When the number and/or depth of such components grow, it is convenient to have a high-level picture of the system components and their interactions with one another. 
 
-## Set up the prerequisites
-
-Install the [latest Ballerina version](https://ballerina.io/downloads/) and [Ballerina Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
-
->**Info:** The Ballerina Project Design Diagram tool is shipped with the latest release of the Ballerina VS Code extension available in the VS Code marketplace. The diagrams can be generated upon executing the `Ballerina: Project Design` extension command. However, to get the best possible view of the project, it is necessary to set up the Ballerina project with the following concepts in mind.
+The Ballerina Project Design view is enabled in the VS Code extension to provide such a high-level picture of Ballerina projects purely based on the source code. In addition to the component interactions, the Project Design view is also capable of visualizing the Ballerina record types in the project workspace and their associations.
 
 ## Related concepts
 
-Basic concepts that are related to the project design diagram are listed below.
+When you create your Ballerina project, be mindful of the following concepts as they will affect the Project Design view.
 
-### Ballerina project
+### Ballerina project workspace
 
-A Ballerina project is considered to be a collection of one or more Ballerina packages.
+A Ballerina project is a collection of one or more [Ballerina packages](https://ballerina.io/learn/package-references/) that are contained in a [VS Code workspace](https://code.visualstudio.com/docs/editor/workspaces). To use the Design Diagram view, you need to have all the Ballerina packages added to the VS Code editor as a workspace.
 
-### Project workspace
-
-A Ballerina project is contained in a [VS Code workspace](https://code.visualstudio.com/docs/editor/workspaces). Hence, the diagram generator is functional only if the Ballerina packages are added to the IDE as a workspace.
 > **Tip:** You can save your VS Code workspace as a file and simply use this file to access the workspace thereafter.
 
 ### Service identifiers
@@ -69,37 +62,49 @@ isolated function getSupportedCurrencies() returns string[]|error {
 
 The resource invocations between services need to be done using [client access actions](https://ballerina.io/downloads/swan-lake-release-notes/swan-lake-2201.2.0#support-for-resource-methods-in-client-objects).
 
-## Explore diagram features
+## Open the Design Diagram view
 
-The [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) is used to demonstrate the different capabilities of the diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui folder` is not a Ballerina package, hence would not make an impact.
+> **Example project**
+>
+> Let's use the [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) to demonstrate the different capabilities of the Design Diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui folder` is not a Ballerina package, hence would not make an impact. 
 
-As per the [Related concepts](#a-project-workspace) section, each of these packages needs to be loaded into a VS Code workspace. This could be done using any of the following approaches.
-1. Use the VS Code workspace file that is available in the repository
-2. Add each Ballerina package to the workspace using the `Add folder to workspace` feature available in VS Code
+1. To set up a Ballerina project as a VS Code workspace, add all the Ballerina packages to the workspace using one of the following methods:
 
-If the workspace has been set up accurately, you would be able to see the following folder structure in the explorer.
->**Note:** The workspace name would be different if you set up the workspace from scratch.
+      -  Use the **VS Code workspace file** from an already created workspace to import its packages to a new workspace.
 
-![Workspace Structure](../img/pdd-workspace-structure.png)
+         > **Info:** The workspace file of the [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) project is available in the repository.
 
-Once the workspace has been set up, the Ballerina design diagram generator can be activated via the `Ballerina: Project Design` command. This command can be found in the VS Code command palette as shown below.
-![Extension Command](../img/pdd-extension-command.gif)
+      -  Add each Ballerina package to the workspace using the **Add folder to workspace** option in the VS Code editor.
 
-The execution of this command will open up a VS Code webview panel that will contain three types of design diagrams. You can navigate between these diagrams using the side panel available on the diagram webview.
+      When the workspace is set up, you will see the following folder structure in the **Explorer**:
 
-### Service Interaction Diagram
+      >**Note:** The workspace name may be different if you set up the workspace from scratch.
 
-The Service Interaction Diagram is the entry point of the Project Design Diagram tool. 
+      <img src="../../img/pdd-workspace-structure.png" alt="Workspace Structure" width="400"/>
 
-#### Basic diagram
+2. Once the packages are added to the workspace, activate the Ballerina Design Diagram generator via the `Ballerina: Project Design` command in the command palette as shown below.
 
-This diagram displays all the services available within the workspace with directed links representing any interactions between them. The Service Interaction Diagram generated for the 10 Ballerina packages in the Google Cloud Platform demo project is shown below.
+      ![Extension Command](../img/pdd-extension-command.gif)
+
+## Explore the Design Diagram view
+
+Let's explore the features of the Design Diagram using the [Google Cloud Platform](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) Ballerina project that you set up in the previous topic.
+
+When you opened the Design Diagram as explained in the previous topic, you will see three types of design diagrams to choose from as shown below. 
+
+![Extension Command](../img/design-diagrams.png)
+
+### Service Diagram: Level 1
+
+This diagram displays all the services available within the workspace with links representing any interactions between them. The basic Service Diagram (level 1) generated for the 10 Ballerina packages in the Google Cloud Platform demo project is shown below.
 
 ![Service Interaction Diagram](../img/pdd-service-interaction-diagram.png)
->**Info:** The directed link between the `Checkout` service and the `Email` service is an indication that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
 
-#### Detailed diagram
-The detailed Service Interaction Diagram (Level 2) dives deeper into the compositions of the services and the interactions between them. The following diagram is the detailed representation of the demo project, and it depicts the individual resource/remote functions of the services and their invocations.
+>**Info:** The link between the `Checkout` service and the `Email` service indicates that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
+
+### Service Diagram: Level 2
+
+The detailed Service Diagram (Level 2) dives deeper into the compositions of the services and the interactions between them. Shown below is the detailed representation of the demo project, which depicts the individual resource/remote functions of the services and their invocations.
 
 ![Detailed Service Interaction Diagram](../img/pdd-detailed-service-interaction-diagram.png)
 
@@ -107,24 +112,27 @@ The data types of the request and response bodies of the interactions can be vie
 
 ![Detailed Service: Request Response Data Popups](../img/pdd-request-response-data-popup.png)
 
-### Types Diagram
+### Type Diagram
 
 The types diagram provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations.
 
-   ![Types Diagram](../img/pdd-types-diagram.png)
+![Types Diagram](../img/pdd-types-diagram.png)
 
-   >**Info:** The multiplicities of the associations are represented on either side of the connector while the [type inclusions](https://ballerina.io/learn/by-example/type-inclusion-for-records/) are differentiated using a directed link (represents inheritance).
+>**Info:** The multiplicities of the associations are represented on either side of the connector while the [type inclusions](https://ballerina.io/learn/by-example/type-inclusion-for-records/) are differentiated using a directed link (represents inheritance).
 
-In addition to the above diagrams, the tool also provides the capability to view the **composition** of an individual record type. These composition diagrams can be accessed by:
-   1. Clicking on the record types that are included in the request/response bodies of the service invocations shown in the [detailed service diagram](#detailed-service-interaction-diagram)
-   2. Clicking on the head of the records displayed in the types diagram
+###   Composition Diagram
 
-The following is the composition diagram generated for the `ContextSearchProductsResponse` record type seen in the [types diagram](#types-diagram) above.
+You can also view the **composition** of an individual record type. These composition diagrams can be accessed by:
+
+1. Clicking the record types that are included in the request/response bodies of the service invocations shown in the [detailed service diagram](#service-diagram-level-2).
+
+2. Clicking on the head of the records displayed in the types diagram
+
+The following is the composition diagram generated for the `ContextSearchProductsResponse` record type seen in the [Type diagram](#type-diagram) above.
    
-   ![Types Composition Diagram](../img/pdd-type-composition-diagram.png)
+![Types Composition Diagram](../img/pdd-type-composition-diagram.png)
 
-
-### Accessory features
+### Other capabilities
 
 In addition to the above, the Ballerina Project Design Diagram tool also includes the following features.
 
