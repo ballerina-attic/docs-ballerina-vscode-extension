@@ -38,8 +38,7 @@ strict: false
 # Navigation
 nav:
   - Home: index.md
-  - Get started:
-      - Install the Ballerina extension: get-started/get-started.md
+  - Get started: : get-started/get-started.md
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
   - Build and run:
