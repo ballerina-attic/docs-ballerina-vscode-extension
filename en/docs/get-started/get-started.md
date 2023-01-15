@@ -20,7 +20,7 @@ You can work on a single [Ballerina package](https://ballerina.io/learn/package-
 
 >**Info:** When the extension is activated properly, you can see the `Ballerina SDK: <version>` in the status bar at the bottom left corner. If the extension did not activate properly, see the [troubleshooting guide](../troubleshooting.md).
 
-	<img src="https://github.com/wso2/ballerina-plugin-vscode/blob/main/resources/images/show-version-on-vscode.png?raw=true" width="70%" />
+<img src="https://github.com/wso2/ballerina-plugin-vscode/blob/main/resources/images/show-version-on-vscode.png?raw=true" width="70%" />
 
 ### Open a Ballerina package
 
