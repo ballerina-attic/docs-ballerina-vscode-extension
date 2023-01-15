@@ -6,15 +6,17 @@ With the increasing size and complexity, software applications have evolved to b
 
 Install the [latest Ballerina version](https://ballerina.io/downloads/) and [Ballerina Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
 
-The Ballerina Project Design Diagram tool is shipped with the latest release of the Ballerina VS Code extension available in the VS Code marketplace. The diagrams can be generated upon executing the `Ballerina: Project Design` extension command. However, to get the best possible view of the project, it is necessary to set up the Ballerina project with the following concepts in mind.
+>**Info:** The Ballerina Project Design Diagram tool is shipped with the latest release of the Ballerina VS Code extension available in the VS Code marketplace. The diagrams can be generated upon executing the `Ballerina: Project Design` extension command. However, to get the best possible view of the project, it is necessary to set up the Ballerina project with the following concepts in mind.
 
 ## Related concepts
 
-### A Ballerina project
+Basic concepts that are related to the project design diagram are listed below.
+
+### Ballerina project
 
 A Ballerina project is considered to be a collection of one or more Ballerina packages.
 
-### A project workspace
+### Project workspace
 
 A Ballerina project is contained in a [VS Code workspace](https://code.visualstudio.com/docs/editor/workspaces). Hence, the diagram generator is functional only if the Ballerina packages are added to the IDE as a workspace.
 > **Tip:** You can save your VS Code workspace as a file and simply use this file to access the workspace thereafter.
@@ -63,11 +65,11 @@ isolated function getSupportedCurrencies() returns string[]|error {
 }
 ```
 
-### Invoke service resources
+### Service resources
 
 The resource invocations between services need to be done using [client access actions](https://ballerina.io/downloads/swan-lake-release-notes/swan-lake-2201.2.0#support-for-resource-methods-in-client-objects).
 
-## Explore the `Project Design Diagram` features
+## Explore diagram features
 
 The [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) is used to demonstrate the different capabilities of the diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui folder` is not a Ballerina package, hence would not make an impact.
 
@@ -87,12 +89,16 @@ The execution of this command will open up a VS Code webview panel that will con
 
 ### Service Interaction Diagram
 
-The Service Interaction Diagram is the entry point of the Project Design Diagram tool. This diagram displays all the services available within the workspace with directed links representing any interactions between them. The Service Interaction Diagram generated for the 10 Ballerina packages in the Google Cloud Platform demo project is shown below.
+The Service Interaction Diagram is the entry point of the Project Design Diagram tool. 
+
+#### Basic diagram
+
+This diagram displays all the services available within the workspace with directed links representing any interactions between them. The Service Interaction Diagram generated for the 10 Ballerina packages in the Google Cloud Platform demo project is shown below.
 
 ![Service Interaction Diagram](../img/pdd-service-interaction-diagram.png)
 >**Info:** The directed link between the `Checkout` service and the `Email` service is an indication that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
 
-### Detailed Service Interaction Diagram
+#### Detailed diagram
 The detailed Service Interaction Diagram (Level 2) dives deeper into the compositions of the services and the interactions between them. The following diagram is the detailed representation of the demo project, and it depicts the individual resource/remote functions of the services and their invocations.
 
 ![Detailed Service Interaction Diagram](../img/pdd-detailed-service-interaction-diagram.png)

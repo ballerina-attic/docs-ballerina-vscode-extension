@@ -38,9 +38,7 @@ strict: false
 # Navigation
 nav:
   - Home: index.md
-  - Get started:
-      - Install the Ballerina extension: get-started/install.md
-      - Open packages: get-started/open-packages.md
+  - Get started: get-started/get-started.md
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
   - Build and run:
@@ -62,8 +60,8 @@ nav:
   - Notebooks: notebooks.md
   - Configurations: configurations.md
   - References:
-      - How to use statement editor: references/how-to-use-statement-editor.md
-      - How to use record editor: references/how-to-use-record-editor.md
-      - How to paste JSON as records: references/how-to-paste-json-as-records.md
+      - Statement editor: references/how-to-use-statement-editor.md
+      - Record editor: references/how-to-use-record-editor.md
+      - Import JSON to records: references/how-to-paste-json-as-records.md
   - Troubleshooting: troubleshooting.md
   - License: license.md

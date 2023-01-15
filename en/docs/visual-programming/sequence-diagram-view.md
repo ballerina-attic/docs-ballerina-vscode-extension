@@ -5,22 +5,27 @@ a glance. This visual representation has its roots in sequence diagrams and can 
 the program flows, how the concurrent execution flow works, which remote endpoints are involved, and how they interact 
 with the different objects in the program.
 
-## Switching to graphical mode
+## Switch to graphical mode
 There are two methods for switching to the graphical mode using the VS Code extension.
 
-- Execute the `Ballerina: Show Diagram` command from the command palette.
+1. Execute the `Ballerina: Show Diagram` command from the command palette.
     ![command screenshot](../img/show-diagram-command-palette.png)
-- Click the `Show Diagram` button in the editor group.
+
+2. Click the `Show Diagram` button in the editor group.
     ![button screenshot](../img/editor-group-button.png)
 
 ## Graphical representation of code
 
+Ballerina code can be represented graphically in the following ways.
+
 ### Functions
 Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and 
 end and this lifeline represent the flow of the function logic. 
+
 ![button screenshot](../img/function-sequence-diagram.png)
 
 ### Concurrent execution
+
 Concurrent executions are supported in Ballerina through workers. Each worker has a lifeline that runs parallel to 
 the lifeline of the main function body. The diagram also captures asynchronous messaging between workers.
 
@@ -58,6 +63,7 @@ public function FunctionWithWorker() {
 ![worker screenshot](../img/worker_sample.png)
 
 ### Remote endpoints and clients
+
 Ballerina has support to specify interactions with remote endpoints through its syntax. This ability also 
 translates into the graphical representation giving each endpoint its lifeline to represent the messages that it 
 can receive.
@@ -75,8 +81,10 @@ function execute() returns error? {
 ```
 ![graphical screenshot](../img/client-code-representations.png)
 
-## Developing programs in the visual mode
+## Develop programs in the visual mode
+
 You can interact with the diagram using the `plus` icons placed in the lifeline. You can add a statement at the 
 function execution flow by clicking the **Add**.
+
 ![interaction gif](../img/diagram-interaction.gif)
 
