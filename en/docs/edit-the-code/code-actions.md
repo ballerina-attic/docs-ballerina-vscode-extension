@@ -8,43 +8,51 @@ The Ballerina VS Code extension enables the following code actions.
 Quick fixes are suggested based on the diagnostics displayed at a given cursor position.
 The Ballerina VS Code extension provides a wide range of quick fixes to such diagnostics.
 
-#### Variable assignment
+### Variable assignment
 
 The following code actions are available as quick fixes when the `Variable assignment required` diagnostic is identified in your code.
 
-- `Create variable`: Create a variable for an expression.
-- `Create variable and type guard`: Create a type guard to handle the error gracefully.
-- `Create variable and check error`: Add a check expression.
-- `Ignore return value`: Ignore the return value of a function call or a method call with `_`.
+| Code action                     	| Description                                                          	|
+|---------------------------------	|----------------------------------------------------------------------	|
+| `Create variable`                 	| Create a variable for an expression                                  	|
+| `Create variable and type guard`  	| Create a type guard to handle the error gracefully                   	|
+| `Create variable and check error` 	| Add a check expression                                               	|
+| `Ignore return value`             	| Ignore the return value of a function call or a method call with `_` 	|
 
-  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-variable-assignments.gif?raw=true" width="100%" />
+<img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-variable-assignments.gif?raw=true" width="100%" />
 
-#### Type inference
+### Type inference
 
 The following quick fixes are available for type inference.
 
-- `Create variable with type`: Create a variable for a remote method expression in which the `Cannot infer the 'typedesc' argument for parameter` diagnostic is present.
+| Code action                     	| Description                                                          	|
+|---------------------------------	|----------------------------------------------------------------------	|
+| `Create variable with type`                 	| Create a variable for a remote method expression in which the `Cannot infer the 'typedesc' argument for parameter` diagnostic is present
 
-  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-type-inference.gif?raw=true" width="100%" />
+<img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-type-inference.gif?raw=true" width="100%" />
 
-#### Missing check expressions
+### Missing check expressions
 
 The following quick fixes are available for missing check expressions.
 
-- `Add 'check' error`: Add the `check` keyword when the selected expression's type is a subtype of `error` or a union with an `error` member while the expected type doesn't contain an `error`.
+| Code action                     	| Description                                                          	|
+|---------------------------------	|----------------------------------------------------------------------	|
+| `Add 'check' error`                 	| Add the `check` keyword when the selected expression's type is a subtype of `error` or a union with an `error` member while the expected type doesn't contain an `error`
 
-  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-missing-check-expressions.gif?raw=true" width="100%" />
+<img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-missing-check-expressions.gif?raw=true" width="100%" />
 
-#### Check expressions
+### Check expressions
 
 The following quick fixes are available for check expressions.
 
-- `Surround with do/on-fail`: Surround a check expression with a do/on-fail clause.
-- `Change return type to 'error?'`: Change the return type of a function/method to `error?`.
+| Code action                     	| Description                                                          	|
+|---------------------------------	|----------------------------------------------------------------------	|
+| `Surround with do/on-fail`                 	| Surround a check expression with a do/on-fail clause                                  	|
+| `Change return type to 'error?'`  	| Change the return type of a function/method to `error?`                   	|
 
-  <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-check-expressions.gif?raw=true" width="100%" />
+<img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-check-expressions.gif?raw=true" width="100%" />
 
-#### Imports
+### Imports
 
 The following quick fixes are available for imports.
 
@@ -55,7 +63,7 @@ The following quick fixes are available for imports.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-imports.gif?raw=true" width="100%" />
 
-#### Documentation
+### Documentation
 
 The following quick fixes are available for documentation.
 
@@ -64,7 +72,7 @@ The following quick fixes are available for documentation.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-documentation.gif?raw=true" width="100%" />
 
-#### Incompatible types
+### Incompatible types
 
 The following quick fixes are available for incompatible types.
 
@@ -84,7 +92,7 @@ The `Add conditional default value` and `Convert to 'xml'/'string' template` qui
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-incompatible-types2.gif?raw=true" width="100%" />
 
-#### Functions
+### Functions
 
 The following quick fixes are available for creating functions.
 
@@ -103,7 +111,7 @@ The `Add explicit return statement`, `Convert to public function`, and `Add isol
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-functions2.gif?raw=true" width="100%" />
 
-#### Records
+### Records
 
 The following quick fixes are available for records.
 
@@ -112,7 +120,7 @@ The following quick fixes are available for records.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-records.gif?raw=true" width="100%" />
 
-#### Annotations
+### Annotations
 
 The following quick fixes are available for annotations.
 
@@ -120,7 +128,7 @@ The following quick fixes are available for annotations.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-annotations.gif?raw=true" width="100%" />
 
-#### Other quick fixes
+### Other quick fixes
 
 - `Convert to readonly clone`: Convert an `e` expression to `e.cloneReadOnly()`.
 - `Ignore unused variable`: Ignore an unused variable.
@@ -144,7 +152,7 @@ The `Convert module variable to listener declaration` quick fix is demonstrated 
 
 Refactoring actions are suggested when the existing code can be rearranged or restructured to improve the quality and maintainability of your code while ensuring that the overall behavior of the code remains unaffected.
 
-#### Extract to code actions
+### Extract to code actions
 
 The following refactoring actions are available for extracting expressions.
 
@@ -155,7 +163,7 @@ The following refactoring actions are available for extracting expressions.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/extract-to-actions.gif?raw=true" width="100%" />
 
-#### Rewrite code actions
+### Rewrite code actions
 
 The following refactoring actions are available as rewrite actions.
 
@@ -167,7 +175,7 @@ The following refactoring actions are available as rewrite actions.
 
 Source actions are used to generate common code structures and recurring elements.
 
-#### Generate getters and setters
+### Generate getters and setters
 
 The following source actions are available for generating getters and setters.
 
@@ -177,7 +185,7 @@ The following source actions are available for generating getters and setters.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-getters-and-setters.gif?raw=true" width="100%" />
 
-#### Variables
+### Variables
 
 The following source actions are available for variables.
 
@@ -185,7 +193,7 @@ The following source actions are available for variables.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-variable.gif?raw=true" width="100%" />
 
-#### Imports
+### Imports
 
 The following source actions are available for imports.
 
@@ -193,7 +201,7 @@ The following source actions are available for imports.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-imports.gif?raw=true" width="100%" />
 
-#### Documentation
+### Documentation
 
 The following source actions are available for documentations.
 

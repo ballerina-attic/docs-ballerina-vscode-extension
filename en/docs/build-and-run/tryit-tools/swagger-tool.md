@@ -45,5 +45,5 @@ Once you add the above function, the VS Code extension will display a CodeLens c
     
     ![Swagger response](../../img/swagger-view-response.png?raw=true)
 
->**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
-![Swagger parameters](../../img/swagger-view-parameters.png?raw=true)
+    >**Info:** If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
+    ![Swagger parameters](../../img/swagger-view-parameters.png?raw=true)
