@@ -8,7 +8,7 @@ The Ballerina VS Code extension enables the following code actions.
 Quick fixes are suggested based on the diagnostics displayed at a given cursor position.
 The Ballerina VS Code extension provides a wide range of quick fixes to such diagnostics.
 
-#### Quick fixes for variable assignment
+#### Variable assignment
 
 The following code actions are available as quick fixes when the `Variable assignment required` diagnostic is identified in your code.
 
@@ -19,7 +19,7 @@ The following code actions are available as quick fixes when the `Variable assig
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-variable-assignments.gif?raw=true" width="100%" />
 
-#### Quick fixes for type inference
+#### Type inference
 
 The following quick fixes are available for type inference.
 
@@ -27,7 +27,7 @@ The following quick fixes are available for type inference.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-type-inference.gif?raw=true" width="100%" />
 
-#### Quick fixes for missing check expressions
+#### Missing check expressions
 
 The following quick fixes are available for missing check expressions.
 
@@ -35,7 +35,7 @@ The following quick fixes are available for missing check expressions.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-missing-check-expressions.gif?raw=true" width="100%" />
 
-#### Quick fixes for check expressions
+#### Check expressions
 
 The following quick fixes are available for check expressions.
 
@@ -44,7 +44,7 @@ The following quick fixes are available for check expressions.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-check-expressions.gif?raw=true" width="100%" />
 
-#### Quick fixes for imports
+#### Imports
 
 The following quick fixes are available for imports.
 
@@ -55,7 +55,7 @@ The following quick fixes are available for imports.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-imports.gif?raw=true" width="100%" />
 
-#### Quick fixes for documentation
+#### Documentation
 
 The following quick fixes are available for documentation.
 
@@ -64,7 +64,7 @@ The following quick fixes are available for documentation.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-documentation.gif?raw=true" width="100%" />
 
-#### Quick fixes for incompatible types
+#### Incompatible types
 
 The following quick fixes are available for incompatible types.
 
@@ -84,7 +84,7 @@ The `Add conditional default value` and `Convert to 'xml'/'string' template` qui
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-incompatible-types2.gif?raw=true" width="100%" />
 
-#### Quick fixes for functions
+#### Functions
 
 The following quick fixes are available for creating functions.
 
@@ -103,7 +103,7 @@ The `Add explicit return statement`, `Convert to public function`, and `Add isol
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-functions2.gif?raw=true" width="100%" />
 
-#### Quick fixes for records
+#### Records
 
 The following quick fixes are available for records.
 
@@ -112,7 +112,7 @@ The following quick fixes are available for records.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-records.gif?raw=true" width="100%" />
 
-#### Quick fixes for annotations
+#### Annotations
 
 The following quick fixes are available for annotations.
 
@@ -167,7 +167,7 @@ The following refactoring actions are available as rewrite actions.
 
 Source actions are used to generate common code structures and recurring elements.
 
-#### Source actions for generating getters and setters
+#### Generate getters and setters
 
 The following source actions are available for generating getters and setters.
 
@@ -177,7 +177,7 @@ The following source actions are available for generating getters and setters.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-getters-and-setters.gif?raw=true" width="100%" />
 
-#### Source actions for variables
+#### Variables
 
 The following source actions are available for variables.
 
@@ -185,7 +185,7 @@ The following source actions are available for variables.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-variable.gif?raw=true" width="100%" />
 
-#### Source actions for imports
+#### Imports
 
 The following source actions are available for imports.
 
@@ -193,7 +193,7 @@ The following source actions are available for imports.
 
   <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-imports.gif?raw=true" width="100%" />
 
-#### Source actions for documentation
+#### Documentation
 
 The following source actions are available for documentations.
 

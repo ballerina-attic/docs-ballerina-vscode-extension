@@ -1,4 +1,4 @@
-## Create records by importing a JSON
+# Import JSON to records
 
 The Ballerina language provides an option to convert JSON files into record definitions. Follow the steps below to create a record from a JSON.
 

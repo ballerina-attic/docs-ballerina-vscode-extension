@@ -60,8 +60,8 @@ nav:
   - Notebooks: notebooks.md
   - Configurations: configurations.md
   - References:
-      - How to use statement editor: references/how-to-use-statement-editor.md
-      - How to use record editor: references/how-to-use-record-editor.md
-      - How to paste JSON as records: references/how-to-paste-json-as-records.md
+      - Statement editor: references/how-to-use-statement-editor.md
+      - Record editor: references/how-to-use-record-editor.md
+      - Import JSON to records: references/how-to-paste-json-as-records.md
   - Troubleshooting: troubleshooting.md
   - License: license.md

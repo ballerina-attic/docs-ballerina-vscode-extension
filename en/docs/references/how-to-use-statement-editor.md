@@ -1,4 +1,4 @@
-# Construct statements using the Statement Editor
+# Statement Editor
 
 The Statement Editor allows you to construct Ballerina statements depending on the use case you want to build. It is an intuitive visual editor that is easy to use without an in-depth knowledge of the [Ballerina Programming Language](https://ballerina.io/).
 
@@ -11,6 +11,8 @@ It provides the following:
 - Pre-defined expression templates
 
 - Documentation for functions and methods to configure parameters easily 
+
+## Construct statements
 
 This guide walks you through the steps to build the following statement using the editing capabilities of the Statement Editor. Later, you will explore different use cases.
 
@@ -113,6 +115,6 @@ Follow the steps below to build the statement.
 
 To explore more on the Statement Editor functionalities, see the use cases below.
 
-1. [Call a Ballerina library function](../references/call-a-ballerina-library-function.md)
-2. [Create a record](../references/create-a-record-using-statement-editor)
-3. [Define a configurable while developing another construct](../references/define-a-configurable-as-you-develop)
+- [Call a Ballerina library function](../references/call-a-ballerina-library-function.md)
+- [Create a record](../references/create-a-record-using-statement-editor)
+- [Define a configurable while developing another construct](../references/define-a-configurable-as-you-develop)
