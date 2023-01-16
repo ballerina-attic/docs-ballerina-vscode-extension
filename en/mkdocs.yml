@@ -35,6 +35,7 @@ theme:
 
 #Breaks build if there's a warning
 strict: false
+
 # Navigation
 nav:
   - Home: index.md
@@ -65,4 +66,3 @@ nav:
       - Import JSON to records: references/how-to-paste-json-as-records.md
   - Troubleshooting: troubleshooting.md
   - License: license.md
- 
