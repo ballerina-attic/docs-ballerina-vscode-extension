@@ -54,7 +54,7 @@ nav:
   - Debug: debugging/debug.md
   - Test: test.md
   - Visual programming:
-      - Diagram view: visual-programming/sequence-diagram-view.md
+      - Sequence Diagram view: visual-programming/sequence-diagram-view.md
       - Data Mapper: visual-programming/data-mapper.md
   - Architecture diagram: architecture-diagram/architecture-diagram.md
   - Notebooks: notebooks.md
