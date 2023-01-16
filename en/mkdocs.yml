@@ -55,8 +55,8 @@ nav:
   - Test: test.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
+      - Project Design view: architecture-diagram/architecture-diagram.md
       - Data Mapper: visual-programming/data-mapper.md
-  - Architecture diagram: architecture-diagram/architecture-diagram.md
   - Notebooks: notebooks.md
   - Configurations: configurations.md
   - References:
