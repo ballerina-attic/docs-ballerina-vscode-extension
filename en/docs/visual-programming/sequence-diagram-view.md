@@ -1,4 +1,4 @@
-# Sequence diagram view
+# Sequence Diagram view
 
 When you use the Ballerina VS Code extension, you can view your code in graphical mode and develop your program logic through it. This
 allows you to look at your program logic holistically and comprehend the program at a glance. 
