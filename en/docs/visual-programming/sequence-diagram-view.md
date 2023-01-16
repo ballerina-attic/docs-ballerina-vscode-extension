@@ -1,4 +1,4 @@
-# Diagram view
+# Sequence diagram view
 
 When you use the Ballerina VS Code extension, you can view your code in graphical mode and develop your program logic through it. This
 allows you to look at your program logic holistically and comprehend the program at a glance. 
@@ -17,14 +17,18 @@ There are two methods for switching to the graphical mode using the VS Code exte
     
     ![button screenshot](../img/editor-group-button.png)
 
+Shown below is the code editor and graphical editor in view.
+
+![graphical view](../img/graphical-view.png)
+
 ## Graphical representation of code
 
-See the topics given below to learn how various elements of the Ballerina code are represented graphically.
+Ballerina code can be represented graphically in the following ways.
 
 ### Functions
 
 Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and 
-end and this lifeline represent the flow of the function logic. 
+end and this lifeline represents the flow of the function logic. 
 
 ![button screenshot](../img/function-sequence-diagram.png)
 
@@ -83,7 +87,7 @@ function execute() returns error? {
 }
 ```
 
-![graphical screenshot](../img/client-code-representations.png)
+<img src="../../img/client-code-representations.png" alt="graphical screenshot" width="450">
 
 ## Develop programs in graphical mode
 
@@ -94,9 +98,7 @@ function execution flow by clicking **Add**.
 
 ## Related topics
 
-See the following topics to further explore graphical coding.
+See the following topics to explore graphical coding further.
 
 - [Data Mapper](data-mapper.md)
-- [Project Design view](../architecture-diagram/architecture-diagram)
-
-
+- [Project Design view](../../architecture-diagram/architecture-diagram)
