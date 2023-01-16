@@ -1,6 +1,6 @@
 # Project Design view
 
-Software applications have evolved into a composition of multiple interrelated components to be able to handle increasing complexities. When the number and/or depth of such components grow, it is convenient to have a high-level picture of the system components and their interactions with one another. 
+Software applications have evolved into a composition of multiple interrelated components to be able to handle increasing complexities. When the number and/or depth of such components grow, it is convenient to have a high-level picture of the system components and their interactions. 
 
 The Ballerina Project Design view is enabled in the VS Code extension to provide such a high-level picture of Ballerina projects purely based on the source code. In addition to the component interactions, the Project Design view is also capable of visualizing the Ballerina record types in the project workspace and their associations.
 
