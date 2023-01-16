@@ -1,24 +1,28 @@
-# Sequence diagram view
-With Ballerina, you can view your code in a graphical mode and develop your program logic through it. This
-allows you to look at your program logic holistically and gives you the ability to comprehend the program at 
-a glance. This visual representation has its roots in sequence diagrams and can capture how the logic of
-the program flows, how the concurrent execution flow works, which remote endpoints are involved, and how they interact 
-with the different objects in the program.
+# Diagram view
+
+When you use the Ballerina VS Code extension, you can view your code in graphical mode and develop your program logic through it. This
+allows you to look at your program logic holistically and to comprehend the program at a glance. 
+
+This visual representation has its roots in sequence diagrams and can capture how the logic of your program flows, how the concurrent execution flow works, which remote endpoints are involved, and how those endpoints interact with the different objects in the program.
 
 ## Switch to graphical mode
+
 There are two methods for switching to the graphical mode using the VS Code extension.
 
-1. Execute the `Ballerina: Show Diagram` command from the command palette.
+-   Execute the `Ballerina: Show Diagram` command from the command palette.
+    
     ![command screenshot](../img/show-diagram-command-palette.png)
 
-2. Click the `Show Diagram` button in the editor group.
+-   Click `Show Diagram` in the editor group.
+    
     ![button screenshot](../img/editor-group-button.png)
 
 ## Graphical representation of code
 
-Ballerina code can be represented graphically in the following ways.
+See the topics given below to learn how various elements of the Ballerina code is represented graphically.
 
 ### Functions
+
 Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and 
 end and this lifeline represent the flow of the function logic. 
 
@@ -60,13 +64,12 @@ public function FunctionWithWorker() {
     io:println("Woker A execution finished");
 }
 ```
+
 ![worker screenshot](../img/worker_sample.png)
 
 ### Remote endpoints and clients
 
-Ballerina has support to specify interactions with remote endpoints through its syntax. This ability also 
-translates into the graphical representation giving each endpoint its lifeline to represent the messages that it 
-can receive.
+Ballerina specifies interactions with remote endpoints through its syntax. These interactions are presented graphically in the diagram view by giving each endpoint a lifeline. This endpoint lifeline represents the messages that the endpoint can receive.
 
 The following code shows an HTTP client that is used to the `GET` and `POST` requests sent to a remote endpoint.
 
@@ -79,12 +82,21 @@ function execute() returns error? {
     http:Response response = check reportService->post("/report", result);
 }
 ```
+
 ![graphical screenshot](../img/client-code-representations.png)
 
-## Develop programs in the visual mode
+## Develop programs in graphical mode
 
 You can interact with the diagram using the `plus` icons placed in the lifeline. You can add a statement at the 
-function execution flow by clicking the **Add**.
+function execution flow by clicking **Add**.
 
 ![interaction gif](../img/diagram-interaction.gif)
+
+## Related topics
+
+See the following topics to further explore graphical coding.
+
+- [Data Mapper](data-mapper.md)
+- [Project Design view](../architecture-diagram/architecture-diagram)
+
 
