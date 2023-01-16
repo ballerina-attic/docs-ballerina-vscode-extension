@@ -1,7 +1,7 @@
 # Diagram view
 
 When you use the Ballerina VS Code extension, you can view your code in graphical mode and develop your program logic through it. This
-allows you to look at your program logic holistically and to comprehend the program at a glance. 
+allows you to look at your program logic holistically and comprehend the program at a glance. 
 
 This visual representation has its roots in sequence diagrams and can capture how the logic of your program flows, how the concurrent execution flow works, which remote endpoints are involved, and how those endpoints interact with the different objects in the program.
 
@@ -19,7 +19,7 @@ There are two methods for switching to the graphical mode using the VS Code exte
 
 ## Graphical representation of code
 
-See the topics given below to learn how various elements of the Ballerina code is represented graphically.
+See the topics given below to learn how various elements of the Ballerina code are represented graphically.
 
 ### Functions
 
@@ -71,7 +71,7 @@ public function FunctionWithWorker() {
 
 Ballerina specifies interactions with remote endpoints through its syntax. These interactions are presented graphically in the diagram view by giving each endpoint a lifeline. This endpoint lifeline represents the messages that the endpoint can receive.
 
-The following code shows an HTTP client that is used to the `GET` and `POST` requests sent to a remote endpoint.
+The following code shows an HTTP client that is used for the `GET` and `POST` requests sent to a remote endpoint.
 
 ```ballerina
 function execute() returns error? {
