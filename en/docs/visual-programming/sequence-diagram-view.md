@@ -27,10 +27,29 @@ Ballerina code can be represented graphically in the following ways.
 
 ### Functions
 
-Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and 
-end and this lifeline represents the flow of the function logic. 
+Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and end and this lifeline represents the flow of the function logic. 
 
-![button screenshot](../img/function-sequence-diagram.png)
+**Source code**
+
+```ballerina
+import ballerina/io;
+import ballerina/random;
+public function main() {
+    io:println("Hello, World!");
+
+    if random:createIntInRange(1, 100) == 22 {
+        io:println("the number is 22");
+    } else {
+        io:println("the number is not 22");
+    }
+
+    io:println("Program exit");
+}
+```
+
+**Graphical view**
+    
+![Sequence diagram of a function](../img/function-sequence-diagram.png)
 
 ### Concurrent execution
 
@@ -38,6 +57,8 @@ Concurrent executions are supported in Ballerina through workers. Each worker ha
 the lifeline of the main function body. The diagram also captures asynchronous messaging between workers.
 
 The following example shows how asynchronous messaging is represented in the diagram.
+
+**Source code**
 
 ```ballerina
 public function FunctionWithWorker() {
@@ -69,6 +90,8 @@ public function FunctionWithWorker() {
 }
 ```
 
+**Graphical view**
+
 ![worker screenshot](../img/worker_sample.png)
 
 ### Remote endpoints and clients
@@ -76,6 +99,8 @@ public function FunctionWithWorker() {
 Ballerina specifies interactions with remote endpoints through its syntax. These interactions are presented graphically in the diagram view by giving each endpoint a lifeline. This endpoint lifeline represents the messages that the endpoint can receive.
 
 The following code shows an HTTP client that is used for the `GET` and `POST` requests sent to a remote endpoint.
+
+**Source code**
 
 ```ballerina
 function execute() returns error? {
@@ -86,6 +111,8 @@ function execute() returns error? {
     http:Response response = check reportService->post("/report", result);
 }
 ```
+
+**Graphical view**
 
 <img src="../../img/client-code-representations.png" alt="graphical screenshot" width="450">
 
