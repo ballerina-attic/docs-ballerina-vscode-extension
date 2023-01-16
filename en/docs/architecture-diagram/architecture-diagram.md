@@ -138,7 +138,7 @@ The following is the composition diagram generated for the `ContextSearchProduct
 
 ### Other capabilities
 
-In addition to the above, the Ballerina Project Design Diagram tool includes the following features.
+In addition to the above, the Ballerina Project Design tool includes the following features.
 
 - Filter the services and types based on the packages
 - Rearrange the diagram as appropriate
