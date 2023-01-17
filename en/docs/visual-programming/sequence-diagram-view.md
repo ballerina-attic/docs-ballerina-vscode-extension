@@ -27,13 +27,14 @@ Ballerina code can be represented graphically in the following ways.
 
 ### Functions
 
-Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and end and this lifeline represents the flow of the function logic. 
+Graphical representations of functions are based on sequence diagrams. Each function has a lifeline with a start and end, and this lifeline represents the flow of the function logic. 
 
 **Source code**
 
 ```ballerina
 import ballerina/io;
 import ballerina/random;
+
 public function main() {
     io:println("Hello, World!");
 
