@@ -38,7 +38,7 @@ The Ballerina language provides an option to convert JSON files into record defi
 
 3. Provide a name for the record.
 
-4. Provide the sample JSON by either typing on the text area or by choosing the file created from the file selector.
+4. Provide the sample JSON by either typing/pasting on the textarea or by choosing the JSON file from the file selector.
 
 5. Select **Make Separate Record Definitions** to create separate Ballerina record definitions.
 
