@@ -68,18 +68,15 @@ nav:
       - Code actions: edit-the-code/code-actions.md
       - Diagnostics: edit-the-code/diagnostics.md
   - Debug: debug.md
-  - Test: test.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
       - Project Design view: architecture-diagram/architecture-diagram.md
       - Data Mapper: visual-programming/data-mapper.md
-  - Notebooks: notebooks.md
   - Configurations: configurations.md
   - References:
       - Statement editor: references/how-to-use-statement-editor.md
       - Record editor: references/how-to-use-record-editor.md
       - Import JSON to records: references/how-to-paste-json-as-records.md
-  - Troubleshooting: troubleshooting.md
   - License: license.md
 
 # Extensions
