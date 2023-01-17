@@ -63,6 +63,6 @@ nav:
   - References:
       - Statement editor: references/how-to-use-statement-editor.md
       - Record editor: references/how-to-use-record-editor.md
-      - Import JSON to records: references/how-to-paste-json-as-records.md
+      - Convert JSON to records: references/how-to-paste-json-as-records.md
   - Troubleshooting: troubleshooting.md
   - License: license.md
