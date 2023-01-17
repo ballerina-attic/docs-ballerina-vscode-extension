@@ -7,7 +7,7 @@ template: templates/home-page.html
 <div class="container cHeaderTop cHomeContainer">
        <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
-          <h1>Welcome to the Ballerina VS Code Extenstion Documentation</h1>
+          <h1>Welcome to the Ballerina VS Code Extension Documentation</h1>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-6">
              <p>The Visual Studio Code Ballerina extension provides a set of rich language features along with an enhanced user experience. It offers easy development, execution, debugging, and testing for the Ballerina programming language.</p> 
