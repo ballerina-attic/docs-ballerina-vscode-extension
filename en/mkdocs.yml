@@ -53,13 +53,7 @@ strict: false
 # Navigation
 nav:
   - Home: index.md
-<<<<<<< HEAD
-  - Get started:
-      - Install: get-started/install.md
-      - Open packages: get-started/open-packages.md
-=======
   - Get started: get-started/get-started.md
->>>>>>> e8099d2abf84e8f6da4405d1424d1440549ef2c6
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
   - Run and try the program:
