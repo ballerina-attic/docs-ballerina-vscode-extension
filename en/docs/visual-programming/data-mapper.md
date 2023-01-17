@@ -2,7 +2,7 @@
 
 Data Mapper is a tool that allows you to visually translate data from one format to another (such as from one JSON format to another). It comes with an intuitive user interface and you don't need to be aware of the programming logic underneath.
 
-When you map data via the user interface, the Data Mapper generates the required Ballerina source code. Since the Ballerina source code is the single source of truth for the visual Data Mapper, it allows you to edit existing data mappings made via the source code without changing the user experience.
+When you map data via the user interface, the Data Mapper generates the required Ballerina source code. Since the Ballerina source code is the single source of truth for the Visual Data Mapper, it also lets you open and edit existing data mappings made via the source code without changing the user experience.
 
 ## Sample use case
 
