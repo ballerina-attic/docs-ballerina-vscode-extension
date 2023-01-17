@@ -1,7 +1,7 @@
 # Convert JSON to records
 
 The Ballerina language provides several options to convert JSON files into record definitions. 
-## Option One: From Low-code editor
+## Option One: From Record editor
 
 Follow the steps below to convert a JSON to record from record editor.
 
