@@ -37,7 +37,7 @@ theme:
     primary: indigo
     accent: indigo
   #logo: images/logo.svg
-  logo: https://ballerina.io/img/branding/ballerina_logo_dgrey_svg.svg
+  logo: https://wso2.cachefly.net/wso2/sites/all/2022-optimized/ballerina/ballerina-logo-white.svg
   favicon: images/favicon.png
   discord: images/discord-help-icon.svg
   #choreo_logo: images/choreo-logo-icon.svg
