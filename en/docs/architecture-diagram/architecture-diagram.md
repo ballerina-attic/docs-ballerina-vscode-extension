@@ -118,7 +118,7 @@ The data types of the request and response bodies of the interactions can be vie
 
 ### Type Diagram
 
-The **Type** diagram provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations.
+The **Type Diagram** provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations.
 
 ![Type Diagram](../img/pdd-types-diagram.png)
 
@@ -130,9 +130,9 @@ You can also view the **composition** of an individual record type. These compos
 
 -  Clicking the record types that are included in the request/response bodies of the service invocations shown in the [detailed service diagram](#service-diagram-level-2).
 
--  Clicking the head of the records displayed in the **Type** diagram.
+-  Clicking the head of the records displayed in the **Type Diagram**.
 
-The following is the composition diagram generated for the `ContextSearchProductsResponse` record type seen in the [Type diagram](#type-diagram) above.
+The following is the composition diagram generated for the `ContextSearchProductsResponse` record type seen in the [Type Diagram](#type-diagram) above.
    
 ![Type Composition Diagram](../img/pdd-type-composition-diagram.png)
 
