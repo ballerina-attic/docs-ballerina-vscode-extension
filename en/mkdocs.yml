@@ -112,9 +112,6 @@ markdown_extensions:
   - attr_list
   - markdown_include.include:
       base_path: docs
-plugins:
-  - search
-#  - markdownextradata: {}
 
 extra_css:
   - assets/lib/highlightjs/default.min.css
