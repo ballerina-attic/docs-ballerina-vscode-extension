@@ -2,13 +2,13 @@
 
 Follow the steps below to create a sample Ballerina program in VS Code. 
 
-## Use the Code View
+## Use the code view
 
->**Note:** Skip 1-3 steps if you already have a Ballerina code.
+>**Note:** Skip the steps 1-3, if you already have a Ballerina code.
   
 1. Click **View** in the menu bar of the editor, and click **Command Palette**.
 
-    >**Tip:** You can use the shortcut methods `⌘ + ↑ + P` on Mac and `Ctrl + Shift + P` on Windows and Linux.
+    >**Tip:** You can use the shortcut methods `⌘ + ↑ + P` on macOS and `Ctrl + Shift + P` on Windows and Linux.
 
 2. In the search bar, type `Show Examples`, and click **Ballerina: Show Examples**.
 
@@ -28,7 +28,7 @@ Follow the steps below to create a sample Ballerina program in VS Code.
       
         ![Run button](../img/run-button.png?raw=true)
 
-## Use the Diagram View
+## Use the diagram view
   
 1. View the diagram:
 
@@ -46,13 +46,17 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 
 2. Run the program:
 
-    Click **Run** in the diagram options menu.
+    - **Option 1**
 
-    ![Run diagram button](../img/run-diagram-button.png?raw=true)
+        Click **Run** in the diagram options menu.
 
-    Alternatively, run the program by clicking the button on the title bar.
+        ![Run diagram button](../img/run-diagram-button.png?raw=true)
 
-    ![Header button](../img/run-diagram-header-button.png?raw=true)
+    - **Option 2**
+    
+        Click **Run** on the title bar of the editor.
+
+        ![Header button](../img/run-diagram-header-button.png?raw=true)
 
 The integrated terminal will open automatically and run the program.
 
@@ -60,12 +64,12 @@ The integrated terminal will open automatically and run the program.
 
 You just ran your first Ballerina program.
 
->**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug.md).
+>**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../../debug.md).
 ![Debug button](../img/debug-button.png?raw=true)
 
-## Try-it tools
+## Next steps - Try it
 
 The Ballerina VS Code extension allows you to try out and debug HTTP/GraphQL services (without using any third-party tools) while you develop them. 
 
-* [Swagger (HTTP) Try-it tool](tryit-tools/swagger-tool.md)
-* [GraphQL Try-it tool](tryit-tools/graphql-tool.md)
+* [Swagger (HTTP) tool](tryit-tools/swagger-tool.md)
+* [GraphQL tool](tryit-tools/graphql-tool.md)

@@ -15,7 +15,7 @@ When you map data via the user interface, the Data Mapper generates the required
 
 3. Open the created package in VS Code.
 
-### Sample use case
+## Sample use case
 
 The below is a simple use case in which you will input data of people and courses in a specific structure and convert and transform those to a different format.
 
@@ -116,7 +116,7 @@ Use the `toBalString` lang lib function to convert the int to string as shown be
 
 Once you fix the error, the connection appears in blue to indicate that there are no errors.
 
-### Aggregate multiple input fields to one output field
+### Aggregate input and output fields
 You can derive one output parameter by combining two or more input parameters. In this example, the value for the `fullName` output parameter is a combination of the values of the `firstName` and `lastName` input parameters. You can map them as shown below:
 >**Info:** To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign them to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the **Code** button and customize the expression with the expression editor.
 
@@ -129,7 +129,7 @@ To convert from one array type to another, you can simply map the input array to
 
 ![Convert to Query](../img/visual-programming/dm-convert-to-query.gif "Map via query expression")
 
-#### Further process the data
+#### Process the data further
 You can further process the data within the query expression. Currently, the Data Mapper supports the following intermediate clauses.
 - `Where` clause: filter data based on a given condition
 - `Let` clause: define local variables within the query expression

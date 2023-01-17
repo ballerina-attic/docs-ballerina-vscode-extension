@@ -1,4 +1,4 @@
-# Edit records graphically with Ballerina
+# Record editor
 
 Record is the type system introduced by the Ballerina language to hold data by a user. You can use records when you want to define data schemas. Once the records are created, you can easily manipulate data inside a program.
 
@@ -7,6 +7,8 @@ Ballerina is a multi-paradigm language. You can define records in an imperative 
 In the record editor, you have the ability to create a record from scratch or create a record by importing a JSON.
 
 ## Set up the prerequisites
+
+Follow the steps below to set up the prerequisites.
 
 1. Install the latest versions of [Ballerina](https://ballerina.io/downloads/) and [Ballerina Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
 
@@ -19,6 +21,8 @@ In the record editor, you have the ability to create a record from scratch or cr
 3. Open the created package in VS Code.
 
 ## Create records from scratch
+
+Follow the steps below to create records from scratch.
 
 1. Navigate to the record editor and select **Create New**.
 

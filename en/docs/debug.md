@@ -8,14 +8,14 @@ program execution after a successful compilation. This is where the dedicated de
 Currently, a feature-rich debugging experience for troubleshooting Ballerina applications
 is provided via the <a href="https://marketplace.visualstudio.com/items?itemName=WSO2.Ballerina" target="_blank">Ballerina Visual Studio Code extension</a>.
 
-## Start a debug session
+## Debug using CodeLens
 
 The Ballerina extension provides multiple options to debug Ballerina applications and the most convenient way will be using the context-aware debug CodeLens support.
 
 However, if you require launching debug sessions with additional configurations (i.e., program arguments, environment variables), you can use the `launch.json` configurations.
 >**Info:** For more information, see [Start a debug session with configurations](#start-a-debug-session-with-configurations)).
 
-### Start a program debug session
+### Program debug sessions
 
 Follow the steps below to start a quick debug session using CodeLens.
 
@@ -29,7 +29,7 @@ Follow the steps below to start a quick debug session using CodeLens.
 
 <br/>
 
-### Start a test debug session
+### Test debug sessions
 
 The Ballerina test functions can also be debugged using CodeLens. The `debug` CodeLens will automatically appear on top of each Ballerina test function
 and you are able to execute/debug only the selected test case by clicking on the corresponding CodeLens as shown below.
@@ -38,7 +38,7 @@ and you are able to execute/debug only the selected test case by clicking on the
 
 <br/>
 
-### Start a debug session with configurations
+## Debug using configurations
 
 Follow the steps below to start a debug session with configurations. All the configurations need to be added in the `launch.json` file.
 
@@ -60,7 +60,7 @@ Then, you can start a program, test, or remote debug session as shown below.
 
 >**Info:** If you launch the debug session through VS Code, the working directory will be the Ballerina package root. However, you can use remote debugging for alternative working directories.
 
-#### Start a program debug session with configurations
+### Program debug sessions
 
 Follow the steps below to start a program debug session.
 
@@ -74,7 +74,7 @@ Follow the steps below to start a program debug session.
 
 <br/>
 
-#### Start a test debug session with configurations
+### Test debug sessions 
 
 Follow the steps below to start a test debug session.
 
@@ -88,7 +88,7 @@ Follow the steps below to start a test debug session.
 
 <br/>
 
-### Start a remote debug session
+## Remote debug sessions
 
 Follow the steps below to start a remote debug session.
 

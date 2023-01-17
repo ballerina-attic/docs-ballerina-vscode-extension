@@ -2,6 +2,10 @@
 
 The extension offers a number of settings. These can be configured by modifying your [user or workspace settings](https://code.visualstudio.com/docs/getstarted/settings) or by modifying the `settings.json` file of VS Code.
 
+## Basic configurations
+
+These configurations are the basic ones, which are used by the extension users.
+
 | ID                                    | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
 | ballerina.codeLens.all.enabled        | Enable code lenses that appear in the editor view.           |
@@ -15,7 +19,7 @@ The extension offers a number of settings. These can be configured by modifying 
 | ballerina.lowCodeMode                 | Enable the Ballerina low-code mode. This will open the Diagram View by default for Ballerina codes. This will focus the Diagram View explorer in the side menu when VS Code opens.                   |
 | ballerina.pluginDevMode               | Enable the developer mode.                                     |
 
-### Advanced configurations
+## Advanced configurations
 These configurations are related to the extension development process and not useful for the extension users.
 
 | ID                                    | Description                                               |
