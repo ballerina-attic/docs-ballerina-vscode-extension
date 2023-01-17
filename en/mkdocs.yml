@@ -42,9 +42,10 @@ nav:
   - Get started: get-started/get-started.md
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
-  - Build and run:
-      - Run: build-and-run/build-and-run.md
-      - Tryit Tools:
+  - Run and try the program:
+      - Build and run the program: build-and-run/build-and-run.md
+      - Build the executable JAR file: build-and-run/build-jar-file.md
+      - Try it Tools:
             - GraphQL tool: build-and-run/tryit-tools/graphql-tool.md
             - Swagger tool: build-and-run/tryit-tools/swagger-tool.md
   - Edit the code:
@@ -52,7 +53,7 @@ nav:
       - Code navigation: edit-the-code/code-navigation.md
       - Code actions: edit-the-code/code-actions.md
       - Diagnostics: edit-the-code/diagnostics.md
-  - Debug: debugging/debug.md
+  - Debug: debug.md
   - Test: test.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
