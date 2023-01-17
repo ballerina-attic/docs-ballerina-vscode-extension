@@ -3,7 +3,7 @@
 The Ballerina language provides several options to convert JSON files into record definitions. 
 ## Option One: From Record editor
 
-Follow the steps below to convert a JSON to record from record editor.
+Follow the steps below to convert a JSON to record from the Record editor.
 
 1.  Create a file with the data below in JSON format.
 
@@ -41,7 +41,7 @@ Follow the steps below to convert a JSON to record from record editor.
 
 3. Provide a name for the record.
 
-4. Provide the sample JSON by either typing/pasting on the textarea or by choosing the JSON file from the file selector.
+4. Provide the sample JSON by either typing/pasting on the text area or by choosing the JSON file from the file selector.
 
 5. Select **Make Separate Record Definitions** to create separate Ballerina record definitions.
 
@@ -53,7 +53,7 @@ Follow the steps below to convert a JSON to record from record editor.
 
 ## Option Two: From Command palette
 
-1.  Copy the JSON code block into the Clipboard. (Ctrl + C)
+1.  Copy the JSON code block to the Clipboard (Ctrl + C).
 
     >**Info:** The example below converts a `person` and a list of `courses` to a `Student` record. 
     >
@@ -85,7 +85,7 @@ Follow the steps below to convert a JSON to record from record editor.
     }
     ```
 
-2. Open the Command palette in the vscode. (Default: Ctrl + Shift + P)
+2. Open the Command palette in the VS Code editor (Default: Ctrl + Shift + P).
 
 3. Search for **Paste JSON as Record** and select that option.
 
