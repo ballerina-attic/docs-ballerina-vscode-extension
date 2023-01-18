@@ -36,11 +36,9 @@ theme:
   palette:
     primary: indigo
     accent: indigo
-  #logo: images/logo.svg
   logo: https://wso2.cachefly.net/wso2/sites/all/2022-optimized/ballerina/ballerina-logo-white.svg
   favicon: images/favicon.png
   discord: images/discord-help-icon.svg
-  #choreo_logo: images/choreo-logo-icon.svg
   highlightjs: true
   feature:
     tabs: true
@@ -114,7 +112,7 @@ markdown_extensions:
       base_path: docs
 plugins:
   - search
-#  - markdownextradata: {}
+  - markdownextradata: {}
 
 extra_css:
   - assets/lib/highlightjs/default.min.css
