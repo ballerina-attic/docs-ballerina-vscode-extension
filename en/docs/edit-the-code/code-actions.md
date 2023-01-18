@@ -211,7 +211,7 @@ The following source actions are available for variables.
 
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
-| `Type guard variable`                	| Type guard a variable if the variable type is a union. type                     	|
+| `Type guard variable`                	| Type guard a variable if the variable type is a union type.                     	|
 
 <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/source-actions-for-variable.gif?raw=true" width="100%" />
 
