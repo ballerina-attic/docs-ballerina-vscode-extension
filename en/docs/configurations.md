@@ -2,10 +2,18 @@
 
 The extension offers a number of settings. These can be configured by modifying your [user or workspace settings](https://code.visualstudio.com/docs/getstarted/settings) or by modifying the `settings.json` file of VS Code.
 
+## Basic configurations
+
+These configurations are the basic ones, which are used by the extension users.
+
 | ID                                    | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
 | ballerina.codeLens.all.enabled        | Enable code lenses that appear in the editor view.           |
+<<<<<<< HEAD
 | ballerina.enableConfigurableEditor    | Enable the configurable editor. This will open a  form to set values for [configurable variables](https://ballerina.io/learn/by-example/configurable-variables/) in the code when you [run](../build-and-run/build-and-run/) the Ballerina code. |
+=======
+| ballerina.enableConfigurableEditor    | Enable the configurable editor. This will open a  form to set values for [configurable variables](https://ballerina.io/learn/by-example/configurable-variables/) in the code when you [run](../build-and-run/build-and-run) the Ballerina code. |
+>>>>>>> 7679154d8dfbe6083f045ae417a6ddddb39ee31c
 | ballerina.enableNotebookDebug         | Enable the debug feature in Ballerina notebook files (`.balnotebook`). |
 | ballerina.enablePerformanceForecast   | Enable the performance forecaster. This will show you the forecasted latency and other performance values for Ballerina services in the low-code diagram.     |
 | ballerina.enableSemanticHighlighting  | Enable [semantic code highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide).               |
@@ -15,7 +23,7 @@ The extension offers a number of settings. These can be configured by modifying 
 | ballerina.lowCodeMode                 | Enable the Ballerina low-code mode. This will open the Diagram View by default for Ballerina codes. This will focus the Diagram View explorer in the side menu when VS Code opens.                   |
 | ballerina.pluginDevMode               | Enable the developer mode.                                     |
 
-### Advanced configurations
+## Advanced configurations
 These configurations are related to the extension development process and not useful for the extension users.
 
 | ID                                    | Description                                               |
