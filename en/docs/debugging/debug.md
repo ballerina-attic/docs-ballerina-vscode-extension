@@ -118,11 +118,11 @@ Follow the steps below to start a remote debug session.
       bal test --debug <DEBUGGEE_PORT> <PACKAGE_PATH>
       ```
 
-   The terminal will show the following log:
+    The terminal will show the following log:
 
-   ```
-   Listening for transport dt_socket at address: 5005
-   ```
+    ```
+    Listening for transport dt_socket at address: 5005
+    ```
 
 5. Click the **Start Debugging** icon on the upper-left corner to start debugging.
 

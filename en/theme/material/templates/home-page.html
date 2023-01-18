@@ -11,8 +11,10 @@
     {% block site_meta %}
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      <!--
       <meta name="docsearch:language" content="en" />
       <meta name="docsearch:version" content="1.0.0" />
+      -->
       <meta name="robots" content="noindex">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       {% if page and page.meta and page.meta.description %}
@@ -95,7 +97,9 @@
       {% endif %}
     {% endblock %}
     {% block extrahead %}{% endblock %}
+    <!--
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -232,7 +236,7 @@
                              <label>Run and try the program</label>
                            </div>
                            <div class="cDocsContainerText">
-                             Learn how to run your first Ballerina programs through VS Code editor.
+                             Learn how to run your first Ballerina program through VS Code editor.
                            </div>
                            <div class="cDocsContainerLink">
                             <a href="build-and-run/build-and-run/">Learn More</a>
@@ -250,7 +254,7 @@
                            Learn how to edit your Ballerina programs using a graphical view. 
                          </div>
                          <div class="cDocsContainerLink">
-                          <a href="visual-programming/project-design-view/">Learn More</a>
+                          <a href="visual-programming/sequence-diagram-view/">Learn More</a>
                          </div>
                         </div>
                    </div>
@@ -264,7 +268,7 @@
                          Learn how to edit your Ballerina source code using VS Code editor.  
                        </div>
                        <div class="cDocsContainerLink">
-                        <a href="edit-the-code/code-actions/">Learn More</a>
+                        <a href="edit-the-code/intellisense/">Learn More</a>
                        </div>
                       </div>
                    </div>
@@ -412,10 +416,15 @@
   margin-top: 0;
 }
 
-  </style>
+.cDocsContainerLink a.localLink {
+  font-weight: 800;
+}
 
   </style>
 
+  </style>
+
+<!--
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
 <script type="text/javascript"> docsearch({
   apiKey: 'ec4809d281d5e07f5d0c8c36063739a4',
@@ -425,4 +434,5 @@
   debug: false // Set debug to true if you want to inspect the dropdown
 });
 </script>
+-->
 </html>
