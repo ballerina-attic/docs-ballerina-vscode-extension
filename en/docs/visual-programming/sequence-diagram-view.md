@@ -129,4 +129,4 @@ function execution flow by clicking **Add**.
 See the following topics to explore graphical coding further.
 
 - [Data Mapper](data-mapper.md)
-- [Project Design view](../../architecture-diagram/architecture-diagram)
+- [Project Design view](project-design-view.md)
