@@ -8,7 +8,7 @@ For example, when you create a variable **host** of type **string**, if you deci
 
 1. Click on the **`<add-expression>`** template and click the **Add-configurable** button in the toolbar.
 
-    ![Click new Configurable](../img/statement-editor/add-configurable-button-click.gif)
+    ![Click new Configurable](../../img/statement-editor/add-configurable-button-click.gif)
 
 
     This opens up a new pane with the configurable variable statement template.
@@ -17,11 +17,10 @@ For example, when you create a variable **host** of type **string**, if you deci
  
  3. Click the **Add** button. This adds the configurable variable to the source code and updates the current statement as shown below. 
 
-    ![Add new Configurable](../img/statement-editor/add-conifgurable.gif)
+    ![Add new Configurable](../../img/statement-editor/add-conifgurable.gif)
 
 A new configurable variable gets generated in the source code as shown below.
 
  ```
  configurable string dbHost = "localhost";
- 
  ```
