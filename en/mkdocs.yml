@@ -58,8 +58,8 @@ nav:
       - Build and run the program: build-and-try/build-and-run-the-program.md
       - Build the executable JAR file: build-and-try/build-the-executable-jar-file.md
       - Try it Tools:
-            - GraphQL tool: build-and-try/tryit-tools/try-graphql-services.md
-            - Swagger tool: build-and-try/tryit-tools/try-http-services-in-swagger-view.md
+            - Try GraphQL services: build-and-try/tryit-tools/try-graphql-services.md
+            - Try HTTP services: build-and-try/tryit-tools/try-http-services-in-swagger-view.md
   - Edit the code:
       - IntelliSense: edit-the-code/intellisense.md
       - Code navigation: edit-the-code/code-navigation.md
