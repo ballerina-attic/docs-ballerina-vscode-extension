@@ -4,7 +4,7 @@ As you develop your construct, you may identify a parameter for which the value 
 
 Follow the steps below if you are adding a variable and you want to make its value configurable.
 
-For example, when you create a variable **host** of type **string**, if you decide the value of this variable should be configurable,
+For example, when you create a variable `host` of type **string**, if you decide the value of this variable should be configurable,
 
 1. Click on the **`<add-expression>`** template and click the **Add-configurable** button in the toolbar.
 

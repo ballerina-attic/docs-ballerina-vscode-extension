@@ -54,7 +54,7 @@ Follow the steps below to convert a JSON to record from the Record editor.
 
 ## Option Two: From Command palette
 
-1.  Copy the JSON code block to the Clipboard (Ctrl + C).
+1.  Copy the JSON code block to the Clipboard (`Ctrl + C`).
 
     >**Info:** The example below converts a `person` and a list of `courses` to a `Student` record. 
     >
@@ -86,7 +86,7 @@ Follow the steps below to convert a JSON to record from the Record editor.
     }
     ```
 
-2. Open the Command palette in the VS Code editor (Default: Ctrl + Shift + P).
+2. Open the Command palette in the VS Code editor (Default: `Ctrl + Shift + P`).
 
 3. Search for **Paste JSON as Record** and select that option.
 
