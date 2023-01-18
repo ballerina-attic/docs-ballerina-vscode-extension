@@ -1,4 +1,4 @@
-# Copyright (c) 2022, WSO2 LLC. (http://www.wso2.org) All Rights Reserved.
+# Copyright (c) 2021, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
 #
 # WSO2 Inc. licenses this file to you under the Apache License,
 # Version 2.0 (the "License"); you may not use this file except
@@ -15,24 +15,36 @@
 # under the License.
 
 # Project information
-site_name: Ballerina VS Code Extension Documentation
-site_description: Ballerina VS Code Extension Documentation
+site_name: Visual Studio Code Extension
+site_description: Ballerina Visual Studio Code Extension
 site_author: WSO2
-site_url: https://wso2.com/ballerina/vscode/docs
+site_url: https://wso2.com/ballerina/vscode/docs/
 
 # Repository
-repo_name: docs-ballerina-visual-studio-code-plugin
-repo_url: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin
-edit_uri: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/tree/main/en/docs
+repo_name: wso2/docs-ballerina-vscode-extension
+repo_url: https://github.com/wso2/docs-ballerina-vscode-extension/
+edit_uri: https://github.com/wso2/docs-ballerina-vscode-extension/tree/main/en/docs
 dev_addr: localhost:8000
 
 # Copyright
-copyright: Copyright © WSO2 LLC. 2022 | Content licensed under CC By 4.0. | Sample code licensed under Apache 2.0.
+copyright: ©2022 WSO2 LLC.
 
 # Configuration
 theme:
   name: material
-
+  custom_dir: theme/material
+  palette:
+    primary: indigo
+    accent: indigo
+  logo: https://wso2.cachefly.net/wso2/sites/all/2022-optimized/ballerina/ballerina-logo-white.svg
+  favicon: images/favicon.png
+  discord: images/discord-help-icon.svg
+  highlightjs: true
+  feature:
+    tabs: true
+  font:
+    text: 'Montserrat'
+  language: 'en'
 #Breaks build if there's a warning
 strict: false
 
@@ -64,3 +76,64 @@ nav:
       - Record editor: references/how-to-use-record-editor.md
       - Convert JSON to records: references/how-to-paste-json-as-records.md
   - License: license.md
+  
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      use_pygments: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path: docs
+  - attr_list
+  - markdown_include.include:
+      base_path: docs
+plugins:
+  - search
+#  - markdownextradata: {}
+
+extra_css:
+  - assets/lib/highlightjs/default.min.css
+  - assets/css/theme.css
+  - assets/css/prism.css
+  - assets/lib/json-formatter/json-formatter.css
+extra_javascript:
+  - assets/lib/json-formatter/json-formatter.umd.js
+  - assets/lib/highlightjs/highlight.min.js
+  - assets/lib/prism/prism.js
+  - assets/js/theme.js
+  - assets/js/prism-ballerina.js
+  - assets/lib/backtotop/js/util.js
+  - assets/lib/backtotop/js/main.js
+extra:
+  social:
+    - type: github
+      link: https://github.com/wso2
+    - type: twitter
+      link: https://twitter.com/wso2
+    - type: linkedin
+      link: https://www.linkedin.com/company/wso2
+  site_version: 1.0.0
+  #base_path: http://localhost:8000
