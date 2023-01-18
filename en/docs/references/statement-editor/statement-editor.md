@@ -115,6 +115,6 @@ Follow the steps below to build the statement.
 
 To explore more on the Statement Editor functionalities, see the use cases below.
 
-- [Call a Ballerina library function](../references/call-a-ballerina-library-function.md)
-- [Create a record](../references/create-a-record-using-statement-editor)
-- [Define a configurable while developing another construct](../references/define-a-configurable-as-you-develop)
+- [Call a Ballerina library function](../references/statement-editor/call-a-ballerina-library-function.md)
+- [Construct a record](../references/statement-editor/construct-a-record.md)
+- [Define a configurable variable](../references/statement-editor/define-a-configurable-variable.md)

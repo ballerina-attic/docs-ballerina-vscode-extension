@@ -1,4 +1,4 @@
-# Debug Ballerina programs
+# Debug Ballerina code
 
 When writing large-scale applications with complex logic, you may encounter syntax, semantic,
 or runtime issues in your code. The Ballerina compiler comes in handy when detecting syntax and semantic issues.
@@ -13,7 +13,7 @@ is provided via the <a href="https://marketplace.visualstudio.com/items?itemName
 The Ballerina extension provides multiple options to debug Ballerina applications and the most convenient way will be using the context-aware debug CodeLens support.
 
 However, if you require launching debug sessions with additional configurations (i.e., program arguments, environment variables), you can use the `launch.json` configurations.
->**Info:** For more information, see [Start a debug session with configurations](#start-a-debug-session-with-configurations)).
+>**Info:** For more information, see [Debug using configurations](#debug-using-configurations).
 
 ### Program debug sessions
 
@@ -90,7 +90,7 @@ Follow the steps below to start a test debug session.
 
 Follow the steps below to start a remote debug session.
 
-1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Start a debug session with configurations](#start-a-debug-session-with-configurations).
+1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Debug using configurations](#debug-using-configurations).
 
 2. Open the `launch.json` file and configure the `debuggeeHost` and `debuggeePort` attributes under the `Ballerina Remote` configurations section accordingly.
 

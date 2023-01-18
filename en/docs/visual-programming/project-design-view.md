@@ -70,13 +70,13 @@ The resource invocations between services need to be done using [client access a
 
 > **Example project**
 >
-> Let's use the [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) to demonstrate the different capabilities of the Design Diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui` folder is not a Ballerina package, hence would not make an impact. 
+> Let's use the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) to demonstrate the different capabilities of the Design Diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui` folder is not a Ballerina package, hence would not make an impact. 
 
 1. To set up a Ballerina project as a VS Code workspace, add all the Ballerina packages to the workspace using one of the following methods:
 
       -  Use the **VS Code workspace file** from an already created workspace to import its packages to a new workspace.
 
-         > **Info:** The workspace file of the [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) project is available in the repository.
+         > **Info:** The [workspace file](https://github.com/ballerina-guides/gcp-microservices-demo/blob/main/project.code-workspace) of the Online Boutique microservices demo is available in the repository.
 
       -  Add each Ballerina package to the workspace using the **Add folder to workspace** option in the VS Code editor.
 
@@ -92,7 +92,7 @@ The resource invocations between services need to be done using [client access a
 
 ## Explore the Project Design view
 
-Let's explore the features of the Design Diagram using the [Google Cloud Platform](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) Ballerina project that you set up in the previous topic.
+Let's explore the features of the Design Diagram using the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) Ballerina project that you set up in the previous topic.
 
 When you open the Design Diagram as explained in the previous topic, you will see three types of design diagrams to choose from as shown below. 
 
@@ -100,7 +100,7 @@ When you open the Design Diagram as explained in the previous topic, you will se
 
 ### Service Diagram: Level 1
 
-This diagram displays all the services available within the workspace with links representing any interactions between them. The basic Service Diagram (level 1) generated for the 10 Ballerina packages in the Google Cloud Platform demo project is shown below.
+This diagram displays all the services available within the workspace with links representing any interactions between them. The basic Service Diagram (level 1) generated for the 10 Ballerina packages in the Online Boutique microservices demo project is shown below.
 
 ![Service Interaction Diagram](../img/pdd-service-interaction-diagram.png)
 

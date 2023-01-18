@@ -64,7 +64,7 @@ The integrated terminal will open automatically and run the program.
 
 You just ran your first Ballerina program.
 
->**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug.md).
+>**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-ballerina-code.md).
 ![Debug button](../img/debug-button.png?raw=true)
 
 ## Next steps - Try it
