@@ -87,7 +87,7 @@ Follow the steps below to build the statement.
     
     The **Suggestions** tab will also provide other supported functions that can be called for the given expression.
 
-    >**Info:** When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
+    >**Info:** When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call, including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
 
      ![Convert to String](../../img/statement-editor/convert-to-string.gif)
 
@@ -115,6 +115,6 @@ Follow the steps below to build the statement.
 
 To explore more on the Statement Editor functionalities, see the use cases below.
 
-- [Call a Ballerina library function](../../references/statement-editor/call-a-ballerina-library-function.md)
-- [Construct a record](../../references/statement-editor/construct-a-record.md)
-- [Define a configurable variable](../../references/statement-editor/define-a-configurable-variable.md)
+- [Call a Ballerina library function](call-a-ballerina-library-function.md)
+- [Construct a record](construct-a-record.md)
+- [Define a configurable variable](define-a-configurable-variable.md)
