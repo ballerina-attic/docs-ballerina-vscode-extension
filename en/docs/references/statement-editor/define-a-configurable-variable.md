@@ -21,6 +21,6 @@ For example, when you create a variable `host` of type **string**, if you decide
 
 A new configurable variable gets generated in the source code as shown below.
 
- ```
+ ```ballerina
  configurable string dbHost = "localhost";
  ```
