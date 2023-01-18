@@ -2,7 +2,7 @@
 
 This is the Ballerina VS Code extension documentation repository. This repository is open and we welcome your contributions!
 
-To see the documentation site, go to [https://wso2.com/choreo/docs/](https://wso2.com/ballerina/vscode/docs/).
+To see the documentation site, go to [https://wso2.com/ballerina/vscode/docs/](https://wso2.com/ballerina/vscode/docs/).
 
 ## Contribute to Ballerina VS Code extension documentation
 
@@ -12,7 +12,7 @@ Accept the contributor license agreement (CLA)
 
 You need to accept the contributor license agreement (CLA) when you are prompted via a GitHub email notification on sending your first pull request (PR). Subsequent PRs will not require CLA acceptance.
 
-If the CLA changes for some (unlikely) reason, you'll have to accept the new CLA text when you send your first PR after the change.
+If there are CLA changes for some (unlikely) reason, you'll have to accept the new CLA text when you send your first PR after the change.
 
 Fork this repository, make your changes, and send in a pull request.
 
