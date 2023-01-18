@@ -134,7 +134,7 @@ The Ballerina debugger supports various debug configuration options via the `lau
 
 Given below are the default configurations generated for debugging Ballerina:
 
-      ![Debug Configurations](../img/debug/debug-configurations.png)
+![Debug Configurations](../img/debug/debug-configurations.png)
 
 <br/>
 

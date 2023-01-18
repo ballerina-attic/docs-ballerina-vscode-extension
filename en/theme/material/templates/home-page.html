@@ -1,0 +1,428 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% import "partials/language.html" as lang with context %}
+{% set feature = config.theme.feature %}
+{% set palette = config.theme.palette %}
+{% set font = config.theme.font %}
+<!doctype html>
+<html lang="{{ lang.t('language') }}" class="no-js">
+  <head>
+    {% block site_meta %}
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <!--
+      <meta name="docsearch:language" content="en" />
+      <meta name="docsearch:version" content="1.0.0" />
+      -->
+      <meta name="robots" content="noindex">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      {% if page and page.meta and page.meta.description %}
+        <meta name="description" content="{{ config.site_description }}">
+      {% endif %}
+      {% if page and page.meta and page.meta.redirect %}
+        <script>var anchor=window.location.hash.substr(1);location.href="{{ page.meta.redirect }}"+(anchor?"#"+anchor:"")</script>
+        <meta http-equiv="refresh" content="0; url={{ page.meta.redirect }}">
+        <meta name="robots" content="noindex">
+        <link rel="canonical" href="{{ page.meta.redirect }}">
+      {% elif page.canonical_url %}
+        <link rel="canonical" href="{{ page.canonical_url }}">
+      {% endif %}
+      {% if page and page.meta and page.meta.author %}
+        <meta name="author" content="{{ page.meta.author | first }}">
+      {% elif config.site_author %}
+        <meta name="author" content="{{ config.site_author }}">
+      {% endif %}
+      {% for key in [
+        "clipboard.copy",
+        "clipboard.copied",
+        "search.language",
+        "search.pipeline.stopwords",
+        "search.pipeline.trimmer",
+        "search.result.none",
+        "search.result.one",
+        "search.result.other",
+        "search.tokenizer"
+      ] %}
+        <meta name="lang:{{ key }}" content="{{ lang.t(key) }}">
+      {% endfor %}
+      <link rel="shortcut icon" href="{{ config.theme.favicon | url }}">
+      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-4.5.1">
+    {% endblock %}
+    {% block htmltitle %}
+      {% if page and page.meta and page.meta.title %}
+        <title>{{ page.meta.title }}</title>
+      {% elif page and page.title and not page.is_homepage %}
+        <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+      {% else %}
+        <title>{{ config.site_name }}</title>
+      {% endif %}
+    {% endblock %}
+    {% block styles %}
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/application.1b62728e.css' | url }}">
+      {% if palette.primary or palette.accent %}
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/application-palette.a8b3c06d.css' | url }}">
+      {% endif %}
+      {% if palette.primary %}
+        {% import "partials/palette.html" as map %}
+        {% set primary = map.primary(
+          palette.primary | replace(" ", "-") | lower
+        ) %}
+        <meta name="theme-color" content="{{ primary }}">
+      {% endif %}
+    {% endblock %}
+    {% block libs %}
+      <script src="{{ 'assets/javascripts/modernizr.892d34f1.js' | url }}"></script>
+    {% endblock %}
+    {% block fonts %}
+      {% if font != false %}
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{
+              font.text | replace(' ', '+') + ':300,400,400i,700|' +
+              font.code | replace(' ', '+')
+            }}&display=fallback">
+        <style>code,kbd,pre{font-family:"{{ font.code }}","Courier New",Courier,monospace}</style>
+      {% endif %}
+    {% endblock %}
+    <link rel="stylesheet" href="{{ 'assets/fonts/material-icons.css' | url }}">
+    {% if config.extra.manifest %}
+      <link rel="manifest" href="{{ config.extra.manifest | url }}">
+    {% endif %}
+    {% for path in config["extra_css"] %}
+      <link rel="stylesheet" href="{{ path | url }}">
+    {% endfor %}
+    {% block analytics %}
+      {% if config.google_analytics %}
+        {% include "partials/integrations/analytics.html" %}
+      {% endif %}
+    {% endblock %}
+    {% block extrahead %}{% endblock %}
+    <!--
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ 'assets/stylesheets/choreo-docs-theme.css' | url }}">
+    <!-- Google Tag Manager -->
+      <script>
+        (function(w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.setAttributeNode(d.createAttribute('data-ot-ignore'));
+          j.async = true;
+          j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PSTXMT');
+      </script>
+  <!-- End Google Tag Manager -->
+  </head>
+  {% if palette.primary or palette.accent %}
+    {% set primary = palette.primary | replace(" ", "-") | lower %}
+    {% set accent  = palette.accent  | replace(" ", "-") | lower %}
+    <body dir="{{ lang.t('direction') }}" data-md-color-primary="{{ primary }}" data-md-color-accent="{{ accent }}" class="cChoreoBody">
+  {% else %}
+    <body dir="{{ lang.t('direction') }}" class="cChoreoBody">
+  {% endif %}
+    <svg class="md-svg">
+      <defs>
+        {% set platform = config.extra.repo_icon or config.repo_url %}
+        {% if "github" in platform %}
+          {% include "assets/images/icons/github.f0b8504a.svg" %}
+        {% elif "gitlab" in platform %}
+          {% include "assets/images/icons/gitlab.6dd19c00.svg" %}
+        {% elif "bitbucket" in platform %}
+          {% include "assets/images/icons/bitbucket.1b09e088.svg" %}
+        {% endif %}
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    {% if page.toc | first is defined %}
+      <a href="{{ (page.toc | first).url }}" tabindex="1" class="md-skip">
+        {{ lang.t('skip.link.title') }}
+      </a>
+    {% endif %}
+    {% block header %}
+      {% include "partials/header-home.html" %}
+    {% endblock %}
+    <div>
+     
+    </div>
+    <div class="md-container">
+      {% block hero %}
+        {% if page and page.meta and page.meta.hero %}
+          {% include "partials/hero.html" with context %}
+        {% endif %}
+      {% endblock %}
+      {% if feature.tabs %}
+      {% endif %}
+      <main class="md-main" role="main">
+
+        <div class="md-main__inner md-grid" data-md-component="container">
+          {% block site_nav %}
+            {% if nav %}
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    {% include "partials/nav.html" %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% if page.toc %}
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    {% include "partials/toc.html" %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endblock %}
+            <!--  
+            <article class="md-content__inner md-typeset">    
+              <div class="cChoreoHeaderBar">
+                <div class="cChoreoHeaderText">
+                  <div class="HomePageBanner" >
+                  <label>Start Learning About Choreo, Now</label>
+                  </div>
+                  <div class=HomePageBannerTag>
+                    <label> Easily build your cloud-native, low-code integration solutions and expose them as APIs in Choreo.</label>
+                  </div>
+              </div>
+                <div class= "md-search-home" >
+                  {% include "partials/search.html" %} 
+                </div>
+              </div>
+            </article>
+          -->
+            <div class="md-content__inner md-typeset cHomeContainer">
+              <div class="row">
+                 <div class="col-sm-12 col-md-12 col-lg-12">
+                </br>
+                 <h1>Ballerina VS Code Extension Documentation</h1>
+                 </div>
+                 <div class="col-sm-12 col-md-7 col-lg-8" >
+                  <p>The Visual Studio Code Ballerina extension provides a set of rich language features along with an enhanced user experience. It offers easy development, execution, debugging, and testing for the Ballerina programming language.</p> 
+                  <p>The Ballerina language possesses a bidirectional mapping between its syntaxes and the visual representation. You can visualize the graphical representation of your Ballerina source further via the extension.</p>
+                 </div>
+              
+              </div>
+              <a class="cChoreoDocsButtons" href="get-started/get-started/" onclick="appInsights.trackEvent({name: 'choreo-docs-home-get-started-button'});">Get started</a>
+
+              <div class="cDocsContainer">
+
+                <div class="row">      
+                   <div class="col-sm-12 col-md-4 col-lg-2">
+                      <div class="cIconContainer">
+                          <img src="assets/img/home/buildandrun.svg"/>
+                           <div>
+                           <div class="cDocsContainerHeader">
+                             <label>Run and try the program</label>
+                           </div>
+                           <div class="cDocsContainerText">
+                             Try out your first Ballerina program on VS Code editor with the Ballerina extension.
+                           </div>
+                           <div class="cDocsContainerLink">
+                            <a href="build-and-run/build-and-run/">Learn More</a>
+                           </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="col-sm-12 col-md-4 col-lg-2">
+                       <div class="cIconContainer">
+                        <img src="assets/img/home/visual.svg"/>
+                         <div class="cDocsContainerHeader">
+                           <label>Visual programming</label>
+                         </div>
+                         <div class="cDocsContainerText">
+                           Learn how to write your Ballerina programs visually using a graphical editor.
+                         </div>
+                         <div class="cDocsContainerLink">
+                          <a href="visual-programming/sequence-diagram-view/">Learn More</a>
+                         </div>
+                        </div>
+                   </div>
+                   <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="cIconContainer">
+                      <img src="assets/img/home/coding.svg"/>
+                       <div class="cDocsContainerHeader">
+                         <label>Coding Ballerina</label>
+                       </div>
+                       <div class="cDocsContainerText">
+                         Manage the lifecycle, add security, add documentation, apply rate-limiting policies to your REST APIs.<br/>  
+                       </div>
+                       <div class="cDocsContainerLink">
+                        <a href="edit-the-code/intellisense/">Learn More</a>
+                       </div>
+                      </div>
+                   </div>
+                   <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="cIconContainer">
+                      <img src="assets/img/home/notebook.svg"/>
+                       <div>
+                       <div class="cDocsContainerHeader">
+                         <label>Debug your Ballerina program</label>
+                       </div>
+                       <div class="cDocsContainerText">
+                         Learn how to debug and test your Ballerina programs on the VS Code editor.
+                       </div>
+                       <div class="cDocsContainerLink">
+                        <a href="debug/">Learn More</a>
+                       </div>
+                      </div>
+                </div>
+                </div>
+                
+       </div>
+        
+ </div>
+           
+      </main>
+      {% block footer %}
+        {% include "partials/footer.html" %}
+      {% endblock %}
+    </div>
+    {% block scripts %}
+      <script src="{{ 'assets/javascripts/application.198c86c7.js' | url }}"></script>
+      {% if lang.t("search.language") != "en" %}
+        {% set languages = lang.t("search.language").split(",") %}
+        {% if languages | length and languages[0] != "" %}
+          {% set path = "assets/javascripts/lunr/" %}
+          <script src="{{ (path ~ 'lunr.stemmer.support.js') | url }}"></script>
+          {% for language in languages | map("trim") %}
+            {% if language != "en" %}
+              {% if language == "ja" %}
+                <script src="{{ (path ~ 'tinyseg.js') | url }}"></script>
+              {% endif %}
+              {% if language in ("ar", "da", "de", "es", "fi", "fr", "hu", "it", "ja", "nl", "no", "pt", "ro", "ru", "sv", "th", "tr", "vi") %}
+                <script src="{{ (path ~ 'lunr.' ~ language ~ '.js') | url }}"></script>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% if languages | length > 1 %}
+            <script src="{{ (path ~ 'lunr.multi.js') | url }}"></script>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+      <script>app.initialize({version:"{{ mkdocs_version }}",url:{base:"{{ base_url }}"}})</script>
+      {% for path in config["extra_javascript"] %}
+        <script src="{{ path | url }}"></script>
+      {% endfor %}
+    {% endblock %}
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+  <script>docsearch(
+    )
+  </script>
+
+<style>
+
+.cChoreoHeaderBar .cChoreoHeaderText .HomePageBanner{
+  font-weight:bolder;
+  font-size: 1.3rem;
+}
+
+.cChoreoHeaderBar .cChoreoHeaderText .HomePageBannerTag{
+  font-size: .7rem;
+  word-wrap: break-word;
+  max-width: 100%;
+
+}
+    
+
+.cChoreoHeaderBar {
+	display: inline-block;
+	width: 100%;
+	background-color: #7183e1;
+	height: 150px;
+  overflow-wrap: break-word;
+}
+
+.cHomeContainer {
+ width: 100%; 
+ padding-left: 3rem;
+}
+
+.cDocsContainer {
+  padding-top: 3rem;
+}
+
+.cIconContainer {
+   text-align: center;
+   border-style: solid;
+   border-color: #D0D0D0;
+   border-width: 0.03rem;
+   border-radius: 0.5rem;
+   padding-bottom: 1.6rem;
+   padding-top: rem;
+   padding-left: 0.3rem;
+   padding-right: 0.3rem;
+   height: 100%;
+}
+
+.cIconContainer:hover{
+   border-color: #5a5a5a;
+   box-shadow: 0 0 15px #D0D0D0 ;
+
+
+}
+.cIconContainer img {
+    height: 140px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.cDocsContainerHeader{
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #5a5a5a;
+  height: 4.5rem;
+
+
+}
+
+.cDocsContainerText{
+  font-family: sans-serif;
+  font-size: 0.65rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height:5.5rem;
+}
+
+.cDocsContainerLink{
+  font-size: 0.7rem;
+  vertical-align: bottom;
+}
+.cChoreoDocsButtons{
+  margin-top: 0;
+}
+
+.cDocsContainerLink a.localLink {
+  font-weight: 800;
+}
+
+</style>
+<!--
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript"> docsearch({
+  apiKey: 'ec4809d281d5e07f5d0c8c36063739a4',
+  appId:'TYOC0645HN',
+  indexName: 'wso2_choreo',
+  inputSelector: ".md-search__input",
+  debug: false // Set debug to true if you want to inspect the dropdown
+});
+</script>
+-->
+</html>
