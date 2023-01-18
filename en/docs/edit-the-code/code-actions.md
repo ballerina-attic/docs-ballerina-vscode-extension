@@ -47,7 +47,7 @@ The following quick fixes are available for check expressions.
 
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
-| `Surround with do/on-fail`                 	| Surround a check expression with a do/on-fail. clause                                  	|
+| `Surround with do/on-fail`                 	| Surround a check expression with a do/on-fail clause.                                  	|
 | `Change return type to 'error?'`  	| Change the return type of a function/method to `error?`.                   	|
 
 <img src="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/blob/main/en/docs/img/quick-fixes-for-check-expressions.gif?raw=true" width="100%" />
