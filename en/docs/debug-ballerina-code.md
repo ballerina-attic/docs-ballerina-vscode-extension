@@ -42,7 +42,7 @@ Follow the steps below to start a debug session with configurations. All the con
 
 1. Open the folder, which includes the Ballerina program you want to debug and select the file.
 
-2. Press the **Control + Shift + D** keys (for Mac: **Command + Shift +D**) to launch the Debugger view.
+2. Press the `Ctrl + Shift + D` keys (for macOS: `⌘ + ↑ + D`) to launch the Debugger view.
 
 3. Click **create a launch.json** file and then select **Ballerina Debug** as the **Environment**. 
 
@@ -106,7 +106,7 @@ Follow the steps below to start a remote debug session.
 
       The terminal will show the following log:
 
-      ```
+      ```ballerina
       Listening for transport dt_socket at address: 5005
       ```
 

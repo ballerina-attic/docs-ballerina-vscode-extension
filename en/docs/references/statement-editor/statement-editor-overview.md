@@ -1,4 +1,4 @@
-# Statement Editor
+# Statement Editor overview
 
 The Statement Editor allows you to construct Ballerina statements depending on the use case you want to build. It is an intuitive visual editor that is easy to use without an in-depth knowledge of the [Ballerina Programming Language](https://ballerina.io/).
 
@@ -16,13 +16,13 @@ It provides the following:
 
 This guide walks you through the steps to build the following statement using the editing capabilities of the Statement Editor. Later, you will explore different use cases.
 
-```
+```ballerina
 final string userIdMsg = "UserID : " + id.toString();
 ```
 
 Let's add the above statement to the main method of the given sample code below.
 
-```
+```ballerina
 int id = 1234;
  
 public function main() returns error? {
@@ -87,7 +87,7 @@ Follow the steps below to build the statement.
     
     The **Suggestions** tab will also provide other supported functions that can be called for the given expression.
 
-    >**Info:** When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
+    >**Info:** When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call, including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
 
      ![Convert to String](../../img/statement-editor/convert-to-string.gif)
 
@@ -103,7 +103,7 @@ Follow the steps below to build the statement.
 
      You view the variable statement as follows.
 
-     ```
+     ```ballerina
      final string userIdMsg = "UserID : " + id.toString();
      ```
     
@@ -115,6 +115,6 @@ Follow the steps below to build the statement.
 
 To explore more on the Statement Editor functionalities, see the use cases below.
 
-- [Call a Ballerina library function](../references/statement-editor/call-a-ballerina-library-function.md)
-- [Construct a record](../references/statement-editor/construct-a-record.md)
-- [Define a configurable variable](../references/statement-editor/define-a-configurable-variable.md)
+- [Call a Ballerina library function](call-a-ballerina-library-function.md)
+- [Construct a record](construct-a-record.md)
+- [Define a configurable variable](define-a-configurable-variable.md)
