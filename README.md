@@ -4,7 +4,7 @@ This is the Ballerina VS Code extension documentation repository. This repositor
 
 To see the documentation site, go to [https://wso2.com/choreo/docs/](https://wso2.com/ballerina/vscode/docs/).
 
-## Contribute to Choreo documentation
+## Contribute to Ballerina VS Code extension documentation
 
 Before you contribute, read the following guidelines to understand how you can start contributing:
 
