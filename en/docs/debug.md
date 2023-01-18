@@ -46,7 +46,7 @@ Follow the steps below to start a debug session with configurations. All the con
 
 3. Click **create a launch.json** file and then select **Ballerina Debug** as the **Environment**. 
 
-      You view the opened `launch.json` file.
+      You will see the opened `launch.json` file.
 
 4. Add/edit the relevant configurations for debugging in the `launch.json` file.
 
@@ -66,7 +66,7 @@ Follow the steps below to start a program debug session.
 
 2. Click the **Start Debugging** icon on the upper left corner to start debugging.
 
-   You view the output in the **DEBUG CONSOLE**.
+   You will see the output in the **DEBUG CONSOLE**.
 
    ![Program Debug](../img/debug/program-debug.gif)
 
@@ -80,7 +80,7 @@ Follow the steps below to start a test debug session.
 
 2. Click the **Start Debugging** icon in the upper-left corner to start debugging.
 
-   You view the output in the **DEBUG CONSOLE** as shown below.
+   You will see the output in the **DEBUG CONSOLE** as shown below.
 
    ![Test Debug](../img/debug/test-debug.gif)
 
@@ -112,7 +112,7 @@ Follow the steps below to start a remote debug session.
 
 5. Click the **Start Debugging** icon on the upper-left corner to start debugging.
 
-      You view the output in the **DEBUG CONSOLE** as shown below.
+      You will see the output in the **DEBUG CONSOLE** as shown below.
 
       ![Remote Debug](../img/debug/remote-debug.gif)
 
@@ -148,25 +148,25 @@ The following attributes are mandatory for all configurations.
 
 | Attribute                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
-| `name`                 	| The reader-friendly name to appear in the Debug launch configuration drop-down menu                                  	|
-| `type`  	| The type of debugger to use for this launch configuration. The attribute value must be kept as `ballerina` for all Ballerina debugging configuration types                   	|
-| `request` 	| The request type of this launch configuration. Currently, `launch` and `attach` are supported                                               	|
+| `name`                 	| The reader-friendly name to appear in the Debug launch configuration drop-down menu.                                  	|
+| `type`  	| The type of debugger to use for this launch configuration. The attribute value must be kept as `ballerina` for all Ballerina debugging configuration types.                   	|
+| `request` 	| The request type of this launch configuration. Currently, `launch` and `attach` are supported.                                               	|
 
 The following attributes are supported for all Ballerina `launch` configurations.
 
 | Attribute        	| Description                                                                                                                                                                                                                                                                                                                                                           	|
 |------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| `programArgs`    	| Any program arguments that are required to be passed into the `main` function of the Ballerina program to be launched can be passed as a list of strings                                                                                                                                                                                                              	|
+| `programArgs`    	| Any program arguments that are required to be passed into the `main` function of the Ballerina program to be launched can be passed as a list of strings.                                                                                                                                                                                                              	|
 | `commandOptions` 	| If required, you can configure command options for the Ballerina program to be launched as a list of strings. You can see the list of all the available command options by executing the following CLI commands in your terminal. <br/><br/> - For the `Ballerina Debug` configuration: `bal run --help` <br/> - For the `Ballerina test` configuration: `bal test --help` 	|
-| `env`            	| Any environment variables you need to configure for launching the Ballerina program can be passed as a map of strings (name and value)                                                                                                                                                                                                                                	|
-| `debugTests`     	| Indicates whether to debug the tests for the given script                                                                                                                                                                                                                                                                                                             	|
+| `env`            	| Any environment variables you need to configure for launching the Ballerina program can be passed as a map of strings (name and value).                                                                                                                                                                                                                                	|
+| `debugTests`     	| Indicates whether to debug the tests for the given script.                                                                                                                                                                                                                                                                                                             	|
 
 The following attributes are supported for all Ballerina `attach` configurations.
 
 | Attribute                      	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
-| `debuggeeHost`                 	| Host address of the remote process to be attached (if not specified, the default value will be the localhost(`127.0.0.1`))  |
-| `debuggeePort`                 	| Port number of the remote process to be attached 
+| `debuggeeHost`                 	| Host address of the remote process to be attached (if not specified, the default value will be the localhost(`127.0.0.1`)).  |
+| `debuggeePort`                 	| Port number of the remote process to be attached. 
 
 ## Use the debugging features
 
