@@ -53,14 +53,13 @@ strict: false
 # Navigation
 nav:
   - Home: index.md
-  - Get started:
-      - Install: get-started/install.md
-      - Open packages: get-started/open-packages.md
+  - Get started: get-started/get-started.md
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
-  - Build and run:
-      - Run: build-and-run/build-and-run.md
-      - Tryit Tools:
+  - Run and try the program:
+      - Build and run the program: build-and-run/build-and-run.md
+      - Build the executable JAR file: build-and-run/build-jar.md
+      - Try it Tools:
             - GraphQL tool: build-and-run/tryit-tools/graphql-tool.md
             - Swagger tool: build-and-run/tryit-tools/swagger-tool.md
   - Edit the code:
@@ -69,18 +68,15 @@ nav:
       - Code actions: edit-the-code/code-actions.md
       - Diagnostics: edit-the-code/diagnostics.md
   - Debug: debugging/debug.md
-  - Test: test.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
+      - Project Design view: visual-programming/project-design-view.md
       - Data Mapper: visual-programming/data-mapper.md
-  - Architecture diagram: architecture-diagram/architecture-diagram.md
-  - Notebooks: notebooks.md
   - Configurations: configurations.md
   - References:
-      - How to use statement editor: references/how-to-use-statement-editor.md
-      - How to use record editor: references/how-to-use-record-editor.md
-      - How to paste JSON as records: references/how-to-paste-json-as-records.md
-  - Troubleshooting: troubleshooting.md
+      - Statement editor: references/how-to-use-statement-editor.md
+      - Record editor: references/how-to-use-record-editor.md
+      - Convert JSON to records: references/how-to-paste-json-as-records.md
   - License: license.md
 
 # Extensions

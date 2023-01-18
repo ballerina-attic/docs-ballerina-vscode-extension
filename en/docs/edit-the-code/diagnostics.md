@@ -1,6 +1,10 @@
 # Diagnostics
 
-Diagnostics are the syntax and semantic errors that are identified in the source code. These may include a variety of errors and warnings. Diagnostics will show up in multiple places:
+Diagnostics are the syntax and semantic errors that are identified in the source code. These may include a variety of errors and warnings. 
+
+## View diagnostics
+
+Diagnostics will show up in multiple places:
 
 * In the Status Bar, there is a summary of all errors and warnings counts.
 * The summary view and the PROBLEMS panel lists all of the current errors.
@@ -8,7 +12,7 @@ Diagnostics are the syntax and semantic errors that are identified in the source
 
 ![Diagnostics](../img/edit-the-code/diagnostics/diagnostics.png?raw=true)
 
-## Quick fixes
+## Perform quick fixes
 
 For certain diagnostics, the possible quick fixes are suggested as code actions. You can easily select and apply the required quick fix from the list. 
 
