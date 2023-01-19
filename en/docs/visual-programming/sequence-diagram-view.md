@@ -11,15 +11,15 @@ There are two methods for switching to the graphical mode using the VS Code exte
 
 -   Execute the `Ballerina: Show Diagram` command from the command palette.
     
-    ![command screenshot](../img/show-diagram-command-palette.png)
+    ![command screenshot](../img/visual-programming/sequence-diagram-view/show-diagram-command-palette.png){.cInlineImage-half}
 
 -   Click `Show Diagram` in the editor group.
     
-    ![button screenshot](../img/editor-group-button.png)
+    ![button screenshot](../img/visual-programming/sequence-diagram-view/editor-group-button.png){.cInlineImage-full}
 
 Shown below is the code editor and graphical editor in view.
 
-![graphical view](../img/graphical-view.png)
+![graphical view](../img/visual-programming/sequence-diagram-view/graphical-view.png){.cInlineImage-full}
 
 ## Graphical representation of code
 
@@ -50,7 +50,7 @@ public function main() {
 
 **Graphical view**
     
-![Sequence diagram of a function](../img/function-sequence-diagram.png)
+![Sequence diagram of a function](../img/visual-programming/sequence-diagram-view/function-sequence-diagram.png){.cInlineImage-full}
 
 ### Concurrent execution
 
@@ -93,7 +93,7 @@ public function FunctionWithWorker() {
 
 **Graphical view**
 
-![worker screenshot](../img/worker_sample.png)
+![worker screenshot](../img/visual-programming/sequence-diagram-view/worker_sample.png){.cInlineImage-full}
 
 ### Remote endpoints and clients
 
@@ -115,14 +115,14 @@ function execute() returns error? {
 
 **Graphical view**
 
-<img src="../../img/client-code-representations.png" alt="graphical screenshot" width="450">
+![Client code representations](../img/visual-programming/sequence-diagram-view/client-code-representations.png){.cInlineImage-half}
 
 ## Develop programs in graphical mode
 
 You can interact with the diagram using the `plus` icons placed in the lifeline. You can add a statement at the 
 function execution flow by clicking **Add**.
 
-![interaction gif](../img/diagram-interaction.gif)
+![interaction gif](../img/visual-programming/sequence-diagram-view/diagram-interaction.gif){.cInlineImage-full}
 
 ## Related topics
 

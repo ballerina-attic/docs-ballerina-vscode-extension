@@ -46,11 +46,11 @@ Follow the steps below to convert a JSON to record from the Record editor.
 
 5. Select **Make Separate Record Definitions** to create separate Ballerina record definitions.
 
-    ![Import a JSON](../img/record-editor/import-JSON.gif "Import a JSON from record editor and covert to a record")
+    ![Import a JSON](../img/record-editor/import-JSON.gif){.cInlineImage-full}
 
 6. Use the preview of the created record to edit the created records further, and click **Finish** once editing is complete.
 
-    ![Preview created records](../img/record-editor/preview.png "Preview the created records")
+    ![Preview created records](../img/record-editor/preview.png){.cInlineImage-half}
 
 ## Option Two: From Command palette
 
@@ -90,6 +90,6 @@ Follow the steps below to convert a JSON to record from the Record editor.
 
 3. Search for **Paste JSON as Record** and select that option.
 
-    ![Paste a JSON](../img/record-editor/paste-JSON.gif "Convert a copied JSON into records by using command pallate")
+    ![Paste a JSON](../img/record-editor/paste-JSON.gif){.cInlineImage-full}
 
 4. The command will generate separate record definitions accordingly.
