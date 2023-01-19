@@ -20,13 +20,13 @@ Follow the steps below to create a sample Ballerina program in VS Code.
       
         Click on the **Run** CodeLens on the editor. 
       
-        ![Run codeLense](../img/run-code-lense.png?raw=true)
+        ![Run codeLense](../img/build-and-try/build-and-run/run-code-lense.png){.cInlineImage-full}
 
     - **Option 2**
     
         Click **Run** on the title bar of the editor.
       
-        ![Run button](../img/run-button.png?raw=true)
+        ![Run button](../img/build-and-try/build-and-run/run-button.png){.cInlineImage-full}
 
 ## Use the diagram view
   
@@ -36,13 +36,13 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 
         Click **Show Diagram** on the title bar of the editor to view the graphical representation of the program.
         
-        ![Show diagram](../img/show-diagram-button.png?raw=true)
+        ![Show diagram](../img/build-and-try/build-and-run/show-diagram-button.png){.cInlineImage-full}
 
     - **Option 2**
 
         Click the Ballerina icon in the VS Code side menu to open the diagram explorer tree.
         
-        ![Diagram explorer](../img/diagram-explorer.png?raw=true)
+        ![Diagram explorer](../img/build-and-try/build-and-run/diagram-explorer.png){.cInlineImage-full}
 
 2. Run the program:
 
@@ -50,22 +50,22 @@ Follow the steps below to create a sample Ballerina program in VS Code.
 
         Click **Run** in the diagram options menu.
 
-        ![Run diagram button](../img/run-diagram-button.png?raw=true)
+        ![Run diagram button](../img/build-and-try/build-and-run/run-diagram-button.png){.cInlineImage-full}
 
     - **Option 2**
     
         Click **Run** on the title bar of the editor.
 
-        ![Header button](../img/run-diagram-header-button.png?raw=true)
+        ![Header button](../img/build-and-try/build-and-run/run-diagram-header-button.png){.cInlineImage-full}
 
 The integrated terminal will open automatically and run the program.
 
-![Run output](../img/run-output.png?raw=true)
+![Run output](../img/build-and-try/build-and-run/run-output.png){.cInlineImage-full}
 
 You just ran your first Ballerina program.
 
 >**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-ballerina-code.md).
-![Debug button](../img/debug-button.png?raw=true)
+![Debug button](../img/build-and-try/build-and-run/debug-button.png){.cInlineImage-full}
 
 ## Next steps - Try it
 

@@ -26,27 +26,27 @@ Follow the steps below to create records from scratch.
 
 1. Navigate to the record editor and select **Create New**.
 
-    ![Create new record](../img/record-editor/create-new.gif "Create new record via record editor")
+    ![Create new record](../img/record-editor/create-new.gif){.cInlineImage-full}
 
 2. Double-click the default record name to change it.
 
-    ![Change record name](../img/record-editor/change-record-name.png "Change record name via record editor")
+    ![Change record name](../img/record-editor/change-record-name.png){.cInlineImage-half}
 
 3. Click the plus button at the end of the field to add new fields to the record.
 
     >**Info:** Use the **Expressions** tab in the record editor to create nested records by selecting the particular record expression.
 
-    ![Add fields](../img/record-editor/add-fields.gif "Add fields to a record")
+    ![Add fields](../img/record-editor/add-fields.gif){.cInlineImage-half}
 
 4. Select the semicolon(;) of a field and select the default value expression to add default values.
 
-    ![Add default value](../img/record-editor/default-value.gif "Add default value to a field")
+    ![Add default value](../img/record-editor/default-value.gif){.cInlineImage-half}
 
 5. Use the **isClosed** option to switch between the open and closed records.
 
-    ![Open Close](../img/record-editor/open-close-switch.gif "Switch between Open and Closed records")
+    ![Open Close](../img/record-editor/open-close-switch.gif){.cInlineImage-half}
 
 6. Once the record field configuration is done, click **Save**.
 
-    ![Save create new record](../img/record-editor/save-create-new.gif "Save the newly created record")
+    ![Save create new record](../img/record-editor/save-create-new.gif){.cInlineImage-full}
 
