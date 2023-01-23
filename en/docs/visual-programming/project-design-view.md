@@ -84,7 +84,7 @@ The resource invocations between services need to be done using [client access a
 
       >**Note:** The workspace name may be different if you set up the workspace from scratch.
 
-      ![Workspace structure](../img/visual-programming/project-design-view/workspace-structure.png)
+      <img src="../../img/visual-programming/project-design-view/workspace-structure.png" alt="Workspace structure" width=350>
 
 2. Once the packages are added to the workspace, activate the Ballerina Design Diagram generator via the `Ballerina: Project Design` command in the command palette, as shown below.
 
