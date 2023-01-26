@@ -1,0 +1,66 @@
+# Copyright (c) 2022, WSO2 LLC. (http://www.wso2.org) All Rights Reserved.
+#
+# WSO2 Inc. licenses this file to you under the Apache License,
+# Version 2.0 (the "License"); you may not use this file except
+# in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+# Project information
+site_name: Ballerina VS Code Extension Documentation
+site_description: Ballerina VS Code Extension Documentation
+site_author: WSO2
+site_url: https://wso2.com/ballerina/vscode/docs
+
+# Repository
+repo_name: docs-ballerina-visual-studio-code-plugin
+repo_url: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin
+edit_uri: https://github.com/wso2/docs-ballerina-visual-studio-code-plugin/tree/main/en/docs
+dev_addr: localhost:8000
+
+# Copyright
+copyright: Copyright © WSO2 LLC. 2022 | Content licensed under CC By 4.0. | Sample code licensed under Apache 2.0.
+
+# Configuration
+theme:
+  name: material
+
+#Breaks build if there's a warning
+strict: false
+
+# Navigation
+nav:
+  - Home: index.md
+  - Get started: get-started/get-started.md
+  - Release notes:
+      - Version 3.3.0: release-notes/version-3.3.0.md
+  - Run and try the program:
+      - Build and run the program: build-and-run/build-and-run.md
+      - Build the executable JAR file: build-and-run/build-jar-file.md
+      - Try it Tools:
+            - GraphQL tool: build-and-run/tryit-tools/graphql-tool.md
+            - Swagger tool: build-and-run/tryit-tools/swagger-tool.md
+  - Edit the code:
+      - IntelliSense: edit-the-code/intellisense.md
+      - Code navigation: edit-the-code/code-navigation.md
+      - Code actions: edit-the-code/code-actions.md
+      - Diagnostics: edit-the-code/diagnostics.md
+  - Debug: debug.md
+  - Visual programming:
+      - Sequence Diagram view: visual-programming/sequence-diagram-view.md
+      - Project Design view: visual-programming/project-design-view.md
+      - Data Mapper: visual-programming/data-mapper.md
+  - Configurations: configurations.md
+  - References:
+      - Statement editor: references/how-to-use-statement-editor.md
+      - Record editor: references/how-to-use-record-editor.md
+      - Import JSON to records: references/how-to-paste-json-as-records.md
+  - License: license.md

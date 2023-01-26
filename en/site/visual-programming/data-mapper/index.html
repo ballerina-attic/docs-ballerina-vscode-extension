@@ -1,0 +1,1287 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Ballerina VS Code Extension Documentation">
+      
+      
+        <meta name="author" content="WSO2">
+      
+      
+        <link rel="canonical" href="https://wso2.com/ballerina/vscode/docs/visual-programming/data-mapper/">
+      
+      
+        <link rel="prev" href="../project-design-view/">
+      
+      
+        <link rel="next" href="../../configurations/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.1">
+    
+    
+      
+        <title>Data Mapper - Ballerina VS Code Extension Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3bd4f189.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-mapper" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Ballerina VS Code Extension Documentation" class="md-header__button md-logo" aria-label="Ballerina VS Code Extension Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ballerina VS Code Extension Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data Mapper
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    docs-ballerina-visual-studio-code-plugin
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ballerina VS Code Extension Documentation" class="md-nav__button md-logo" aria-label="Ballerina VS Code Extension Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Ballerina VS Code Extension Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/wso2/docs-ballerina-visual-studio-code-plugin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    docs-ballerina-visual-studio-code-plugin
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/get-started/" class="md-nav__link">
+        Get started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Release notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Release notes" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Release notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release-notes/version-3.3.0/" class="md-nav__link">
+        Version 3.3.0
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Run and try the program
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Run and try the program" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Run and try the program
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../build-and-run/build-and-run/" class="md-nav__link">
+        Build and run the program
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../build-and-run/build-jar-file/" class="md-nav__link">
+        Build the executable JAR file
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          Try it Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Try it Tools" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Try it Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../build-and-run/tryit-tools/graphql-tool/" class="md-nav__link">
+        GraphQL tool
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../build-and-run/tryit-tools/swagger-tool/" class="md-nav__link">
+        Swagger tool
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Edit the code
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Edit the code" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Edit the code
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../edit-the-code/intellisense/" class="md-nav__link">
+        IntelliSense
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../edit-the-code/code-navigation/" class="md-nav__link">
+        Code navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../edit-the-code/code-actions/" class="md-nav__link">
+        Code actions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../edit-the-code/diagnostics/" class="md-nav__link">
+        Diagnostics
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../debug/" class="md-nav__link">
+        Debug
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Visual programming
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Visual programming" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Visual programming
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sequence-diagram-view/" class="md-nav__link">
+        Sequence Diagram view
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-design-view/" class="md-nav__link">
+        Project Design view
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Data Mapper
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Data Mapper
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-the-prerequisites" class="md-nav__link">
+    Set up the prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-use-case" class="md-nav__link">
+    Sample use case
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-the-data-mapper" class="md-nav__link">
+    Open the Data Mapper
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-inputs-and-output" class="md-nav__link">
+    Provide inputs and output
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-the-mappings" class="md-nav__link">
+    Define the mappings
+  </a>
+  
+    <nav class="md-nav" aria-label="Define the mappings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-mapping" class="md-nav__link">
+    Basic mapping
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnose-and-fix-mapping-errors" class="md-nav__link">
+    Diagnose and fix mapping errors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggregate-input-and-output-fields" class="md-nav__link">
+    Aggregate input and output fields
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map-the-arrays" class="md-nav__link">
+    Map the arrays
+  </a>
+  
+    <nav class="md-nav" aria-label="Map the arrays">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process-the-data-further" class="md-nav__link">
+    Process the data further
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-local-variables" class="md-nav__link">
+    Add local variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manipulate-fields-without-drawing-connections" class="md-nav__link">
+    Manipulate fields without drawing connections
+  </a>
+  
+    <nav class="md-nav" aria-label="Manipulate fields without drawing connections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialize-arrays-add-and-delete-elements" class="md-nav__link">
+    Initialize arrays, add, and delete elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addedit-constant-valuesexpressions" class="md-nav__link">
+    Add/Edit constant values/expressions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configurations/" class="md-nav__link">
+        Configurations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          References
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="References" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          References
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/how-to-use-statement-editor/" class="md-nav__link">
+        Statement editor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/how-to-use-record-editor/" class="md-nav__link">
+        Record editor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/how-to-paste-json-as-records/" class="md-nav__link">
+        Convert JSON to records
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-the-prerequisites" class="md-nav__link">
+    Set up the prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-use-case" class="md-nav__link">
+    Sample use case
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-the-data-mapper" class="md-nav__link">
+    Open the Data Mapper
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-inputs-and-output" class="md-nav__link">
+    Provide inputs and output
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-the-mappings" class="md-nav__link">
+    Define the mappings
+  </a>
+  
+    <nav class="md-nav" aria-label="Define the mappings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-mapping" class="md-nav__link">
+    Basic mapping
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnose-and-fix-mapping-errors" class="md-nav__link">
+    Diagnose and fix mapping errors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggregate-input-and-output-fields" class="md-nav__link">
+    Aggregate input and output fields
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#map-the-arrays" class="md-nav__link">
+    Map the arrays
+  </a>
+  
+    <nav class="md-nav" aria-label="Map the arrays">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process-the-data-further" class="md-nav__link">
+    Process the data further
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-local-variables" class="md-nav__link">
+    Add local variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manipulate-fields-without-drawing-connections" class="md-nav__link">
+    Manipulate fields without drawing connections
+  </a>
+  
+    <nav class="md-nav" aria-label="Manipulate fields without drawing connections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialize-arrays-add-and-delete-elements" class="md-nav__link">
+    Initialize arrays, add, and delete elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#addedit-constant-valuesexpressions" class="md-nav__link">
+    Add/Edit constant values/expressions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+
+<h1 id="data-mapper">Data Mapper</h1>
+<p>Visual Data Mapper is a tool, which allows you to visually translate data from one format to another (such as from one JSON format to another). It comes with an intuitive user interface and prevents the need of being aware of the programming logic underneath.</p>
+<p>When you map data via the user interface, the Data Mapper generates the required Ballerina source code. Since the Ballerina source code is the single source of truth for the Visual Data Mapper, it also lets you open and edit existing data mappings made via the source code without changing the user experience.</p>
+<h2 id="set-up-the-prerequisites">Set up the prerequisites</h2>
+<ol>
+<li>Install the <a href="https://ballerina.io/downloads/">latest Ballerina version</a> and the <a href="https://marketplace.visualstudio.com/items?itemName=wso2.ballerina">Ballerina Visual Studio Code extension</a>.</li>
+<li>
+<p>Execute the command below to create a package (if you are not already working on one).</p>
+<p><code>bash
+bal new convert</code></p>
+</li>
+<li>
+<p>Open the created package in VS Code.</p>
+</li>
+</ol>
+<h2 id="sample-use-case">Sample use case</h2>
+<p>The below is a simple use case in which you will input data of people and courses in a specific structure and convert and transform those to a different format.</p>
+<p>Create three files with the sample data below in JSON format.</p>
+<p><strong>Input 1: Person</strong></p>
+<pre><code class="language-json">{
+    &quot;id&quot;: &quot;1001&quot;,
+    &quot;firstName&quot;: &quot;Vinnie&quot;,
+    &quot;lastName&quot;: &quot;Hickman&quot;,
+    &quot;age&quot;: 15,
+    &quot;country&quot;: &quot;UK&quot;
+}
+</code></pre>
+<p><strong>Input 2: Course</strong></p>
+<pre><code class="language-json">{
+    &quot;id&quot;: &quot;CS6002&quot;,
+    &quot;name&quot;: &quot;Computation Structures&quot;,
+    &quot;credits&quot;: 4
+}
+</code></pre>
+<p><strong>Output</strong></p>
+<pre><code class="language-json">{
+    &quot;id&quot;: &quot;1001F&quot;,
+    &quot;fullName&quot;: &quot;Vinnie Hickman&quot;,
+    &quot;age&quot;: &quot;15&quot;,
+    &quot;courses&quot;: [
+        {&quot;title&quot;: &quot;CS6002 - Computation Structures&quot;, &quot;credits&quot;: 4},
+        {&quot;title&quot;: &quot;CS6003 - Circuits and Electronics&quot;, &quot;credits&quot;: 3},
+        {&quot;title&quot;: &quot;CS6004 - Signals and Systems&quot;, &quot;credits&quot;: 3}
+    ],
+    &quot;totalCredits&quot;: 10,
+    &quot;visaType&quot;: &quot;D tier-4&quot;
+}
+</code></pre>
+<h2 id="open-the-data-mapper">Open the Data Mapper</h2>
+<p>There are two different ways of opening the Data Mapper.</p>
+<ol>
+<li>
+<p>Open with the <code>Design</code> code lens.</p>
+<p>Add the code below to the <code>main.bal</code> file of the package to define an empty expression bodied function.</p>
+<blockquote>
+<p><strong>Info:</strong> The preferred way to model the transformation logic in Ballerina is via expression-bodied functions. The expression-bodied function below will simply return nil. The function body of it is an expression, which will return a nil value.</p>
+</blockquote>
+<p><code>ballerina
+function name() =&gt; ();</code>
+Once you add the above function, the VS Code extension will display a code lens called <code>Design</code> on top of the function. Click the <strong>Design</strong> code lens to go to the Data Mapper view.</p>
+<p><img alt="Open Data Mapper" src="../../img/visual-programming/dm-open-via-code-lens.gif" title="Open Data Mapper via code lens" /></p>
+</li>
+<li>
+<p>Open with the Diagram View.</p>
+<p>Open the file in the Diagram View and click the <code>+</code> icon on the page. Then, click <strong>Data Mapper</strong> in the <strong>Add Constructs</strong> pane.</p>
+<p><img alt="Open Data Mapper" src="../../img/visual-programming/dm-open-via-diagram.gif" title="Open Data Mapper via diagram" /></p>
+</li>
+</ol>
+<h2 id="provide-inputs-and-output">Provide inputs and output</h2>
+<p>Once the Data mapper is opened, it will prompt you to provide inputs and output of the transformation function. Inputs and the output can be any data type in Ballerina. This example converts JSON and array of JSON to JSON, and thereby, you can use Ballerina record types as inputs and output.</p>
+<p>In the Data Mapper form, you have several options to provide the input and output records. If the records are already defined in your package, you can select one of those. If you are starting from scratch, you can either create the record from the Record Editor view or import a JSON to create a matching record.</p>
+<p>This example imports JSON files and creates the records as shown below.</p>
+<p><img alt="Configure Data Mapper" src="../../img/visual-programming/dm-define-inputs-n-output.gif" title="Define Inputs and Output for Data Mapper" /></p>
+<p>Once you define the input and the output types, click <strong>Save</strong> to open the mapping view. </p>
+<h2 id="define-the-mappings">Define the mappings</h2>
+<p>Let's see how to map the input fields with the fields in the JSON output.</p>
+<h3 id="basic-mapping">Basic mapping</h3>
+<p>Map the <code>person id</code> to the <code>student id</code> as shown below.</p>
+<blockquote>
+<p><strong>Info:</strong> The mapping view will have the <strong>Inputs</strong> on the left hand side of the UI and the <strong>Output</strong> on the right. To map the fields, click on the input field port and then, click the output field port. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.</p>
+</blockquote>
+<p><img alt="Basic Mapping" src="../../img/visual-programming/dm-basic-mapping.gif" title="Basic mapping" /></p>
+<h3 id="diagnose-and-fix-mapping-errors">Diagnose and fix mapping errors</h3>
+<p>Use the <code>toBalString</code> lang lib function to convert the int to string as shown below.</p>
+<blockquote>
+<p><strong>Info:</strong> When you map the input fields to output fields, some of them might not be compatible due to type mismatch. In this example, if you map the <code>person age</code> to <code>student</code> age, it will result in an type mismatch error since the <code>input age</code> type is an integer and the <code>output age</code> type is a string. In this case, the Data Mapper will connect the two fields with a red line and show an alert sign. You can see the error by hovering over the alert sign. In this case, it will show the <code>incompatible types: expected 'string', found 'int'</code> error. To fix the error, hover over the alert sign and click <strong>Fix by editing expression</strong>. Then, the Data Mapper will pop out the expression editor for the specific expression. Now, you can modify the expression to return a string.</p>
+</blockquote>
+<p><img alt="Fix Errors" src="../../img/visual-programming/dm-fix-diagnostics.gif" title="Fix incompatible types error" /></p>
+<p>Once you fix the error, the connection appears in blue to indicate that there are no errors.</p>
+<h3 id="aggregate-input-and-output-fields">Aggregate input and output fields</h3>
+<p>You can derive one output parameter by combining two or more input parameters. In this example, the value for the <code>fullName</code> output parameter is a combination of the values of the <code>firstName</code> and <code>lastName</code> input parameters. You can map them as shown below:</p>
+<blockquote>
+<p><strong>Info:</strong> To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign them to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the <strong>Code</strong> button and customize the expression with the expression editor.</p>
+</blockquote>
+<p><img alt="Concatenate" src="../../img/visual-programming/dm-concatination.gif" title="Aggregate multiple input fields" /></p>
+<h3 id="map-the-arrays">Map the arrays</h3>
+<p>To convert from one array type to another, you can simply map the input array to the output array. If the arrays are compatible, they will be connected with a blue line. If they are incompatible, the connecting line will appear in red.</p>
+<blockquote>
+<p><strong>Info:</strong> You can use Ballerina query support to convert one array type to another. To use a query in a Data Mapper, you can select the array by clicking on it. Then, it will provide you with several buttons. Click the code action button (bulb sign) and select <strong>Convert to query</strong>. Then, the Data Mapper will convert the mapping to a query. Then, move into the query and do the mapping between the array types.</p>
+</blockquote>
+<p><img alt="Convert to Query" src="../../img/visual-programming/dm-convert-to-query.gif" title="Map via query expression" /></p>
+<h4 id="process-the-data-further">Process the data further</h4>
+<p>You can further process the data within the query expression. Currently, the Data Mapper supports the following intermediate clauses.
+- <code>Where</code> clause: filter data based on a given condition
+- <code>Let</code> clause: define local variables within the query expression
+- <code>Limit</code> clause: limit the number of elements returned from the query expression
+- <code>Order by</code> clause: sort data within the query expression in <code>ascending</code> or <code>descending</code> order
+- <code>Join</code> clause: performs an inner join
+- <code>Outer join</code> clause: performs left outer join</p>
+<p><img alt="Further Processing" src="../../img/visual-programming/dm-further-processing.gif" title="Process via intermediate clauses" /></p>
+<p>Once array type mapping is completed, select the transform function name in the top breadcrumb bar to navigate to the root view of mapping.</p>
+<h3 id="add-local-variables">Add local variables</h3>
+<p>You can define local variables within the transformation function and re-use them in multiple places to avoid duplications.</p>
+<blockquote>
+<p><strong>Info:</strong> If there are no existing local variables, you can open up the local variable pane by clicking the <strong>Add Local Variable</strong> button. Otherwise, the defined local variables are listed down under <strong>local variables</strong> in the RHS of the UI. You will be able to access the local variable pane by clicking the <strong>Edit</strong> button there.</p>
+</blockquote>
+<p><img alt="Local Variable" src="../../img/visual-programming/dm-add-local-variable.gif" title="Add local variable" /></p>
+<h3 id="manipulate-fields-without-drawing-connections">Manipulate fields without drawing connections</h3>
+<p>Click on the triple dots button at the end of the field to see the actions that can be performed for the selected field.</p>
+<h4 id="initialize-arrays-add-and-delete-elements">Initialize arrays, add, and delete elements</h4>
+<blockquote>
+<p><strong>Info:</strong> The actions are provided based on the type of the selected field. If you click on the triple dots button of an array-typed field, you will see the <strong>Initialize Array</strong> option.</p>
+</blockquote>
+<p>Once the array is initialized, you can add array elements by clicking the <strong>+ Add Element</strong> button.
+Furthermore, clicking the triple dots button on any array element will provide the option to delete that element.</p>
+<p><img alt="Array Manipulation" src="../../img/visual-programming/dm-array-manipulation.gif" title="Manipulate arrays" /></p>
+<h4 id="addedit-constant-valuesexpressions">Add/Edit constant values/expressions</h4>
+<blockquote>
+<p><strong>Info:</strong> If a particular field is empty and accepting a constant/expression, you will see the <strong>Add value</strong> action after clicking the triple dots button. This will open up the expression editor and you will be able to provide a constant value or construct any complex expression in it.</p>
+</blockquote>
+<p>Let's add a hard-coded visa type for foreign students.</p>
+<p><img alt="Add Expression" src="../../img/visual-programming/dm-add-inline-expr.gif" title="Add expression to an output field" /></p>
+<blockquote>
+<p><strong>Info:</strong> If a particular field is having a value, you will see the <strong>Edit value</strong> action once you click the triple dots button.</p>
+</blockquote>
+<p>Let's add an 'F' suffix to the <code>student id</code> of each foreign student.</p>
+<p><img alt="Edit Expression" src="../../img/visual-programming/dm-edit-inline-expr.gif" title="Edit expression of an output field" /></p>
+<p>Finally, lets fill the <code>totalCredits</code> field by getting the summation of the credits in each CS course.
+You can use the <a href="https://lib.ballerina.io/ballerina/lang.array/0.0.0/functions#reduce"><code>reduce()</code></a> array function for this by passing the combining function below to get the sum.</p>
+<pre><code class="language-ballerina">var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int =&gt; total + (course.id.startsWith(&quot;CS&quot;) ? course.credits : 0);
+</code></pre>
+<p><img alt="Edit Expression" src="../../img/visual-programming/dm-use-reduce-array-function.gif" title="Use array reducer" /></p>
+<p>Now, you have successfully configured the transformation function using the Data Mapper.</p>
+<p>The following is the source associated with this guide along with a main function to invoke the transformation function with some sample data.</p>
+<pre><code class="language-ballerina">import ballerina/io;
+
+type Person record {
+    string id;
+    string firstName;
+    string lastName;
+    int age;
+    string country;
+};
+
+type Course record {
+    string id;
+    string name;
+    int credits;
+};
+
+type Student record {
+    string id;
+    string fullName;
+    string age;
+    record {
+        string title;
+        int credits;
+    }[] courses;
+    int totalCredits;
+    string visaType;
+};
+
+const D_TIER_4_VISA = &quot;D tier-4&quot;;
+
+var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int =&gt; total + (course.id.startsWith(&quot;CS&quot;) ? course.credits : 0);
+
+function transform(Person person, Course[] courses) returns Student =&gt; let var isForeign = person.country != &quot;LK&quot; in {
+        id: person.id + (isForeign ? &quot;F&quot; : &quot;&quot;),
+        age: person.age.toString(),
+        fullName: person.firstName + &quot; &quot; + person.lastName,
+        courses: from var coursesItem in courses
+            where coursesItem.id.startsWith(&quot;CS&quot;)
+            select {
+                title: coursesItem.id + &quot; - &quot; + coursesItem.name,
+                credits: coursesItem.credits
+            },
+        visaType: isForeign ? D_TIER_4_VISA : &quot;n/a&quot;,
+        totalCredits: courses.reduce(totalCredits, 0)
+    };
+
+public function main() {
+    Person person = {
+        id: &quot;1001&quot;,
+        firstName: &quot;Vinnie&quot;,
+        lastName: &quot;Hickman&quot;,
+        age: 15,
+        country: &quot;UK&quot;
+    };
+
+    Course[] courses = [
+            {
+                id: &quot;CS6002&quot;,
+                name: &quot;Computation Structures&quot;,
+                credits: 4
+            },
+            {
+                id: &quot;CS6003&quot;,
+                name: &quot;Circuits and Electronics&quot;,
+                credits: 3
+            },
+            {
+                id: &quot;CM1001&quot;,
+                name: &quot;Computational Statistics&quot;,
+                credits: 4
+            },
+            {
+                id: &quot;CS6004&quot;,
+                name: &quot;Signals and Systems&quot;,
+                credits: 3
+            }
+        ];
+
+    Student student = transform(person, courses);
+    io:println(student);
+}
+
+</code></pre>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © WSO2 LLC. 2022 | Content licensed under CC By 4.0. | Sample code licensed under Apache 2.0.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5cf534bf.min.js"></script>
+      
+    
+  </body>
+</html>
