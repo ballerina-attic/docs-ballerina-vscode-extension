@@ -1,4 +1,4 @@
-# Build and run the program
+# Run a program
 
 Follow the steps below to run a sample Ballerina program in VS Code. 
 
@@ -64,7 +64,7 @@ The integrated terminal will open automatically and run the program.
 
 You just ran your first Ballerina program.
 
->**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-ballerina-code.md).
+>**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-the-code.md).
 ![Debug button](../img/build-and-try/build-and-run/debug-button.png){.cInlineImage-full}
 
 ## Next steps - Try it
