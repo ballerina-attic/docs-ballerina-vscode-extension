@@ -484,7 +484,7 @@ background-color: #20b6b0;
 .md-header-nav__button span {
 position: absolute;
 width: 410px;
-font-size: 20px;
+font-size: .9rem;
 font-weight: 500;
 top: 13px;
 left: 125px;
