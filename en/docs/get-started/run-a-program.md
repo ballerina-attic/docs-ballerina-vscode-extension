@@ -71,5 +71,5 @@ You just ran your first Ballerina program.
 
 The Ballerina VS Code extension allows you to try out and debug HTTP/GraphQL services (without using any third-party tools) while you develop them. 
 
-* [Swagger (HTTP) tool](tryit-tools/try-http-services-in-swagger-view.md)
-* [GraphQL tool](tryit-tools/try-graphql-services.md)
+* [Try HTTP services in Swagger view](try-the-code/try-http-services.md)
+* [Try GraphQL services](try-the-code/try-graphql-services.md)
