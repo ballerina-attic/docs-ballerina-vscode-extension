@@ -1,5 +1,7 @@
 # Construct a record using the Statement Editor
 
+Follow the steps below to construct a record using the Statement Editor.
+
 1. Navigate to the Record Editor and select **Create New**.
 
     ![Add record statement](../../img/statement-editor/create-new-record.gif){.cInlineImage-half}
