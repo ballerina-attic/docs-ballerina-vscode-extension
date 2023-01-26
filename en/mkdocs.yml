@@ -51,24 +51,24 @@ strict: false
 # Navigation
 nav:
   - Home: index.md
-  - Get started: get-started.md
-  - Run and try the program:
-      - Build and run the program: build-and-try/build-and-run-the-program.md
-      - Build the executable JAR file: build-and-try/build-the-executable-jar-file.md
-      - Try it Tools:
-            - Try GraphQL services: build-and-try/tryit-tools/try-graphql-services.md
-            - Try HTTP services: build-and-try/tryit-tools/try-http-services-in-swagger-view.md
+  - Get started: 
+      - Install the extension: get-started/install-the-extension.md
+      - Run a program: get-started/run-a-program.md
+      - Try the code:
+        - Try HTTP services: get-started/try-the-code/try-http-services.md
+        - Try GraphQL services: get-started/try-the-code/try-graphql-services.md
+      - Build the executables: get-started/build-the-executables.md
   - Edit the code:
       - IntelliSense: edit-the-code/intellisense.md
       - Code navigation: edit-the-code/code-navigation.md
       - Code actions: edit-the-code/code-actions.md
       - Diagnostics: edit-the-code/diagnostics.md
-  - Debug Ballerina code: debug-ballerina-code.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
       - Project Design view: visual-programming/project-design-view.md
       - Data Mapper: visual-programming/data-mapper.md
-  - Configurations: configurations.md
+  - Debug the code: debug-the-code.md
+  - Configure the extension: configure-the-extension.md
   - References:
       - Statement Editor: 
           - Statement Editor overview: references/statement-editor/statement-editor-overview.md

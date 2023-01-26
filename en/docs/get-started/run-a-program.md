@@ -1,6 +1,6 @@
 # Build and run the program
 
-Follow the steps below to create a sample Ballerina program in VS Code. 
+Follow the steps below to run a sample Ballerina program in VS Code. 
 
 ## Use the code view
 

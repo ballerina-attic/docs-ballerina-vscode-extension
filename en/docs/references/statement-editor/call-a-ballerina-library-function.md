@@ -1,4 +1,4 @@
-# Call a Ballerina library function using the Statement Editor
+# Call a Ballerina library function
 
 The Statement Editor allows you to easily navigate between Ballerina standard libraries and language libraries. The **libraries** tab in Statement Editor lists all the supported standard and language libraries.
 

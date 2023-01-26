@@ -1,4 +1,4 @@
-# Get started
+# Install the extension
 
 The sections below walk you through how to get started with the Ballerina VS Code extension by installing it and opening a Ballerina package in it.
 
@@ -20,7 +20,7 @@ You can work on a single [Ballerina package](https://ballerina.io/learn/package-
 
 >**Info:** When the extension is activated properly, you can see the `Ballerina SDK: <version>` in the status bar at the bottom left corner.
 
-![Ballerina SDK Version](./img/get-started/show-version-on-vscode.png){.cInlineImage-half}
+![Ballerina SDK Version](../img/get-started/show-version-on-vscode.png){.cInlineImage-half}
 
 ### Open a single Ballerina package
 
