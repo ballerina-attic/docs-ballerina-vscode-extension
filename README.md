@@ -1,25 +1,30 @@
-# Ballerina VS Code Documentation
+# Ballerina VS Code Extension Documentation
 
-This is the Ballerina VS Code extension documentation repository. This repository is open and we welcome your contributions! 
+This is the Ballerina VS Code extension documentation repository. This repository is open and we welcome your contributions!
 
-## Contribute to VS Code extension documentation
+To see the documentation site, go to [https://wso2.com/ballerina/vscode/docs/](https://wso2.com/ballerina/vscode/docs/).
+
+## Contribute to Ballerina VS Code extension documentation
 
 Before you contribute, read the following guidelines to understand how you can start contributing:
 
-1. Accept the contributor license agreement (CLA)
+Accept the contributor license agreement (CLA)
 
-    You need to accept the contributor license agreement (CLA) when you are prompted via a GitHub email notification on sending your first pull request (PR). Subsequent PRs will not require CLA acceptance.
+You need to accept the contributor license agreement (CLA) when you are prompted via a GitHub email notification on sending your first pull request (PR). Subsequent PRs will not require CLA acceptance.
 
-    If the CLA changes for some (unlikely) reason, you'll have to accept the new CLA text when you send your first PR after the change.
+If there are CLA changes for some (unlikely) reason, you'll have to accept the new CLA text when you send your first PR after the change.
 
-2. Fork this repository, make your changes, and send in a pull request. 
-
+Fork this repository, make your changes, and send in a pull request.
 
 We look forward to your contributions.
 
 ## Run the project locally
 
+Follow the steps given below to set up the documentation site locally.
+
 ### Step 1 - Install Python
+
+See the instructions relevant to your operating system.
 
 #### MacOS
 If you are using macOS, you probably already have a version of Python installed on your machine. Run the following command to verify:
@@ -55,13 +60,13 @@ $ pip install --upgrade pip
 
 ### Step 3 - Install the pip packages
 
-To clone the Choreo documentation GitHub repository and run the site on your local server, follow these steps:
+To clone the GitHub repository for this documentation and to run the site on your local server, follow these steps:
 
-1. Fork `https://github.com/wso2/docs-ballerina-visual-studio-code-plugin`.
-2. Navigate to the locatiion where you want to clone the repo and clone the forked repository.
+1. Fork `https://github.com/wso2/docs-ballerina-vscode-extension.git`.
+2. Navigate to the location where you want to clone the repo and clone the forked repository.
 
     ```shell
-    $ git clone https://github.com/[git-username]/docs-ballerina-visual-studio-code-plugin.git
+    $ git clone https://github.com/wso2/docs-ballerina-vscode-extension.git
     ```
 
 3. Navigate to the directory where you cloned the repo.
@@ -69,20 +74,31 @@ To clone the Choreo documentation GitHub repository and run the site on your loc
     For example:
 
     ```shell
-    $ cd docs-ballerina-visual-studio-code-plugin/<Language-folder>/
+    $ cd docs-ballerina-vscode-extension/<Language-folder>/
     ```
 
     ```shell
-    $ cd docs-ballerina-visual-studio-code-plugin/en/
+    $ cd docs-ballerina-vscode-extension/en/
     ```
 
-4. Run following command to install the theme. (Note: This is not needed when we have customized theme.)
+4. Install the required pip packages.
 
-    ```shell
-    $ pip install mkdocs-material
-    ```
+    This step installs MkDocs together with the required theme, extensions, and plugins.
+
+    - If you are using Python2, run the following command:
+
+      ```shell
+      $ pip install -r requirements.txt
+      ```
+
+    - If you are using Python3, run the following command:
+
+      ```shell
+      $ pip3 install -r requirements.txt
+      ```
 
 ### Step 4 - Run MkDocs
+
 1. To start the server and view the site on your local server, run the following command:
 
     ```shell
@@ -102,7 +118,7 @@ To clone the Choreo documentation GitHub repository and run the site on your loc
     >
     >    `mkdocs serve --dirtyreload`
   
-2. To view the Choreo documentation site locally, open the following URL on a new browser window:
+2. To view the documentation site locally, open the following URL on a new browser window:
 
     [http://localhost:8000/](http://localhost:8000/)
 
@@ -115,3 +131,4 @@ To clone the Choreo documentation GitHub repository and run the site on your loc
 ## License
 
 Licenses this source under the Apache License, Version 2.0 ([LICENSE](LICENSE)), You may not use this file except in compliance with the License.
+

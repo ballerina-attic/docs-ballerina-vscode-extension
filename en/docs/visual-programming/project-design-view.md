@@ -70,13 +70,13 @@ The resource invocations between services need to be done using [client access a
 
 > **Example project**
 >
-> Let's use the [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) to demonstrate the different capabilities of the Design Diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui` folder is not a Ballerina package, hence would not make an impact. 
+> Let's use the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) to demonstrate the different capabilities of the Design Diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui` folder is not a Ballerina package, hence would not make an impact. 
 
 1. To set up a Ballerina project as a VS Code workspace, add all the Ballerina packages to the workspace using one of the following methods:
 
       -  Use the **VS Code workspace file** from an already created workspace to import its packages to a new workspace.
 
-         > **Info:** The workspace file of the [Google Cloud Platform demo](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) project is available in the repository.
+         > **Info:** The [workspace file](https://github.com/ballerina-guides/gcp-microservices-demo/blob/main/project.code-workspace) of the Online Boutique microservices demo is available in the repository.
 
       -  Add each Ballerina package to the workspace using the **Add folder to workspace** option in the VS Code editor.
 
@@ -84,25 +84,25 @@ The resource invocations between services need to be done using [client access a
 
       >**Note:** The workspace name may be different if you set up the workspace from scratch.
 
-      <img src="../../img/pdd-workspace-structure.png" alt="Workspace Structure" width="400"/>
+      ![Workspace structure](../img/visual-programming/project-design-view/workspace-structure.png)
 
 2. Once the packages are added to the workspace, activate the Ballerina Design Diagram generator via the `Ballerina: Project Design` command in the command palette, as shown below.
 
-      ![Extension Command](../img/pdd-extension-command.gif)
+      ![Extension Command](../img/visual-programming/project-design-view/extension-command.gif){.cInlineImage-full}
 
 ## Explore the Project Design view
 
-Let's explore the features of the Design Diagram using the [Google Cloud Platform](https://github.com/ballerina-guides/gcp-microservices-demo/tree/project-design-demo) Ballerina project that you set up in the previous topic.
+Let's explore the features of the Design Diagram using the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) Ballerina project that you set up in the previous topic.
 
 When you open the Design Diagram as explained in the previous topic, you will see three types of design diagrams to choose from as shown below. 
 
-![Extension Command](../img/design-diagrams.png)
+![Extension Command](../img/visual-programming/project-design-view/design-diagrams.png){.cInlineImage-full}
 
 ### Service Diagram: Level 1
 
-This diagram displays all the services available within the workspace with links representing any interactions between them. The basic Service Diagram (level 1) generated for the 10 Ballerina packages in the Google Cloud Platform demo project is shown below.
+This diagram displays all the services available within the workspace with links representing any interactions between them. The basic Service Diagram (level 1) generated for the 10 Ballerina packages in the Online Boutique microservices demo project is shown below.
 
-![Service Interaction Diagram](../img/pdd-service-interaction-diagram.png)
+![Service Interaction Diagram](../img/visual-programming/project-design-view/service-interaction-diagram.png){.cInlineImage-full}
 
 >**Info:** The link between the `Checkout` service and the `Email` service indicates that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
 
@@ -110,17 +110,17 @@ This diagram displays all the services available within the workspace with links
 
 The detailed Service Diagram (Level 2) dives deeper into the compositions of the services and the interactions between them. Shown below is the detailed representation of the demo project, which depicts the individual resource/remote functions of the services and their invocations.
 
-![Detailed Service Interaction Diagram](../img/pdd-detailed-service-interaction-diagram.png)
+![Detailed Service Interaction Diagram](../img/visual-programming/project-design-view/detailed-service-interaction-diagram.png){.cInlineImage-full}
 
 The data types of the request and response bodies of the interactions can be viewed by hovering over a particular invocation.
 
-![Detailed Service: Request Response Data Popups](../img/pdd-request-response-data-popup.png)
+![Detailed Service: Request Response Data Popups](../img/visual-programming/project-design-view/request-response-data-popup.png){.cInlineImage-full}
 
 ### Type Diagram
 
 The **Type Diagram** provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations.
 
-![Type Diagram](../img/pdd-types-diagram.png)
+![Type Diagram](../img/visual-programming/project-design-view/types-diagram.png){.cInlineImage-full}
 
 >**Info:** The multiplicities of the associations are represented on either side of the connector, while the [type inclusions](https://ballerina.io/learn/by-example/type-inclusion-for-records/) are differentiated using a directed link (represents inheritance).
 
@@ -134,7 +134,7 @@ You can also view the **composition** of an individual record type. These compos
 
 The following is the composition diagram generated for the `ContextSearchProductsResponse` record type seen in the [Type Diagram](#type-diagram) above.
    
-![Type Composition Diagram](../img/pdd-type-composition-diagram.png)
+![Type Composition Diagram](../img/visual-programming/project-design-view/type-composition-diagram.png){.cInlineImage-full}
 
 ### Other capabilities
 
