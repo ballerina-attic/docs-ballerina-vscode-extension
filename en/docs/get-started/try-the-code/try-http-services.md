@@ -24,11 +24,13 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 
 1. Click the **Run** CodeLens to run the program. 
     
-    >**Info:** This opens the terminal and starts running the service.
+    !!! Info
+        This opens the terminal and starts running the service.
 
 2. Click the **Try it** CodeLens to open the Swagger Try it view.
 
-    >**Note:** The service must be in the running state to use Try it view.
+    !!! Note
+        The service must be in the running state to use Try it view.
 
     ![Swagger codelense](../../img/build-and-try/try-http-services/swagger-codelenses.png){.cInlineImage-full}
 
@@ -38,11 +40,10 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 
 3. Once the Swagger view is opened, click **Try it out**.
 
-    >**Tip:** You can find all available APIs from the opened side menu.
+    !!! Tip 
+        You can find all available APIs from the opened side menu.
 
-    ![Swagger view](../../img/build-and-try/try-http-services/swagger-view-tryit-btn.png){.cInlineImage-full}
-
-    
+    ![Swagger view](../../img/build-and-try/try-http-services/swagger-view-tryit-btn.png){.cInlineImage-full} 
 
 4. Click **Execute** to see the response.
     

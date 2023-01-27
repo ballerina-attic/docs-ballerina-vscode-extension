@@ -68,7 +68,8 @@ There are two different ways of opening the Data Mapper.
 
 Add the code below to the `main.bal` file of the package to define an empty expression bodied function.
 
->**Info:** The preferred way to model the transformation logic in Ballerina is via expression-bodied functions. The expression-bodied function below will simply return nil. The function body of it is an expression, which will return a nil value.
+!!! Info
+    The preferred way to model the transformation logic in Ballerina is via expression-bodied functions. The expression-bodied function below will simply return nil. The function body of it is an expression, which will return a nil value.
 
 ```ballerina
 function name() => ();
@@ -103,7 +104,8 @@ Let's see how to map the input fields with the fields in the JSON output.
 
 Map the `person id` to the `student id` as shown below.
 
->**Info:** The mapping view will have the **Inputs** on the left hand side of the UI and the **Output** on the right. To map the fields, click on the input field port and then, click the output field port. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.
+!!! Info
+    The mapping view will have the **Inputs** on the left hand side of the UI and the **Output** on the right. To map the fields, click on the input field port and then, click the output field port. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.
 
 ![Basic Mapping](../img/visual-programming/datamapper/basic-mapping.gif){.cInlineImage-full}
 
@@ -111,7 +113,8 @@ Map the `person id` to the `student id` as shown below.
 
 Use the `toBalString` lang lib function to convert the int to string as shown below.
 
->**Info:** When you map the input fields to output fields, some of them might not be compatible due to type mismatch. In this example, if you map the `person age` to `student` age, it will result in an type mismatch error since the `input age` type is an integer and the `output age` type is a string. In this case, the Data Mapper will connect the two fields with a red line and show an alert sign. You can see the error by hovering over the alert sign. In this case, it will show the `incompatible types: expected 'string', found 'int'` error. To fix the error, hover over the alert sign and click **Fix by editing expression**. Then, the Data Mapper will pop out the expression editor for the specific expression. Now, you can modify the expression to return a string.
+!!! Info
+    When you map the input fields to output fields, some of them might not be compatible due to type mismatch. In this example, if you map the `person age` to `student` age, it will result in an type mismatch error since the `input age` type is an integer and the `output age` type is a string. In this case, the Data Mapper will connect the two fields with a red line and show an alert sign. You can see the error by hovering over the alert sign. In this case, it will show the `incompatible types: expected 'string', found 'int'` error. To fix the error, hover over the alert sign and click **Fix by editing expression**. Then, the Data Mapper will pop out the expression editor for the specific expression. Now, you can modify the expression to return a string.
 
 ![Fix Errors](../img/visual-programming/datamapper/fix-diagnostics.gif){.cInlineImage-full}
 
@@ -121,7 +124,8 @@ Once you fix the error, the connection appears in blue to indicate that there ar
 
 You can derive one output parameter by combining two or more input parameters. In this example, the value for the `fullName` output parameter is a combination of the values of the `firstName` and `lastName` input parameters. You can map them as shown below:
 
->**Info:** To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign them to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the **Code** button and customize the expression with the expression editor.
+!!! Info
+    To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign them to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the **Code** button and customize the expression with the expression editor.
 
 ![Concatenate](../img/visual-programming/datamapper/concatination.gif){.cInlineImage-full}
 
@@ -129,7 +133,8 @@ You can derive one output parameter by combining two or more input parameters. I
 
 To convert from one array type to another, you can simply map the input array to the output array. If the arrays are compatible, they will be connected with a blue line. If they are incompatible, the connecting line will appear in red.
 
->**Info:** You can use Ballerina query support to convert one array type to another. To use a query in a Data Mapper, you can select the array by clicking on it. Then, it will provide you with several buttons. Click the code action button (bulb sign) and select **Convert to query**. Then, the Data Mapper will convert the mapping to a query. Then, move into the query and do the mapping between the array types.
+!!! Info
+    You can use Ballerina query support to convert one array type to another. To use a query in a Data Mapper, you can select the array by clicking on it. Then, it will provide you with several buttons. Click the code action button (bulb sign) and select **Convert to query**. Then, the Data Mapper will convert the mapping to a query. Then, move into the query and do the mapping between the array types.
 
 ![Convert to Query](../img/visual-programming/datamapper/convert-to-query.gif){.cInlineImage-full}
 
@@ -155,7 +160,8 @@ Once the array type mapping is completed, select the transform function name in 
 
 You can define local variables within the transformation function and re-use them in multiple places to avoid duplications.
 
->**Info:** If there are no existing local variables, you can open up the local variable pane by clicking the **Add Local Variable** button. Otherwise, the defined local variables are listed down under **local variables** in the RHS of the UI. You will be able to access the local variable pane by clicking the **Edit** button there.
+!!! Info
+    If there are no existing local variables, you can open up the local variable pane by clicking the **Add Local Variable** button. Otherwise, the defined local variables are listed down under **local variables** in the RHS of the UI. You will be able to access the local variable pane by clicking the **Edit** button there.
 
 ![Local Variable](../img/visual-programming/datamapper/add-local-variable.gif){.cInlineImage-full}
 
@@ -165,7 +171,8 @@ Click the triple dots button at the end of the field to see the actions that can
 
 #### Initialize arrays, add, and delete elements
 
->**Info:** The actions are provided based on the type of the selected field. If you click on the triple dots button of an array-typed field, you will see the **Initialize Array** option.
+!!! Info
+    The actions are provided based on the type of the selected field. If you click on the triple dots button of an array-typed field, you will see the **Initialize Array** option.
 
 Once the array is initialized, you can add array elements by clicking the **+ Add Element** button.
 Furthermore, clicking the triple dots button on any array element will provide the option to delete that element.
@@ -174,13 +181,15 @@ Furthermore, clicking the triple dots button on any array element will provide t
 
 #### Add/Edit constant values/expressions 
 
->**Info:** If a particular field is empty and accepting a constant/expression, you will see the **Add value** action after clicking the triple dots button. This will open up the expression editor and you will be able to provide a constant value or construct any complex expression in it.
+!!! Info 
+    If a particular field is empty and accepting a constant/expression, you will see the **Add value** action after clicking the triple dots button. This will open up the expression editor and you will be able to provide a constant value or construct any complex expression in it.
 
 1. Add a hard-coded visa type for foreign students.
 
     ![Add Expression](../img/visual-programming/datamapper/add-inline-expr.gif){.cInlineImage-full}
 
-    >**Info:** If a particular field is having a value, you will see the **Edit value** action once you click the triple dots button.
+    !!! Info
+        If a particular field is having a value, you will see the **Edit value** action once you click the triple dots button.
 
 2. Add an 'F' suffix to the `student id` of each foreign student.
 
@@ -188,7 +197,8 @@ Furthermore, clicking the triple dots button on any array element will provide t
 
 3. Fill the `totalCredits` field by getting the summation of the credits in each CS course.
 
-    >**Tip:** You can use the [`reduce()`](https://lib.ballerina.io/ballerina/lang.array/0.0.0/functions#reduce) array function for this by passing the combining function below to get the sum.
+    !!! Tip 
+        You can use the [`reduce()`](https://lib.ballerina.io/ballerina/lang.array/0.0.0/functions#reduce) array function for this by passing the combining function below to get the sum.
 
     ```ballerina
     var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + (course.id.startsWith("CS") ? course.credits : 0);
