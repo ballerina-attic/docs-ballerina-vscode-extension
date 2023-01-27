@@ -152,7 +152,7 @@ The following quick fixes are available for annotations.
 
 The `Convert to readonly clone`, `Ignore unused variable`, and `Remove unreachable code` quick fixes are demonstrated below.
 
-![Other quick fixes](../img/edit-the-code/code-actions/other-quick-fixes){.cInlineImage-full}
+![Other quick fixes](../img/edit-the-code/code-actions/other-quick-fixes.gif){.cInlineImage-full}
 
 The `Make construct public` quick fix is demonstrated below.
 
