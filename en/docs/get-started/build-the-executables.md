@@ -13,3 +13,9 @@ The integrated terminal will open automatically and run the build command.
 
 !!! Info
     The JAR file can be found in the `/target/bin/` directory.
+
+!!! Note
+    The JAR file can be found in the `/target/bin/` directory.
+
+!!! Warning
+    The JAR file can be found in the `/target/bin/` directory.
