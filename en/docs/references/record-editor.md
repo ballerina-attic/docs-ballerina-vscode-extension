@@ -34,7 +34,8 @@ Follow the steps below to create records from scratch.
 
 3. Click the plus button at the end of the field to add new fields to the record.
 
-    >**Info:** Use the **Expressions** tab in the record editor to create nested records by selecting the particular record expression.
+    !!! Info
+        Use the **Expressions** tab in the record editor to create nested records by selecting the particular record expression.
 
     ![Add fields](../img/record-editor/add-fields.gif){.cInlineImage-half}
 

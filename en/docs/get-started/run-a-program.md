@@ -4,11 +4,15 @@ Follow the steps below to run a sample Ballerina program in VS Code.
 
 ## Use the code view
 
->**Note:** Skip the steps 1-3, if you already have a Ballerina code.
+Follow the steps below to use the code view to run a Ballerina program.
+
+!!! Note
+    Skip the steps 1-3, if you already have a Ballerina code.
   
 1. Click **View** in the menu bar of the editor, and click **Command Palette**.
 
-    >**Tip:** You can use the shortcut methods `⌘ + ↑ + P` on macOS and `Ctrl + Shift + P` on Windows and Linux.
+    !!! Tip 
+        You can use the shortcut methods `⌘ + ↑ + P` on macOS and `Ctrl + Shift + P` on Windows and Linux.
 
 2. In the search bar, type `Show Examples`, and click **Ballerina: Show Examples**.
 
@@ -29,6 +33,8 @@ Follow the steps below to run a sample Ballerina program in VS Code.
         ![Run button](../img/build-and-try/build-and-run/run-button.png){.cInlineImage-full}
 
 ## Use the diagram view
+
+Follow the steps below to use the code view to run a Ballerina program.
   
 1. View the diagram:
 
@@ -64,7 +70,9 @@ The integrated terminal will open automatically and run the program.
 
 You just ran your first Ballerina program.
 
->**Tip:** If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-the-code.md).
+!!! Tip 
+    If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-the-code.md).
+
 ![Debug button](../img/build-and-try/build-and-run/debug-button.png){.cInlineImage-full}
 
 ## Next steps - Try it

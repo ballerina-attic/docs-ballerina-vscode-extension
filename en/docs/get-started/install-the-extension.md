@@ -18,7 +18,8 @@ Follow the steps below to set up the required prerequisites and install the Ball
 
 You can work on a single [Ballerina package](https://ballerina.io/learn/package-references/) at a time or use [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces) of VS Code to work on several related Ballerina packages at the same time. 
 
->**Info:** When the extension is activated properly, you can see the `Ballerina SDK: <version>` in the status bar at the bottom left corner.
+!!! Info
+    When the extension is activated properly, you can see the `Ballerina SDK: <version>` in the status bar at the bottom left corner.
 
 ![Ballerina SDK Version](../img/get-started/show-version-on-vscode.png){.cInlineImage-half}
 

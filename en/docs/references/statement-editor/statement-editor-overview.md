@@ -40,7 +40,8 @@ Follow the steps below to build the statement.
 
 2.  Click the **var** type descriptor on the statement and click **string** on the **Suggestions** tab.
 
-    >**Info:** The **Suggestions** tab provides contextual suggestions based on the selected item. The **Suggestions** tab currently lists type suggestions because you selected the type descriptor.    
+    !!! Info
+        The **Suggestions** tab provides contextual suggestions based on the selected item. The **Suggestions** tab currently lists type suggestions because you selected the type descriptor.    
 
     ![Change type descriptor](../../img/statement-editor/change-type-descriptor.gif){.cInlineImage-half}
 
@@ -48,7 +49,8 @@ Follow the steps below to build the statement.
 
 3. To edit the variable name, double-click **`variable`** and type `userIdMsg` in the text box.
 
-    >**Info:** Another way to make a part of a statement editable is to click on the required statement component and press  **Enter**/**Return**.
+    !!! Info 
+        Another way to make a part of a statement editable is to click on the required statement component and press  **Enter**/**Return**.
 
     ![Edit variable name](../../img/statement-editor/edit-variable-name.gif){.cInlineImage-half}
 
@@ -56,7 +58,8 @@ Follow the steps below to build the statement.
 
 4. Double click **`<add-expression>`** and type `"UserID : "` in the text box.
 
-    >**Info:** To navigate from one item on the statement to another, you can also press **Tab** or **Shift** + **Tab**.
+    !!! Info
+        To navigate from one item on the statement to another, you can also press **Tab** or **Shift** + **Tab**.
 
     ![Edit variable expression](../../img/statement-editor/edit-variable-expression.gif){.cInlineImage-half}
 
@@ -68,7 +71,8 @@ Follow the steps below to build the statement.
 
     Both of these methods will append another expression template to the existing expression. 
 
-    >**Info:** The **Expressions** tab lists all the pre-defined templates that you can use to define complex expressions.
+    !!! Info 
+        The **Expressions** tab lists all the pre-defined templates that you can use to define complex expressions.
 
     ![Select expression template](../../img/statement-editor/select-expression-template.gif){.cInlineImage-half}
 
@@ -87,17 +91,20 @@ Follow the steps below to build the statement.
     
     The **Suggestions** tab will also provide other supported functions that can be called for the given expression.
 
-    >**Info:** When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call, including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
+    !!! Info
+        When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call, including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
 
-     ![Convert to String](../../img/statement-editor/convert-to-string.gif){.cInlineImage-half}
+    ![Convert to String](../../img/statement-editor/convert-to-string.gif){.cInlineImage-half}
 
-     >**Note:** The Statement Editor clears all the diagnostics messages indicating that the statement is valid.
+    !!! Note
+        The Statement Editor clears all the diagnostics messages indicating that the statement is valid.
 
      Now, follow the steps below to make the variable a final. 
 
 8. Click on the globe icon in the toolbar and select the **final** keyword. 
 
-    >**Info:** The dropdown shows the possible modifiers for the statement that is currently being edited.
+    !!! Info
+        The dropdown shows the possible modifiers for the statement that is currently being edited.
 
      ![Make final](../../img/statement-editor/add-stmt-qualifier.gif){.cInlineImage-half}
 

@@ -13,7 +13,9 @@ is provided via the <a href="https://marketplace.visualstudio.com/items?itemName
 The Ballerina extension provides multiple options to debug Ballerina applications and the most convenient way will be using the context-aware debug CodeLens support.
 
 However, if you require launching debug sessions with additional configurations (i.e., program arguments, environment variables), you can use the `launch.json` configurations.
->**Info:** For more information, see [Debug using configurations](#debug-using-configurations).
+
+!!! Info
+    For more information, see [Debug using configurations](#debug-using-configurations).
 
 ### Program debug sessions
 
@@ -54,9 +56,10 @@ Follow the steps below to start a debug session with configurations. All the con
 
 6. Start a program, test, or remote debug session as shown below.
 
->**Info:** If you launch the debug session through VS Code, the working directory will be the Ballerina package root. However, you can use remote debugging for alternative working directories.
+    !!!Info 
+        If you launch the debug session through VS Code, the working directory will be the Ballerina package root. However, you can use remote debugging for alternative working directories.           
 
-![Start Debug Session](../img/debug/start-debug-session.gif){.cInlineImage-full}
+      ![Start Debug Session](../img/debug/start-debug-session.gif){.cInlineImage-full}
 
 ### Program debug sessions
 
@@ -122,7 +125,8 @@ Follow the steps below to start a remote debug session.
 
 The Ballerina debugger supports various debug configuration options via the `launch.json` file.
 
->**Info:** You can either add the configurations to the existing `launch.json` file, which is located in your workspace root under the `.vscode` directory or follow the steps below to generate the `launch.json` configurations file with the default values.
+!!!Info
+    You can either add the configurations to the existing `launch.json` file, which is located in your workspace root under the `.vscode` directory or follow the steps below to generate the `launch.json` configurations file with the default values.
 
 1. Click the **Run and Debug** icon in the left menu or press the **Control + Shift + D** keys to launch the Debugger view (for Mac - **Command + Shift +D**).
 
@@ -214,4 +218,5 @@ The Ballerina VSCode debugger lets you evaluate expressions in the ways below.
 
 ![Debugger Watch Window](../img/debug/debugger-watch-window.gif){.cInlineImage-full}
 
->**Info:** For more information on the VS Code debugging features, go to <a href="https://code.visualstudio.com/docs/editor/debugging" target="_blank">VS Code documentation</a>.
+!!! Info
+      For more information on the VS Code debugging features, go to <a href="https://code.visualstudio.com/docs/editor/debugging" target="_blank">VS Code documentation</a>.

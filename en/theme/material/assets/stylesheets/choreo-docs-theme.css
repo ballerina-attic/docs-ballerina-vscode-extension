@@ -518,3 +518,16 @@ div.text {
 .md-search__input:hover {
     background-color: #fff;
 }
+
+.admonition.tip, .admonition.info, .admonition.note{
+    border-left-color: #eeeeee !important;
+}
+
+.admonition-title{
+    background-color: #eeeeee !important;
+}
+
+.md-typeset .admonition.tip>.admonition-title:before, .md-typeset .admonition.info>.admonition-title:before, .md-typeset .admonition.note>.admonition-title:before{
+
+    color: #20b6b0 !important; 
+}

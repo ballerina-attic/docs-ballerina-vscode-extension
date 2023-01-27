@@ -16,7 +16,8 @@ A Ballerina project is a collection of one or more [Ballerina packages](https://
 
 A Ballerina project is contained in a [VS Code workspace](https://code.visualstudio.com/docs/editor/workspaces). To use the Design Diagram view, you need to have all the Ballerina packages added to the VS Code editor as a workspace.
 
-> **Tip:** You can save your VS Code workspace as a file and use this file to access the workspace thereafter.
+!!! Tip
+    You can save your VS Code workspace as a file and use this file to access the workspace thereafter.
 
 ### Service identifiers
 
@@ -68,27 +69,25 @@ The resource invocations between services need to be done using [client access a
 
 ## Open the Project Design view
 
-> **Example project**
->
-> Let's use the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) to demonstrate the different capabilities of the Design Diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui` folder is not a Ballerina package, hence would not make an impact. 
+Let's use the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) to demonstrate the different capabilities of the Design Diagram. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui` folder is not a Ballerina package, hence would not make an impact. 
 
-1. To set up a Ballerina project as a VS Code workspace, add all the Ballerina packages to the workspace using one of the following methods:
+To set up a Ballerina project as a VS Code workspace, add all the Ballerina packages to the workspace using one of the following methods: 
 
-      -  Use the **VS Code workspace file** from an already created workspace to import its packages to a new workspace.
+1. Add each Ballerina package to the workspace using the **Add folder to workspace** option in the VS Code editor. 
 
-         > **Info:** The [workspace file](https://github.com/ballerina-guides/gcp-microservices-demo/blob/main/project.code-workspace) of the Online Boutique microservices demo is available in the repository.
+    !!! Info 
+        When the workspace is set up, you will see the following folder structure in the **Explorer**. The workspace name may be different if you set up the workspace from scratch.
 
-      -  Add each Ballerina package to the workspace using the **Add folder to workspace** option in the VS Code editor.
+      ![Workspace structure](../img/visual-programming/project-design-view/workspace-structure.png)    
 
-      When the workspace is set up, you will see the following folder structure in the **Explorer**:
+2. Use the **VS Code workspace file** from an already created workspace to import its packages to a new workspace.
 
-      >**Note:** The workspace name may be different if you set up the workspace from scratch.
+    !!! Info 
+        The [workspace file](https://github.com/ballerina-guides/gcp-microservices-demo/blob/main/project.code-workspace) of the Online Boutique microservices demo is available in the repository.          
 
-      ![Workspace structure](../img/visual-programming/project-design-view/workspace-structure.png)
+Once the packages are added to the workspace, activate the Ballerina Design Diagram generator via the `Ballerina: Project Design` command in the command palette, as shown below.
 
-2. Once the packages are added to the workspace, activate the Ballerina Design Diagram generator via the `Ballerina: Project Design` command in the command palette, as shown below.
-
-      ![Extension Command](../img/visual-programming/project-design-view/extension-command.gif){.cInlineImage-full}
+   ![Extension Command](../img/visual-programming/project-design-view/extension-command.gif){.cInlineImage-full}
 
 ## Explore the Project Design view
 
@@ -104,7 +103,8 @@ This diagram displays all the services available within the workspace with links
 
 ![Service Interaction Diagram](../img/visual-programming/project-design-view/service-interaction-diagram.png){.cInlineImage-full}
 
->**Info:** The link between the `Checkout` service and the `Email` service indicates that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
+!!! Info
+    The link between the `Checkout` service and the `Email` service indicates that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
 
 ### Service Diagram: Level 2
 
@@ -122,7 +122,8 @@ The **Type Diagram** provides a comprehensive view of all the Ballerina record t
 
 ![Type Diagram](../img/visual-programming/project-design-view/types-diagram.png){.cInlineImage-full}
 
->**Info:** The multiplicities of the associations are represented on either side of the connector, while the [type inclusions](https://ballerina.io/learn/by-example/type-inclusion-for-records/) are differentiated using a directed link (represents inheritance).
+!!! Info
+    The multiplicities of the associations are represented on either side of the connector, while the [type inclusions](https://ballerina.io/learn/by-example/type-inclusion-for-records/) are differentiated using a directed link (represents inheritance).
 
 ###   Composition Diagram
 

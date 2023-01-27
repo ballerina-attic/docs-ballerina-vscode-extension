@@ -8,8 +8,9 @@ Follow the steps below to convert a JSON to record from the Record editor.
 
 1.  Create a file with the data below in JSON format.
 
-    >**Info:** The example below converts a `person` and a list of `courses` to a `Student` record. 
-    >
+    !!! Info
+        The example below converts a `person` and a list of `courses` to a `Student` record. 
+    
     ```
     {
         "person": {
@@ -56,8 +57,9 @@ Follow the steps below to convert a JSON to record from the Record editor.
 
 1.  Copy the JSON code block to the Clipboard (`Ctrl + C`).
 
-    >**Info:** The example below converts a `person` and a list of `courses` to a `Student` record. 
-    >
+    !!! Info 
+        The example below converts a `person` and a list of `courses` to a `Student` record. 
+    
     ```
     {
         "person": {
