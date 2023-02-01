@@ -63,6 +63,7 @@ nav:
       - Code navigation: edit-the-code/code-navigation.md
       - Code actions: edit-the-code/code-actions.md
       - Diagnostics: edit-the-code/diagnostics.md
+      - Commands: edit-the-code/commands.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
       - Project Design view: visual-programming/project-design-view.md
