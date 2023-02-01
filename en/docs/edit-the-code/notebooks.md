@@ -17,7 +17,7 @@ Notebook cells can be executed using the Run button available at the left side o
 
 <img src="https://github.com/wso2/ballerina-plugin-vscode/blob/main/resources/images/notebook-code-execution.gif?raw=true" width="100%" />
 
-## Edit the codes
+## Edit the code
 
 You can use IntelliSense features to edit the code on Notebooks as shown below.
 
