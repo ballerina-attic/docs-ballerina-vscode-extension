@@ -172,7 +172,7 @@ Given below are the default configurations generated for debugging Ballerina:
 
 ### Configuration attributes
 
-The auto-generated `launch.json` file consists of three main configurations named `Ballerina Debug`, `Ballerina Test`, and `Ballerina Remote`. Each configuration supports a different set of attributes, which will be provided via IntelliSense completion suggestions.
+The auto-generated `launch.json` file consists of three debug configurations named `Ballerina Debug`, `Ballerina Test`, and `Ballerina Remote`. Each configuration supports a different set of attributes, which will be provided via IntelliSense completion suggestions.
 
 The following attributes are mandatory for all configurations.
 
