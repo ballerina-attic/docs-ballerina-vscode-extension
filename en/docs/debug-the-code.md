@@ -72,8 +72,6 @@ Follow the steps below to start a program debug session.
 
    ![Program Debug](../img/debug/program-debug.gif){.cInlineImage-full}
 
-<br/>
-
 ### Test debug sessions 
 
 Follow the steps below to start a test debug session.
