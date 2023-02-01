@@ -36,8 +36,6 @@ and you are able to execute/debug only the selected test case by clicking on the
 
 ![Start_Test Quick Debug Session](../img/debug/start-quick-test-debug-session.gif){.cInlineImage-full}
 
-<br/>
-
 ## Debug using configurations
 
 Follow the steps below to start a debug session with configurations. All the configurations need to be added in the `launch.json` file.
@@ -74,8 +72,6 @@ Follow the steps below to start a program debug session.
 
    ![Program Debug](../img/debug/program-debug.gif){.cInlineImage-full}
 
-<br/>
-
 ### Test debug sessions 
 
 Follow the steps below to start a test debug session.
@@ -100,7 +96,7 @@ Follow the steps below to start a remote debug session.
 
 4. Open a terminal and execute the debug command that is relevant to your requirement from the ones below:
 
-      | Cmmand                   	| Description                                                          	|
+      | Command                   	| Description                                                          	|
       |---------------------------------	|----------------------------------------------------------------------	|
       | `bal run --debug <DEBUGGEE_PORT> <BAL_FILE_PATH/PACKAGE_PATH>`                 	| Debugging a Ballerina package or a single file
       | `bal run --debug <DEBUGGEE_PORT> <EXECUTABLE_JAR_FILE_PATH>`                	| Debugging a Ballerina executable JAR
