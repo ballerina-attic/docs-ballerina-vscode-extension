@@ -74,7 +74,7 @@ Add the code below to the `main.bal` file of the package to define an empty expr
 ```ballerina
 function name() => ();
 ```
-Once you add the above function, the VS Code extension will display a code lens called `Design` on top of the function. Click the **Design** code lens to go to the Data Mapper view.
+Once you add the above function, the VS Code extension will display a CodeLens called `Design` on top of the function. Click the **Design** CodeLens to go to the Data Mapper view.
 
 ![Open Data Mapper](../img/visual-programming/datamapper/open-via-code-lens.gif){.cInlineImage-full}
 

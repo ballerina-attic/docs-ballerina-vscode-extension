@@ -8,7 +8,7 @@ These configurations are the basic ones, which are used by the extension users.
 
 | ID                                    | Description                                               |
 |---------------------------------------|-----------------------------------------------------------|
-| ballerina.codeLens.all.enabled        | Enable code lenses that appear in the editor view.           |
+| ballerina.codeLens.all.enabled        | Enable CodeLens that appear in the editor view.           |
 | ballerina.enableConfigurableEditor    | Enable the configurable editor. This will open a  form to set values for [configurable variables](https://ballerina.io/learn/by-example/configurable-variables/) in the code when you [run](../docs/get-started/run-a-program.md) the Ballerina code. |
 | ballerina.enableNotebookDebug         | Enable the debug feature in Ballerina notebook files (`.balnotebook`). |
 | ballerina.enablePerformanceForecast   | Enable the performance forecaster. This will show you the forecasted latency and other performance values for Ballerina services in the low-code diagram.     |
