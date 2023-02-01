@@ -1,4 +1,4 @@
-# Ballerina VS Code Extension Documentation
+# Ballerina Visual Studio Code Extension Documentation
 
 This is the Ballerina VS Code extension documentation repository. This repository is open and we welcome your contributions!
 
