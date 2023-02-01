@@ -2,9 +2,9 @@
 
 The Ballerina language provides several options to convert JSON files into record definitions. 
 
-## Via the record editor
+## Via the Record Editor
 
-Follow the steps below to convert a JSON to record via the record editor.
+Follow the steps below to convert a JSON to record via the Record Editor.
 
 1.  Create a file with the data below in JSON format.
 
@@ -39,7 +39,7 @@ Follow the steps below to convert a JSON to record via the record editor.
     }
     ```
 
-2. In the record editor, select **Import A JSON**.
+2. In the Record Editor, select **Import A JSON**.
 
 3. Provide a name for the record.
 
