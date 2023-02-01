@@ -36,8 +36,6 @@ and you are able to execute/debug only the selected test case by clicking on the
 
 ![Start_Test Quick Debug Session](../img/debug/start-quick-test-debug-session.gif){.cInlineImage-full}
 
-<br/>
-
 ## Debug using configurations
 
 Follow the steps below to start a debug session with configurations. All the configurations need to be added in the `launch.json` file.
