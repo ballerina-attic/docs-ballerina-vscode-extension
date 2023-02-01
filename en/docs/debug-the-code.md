@@ -48,9 +48,10 @@ Follow the steps below to start a debug session with configurations. All the con
 
 3. Click **create a launch.json** file and then select **Ballerina Debug** as the **Environment**. 
 
-      You will see the opened `launch.json` file.
+4. Add/edit the relevant configurations for debugging in the opened `launch.json` file.
 
-4. Add/edit the relevant configurations for debugging in the `launch.json` file.
+    !!!Info 
+        For instructions on the configuration attributes, see [Configuration attributes](#configuration-attributes). 
 
 5. Add the debug points you require by clicking in front of the line numbers of the file you want to debug.
 
@@ -87,13 +88,11 @@ Follow the steps below to start a test debug session.
 
    ![Test Debug](../img/debug/test-debug.gif){.cInlineImage-full}
 
-<br/>
-
-## Remote debug sessions
+### Remote debug sessions
 
 Follow the steps below to start a remote debug session.
 
-1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Debug using configurations](#debug-using-configurations).
+1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Set up debugging configurations](#set-up-debugging-configurations).
 
 2. Open the `launch.json` file and configure the `debuggeeHost` and `debuggeePort` attributes under the `Ballerina Remote` configurations section accordingly.
 
@@ -101,11 +100,11 @@ Follow the steps below to start a remote debug session.
 
 4. Open a terminal and execute the debug command that is relevant to your requirement from the ones below:
 
-      | Code action                     	| Description                                                          	|
+      | Cmmand                   	| Description                                                          	|
       |---------------------------------	|----------------------------------------------------------------------	|
-      | Debugging a Ballerina package or a single file                 	| `bal run --debug <DEBUGGEE_PORT> <BAL_FILE_PATH/PACKAGE_PATH>`
-      | Debugging a Ballerina executable JAR                	| `bal run --debug <DEBUGGEE_PORT> <EXECUTABLE_JAR_FILE_PATH>`|
-      | Debugging Ballerina tests                	| `bal test --debug <DEBUGGEE_PORT> <PACKAGE_PATH>`
+      | `bal run --debug <DEBUGGEE_PORT> <BAL_FILE_PATH/PACKAGE_PATH>`                 	| Debugging a Ballerina package or a single file
+      | `bal run --debug <DEBUGGEE_PORT> <EXECUTABLE_JAR_FILE_PATH>`                	| Debugging a Ballerina executable JAR
+      | `bal test --debug <DEBUGGEE_PORT> <PACKAGE_PATH>`                	| Debugging Ballerina tests
 
       The terminal will show the following log:
 
@@ -119,14 +118,14 @@ Follow the steps below to start a remote debug session.
 
       ![Remote Debug](../img/debug/remote-debug.gif){.cInlineImage-full}
 
-<br/>
 
-## Use debug configurations
+## Set up debugging configurations
 
 The Ballerina debugger supports various debug configuration options via the `launch.json` file.
 
-!!!Info
-    You can either add the configurations to the existing `launch.json` file, which is located in your workspace root under the `.vscode` directory or follow the steps below to generate the `launch.json` configurations file with the default values.
+### Create the configuration file
+
+You can either add the configurations to the existing `launch.json` file, which is located in your workspace root under the `.vscode` directory or follow the steps below to generate the `launch.json` configurations file with the default values.
 
 1. Click the **Run and Debug** icon in the left menu or press the **Control + Shift + D** keys to launch the Debugger view (for Mac - **Command + Shift +D**).
 
@@ -134,19 +133,46 @@ The Ballerina debugger supports various debug configuration options via the `lau
 
       ![Run And Debug](../img/debug/run-and-debug.png){.cInlineImage-full}
 
-      ![Ballerina Debug](../img/debug/ballerina-debug.png){.cInlineImage-half}
-
 Given below are the default configurations generated for debugging Ballerina:
 
-![Debug Configurations](../img/debug/debug-configurations.png){.cInlineImage-half}
+```json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Ballerina Debug",
+            "type": "ballerina",
+            "request": "launch",
+            "programArgs": [],
+            "commandOptions": [],
+            "env": {}
+        },
+        {
+            "name": "Ballerina Test",
+            "type": "ballerina",
+            "request": "launch",
+            "debugTests": true,
+            "programArgs": [],
+            "commandOptions": [],
+            "env": {}
+        },
+        {
+            "name": "Ballerina Remote",
+            "type": "ballerina",
+            "request": "attach",
+            "debuggeeHost": "127.0.0.1",
+            "debuggeePort": "5005"
+        }
+    ]
+}
+```
 
-<br/>
+### Configuration attributes
 
-### Ballerina `launch.json` attributes
-
-The auto-generated `launch.json` file consists of three main configurations named `Ballerina Debug`, `Ballerina Test`, and `Ballerina Remote`.
-
-Each configuration supports a different set of attributes, which will be provided via IntelliSense completion suggestions.
+The auto-generated `launch.json` file consists of three debug configurations named `Ballerina Debug`, `Ballerina Test`, and `Ballerina Remote`. Each configuration supports a different set of attributes, which will be provided via IntelliSense completion suggestions.
 
 The following attributes are mandatory for all configurations.
 
@@ -212,9 +238,13 @@ The Ballerina VSCode debugger lets you evaluate expressions in the ways below.
 
 #### Use the debug console
 
+You can evaluate expressions using the debug console as shown below.
+
 ![Debugger Evaluation Console](../img/debug/debugger-evaluation-console.gif){.cInlineImage-full}
 
 #### Use the watch window
+
+You can evaluate expressions using the watch window as shown below.
 
 ![Debugger Watch Window](../img/debug/debugger-watch-window.gif){.cInlineImage-full}
 
