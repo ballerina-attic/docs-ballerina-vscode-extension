@@ -6,6 +6,8 @@ When you map data via the user interface, the Data Mapper generates the required
 
 ## Set up the prerequisites
 
+Follow the steps below to set up the prerequisites.
+
 1. Install the [latest Ballerina version](https://ballerina.io/downloads/) and the [Ballerina Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
 2. Execute the command below to create a package (if you are not already working on one).
 
