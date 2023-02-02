@@ -1,0 +1,19 @@
+name: Crawl Ballerina VSCode Docs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-crawler:
+    name: Run Algolia Crawler
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: sudo apt-get install jq
+
+      - name: Run Docker image
+        uses: docker run -it --env-file=.env -e "CONFIG=$(cat ./../configs/config.json | jq -r tostring)" algolia/docsearch-scraper
