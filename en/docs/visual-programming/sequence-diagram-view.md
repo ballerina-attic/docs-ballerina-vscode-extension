@@ -65,10 +65,14 @@ can receive.
 The following code shows an HTTP client that is used to the `GET` and `POST` requests sent to a remote endpoint.
 
 ```ballerina
+import ballerina/http;
+
+configurable string lookupUrl = ?;
+configurable string reportUrl = ?;
+
 function execute() returns error? {
     http:Client lookupService = check new (lookupUrl);
     http:Client reportService = check new (reportUrl);
-
     json result = check lookupService->get("/query");
     http:Response response = check reportService->post("/report", result);
 }
