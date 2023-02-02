@@ -281,15 +281,14 @@
   {% include "partials/footer.html" %}
   {% endblock %}
     </footer>
-  <!--
+
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
   <script type="text/javascript"> docsearch({
-    apiKey: 'ec4809d281d5e07f5d0c8c36063739a4',
-    appId:'TYOC0645HN',
-    indexName: 'wso2_choreo',
+    apiKey: process.env.API_KEY,
+    appId: process.env.APPLICATION_ID,
+    indexName: 'ballerina_vscode_docs',
     inputSelector: ".md-search__input",
     debug: false // Set debug to true if you want to inspect the dropdown
   });
   </script>
--->
 </html>
