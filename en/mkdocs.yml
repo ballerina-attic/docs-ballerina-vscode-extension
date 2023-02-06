@@ -64,11 +64,11 @@ nav:
       - Code actions: edit-the-code/code-actions.md
       - Diagnostics: edit-the-code/diagnostics.md
       - Commands: edit-the-code/commands.md
-      - Notebooks: edit-the-code/notebooks.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
       - Project Design view: visual-programming/project-design-view.md
       - Data Mapper: visual-programming/data-mapper.md
+  - Notebooks: notebooks.md
   - Debug the code: debug-the-code.md
   - Configure the extension: configure-the-extension.md
   - References:
