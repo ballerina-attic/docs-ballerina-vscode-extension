@@ -247,6 +247,7 @@ html .md-typeset .superfences-tabs > label:hover {
 @media only screen and (min-width: 76.25em) {
     .md-search__inner {
         margin-right: 0;
+        margin-left: 100px;
     }
 }
 

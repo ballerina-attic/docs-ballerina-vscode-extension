@@ -62,29 +62,11 @@
             />
             <div class="text">Get Help</div>
           </a>
-          {% endif %} 
-          <!--
-          {% if config.theme.choreo_logo %}
-
-          <a href="https://console.choreo.dev/login" class="actionLink">
-            <img
-              class="actionImg"
-              src="{{ config.theme.choreo_logo | url }}"
-              alt="choreo logo icon"
-            />
-            <div class="text">Try Choreo</div>
-          </a>
           {% endif %}
-        -->
         </div>
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink" style="width: 12rem;">
-        {% if "search" in config["plugins"] %}
-      <label
-        class="md-icon md-icon--search md-header-nav__button"
-        for="__search"
-      ></label>
-      {% include "partials/search.html" %} {% endif %}
+      <div class= "md-search-home" >
+        {% include "partials/search.html" %}
       </div>
     </div>
     </div>

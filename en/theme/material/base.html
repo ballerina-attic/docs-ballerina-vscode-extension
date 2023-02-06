@@ -11,10 +11,8 @@
     {% block site_meta %}
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <!--
       <meta name="docsearch:language" content="en" />
       <meta name="docsearch:version" content="1.0.0" />
-      -->
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       {% if page and page.meta and page.meta.description %}
         <meta name="description" content="{{ config.site_description }}">
@@ -284,8 +282,8 @@
 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
   <script type="text/javascript"> docsearch({
-    apiKey: process.env.API_KEY,
-    appId: process.env.APPLICATION_ID,
+    apiKey: '5f597bdf20ba061fa37895070d3144b4',
+    appId: '97JMLUMIZJ',
     indexName: 'ballerina_vscode_docs',
     inputSelector: ".md-search__input",
     debug: false // Set debug to true if you want to inspect the dropdown

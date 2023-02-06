@@ -323,6 +323,10 @@ align: left;
 width: 100%;
 }
 
+.md-search__input,.md-search__input:active,.md-search__input:focus,.md-search__input:hover{
+color: #000000 !important;
+}
+
 
 .md-container{
 padding-bottom:15px;
@@ -421,7 +425,7 @@ html .md-nav--primary .md-nav__title ~ .md-nav__list {
 }
 } 
 .topBarActionsCont{
-
+padding-right: 30px;
 vertical-align: middle;
 }
 .topBarActions{
