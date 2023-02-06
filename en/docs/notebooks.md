@@ -1,6 +1,6 @@
 # Notebooks
 
-Ballerina notebooks can be created in VS Code using the `.balnotebook` extension for filename. Markdown and Ballerina code snippets are supported by Ballerina notebook cells.
+Ballerina notebooks can be created in the VS Code editor using the `.balnotebook` extension for filenames. Markdown and Ballerina code snippets are supported by Ballerina notebook cells.
 
 !!! Info
     Make sure your VS Code version is `1.67.0` or higher when using Ballerina notebooks.
@@ -36,6 +36,6 @@ You can view variables in notebooks as shown below.
 
 ## Debug notebooks
 
-It is required to enable the notebook debug mode to debug the notebook as shown below.
+To debug Ballerina notebooks, you need to enable debug mode as shown below.
 
 ![debug notebooks](../img/edit-the-code/notebooks//notebook-debug.gif){.cInlineImage-full}
