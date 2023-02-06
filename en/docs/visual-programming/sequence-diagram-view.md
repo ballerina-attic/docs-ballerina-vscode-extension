@@ -11,7 +11,7 @@ There are two methods for switching to the graphical mode using the VS Code exte
 
 -   Execute the `Ballerina: Show Diagram` command from the command palette.
     
-    ![command screenshot](../img/visual-programming/sequence-diagram-view/show-diagram-command-palette.png){.cInlineImage-half}
+    <img src="../img/visual-programming/sequence-diagram-view/show-diagram-command-palette.png" class="cInlineImage-threeQuarter"/>
 
 -   Click `Show Diagram` in the editor group.
     
@@ -119,7 +119,7 @@ function execute() returns error? {
 
 **Graphical view**
 
-![Client code representations](../img/visual-programming/sequence-diagram-view/client-code-representations.png){.cInlineImage-half}
+![Client code representations](../img/visual-programming/sequence-diagram-view/client-code-representations.png){.cInlineImage-full}
 
 ## Develop programs in graphical mode
 
