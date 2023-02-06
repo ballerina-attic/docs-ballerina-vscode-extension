@@ -1,13 +1,13 @@
 # Notebooks
 
-Ballerina notebooks can be created in the VS Code editor using the `.balnotebook` extension for filenames. Markdown and Ballerina code snippets are supported by Ballerina notebook cells.
+Ballerina notebook is a canvas, which combines Markdown text and executable Ballerina source code. Markdown and Ballerina code snippets are supported by Ballerina notebook cells.
 
 !!! Info
     Make sure your VS Code version is `1.67.0` or higher when using Ballerina notebooks.
 
 ## Create a notebook 
 
-You can create a notebook with the given filename via the Command Palatte of the VS Code editor as shown below.
+Ballerina notebooks can be created in the VS Code editor using the `.balnotebook` extension for filenames. You can create a notebook with the given filename via the Command Palatte of the VS Code editor as shown below.
 
 <img src="./img/edit-the-code/notebooks/notebook-create.gif" class="cInlineImage-full"/>
 
