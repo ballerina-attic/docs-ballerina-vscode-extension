@@ -68,6 +68,7 @@ nav:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
       - Project Design view: visual-programming/project-design-view.md
       - Data Mapper: visual-programming/data-mapper.md
+  - Notebooks: notebooks.md
   - Debug the code: debug-the-code.md
   - Configure the extension: configure-the-extension.md
   - References:
