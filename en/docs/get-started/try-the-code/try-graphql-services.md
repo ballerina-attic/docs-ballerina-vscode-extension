@@ -35,12 +35,14 @@ Once you add the above function, the VS Code extension will display a CodeLens c
     !!! Info
         This opens the terminal and starts running the service.
 
+    ![Graphql CodeLenses](../../img/build-and-try/try-graphql-services/graphql-run.png){.cInlineImage-full}
+
 2. Click the **Try it** CodeLens to open the GraphQL Try it view.
 
     !!! Note
         The service must be in the running state to use GraphQL Try it view.
 
-    ![Graphql CodeLenses](../../img/build-and-try/try-graphql-services/graphql-codelenses.png){.cInlineImage-full}
+    ![Graphql CodeLenses](../../img/build-and-try/try-graphql-services/graphql-tryit.png){.cInlineImage-full}
 
 3. Once the GraphQL view is opened, click **Explorer** to open the **Explorer** view.
 
