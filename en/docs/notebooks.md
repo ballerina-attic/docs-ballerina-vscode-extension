@@ -9,7 +9,7 @@ Ballerina notebooks can be created in VS Code using the `.balnotebook` extension
 
 You can create a notebook with the given filename via the Command Palatte of the VS Code editor as shown below.
 
-![notebook creation](../img/edit-the-code/notebooks/notebook-create.gif){.cInlineImage-full}
+<img src="../img/edit-the-code/notebooks/notebook-create.gif" class="cInlineImage-full"/>
 
 ## Execute the code
 
