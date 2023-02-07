@@ -9,6 +9,7 @@ When you map data via the user interface, the Data Mapper generates the required
 Follow the steps below to set up the prerequisites.
 
 1. Install the [latest Ballerina version](https://ballerina.io/downloads/) and the [Ballerina Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
+
 2. Execute the command below to create a package (if you are not already working on one).
 
     ```bash
@@ -76,15 +77,16 @@ Add the code below to the `main.bal` file of the package to define an empty expr
 ```ballerina
 function name() => ();
 ```
+
 Once you add the above function, the VS Code extension will display a CodeLens called `Design` on top of the function. Click the **Design** CodeLens to go to the Data Mapper view.
 
-![Open Data Mapper](../img/visual-programming/datamapper/open-via-code-lens.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/open-via-code-lens.gif)" class="cInlineImage-full"/>
 
 ### Open with the Diagram View
 
 Open the file in the Diagram View and click the `+` icon on the page. Then, click **Data Mapper** in the **Add Constructs** pane.
 
-![Open Data Mapper](../img/visual-programming/datamapper/open-via-diagram.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/open-via-diagram.gif)" class="cInlineImage-full"/>
 
 ## Provide inputs and output
 
@@ -94,7 +96,7 @@ In the Data Mapper form, you have several options to provide the input and outpu
 
 This example imports JSON files and creates the records as shown below.
 
-![Configure Data Mapper](../img/visual-programming/datamapper/define-inputs-n-output.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/define-inputs-n-output.gif)" class="cInlineImage-full"/>
 
 Once you define the input and the output types, click **Save** to open the mapping view. 
 
@@ -109,7 +111,7 @@ Map the `person id` to the `student id` as shown below.
 !!! Info
     The mapping view will have the **Inputs** on the left hand side of the UI and the **Output** on the right. To map the fields, click on the input field port and then, click the output field port. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.
 
-![Basic Mapping](../img/visual-programming/datamapper/basic-mapping.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/basic-mapping.gif)" class="cInlineImage-full"/>
 
 ### Diagnose and fix mapping errors
 
@@ -118,7 +120,7 @@ Use the `toBalString` lang lib function to convert the int to string as shown be
 !!! Info
     When you map the input fields to output fields, some of them might not be compatible due to type mismatch. In this example, if you map the `person age` to `student` age, it will result in an type mismatch error since the `input age` type is an integer and the `output age` type is a string. In this case, the Data Mapper will connect the two fields with a red line and show an alert sign. You can see the error by hovering over the alert sign. In this case, it will show the `incompatible types: expected 'string', found 'int'` error. To fix the error, hover over the alert sign and click **Fix by editing expression**. Then, the Data Mapper will pop out the expression editor for the specific expression. Now, you can modify the expression to return a string.
 
-![Fix Errors](../img/visual-programming/datamapper/fix-diagnostics.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/fix-diagnostics.gif)" class="cInlineImage-full"/>
 
 Once you fix the error, the connection appears in blue to indicate that there are no errors.
 
@@ -129,7 +131,7 @@ You can derive one output parameter by combining two or more input parameters. I
 !!! Info
     To aggregate fields, you can map two or more fields to the same output field. The Data Mapper will automatically combine the two fields and assign them to the output field. By default, the fields will be combined with a plus operator. If you want to use a different operator or method to combine two fields, you can click on the **Code** button and customize the expression with the expression editor.
 
-![Concatenate](../img/visual-programming/datamapper/concatination.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/concatination.gif)" class="cInlineImage-full"/>
 
 ### Map the arrays
 
@@ -138,7 +140,7 @@ To convert from one array type to another, you can simply map the input array to
 !!! Info
     You can use Ballerina query support to convert one array type to another. To use a query in a Data Mapper, you can select the array by clicking on it. Then, it will provide you with several buttons. Click the code action button (bulb sign) and select **Convert to query**. Then, the Data Mapper will convert the mapping to a query. Then, move into the query and do the mapping between the array types.
 
-![Convert to Query](../img/visual-programming/datamapper/convert-to-query.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/convert-to-query.gif)" class="cInlineImage-full"/>
 
 #### Process the data further
 
@@ -153,8 +155,7 @@ You can further process the data within the query expression. Currently, the Dat
 | `Join`   	| Perform an inner join.                  	|
 | `Outer join`  	| Perform left outer join.                                              	|
 
-
-![Further Processing](../img/visual-programming/datamapper/further-processing.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/further-processing.gif)" class="cInlineImage-full"/>
 
 Once the array type mapping is completed, select the transform function name in the top breadcrumb bar to navigate to the root view of mapping.
 
@@ -165,7 +166,7 @@ You can define local variables within the transformation function and re-use the
 !!! Info
     If there are no existing local variables, you can open up the local variable pane by clicking the **Add Local Variable** button. Otherwise, the defined local variables are listed down under **local variables** in the RHS of the UI. You will be able to access the local variable pane by clicking the **Edit** button there.
 
-![Local Variable](../img/visual-programming/datamapper/add-local-variable.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/add-local-variable.gif)" class="cInlineImage-full"/>
 
 ### Manipulate fields without drawing connections
 
@@ -179,7 +180,7 @@ Click the triple dots button at the end of the field to see the actions that can
 Once the array is initialized, you can add array elements by clicking the **+ Add Element** button.
 Furthermore, clicking the triple dots button on any array element will provide the option to delete that element.
 
-![Array Manipulation](../img/visual-programming/datamapper/array-manipulation.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/array-manipulation.gif)" class="cInlineImage-full"/>
 
 #### Add/Edit constant values/expressions 
 
@@ -188,14 +189,14 @@ Furthermore, clicking the triple dots button on any array element will provide t
 
 1. Add a hard-coded visa type for foreign students.
 
-    ![Add Expression](../img/visual-programming/datamapper/add-inline-expr.gif){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/add-inline-expr.gif)" class="cInlineImage-full"/>
 
     !!! Info
         If a particular field is having a value, you will see the **Edit value** action once you click the triple dots button.
 
 2. Add an 'F' suffix to the `student id` of each foreign student.
 
-    ![Edit Expression](../img/visual-programming/datamapper/edit-inline-expr.gif){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/edit-inline-expr.gif)" class="cInlineImage-full"/>
 
 3. Fill the `totalCredits` field by getting the summation of the credits in each CS course.
 
@@ -206,7 +207,7 @@ Furthermore, clicking the triple dots button on any array element will provide t
     var totalCredits = function(int total, record {string id; string name; int credits;} course) returns int => total + (course.id.startsWith("CS") ? course.credits : 0);
     ```
 
-![Edit Expression](../img/visual-programming/datamapper/use-reduce-array-function.gif){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/use-reduce-array-function.gif)" class="cInlineImage-full"/>
 
 Now, you have successfully configured the transformation function using the Data Mapper.
 

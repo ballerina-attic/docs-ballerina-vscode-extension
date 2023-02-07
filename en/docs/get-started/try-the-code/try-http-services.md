@@ -32,23 +32,23 @@ Once you add the above function, the VS Code extension will display a CodeLens c
     !!! Note
         The service must be in the running state to use Try it view.
 
-    ![Swagger codelense](../../img/build-and-try/try-http-services/swagger-codelenses.png){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-codelenses.png" class="cInlineImage-full"/>
 
     You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
     
-    ![Try it button](../../img/build-and-try/try-http-services/tryit-button.png){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/tryit-button.png" class="cInlineImage-full"/>
 
 3. Once the Swagger view is opened, click **Try it out**.
 
     !!! Tip 
         You can find all available APIs from the opened side menu.
 
-    ![Swagger view](../../img/build-and-try/try-http-services/swagger-view-tryit-btn.png){.cInlineImage-full} 
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-tryit-btn.png" class="cInlineImage-full"/>
 
 4. Click **Execute** to see the response.
-    
-    ![Swagger response](../../img/build-and-try/try-http-services/swagger-view-response.png){.cInlineImage-half}
+
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-response.png" class="cInlineImage-half"/>
 
     If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
     
-    ![Swagger parameters](../../img/build-and-try/try-http-services/swagger-view-parameters.png){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-parameters.png" class="cInlineImage-half"/>
