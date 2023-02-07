@@ -11,15 +11,15 @@ There are two methods for switching to the graphical mode using the VS Code exte
 
 -   Execute the `Ballerina: Show Diagram` command from the command palette.
     
-    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/show-diagram-command-palette.png)" class="cInlineImage-half"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/show-diagram-command-palette.png" class="cInlineImage-half"/>
 
 -   Click `Show Diagram` in the editor group.
     
-    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/editor-group-button.png)" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/editor-group-button.png" class="cInlineImage-full"/>
 
 Shown below is the code editor and graphical editor in view.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/graphical-view.png)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/graphical-view.png" class="cInlineImage-full"/>
 
 ## Graphical representation of code
 
@@ -50,7 +50,7 @@ public function main() {
 
 **Graphical view**
     
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/function-sequence-diagram.png)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/function-sequence-diagram.png" class="cInlineImage-full"/>
 
 ### Concurrent execution
 
@@ -93,7 +93,7 @@ public function FunctionWithWorker() {
 
 **Graphical view**
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/worker_sample.png)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/worker_sample.png" class="cInlineImage-full"/>
 
 ### Remote endpoints and clients
 
@@ -119,14 +119,14 @@ function execute() returns error? {
 
 **Graphical view**
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/client-code-representations.png)" class="cInlineImage-half"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/client-code-representations.png" class="cInlineImage-full"/>
 
 ## Develop programs in graphical mode
 
 You can interact with the diagram using the `plus` icons placed in the lifeline. You can add a statement at the 
 function execution flow by clicking **Add**.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/diagram-interaction.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/diagram-interaction.gif" class="cInlineImage-full"/>
 
 ## Related topics
 

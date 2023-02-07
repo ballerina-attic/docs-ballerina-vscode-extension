@@ -20,4 +20,4 @@ For example, the `variable assignment is required` diagnostic suggests two quick
 - Create a new variable
 - Ignore the return value
 
-![Quickfixes](../img/edit-the-code/diagnostics/quickfixes.gif){.cInlineImage-full}
+![Quickfixes](../img/edit-the-code/diagnostics/quickfixes.gif){.cInlineImage-threeQuarter}

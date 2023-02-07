@@ -27,14 +27,14 @@ Follow the steps below to start a quick debug session using CodeLens.
 
 3. Click the `Debug` CodeLens, which will appear just above the `main()` method.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-main-debug-session.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-main-debug-session.gif" class="cInlineImage-full"/>
 
 ### Test debug sessions
 
 The Ballerina test functions can also be debugged using CodeLens. The `debug` CodeLens will automatically appear on top of each Ballerina test function
 and you are able to execute/debug only the selected test case by clicking on the corresponding CodeLens as shown below.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-test-debug-session.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-test-debug-session.gif" class="cInlineImage-full"/>
 
 ## Debug using configurations
 
@@ -58,7 +58,7 @@ Follow the steps below to start a debug session with configurations. All the con
     !!!Info 
         If you launch the debug session through VS Code, the working directory will be the Ballerina package root. However, you can use remote debugging for alternative working directories.           
 
-      <img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-debug-session.gif)" class="cInlineImage-full"/>
+      <img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-debug-session.gif" class="cInlineImage-full"/>
 
 ### Program debug sessions
 
@@ -70,7 +70,7 @@ Follow the steps below to start a program debug session.
 
    You will see the output in the **DEBUG CONSOLE**.
 
-   <img src="https://wso2.com/ballerina/vscode/docs/img/debug/program-debug.gif)" class="cInlineImage-full"/>
+   <img src="https://wso2.com/ballerina/vscode/docs/img/debug/program-debug.gif" class="cInlineImage-full"/>
 
 ### Test debug sessions 
 
@@ -82,7 +82,7 @@ Follow the steps below to start a test debug session.
 
    You will see the output in the **DEBUG CONSOLE** as shown below.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/debug/test-debug.gif)" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/debug/test-debug.gif" class="cInlineImage-full"/>
 
 ### Remote debug sessions
 
@@ -112,7 +112,7 @@ Follow the steps below to start a remote debug session.
 
       You will see the output in the **DEBUG CONSOLE** as shown below.
 
-      <img src="https://wso2.com/ballerina/vscode/docs/img/debug/remote-debug.gif)" class="cInlineImage-full"/>
+      <img src="https://wso2.com/ballerina/vscode/docs/img/debug/remote-debug.gif" class="cInlineImage-full"/>
 
 ## Set up debugging configurations
 
@@ -126,7 +126,7 @@ You can either add the configurations to the existing `launch.json` file, which 
 
 2. Click **create a launch.json file** and select **Ballerina Debug**.
 
-      <img src="https://wso2.com/ballerina/vscode/docs/img/debug/run-and-debug.png)" class="cInlineImage-full"/>
+      <img src="https://wso2.com/ballerina/vscode/docs/img/debug/run-and-debug.png" class="cInlineImage-full"/>
 
 Given below are the default configurations generated for debugging Ballerina:
 
@@ -202,7 +202,7 @@ The following debugging features are currently supported by the Ballerina VScode
 The Ballerina debugger provides the ability of setting Ballerina expression-based conditions for regular breakpoints.
 The debugger will suspend at the breakpoint whenever the expression evaluates to true.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-conditional-breakpoints.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-conditional-breakpoints.gif" class="cInlineImage-full"/>
 
 ### Logpoints
 
@@ -210,18 +210,18 @@ Logpoints are another variant of breakpoints, which do not "break" the program e
 
 Logpoints can also be enabled/disabled and can be controlled by conditions similar to regular breakpoints.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-logpoints.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-logpoints.gif" class="cInlineImage-full"/>
 
 Log messages can either be plain texts or string templates, which can contain expressions to be evaluated within the `${}` syntax.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-logpoints-template.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-logpoints-template.gif" class="cInlineImage-full"/>
 
 ### Pause and continue
 
 Any running Ballerina programs can be suspended immediately at the current execution line of the program using the `pause` command in VS Code as shown below.
 With this feature, you are able to suspend (and resume) the remote VM resulting in a debug hit at the current execution line of the program.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-pause-resume-commands.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-pause-resume-commands.gif" class="cInlineImage-full"/>
 
 This feature will be useful in contexts where the program seems to be hanged due to blocking operations/infinite loops and when you want to know the exact line that the program is waiting on.
 
@@ -235,13 +235,13 @@ The Ballerina VSCode debugger lets you evaluate expressions in the ways below.
 
 You can evaluate expressions using the debug console as shown below.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-evaluation-console.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-evaluation-console.gif" class="cInlineImage-full"/>
 
 #### Use the watch window
 
 You can evaluate expressions using the watch window as shown below.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-watch-window.gif)" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-watch-window.gif" class="cInlineImage-full"/>
 
 !!! Info
       For more information on the VS Code debugging features, go to <a href="https://code.visualstudio.com/docs/editor/debugging" target="_blank">VS Code documentation</a>.

@@ -31,6 +31,6 @@ Follow the steps below to construct a record using the Statement Editor.
 7. To convert the record to an open/closed record, first, select the complete record by clicking on the record keyword.
     This selects the **Expressions** tab in which you are given the option to make a record a closed record.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/closed-record.gif)" class="cInlineImage-half"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/closed-record.gif" class="cInlineImage-half"/>
 
 8. Once the record field configuration is done, click **Save**.

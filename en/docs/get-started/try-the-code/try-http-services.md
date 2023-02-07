@@ -51,4 +51,4 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 
     If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
     
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-parameters.png" class="cInlineImage-half"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-parameters.png" class="cInlineImage-full"/>
