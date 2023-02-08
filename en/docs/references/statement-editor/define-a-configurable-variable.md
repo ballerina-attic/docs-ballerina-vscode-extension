@@ -8,16 +8,15 @@ For example, when you create a variable `host` of type **string**, if you decide
 
 1. Click on the **`<add-expression>`** template and click the **Add-configurable** button in the toolbar.
 
-    ![Click new Configurable](../../img/statement-editor/add-configurable-button-click.gif){.cInlineImage-half}
-
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/add-configurable-button-click.gif" class="cInlineImage-half"/>
 
     This opens up a new pane with the configurable variable statement template.
 
  2. Update the variable name and value as required. 
  
  3. Click the **Add** button. This adds the configurable variable to the source code and updates the current statement as shown below. 
-
-    ![Add new Configurable](../../img/statement-editor/add-conifgurable.gif){.cInlineImage-half}
+ 
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/add-conifgurable.gif" class="cInlineImage-half"/>
 
 A new configurable variable gets generated in the source code as shown below.
 

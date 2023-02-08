@@ -26,28 +26,28 @@ Follow the steps below to create records from scratch.
 
 1. Navigate to the record editor and select **Create New**.
 
-    ![Create new record](../img/record-editor/create-new.gif){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/create-new.gif" class="cInlineImage-full"/>
 
 2. Double-click the default record name to change it.
 
-    ![Change record name](../img/record-editor/change-record-name.png){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/change-record-name.png" class="cInlineImage-half"/>
 
 3. Click the plus button at the end of the field to add new fields to the record.
 
     !!! Info
         Use the **Expressions** tab in the record editor to create nested records by selecting the particular record expression.
 
-    ![Add fields](../img/record-editor/add-fields.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/add-fields.gif" class="cInlineImage-half"/>
 
 4. Select the semicolon(;) of a field and select the default value expression to add default values.
 
-    ![Add default value](../img/record-editor/default-value.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/default-value.gif" class="cInlineImage-half"/>
 
 5. Use the **isClosed** option to switch between the open and closed records.
 
-    ![Open Close](../img/record-editor/open-close-switch.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/open-close-switch.gif" class="cInlineImage-half"/>
 
 6. Once the record field configuration is done, click **Save**.
 
-    ![Save create new record](../img/record-editor/save-create-new.gif){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/save-create-new.gif" class="cInlineImage-full"/>
 

@@ -34,7 +34,7 @@ Follow the steps below to build the statement.
 
 1. On the low-code diagram, click **+** within the main method. Then, click **Variable** in the **Add Constructs** pane that opens.
 
-    ![Add variable statement](../../img/statement-editor/add-variable-statement.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/add-variable-statement.gif" class="cInlineImage-half"/>
 
     The Statement Editor opens displaying the syntax of a variable statement with the **`<add-expression>`** selected by default.v
 
@@ -43,7 +43,7 @@ Follow the steps below to build the statement.
     !!! Info
         The **Suggestions** tab provides contextual suggestions based on the selected item. The **Suggestions** tab currently lists type suggestions because you selected the type descriptor.    
 
-    ![Change type descriptor](../../img/statement-editor/change-type-descriptor.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/change-type-descriptor.gif" class="cInlineImage-half"/>
 
     Here, you are specifying that the variable value is a string.
 
@@ -52,7 +52,7 @@ Follow the steps below to build the statement.
     !!! Info 
         Another way to make a part of a statement editable is to click on the required statement component and press  **Enter**/**Return**.
 
-    ![Edit variable name](../../img/statement-editor/edit-variable-name.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/edit-variable-name.gif" class="cInlineImage-half"/>
 
     If you want to make changes to the content you have added to the statement, you can undo and redo your actions via the relevant icons on the top left of the toolbar. You can also remove content via the icon for deleting.
 
@@ -61,7 +61,7 @@ Follow the steps below to build the statement.
     !!! Info
         To navigate from one item on the statement to another, you can also press **Tab** or **Shift** + **Tab**.
 
-    ![Edit variable expression](../../img/statement-editor/edit-variable-expression.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/edit-variable-expression.gif" class="cInlineImage-half"/>
 
     Here, you are entering static text as a part of the variable value.
 
@@ -74,13 +74,13 @@ Follow the steps below to build the statement.
     !!! Info 
         The **Expressions** tab lists all the pre-defined templates that you can use to define complex expressions.
 
-    ![Select expression template](../../img/statement-editor/select-expression-template.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/select-expression-template.gif" class="cInlineImage-half"/>
 
     In the `Es + Ex` expression template, `Es` refers to the existing expression you clicked and selected. `+ Ex` combines another expression with `Es`.
 
 6. Click the **Suggestions** tab and click on the **id** suggestion.
 
-    ![Select id suggestions](../../img/statement-editor/select-id-from-suggestions.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/select-id-from-suggestions.gif" class="cInlineImage-half"/>
 
      You view see some diagnostics generated for the suggestion you selected. Move on to the next step to resolve them. 
 
@@ -94,7 +94,7 @@ Follow the steps below to build the statement.
     !!! Info
         When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call, including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
 
-    ![Convert to String](../../img/statement-editor/convert-to-string.gif){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/convert-to-string.gif" class="cInlineImage-half"/>
 
     !!! Note
         The Statement Editor clears all the diagnostics messages indicating that the statement is valid.
@@ -106,7 +106,7 @@ Follow the steps below to build the statement.
     !!! Info
         The dropdown shows the possible modifiers for the statement that is currently being edited.
 
-     ![Make final](../../img/statement-editor/add-stmt-qualifier.gif){.cInlineImage-half}
+     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/add-stmt-qualifier.gif" class="cInlineImage-half"/>
 
      You view the variable statement as follows.
 

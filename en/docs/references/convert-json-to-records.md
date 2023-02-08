@@ -47,11 +47,11 @@ Follow the steps below to convert a JSON to record via the Record Editor.
 
 5. Select **Make Separate Record Definitions** to create separate Ballerina record definitions.
 
-    ![Import a JSON](../img/record-editor/import-JSON.gif){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/import-JSON.gif" class="cInlineImage-full"/>
 
 6. Use the preview of the created record to edit the created records further, and click **Finish** once editing is complete.
 
-    ![Preview created records](../img/record-editor/preview.png){.cInlineImage-half}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/preview.png" class="cInlineImage-half"/>
 
 ## Via the Command Palette
 
@@ -94,7 +94,7 @@ Follow the steps below to convert a JSON to record via the Command Palette.
 
 3. Select the **Paste JSON as Record** option.
 
-    ![Paste a JSON](../img/record-editor/paste-JSON.gif){.cInlineImage-full}
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/paste-JSON.gif" class="cInlineImage-full"/>
 
     !!! Info
         The command will generate separate record definitions accordingly.

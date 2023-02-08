@@ -24,13 +24,13 @@ Follow the steps below to use the code view to run a Ballerina program.
       
         Click on the **Run** CodeLens on the editor. 
       
-        ![Run codeLense](../img/build-and-try/build-and-run/run-code-lense.png){.cInlineImage-full}
+        <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/run-code-lense.png" class="cInlineImage-full"/>
 
     - **Option 2**
     
         Click **Run** on the title bar of the editor.
       
-        ![Run button](../img/build-and-try/build-and-run/run-button.png){.cInlineImage-full}
+        <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/run-button.png" class="cInlineImage-full"/>
 
 ## Use the diagram view
 
@@ -42,13 +42,13 @@ Follow the steps below to use the code view to run a Ballerina program.
 
         Click **Show Diagram** on the title bar of the editor to view the graphical representation of the program.
         
-        ![Show diagram](../img/build-and-try/build-and-run/show-diagram-button.png){.cInlineImage-full}
+        <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/show-diagram-button.png" class="cInlineImage-full"/>
 
     - **Option 2**
 
         Click the Ballerina icon in the VS Code side menu to open the diagram explorer tree.
         
-        ![Diagram explorer](../img/build-and-try/build-and-run/diagram-explorer.png){.cInlineImage-full}
+        <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/diagram-explorer.png" class="cInlineImage-full"/>
 
 2. Run the program:
 
@@ -56,24 +56,24 @@ Follow the steps below to use the code view to run a Ballerina program.
 
         Click **Run** in the diagram options menu.
 
-        ![Run diagram button](../img/build-and-try/build-and-run/run-diagram-button.png){.cInlineImage-full}
+        <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/run-diagram-button.png" class="cInlineImage-full"/>
 
     - **Option 2**
     
         Click **Run** on the title bar of the editor.
 
-        ![Header button](../img/build-and-try/build-and-run/run-diagram-header-button.png){.cInlineImage-full}
+        <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/run-diagram-header-button.png" class="cInlineImage-full"/>
 
 The integrated terminal will open automatically and run the program.
 
-![Run output](../img/build-and-try/build-and-run/run-output.png){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/run-output.png" class="cInlineImage-full"/>
 
 You just ran your first Ballerina program.
 
 !!! Tip 
     If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-the-code.md).
 
-![Debug button](../img/build-and-try/build-and-run/debug-button.png){.cInlineImage-full}
+<img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/debug-button.png" class="cInlineImage-full"/>
 
 ## Next steps - Try it
 
