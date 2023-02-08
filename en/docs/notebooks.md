@@ -39,6 +39,6 @@ To debug Ballerina notebooksusing the provided option as shown below.
 !!! Tip 
     You need to enable the debug mode via the VS Code extension settings as shown below.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/edit-the-code/notebooks/enable-notebook-debug.png" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/notebooks/enable-notebook-debug.png" class="cInlineImage-full"/>
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/notebooks/notebook-debug.gif" class="cInlineImage-full"/>
