@@ -68,9 +68,9 @@ Follow the steps below to start a program debug session.
 
 2. Click the **Start Debugging** icon on the upper left corner to start debugging.
 
-   You will see the output in the **DEBUG CONSOLE**.
+    You will see the output in the **DEBUG CONSOLE**.
 
-   <img src="https://wso2.com/ballerina/vscode/docs/img/debug/program-debug.gif" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/debug/program-debug.gif" class="cInlineImage-full"/>
 
 ### Test debug sessions 
 
@@ -80,7 +80,7 @@ Follow the steps below to start a test debug session.
 
 2. Click the **Start Debugging** icon in the upper-left corner to start debugging.
 
-   You will see the output in the **DEBUG CONSOLE** as shown below.
+    You will see the output in the **DEBUG CONSOLE** as shown below.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/debug/test-debug.gif" class="cInlineImage-full"/>
 
