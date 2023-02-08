@@ -542,7 +542,8 @@ html .md-footer-meta.md-typeset a,
   /* Highlighted text  */
   .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
     color: #20b6b0 !important;
-    background-color: #f1f1f1 !important
+    background-color: #f1f1f1 !important;
+    box-shadow: none !important;
   }
 
   .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion.suggestion-layout-simple {
@@ -551,4 +552,9 @@ html .md-footer-meta.md-typeset a,
 
   .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
     background-color: #f1f1f1 !important;
+    color: #20b6b0 !important;
+  }
+
+  .algolia-docsearch-footer--logo {
+    filter: hue-rotate(290deg);
   }
