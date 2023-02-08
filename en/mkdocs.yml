@@ -36,7 +36,7 @@ theme:
   palette:
     primary: indigo
     accent: indigo
-  logo: images/logo.svg
+  logo: images/wso2-logo-white.svg
   favicon: images/favicon.png
   discord: images/discord-help-icon.svg
   highlightjs: true

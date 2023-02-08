@@ -4,7 +4,7 @@
 
 ```
 images/favicon.png
-images/logo.svg
+images/wso2-logo-white.svg
 main.html
 templates/no-nav.html
 templates/swagger.html
