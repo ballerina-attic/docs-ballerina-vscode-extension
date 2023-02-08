@@ -27,14 +27,14 @@ Once you add the above function, the VS Code extension will display a CodeLens c
     !!! Info
         This opens the terminal and starts running the service.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/run-codelenses.png" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/run-codelense.png" class="cInlineImage-full"/>
 
 2. Click the **Try it** CodeLens to open the Swagger Try it view.
 
     !!! Note
         The service must be in the running state to use Try it view.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/tryit-codelenses.png" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/tryit-codelense.png" class="cInlineImage-full"/>
 
     !!! Tip 
         You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
