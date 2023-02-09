@@ -108,6 +108,7 @@ line-height: 1.38;
 font-stretch: normal;
 letter-spacing: normal;
 color: #000;
+margin-bottom: 10px !important;
 }
 
 .cChoreoBody h2 {
@@ -118,7 +119,7 @@ font-weight: bold;
 line-height: 1.38;
 font-stretch: normal;
 letter-spacing: normal;
-margin-bottom: 2rem;
+margin-bottom: 10px !important;
 
 }
 
