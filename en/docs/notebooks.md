@@ -34,7 +34,7 @@ You can view variables in notebooks as shown below.
 
 ## Debug notebooks
 
-To debug Ballerina notebooksusing the provided option as shown below.
+To debug Ballerina notebooks use the provided option as shown below.
 
 !!! Tip 
     You need to enable the debug mode via the VS Code extension settings as shown below.
