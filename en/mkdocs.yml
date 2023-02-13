@@ -27,7 +27,7 @@ edit_uri: https://github.com/wso2/docs-ballerina-vscode-extension/tree/main/en/d
 dev_addr: localhost:8000
 
 # Copyright
-copyright: Copyright © WSO2 LLC 2022-2023
+copyright: Copyright © WSO2 LLC (2022-2023)
 
 # Configuration
 theme:
