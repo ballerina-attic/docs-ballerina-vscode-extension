@@ -2,12 +2,16 @@
   "index_name": "ballerina_vscode_docs",
   "start_urls": ["https://wso2.com/ballerina/vscode/docs"],
   "selectors": {
-    "lvl0": "#content header h1",
-    "lvl1": "#content article h1",
-    "lvl2": "#content section h3",
-    "lvl3": "#content section h4",
-    "lvl4": "#content section h5",
-    "lvl5": "#content section h6",
-    "text": "#content header p,#content section p,#content section ol"
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
   }
 }
