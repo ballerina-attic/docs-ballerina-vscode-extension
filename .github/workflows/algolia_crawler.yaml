@@ -2,6 +2,8 @@ name: Crawl Ballerina VSCode Docs
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron:  '30 18 * * 1'    # 00:00 in LK time (GMT+5:30) on every Monday
 
 jobs:
   run-crawler:
@@ -12,8 +14,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: sudo apt-get install jq
+      - name: Install jq
+        run: DEBIAN_FRONTEND=noninteractive sudo apt-get update && sudo apt-get install jq -y
+
+      - name: Write Secrets to File
+        env:
+          SECRET_NAME: 'API_KEY'
+          API_KEY: ${{ secrets.WRITE_API_KEY }}
+        run: |
+            echo "${SECRET_NAME}=${API_KEY}" >> ./.github/.env
 
       - name: Run Docker image
-        uses: docker run -it --env-file=.env -e "CONFIG=$(cat ./../configs/config.json | jq -r tostring)" algolia/docsearch-scraper
+        uses: actions-hub/docker/cli@master
+        env:
+          SKIP_LOGIN: true
+
+      - run: |
+          docker --version
+          docker run --env-file=./.github/.env -e "CONFIG=$(cat ./.github/configs/config.json | jq -r tostring)" algolia/docsearch-scraper
