@@ -1,4 +1,4 @@
-# Ballerina VS Code extension (version 3.3.0) 
+# Ballerina VS Code extension version 3.3.0
 
 We are happy to announce the Ballerina VS Code extension 3.3.0 release, which has some exciting new features. Following are the highlights of this release.
 
