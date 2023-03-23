@@ -4,6 +4,8 @@ We are happy to announce the Ballerina VS Code extension 4.0.0 release, which ha
 
 !!! Info
     If you are new to Ballerina, you can download the [installers](https://ballerina.io/downloads/) to install it. You can install the Ballerina VS Code extension from the [VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina).
+    
+## Backward-incompatibility changes
 
 ## New features
 
@@ -11,7 +13,7 @@ We are happy to announce the Ballerina VS Code extension 4.0.0 release, which ha
 
 ## Bug fixes
 
-## Backward-incompatibility changes
+
 
 
 
