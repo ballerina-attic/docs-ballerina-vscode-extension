@@ -32,7 +32,7 @@ service /graphql on new graphql:Listener(9090) {
 }
 ```
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/visualizes.gif" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/visualize.gif" class="cInlineImage-full"/>
 
 ## Explore the GraphQL Designer 
 
@@ -48,7 +48,7 @@ You can perform the above functionalities using the GraphQL Designer as follows.
 
 ### Add a GraphQL query
 
-Add a Query to the GraphQL service with a `Profile` record as the output object.
+Add a query to the GraphQL service with a `Profile` record as the output object.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/query-creation.gif" class="cInlineImage-full"/>
 
