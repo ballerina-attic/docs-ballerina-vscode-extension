@@ -30,7 +30,7 @@ The GraphQL API Designer is introduced to streamline the visual creation of Grap
 
 ## Architecture View
 
-The extension now includes a feature to visualize interactions and dependencies of multi-package Ballerina projects. Load all the packages into the VS Code workspace and select the **Architecture View** option to access it. The architecture diagram lets you view all the services in the packages and their interactions.
+The extension now includes a feature to visualize interactions and dependencies of multi-package Ballerina projects. Load all the packages into the VS Code workspace and execute the **Architecture View** command to access it. The architecture diagram lets you view all the services in the packages and their interactions.
 
 ## Type Diagram
 
