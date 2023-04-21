@@ -72,7 +72,7 @@ isolated function getSupportedCurrencies() returns string[]|error {
 
 For the diagram to be able to detect interactions, the resource invocations between services need to be done using [client access actions](https://ballerina.io/downloads/swan-lake-release-notes/swan-lake-2201.2.0#support-for-resource-methods-in-client-objects).
 
-## Open the Architecture View
+## Access the Architecture View
 
 This guide uses the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) to demonstrate the different capabilities of the Architecture View. This sample has 10 services (9 GRPC and one HTTP) in 10 separate Ballerina packages. The `ui` folder is not a Ballerina package, hence would not make an impact. 
 
