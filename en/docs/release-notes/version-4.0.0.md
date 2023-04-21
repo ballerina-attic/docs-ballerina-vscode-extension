@@ -22,37 +22,29 @@ With the new release, you can now find a **Visualize** CodeLens above each const
 
 <img src="../img/release-notes/v-4.0.0/visualise.gif" class="cInlineImage-full"/>
 
-![Detailed Service Interaction Diagram](../img/release-notes/v-4.0.0/visualise.gif){.cInlineImage-full}
-
-en/docs/release-notes/version-4.0.0.md
-
-en/docs/img/release-notes/v-4.0.0/visualise.gif
-
-https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/visualise.gif
-
 ## HTTP API Designer
 
 The extension now offers an HTTP Service Designer, which enables you to design HTTP services interactively. This feature allows you to design services rapidly even if you lack extensive knowledge of Ballerina's HTTP service syntax. To open the service designer, add an HTTP service using code or the **Add** button in the visual editor, and then click the **Visualize** CodeLens above the HTTP service.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/service-design.gif" class="cInlineImage-full"/>
+<img src="../img/release-notes/v-4.0.0/service-design.gif" class="cInlineImage-full"/>
 
 ## GraphQL API Designer
 
 The GraphQL API Designer is introduced to streamline the visual creation of GraphQL APIs in Ballerina. This powerful tool simplifies understanding and navigating complex GraphQL services by letting you browse through them effortlessly without examining code directly. To open the GraphQL designer, add a GraphQL service from code using the service template and then, click the **Visualize** CodeLens above the service.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/graphql.gif" class="cInlineImage-full"/>
+<img src="../img/release-notes/v-4.0.0/graphql.gif" class="cInlineImage-full"/>
 
 ## Architecture View
 
 The extension now includes a feature to visualize interactions and dependencies of multi-package Ballerina projects. Load all the packages into the VS Code workspace and execute the **Architecture View** command to access it. The architecture diagram lets you view all the services in the packages and their interactions.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/architecture.gif" class="cInlineImage-full"/>
+<img src="../img/release-notes/v-4.0.0/architecture.gif" class="cInlineImage-full"/>
 
 ## Type Diagram
 
 Similar to entity diagrams, type diagrams enable you to view relationships and compositions of Ballerina record types. You can access the type diagram via the **Architecture View**.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/type.gif" class="cInlineImage-full"/>
+<img src="../img/release-notes/v-4.0.0/type.gif" class="cInlineImage-full"/>
 
 ## Data Mapper improvements
 
