@@ -29,13 +29,13 @@ Follow the steps below to add resources to the service.
     - Payload body
     - Request/Caller parameters
 
-    !!! Info
-    To add a parameter, click on the **+** button placed next to the parameter. Error messages will be displayed if there are any.
+    !!! Tip 
+        To add a parameter, click on the **+** button placed next to the parameter. Error messages will be displayed if there are any.
 
 3. Select the types of return codes. Click the **Add resource** button to add a new return response type and select the specific status codes that need to be returned from the resource.
 
-    !!! Info
-    Enter the desired name for the record type, and then click the **Create Record** button to create new type records.
+    !!! Tip 
+        Enter the desired name for the record type, and then click the **Create Record** button to create new type records.
 
 4. Define name records for the response type, which will apply the coding best practices to implement the resource.
 
