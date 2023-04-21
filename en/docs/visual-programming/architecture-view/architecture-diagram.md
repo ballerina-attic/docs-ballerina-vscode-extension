@@ -98,7 +98,7 @@ Once the packages are added to the workspace, activate the Architecture View via
 
 Explore the features of the Architecture View using the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) Ballerina project that you set up in the previous section.
 
-Once you open the Architecture View, you will see three types of diagrams to choose from as shown below.
+Once you open the Architecture View, you will see the following types of diagrams.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/diagram-types.gif" class="cInlineImage-full"/>
 
@@ -109,7 +109,7 @@ This diagram displays all the services available within the workspace with links
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-one.png" class="cInlineImage-full"/>
 
 !!! Info
-    The link between the `Checkout` service and the `Email` service indicates that a component of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
+    The link between the `Checkout` service and the `Email` service indicates that a resource of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
 
 ### Service Diagram Level 2
 
@@ -125,48 +125,9 @@ If these data types are Ballerina records, click on them to access the compositi
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/level-two-to-type-composition.gif" class="cInlineImage-full"/>
 
-## Design using the Architecture View
+### Type Diagram
 
-The Architecture View includes a range of editing capabilities that makes it possible to design projects via the diagram. For this, use an empty workspace and execute the **Architecture View** command.
-
-### Add components
-
-As prompted above, you can use the **Add Component** option to add the first component of your project as shown below. 
-
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/add-component.gif" class="cInlineImage-full"/>
-
-!!! Info
-    If your project has components, you can use the `Add Component` option on the top left corner of the diagram to do the same.
-
-### Delete components
-
-If any other component in your project is not dependent on a particular component, you can delete them using the **Delete Component** option available on the node menu (seen on hover of a node). This option will provide you with two choices: either to delete only the particular service or to delete the entire Ballerina package.
-
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/delete-component.gif" class="cInlineImage-full"/>
-
-### Link to an internal API
-
-You can create links between your project components using the **Use Internal API** option in the node menu. This will introduce a service-level client in your source service, which you can configure and use thereafter.
-
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/internal-linking.gif" class="cInlineImage-full"/>
-
-### Link to an External API
-
-You can invoke an external endpoint using the **Use External API** option in the node menu. This will prompt you to a connector marketplace from which you can choose the required external endpoint.
-
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/external-linking.gif" class="cInlineImage-full"/>
-
-### Delete links
-
-By hovering over a link, you can choose to remove the particular interaction in your diagram. This will result in the deletion of the client that was used to interact between the services.
-
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/delete-links.gif" class="cInlineImage-full"/>
-
-### Edit diagram labels
-
-You can edit the display names of your project components using the **Edit Label** option in the node menu. This will update the **label** value of the particular component’s display annotation.
-
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/edit-label.gif" class="cInlineImage-full"/>
+The Type Diagram provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations. For more details, see [Type Diagram](https://wso2.com/ballerina/vscode/docs/visual-programming/architecture-view/type-diagram/).
 
 ## Other capabilities of the Architecture View
 
