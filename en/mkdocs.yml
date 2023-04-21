@@ -65,8 +65,9 @@ nav:
       - Commands: edit-the-code/commands.md
   - Visual programming:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
-      - Architecture Diagram: visual-programming/architecture-diagram.md
-      - Type Diagram: visual-programming/type-diagram.md 
+      - Architecture View:
+          - Architecture Diagram: visual-programming/architecture-view/architecture-diagram.md
+          - Type Diagram: visual-programming/architecture-view/type-diagram.md
       - Data Mapper: visual-programming/data-mapper.md
       - HTTP API Designer: visual-programming/http-api-designer.md
       - GraphQL Designer: visual-programming/graphql-designer.md
