@@ -110,8 +110,6 @@ This diagram displays all the services available within the workspace with links
 
 The detailed Service Diagram (Level 2) dives deeper into the compositions of the services and the interactions between them. Shown below is the detailed representation of the demo project, which depicts the individual resource/remote functions of the services and their invocations.
 
-![Detailed Service Interaction Diagram](..){.cInlineImage-full}
-
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/project-design-view/detailed-service-interaction-diagram.png" class="cInlineImage-full"/> 
 
 The data types of the request and response bodies of the interactions can be viewed by hovering over a particular invocation.
