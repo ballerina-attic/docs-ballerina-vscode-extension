@@ -8,54 +8,64 @@ Use the source code below to create a GraphQL service using the VS Code editor a
 
 ```ballerina
 import ballerina/graphql;
+
 public type Profile record {|
-	string name;
-	int age;
-	Address address;
+    string name;
+    int age;
+    Address address;
 |};
 
 public type Address record {|
-	string number;
-	string street;
-	string city;
+    string number;
+    string street;
+    string city;
 |};
 
 service /graphql on new graphql:Listener(9090) {
 
-	// A resource method with `get` accessor inside a `graphql:Service` represents a field in the
-	// root `Query` type.
-	resource function get greeting() returns string {
-    		return "Hello, World";
-	}
+    // A resource method with the `get` accessor inside a `graphql:Service` represents a field in the
+    // root `Query` type.
+    resource function get greeting() returns string {
+        return "Hello, World";
+    }
+
 }
 ```
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/visualizes.gif" class="cInlineImage-full"/>
 
-## Explore the GraphQL Designer view
+## Explore the GraphQL Designer 
 
-The GraphQL Designer view provides the following features.
+The GraphQL Designer provides the following features.
 
-- Add GraphQL Query, Mutation, Subscription operations
+- Add GraphQL queries, mutations, and subscription operations
 - Create and edit constructs such as records and service classes
 - Navigate to the specific source code
 
-## Using the GraphQL Designer functionalities
+## Use the GraphQL Designer functionalities
 
-You can perform the above functionalities using the GraphQL Designer View as follows.
+You can perform the above functionalities using the GraphQL Designer as follows.
 
-First, we will add a Query to the GraphQL service with `Profile` record as the output object.
+### Add a GraphQL query
+
+Add a Query to the GraphQL service with a `Profile` record as the output object.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/query-creation.gif" class="cInlineImage-full"/>
 
-Now, lets navigate to the source code of the newly created `profile` query and update the resource body. To navigate to the  respective source code, use **Ctrl + Click** shortcut on the specific field. 
+!!! Info
+    Hover over each field to view the provided **Edit**, **Delete**, and **Design** GraphQL operations. 
+
+### Access the query source
+
+Navigate to the source code of the newly created `profile` query and update the resource body. Use **Ctrl + Click** shortcut on the specific field to navigate to the respective source code. 
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/navigate.gif" class="cInlineImage-full"/>
 
-In the next steps, Let’s look at how we could create a Record within the GraphQL designer itself.
+### Create a record construct
 
-><**Info** You can use the similar approach to create Service-Classes as well.
+Create a record within the GraphQL designer itself.
+
+!!! Info
+    You can use this same approach to create service classes as well.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/add-new-construct.gif" class="cInlineImage-full"/>
-
->**Info:** Hover over each field to view the options of Edit, Delete and Design on GraphQL operations. 
