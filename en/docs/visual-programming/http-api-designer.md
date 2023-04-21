@@ -43,6 +43,6 @@ Follow the steps below to add resources to the service.
 
 ## Implement the resources of the service
 
-Either navigate to the low-code editing mode, or press **Ctrl** and click on a resource method to navigagte to the source code to start implementing the content of the resource.
+Either navigate to the low-code editing mode, or press **Ctrl + click** on a resource method to navigate to the source code to start implementing the content of the resource.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/http-api-designer/navigation.gif" class="cInlineImage-half"/>
