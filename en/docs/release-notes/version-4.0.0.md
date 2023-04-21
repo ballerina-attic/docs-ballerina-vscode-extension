@@ -22,6 +22,8 @@ With the new release, you can now find a **Visualize** CodeLens above each const
 
 <img src="../img/release-notes/v-4.0.0/visualise.gif" class="cInlineImage-full"/>
 
+![Detailed Service Interaction Diagram](../img/release-notes/v-4.0.0/visualise.gif){.cInlineImage-full}
+
 en/docs/release-notes/version-4.0.0.md
 
 en/docs/img/release-notes/v-4.0.0/visualise.gif
