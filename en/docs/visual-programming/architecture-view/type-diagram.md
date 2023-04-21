@@ -15,7 +15,7 @@ The following is a snippet of the Type Diagram generated for the [Online Boutiqu
 
 You can also view the **composition** of an individual record type. Use either of the methods below to access these composition diagrams.
 
-1. Click the record types that are included in the request/response bodies of the service invocations shown in the [Level 2 Service Diagram](https://wso2.com/ballerina/vscode/docs/visual-programming/architecture-view/architecture-diagram/service-diagram-level-2).
+1. Click the record types that are included in the request/response bodies of the service invocations shown in the [Level 2 Service Diagram](https://wso2.com/ballerina/vscode/docs/visual-programming/architecture-view/architecture-diagram/#service-diagram-level-2).
 
 2. Click the head of the records displayed in the **Type Diagram**.
 
