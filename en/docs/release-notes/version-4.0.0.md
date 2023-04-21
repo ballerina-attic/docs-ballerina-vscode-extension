@@ -28,9 +28,9 @@ The extension now offers an HTTP Service Designer, which enables you to design H
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/service-design.gif" class="cInlineImage-full"/>
 
-## GraphQL API Designer
+## GraphQL Designer
 
-The GraphQL API Designer is introduced to streamline the visual creation of GraphQL APIs in Ballerina. This powerful tool simplifies understanding and navigating complex GraphQL services by letting you browse through them effortlessly without examining code directly. To open the GraphQL designer, add a GraphQL service from code using the service template and then, click the **Visualize** CodeLens above the service.
+The GraphQL Designer is introduced to streamline the visual creation of GraphQL APIs in Ballerina. This powerful tool simplifies understanding and navigating complex GraphQL services by letting you browse through them effortlessly without examining code directly. To open the GraphQL designer, add a GraphQL service from code using the service template and then, click the **Visualize** CodeLens above the service.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/graphql.gif" class="cInlineImage-full"/>
 
