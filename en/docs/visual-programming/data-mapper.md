@@ -13,7 +13,7 @@ Follow the steps below to set up the prerequisites.
 2. Execute the command below to create a package (if you are not already working on one).
 
     ```bash
-    bal new convert
+    bal new data-transformation
     ```
 
 3. Open the created package in VS Code.
@@ -67,7 +67,7 @@ Create three files with the sample data below in JSON format.
 
 There are two different ways of opening the Data Mapper.
 
-### Open with the `Design` CodeLens
+### Open with the `Visualize` CodeLens
 
 Add the code below to the `main.bal` file of the package to define an empty expression bodied function.
 
@@ -78,13 +78,13 @@ Add the code below to the `main.bal` file of the package to define an empty expr
 function name() => ();
 ```
 
-Once you add the above function, the VS Code extension will display a CodeLens called `Design` on top of the function. Click the **Design** CodeLens to go to the Data Mapper view.
+Once you add the above function, the VS Code extension will display a CodeLens called `Visualize` on top of the function. Click the **Visualize** CodeLens to go to the Data Mapper view.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/open-via-code-lens.gif" class="cInlineImage-full"/>
 
 ### Open with the Diagram View
 
-Open the file in the Diagram View and click the `+` icon on the page. Then, click **Data Mapper** in the **Add Constructs** pane.
+Open the file in the Diagram View and click `+ Component` button. Then, select the desired file and click **Data Mapper** in the **Add Constructs** pane.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/open-via-diagram.gif" class="cInlineImage-full"/>
 
@@ -109,7 +109,7 @@ Let's see how to map the input fields with the fields in the JSON output.
 Map the `person id` to the `student id` as shown below.
 
 !!! Info
-    The mapping view will have the **Inputs** on the left hand side of the UI and the **Output** on the right. To map the fields, click on the input field port and then, click the output field port. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.
+    The mapping view will have the **Inputs** on the left hand side of the UI and the **Output** on the right. To map the fields, click on the input field and then, click the output field. If the input and output fields are compatible and can be mapped directly, you will see a solid line connecting them.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/datamapper/basic-mapping.gif" class="cInlineImage-full"/>
 
