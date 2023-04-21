@@ -4,7 +4,7 @@ The new HTTP API Designer enables you to design HTTP services interactively. Thi
 
 ## Open the service 
 
-To open the HTTP API designer, add an HTTP service using code or the **Add** button in the VS Code editor and then, click the **Visualize** CodeLens, which is placed above the HTTP service.
+To open the HTTP API designer, add an HTTP service using the code or the **Add** button in the visual editor and then, click the **Visualize** CodeLens, which is placed above the HTTP service.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/service-design.gif" class="cInlineImage-half"/>
 
