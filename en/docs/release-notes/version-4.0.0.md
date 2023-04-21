@@ -20,7 +20,13 @@ In response to the valuable feedback received from developers, this release intr
 
 With the new release, you can now find a **Visualize** CodeLens above each construct to visualize it. Clicking it will open the visualization of the construct. Currently, the visualization of all types of functions in Ballerina sequence diagrams and HTTP and GraphQL service types is supported. You can navigate back to the code using the menu or by pressing **Ctrl + Click** on the corresponding elements.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/visualise.gif" class="cInlineImage-full"/>
+<img src="../img/release-notes/v-4.0.0/visualise.gif" class="cInlineImage-full"/>
+
+en/docs/release-notes/version-4.0.0.md
+
+en/docs/img/release-notes/v-4.0.0/visualise.gif
+
+https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/try-graphql-services/visualise.gif
 
 ## HTTP API Designer
 
