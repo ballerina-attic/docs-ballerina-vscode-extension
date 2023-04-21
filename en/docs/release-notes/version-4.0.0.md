@@ -63,8 +63,8 @@ The combination of the Ballerina extension together with the [Choreo extension](
 - Visualize the deployment of a Choreo project via the **Cell view**.
 - View performance information in diagrams. 
     
-    !!! Note
-        With this integration, now, you do not need to log into Choreo from the Ballerina extension. You must have the Choreo extension installed to view performance data.
+!!! Note
+    With this integration, now, you do not need to log into Choreo from the Ballerina extension. You must have the Choreo extension installed to view performance data.
 
 
 
