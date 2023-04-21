@@ -67,6 +67,7 @@ nav:
       - Sequence Diagram view: visual-programming/sequence-diagram-view.md
       - Architecture View:
           - Architecture Diagram: visual-programming/architecture-view/architecture-diagram.md
+          - Design using the Architecture Diagram: visual-programming/architecture-view/design-using-architecture-diagram.md
           - Type Diagram: visual-programming/architecture-view/type-diagram.md
       - Data Mapper: visual-programming/data-mapper.md
       - HTTP API Designer: visual-programming/http-api-designer.md
