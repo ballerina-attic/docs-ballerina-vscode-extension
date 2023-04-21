@@ -4,7 +4,7 @@ The GraphQL Designer streamlines the visual creation of GraphQL APIs in Ballerin
 
 ## Open the GraphQL Designer 
 
-Use the source code below to create a GraphQL service using the VS Code editor and click on the **Visualize** codeLens, which is placed above the service. 
+Use the source code below to create a GraphQL service using the code editor and click on the **Visualize** codeLens, which is placed above the service. 
 
 ```ballerina
 import ballerina/graphql;
