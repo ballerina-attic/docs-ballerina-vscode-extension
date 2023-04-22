@@ -127,10 +127,3 @@ You can interact with the diagram using the `plus` icons placed in the lifeline.
 function execution flow by clicking **Add**.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/diagram-interaction.gif" class="cInlineImage-full"/>
-
-## Related topics
-
-See the following topics to explore graphical coding further.
-
-- [Data Mapper](data-mapper.md)
-- [Project Design view](project-design-view.md)
