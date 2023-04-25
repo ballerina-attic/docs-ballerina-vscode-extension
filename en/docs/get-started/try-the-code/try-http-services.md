@@ -50,8 +50,8 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 
 4. Click **Execute** to see the response.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-execute.png" class="cInlineImage-half"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-execute.png" class="cInlineImage-full"/>
 
 You view the reponse as shown below.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-response.png" class="cInlineImage-half"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-response.png" class="cInlineImage-full"/>
