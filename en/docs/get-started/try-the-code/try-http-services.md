@@ -12,10 +12,10 @@ import ballerina/http;
 service / on new http:Listener(9090) {
 
     // This function responds with the `string` value `Hello, World!` to HTTP GET requests.
-    resource function get greeting() returns string {
+    resource function get greeting(string name) returns string {
         return "Hello, World!";
     }
-}    
+}   
 ```
 
 ## Try the HTTP service
@@ -27,31 +27,31 @@ Once you add the above function, the VS Code extension will display a CodeLens c
     !!! Info
         This opens the terminal and starts running the service.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/run-codelense.png" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-run.png" class="cInlineImage-full"/>
 
 2. Click the **Try it** CodeLens to open the Swagger Try it view.
 
     !!! Note
         The service must be in the running state to use Try it view.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/tryit-codelense.png" class="cInlineImage-full"/>
-
-    !!! Tip 
-        You can open the swagger view in the Diagram view by clicking **Try it** under the **Options** menu.
-    
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/tryit-button.png" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it.png" class="cInlineImage-full"/>
 
 3. Once the Swagger view is opened, click **Try it out**.
 
     !!! Tip 
         You can find all available APIs from the opened side menu.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-tryit-btn.png" class="cInlineImage-full"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-out.png" class="cInlineImage-full"/>
+
+    !!! Info 
+        If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section. If you have the [Choreo VS Code extension](https://marketplace.visualstudio.com/items?itemName=WSO2.choreo) installed and signed in, you will get test data that are generated automatically (e.g., the value of the `name` parameter will be generated as shown below.)
+
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-parameters.png" class="cInlineImage-full"/>
 
 4. Click **Execute** to see the response.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-response.png" class="cInlineImage-half"/>
+    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-execute.png" class="cInlineImage-half"/>
 
-    If the HTTP service requires any data/parameters, they will be shown in the **Parameters** section.
-    
-    <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/swagger-view-parameters.png" class="cInlineImage-full"/>
+You view the reponse as shown below.
+
+<img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-response.png" class="cInlineImage-half"/>
