@@ -106,7 +106,7 @@ Once you open the Architecture View, you will see the following types of diagram
 
 This diagram displays all the services available within the workspace with links representing any interactions between them. The basic Service Diagram (Level 1) generated for the 10 Ballerina packages in the Online Boutique microservices demo project is shown below.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-one.png" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-one-copy.png" class="cInlineImage-full"/>
 
 !!! Info
     The link between the `Checkout` service and the `Email` service indicates that a resource of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
@@ -115,7 +115,7 @@ This diagram displays all the services available within the workspace with links
 
 The detailed Level 2 Service Diagram (resources) dives deeper into the compositions of the services and the interactions between them. The below is the detailed representation of the demo project, which depicts the individual resource/remote functions of the services and their invocations.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-two.png" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-two-copy.png" class="cInlineImage-full"/>
 
 The data types of the request and response bodies of the interactions can be viewed by hovering over a particular invocation.
 
