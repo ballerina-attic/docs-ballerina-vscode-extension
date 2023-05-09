@@ -1,12 +1,6 @@
 # Debug the code
 
-When writing large-scale applications with complex logic, you may encounter syntax, semantic,
-or runtime issues in your code. The Ballerina compiler comes in handy when detecting syntax and semantic issues.
-However, it is impossible for a compiler to detect runtime errors like logical errors because they occur during the
-program execution after a successful compilation. This is where the dedicated debugging tooling support becomes important.
-
-Currently, a feature-rich debugging experience for troubleshooting Ballerina applications
-is provided via the <a href="https://marketplace.visualstudio.com/items?itemName=WSO2.Ballerina" target="_blank">Ballerina Visual Studio Code extension</a>.
+The debugging experience of the Ballerina VS Code extension provides multiple options and features to debug Ballerina applications.
 
 ## Debug using CodeLens
 
@@ -169,6 +163,8 @@ Given below are the default configurations generated for debugging Ballerina:
 
 The auto-generated `launch.json` file consists of three debug configurations named `Ballerina Debug`, `Ballerina Test`, and `Ballerina Remote`. Each configuration supports a different set of attributes, which will be provided via IntelliSense completion suggestions.
 
+#### Attributes for all configurations
+
 The following attributes are mandatory for all configurations.
 
 | Attribute                     	| Description                                                          	|
@@ -176,6 +172,8 @@ The following attributes are mandatory for all configurations.
 | `name`                 	| The reader-friendly name to appear in the Debug launch configuration drop-down menu.                                  	|
 | `type`  	| The type of debugger to use for this launch configuration. The attribute value must be kept as `ballerina` for all Ballerina debugging configuration types.                   	|
 | `request` 	| The request type of this launch configuration. Currently, `launch` and `attach` are supported.                                               	|
+
+#### Attributes for `launch` configurations
 
 The following attributes are supported for all Ballerina `launch` configurations.
 
@@ -185,6 +183,8 @@ The following attributes are supported for all Ballerina `launch` configurations
 | `commandOptions` 	| If required, you can configure command options for the Ballerina program to be launched as a list of strings. You can see the list of all the available command options by executing the following CLI commands in your terminal. <br/><br/> - For the `Ballerina Debug` configuration: `bal run --help` <br/> - For the `Ballerina test` configuration: `bal test --help` 	|
 | `env`            	| Any environment variables you need to configure for launching the Ballerina program can be passed as a map of strings (name and value).                                                                                                                                                                                                                                	|
 | `debugTests`     	| Indicates whether to debug the tests for the given script.                                                                                                                                                                                                                                                                                                             	|
+
+#### Attributes for `attach` configurations
 
 The following attributes are supported for all Ballerina `attach` configurations.
 
