@@ -1,0 +1,97 @@
+# Perform debugging 
+The debugging experience of the Ballerina VS Code extension provides multiple options and features to debug Ballerina applications.
+
+## Debug using CodeLens
+
+The Ballerina extension provides multiple options to debug Ballerina applications and the most convenient way will be using the context-aware debug CodeLens support.
+
+However, if you require launching debug sessions with additional configurations (i.e., program arguments, environment variables), you can use the `launch.json` configurations.
+
+!!! Info
+    For more information, see [Debug using configurations](#debug-using-configurations).
+
+### Program debug sessions
+
+Follow the steps below to start a quick debug session using CodeLens.
+
+1. Open the folder, which includes the Ballerina program you want to debug and open the source file in the editor.
+
+2. Add the debug points you require by clicking in front of the line numbers of the file you want to debug.
+
+3. Click the `Debug` CodeLens, which will appear just above the `main()` method.
+
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-main-debug-session.gif" class="cInlineImage-full"/>
+
+### Test debug sessions
+
+The Ballerina test functions can also be debugged using CodeLens. The `debug` CodeLens will automatically appear on top of each Ballerina test function
+and you are able to execute/debug only the selected test case by clicking on the corresponding CodeLens as shown below.
+
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-test-debug-session.gif" class="cInlineImage-full"/>
+
+## Debug using configurations
+
+Follow the steps below to start a debug session with configurations. All the configurations need to be added in the `launch.json` file.
+
+!!!Info 
+    If you launch the debug session through VS Code, the working directory will be the Ballerina package root. However, you can use remote debugging for alternative working directories.
+
+1. Create the `launch.json` file. For instructions, see [Create the configuration file](/debug-the-code/set-up-debugging-configurations/#create-the-configuration-file).
+
+2. Add the debug points you require by clicking in front of the line numbers of the file you want to debug.
+
+3. Start a program, test, or remote debug session as shown below.        
+
+### Program debug sessions
+
+Follow the steps below to start a program debug session.
+
+1. Select **Ballerina Debug** from the drop-down available in the upper left corner to start a program debugging session.
+
+2. Click the **Start Debugging** icon on the upper left corner to start debugging.
+
+    You will see the output in the **DEBUG CONSOLE**.
+
+    <img src="https://wso2.com/ballerina/vscode/docs/img/debug/program-debug.gif" class="cInlineImage-full"/>
+
+### Test debug sessions 
+
+Follow the steps below to start a test debug session.
+
+1. Select **Ballerina Test** from the drop-down menu available in the upper-left corner to start a test debugging session.
+
+2. Click the **Start Debugging** icon in the upper-left corner to start debugging.
+
+    You will see the output in the **DEBUG CONSOLE** as shown below.
+
+    <img src="https://wso2.com/ballerina/vscode/docs/img/debug/test-debug.gif" class="cInlineImage-full"/>
+
+### Remote debug sessions
+
+Follow the steps below to start a remote debug session.
+
+1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Set up debugging configurations](#set-up-debugging-configurations).
+
+2. Open the `launch.json` file and configure the `debuggeeHost` and `debuggeePort` attributes under the `Ballerina Remote` configurations section accordingly.
+
+3. After setting the remote debug configurations, select **Ballerina Remote** from the drop-down available in the upper left corner to start a remote debugging session.
+
+4. Open a terminal and execute the debug command that is relevant to your requirement from the ones below:
+
+      | Command                   	| Description                                                          	|
+      |---------------------------------	|----------------------------------------------------------------------	|
+      | `bal run --debug <DEBUGGEE_PORT> <BAL_FILE_PATH/PACKAGE_PATH>`                 	| Debugging a Ballerina package or a single file
+      | `bal run --debug <DEBUGGEE_PORT> <EXECUTABLE_JAR_FILE_PATH>`                	| Debugging a Ballerina executable JAR
+      | `bal test --debug <DEBUGGEE_PORT> <PACKAGE_PATH>`                	| Debugging Ballerina tests
+
+      The terminal will show the following log:
+
+      ```ballerina
+      Listening for transport dt_socket at address: 5005
+      ```
+
+5. Click the **Start Debugging** icon on the upper-left corner to start debugging.
+
+      You will see the output in the **DEBUG CONSOLE** as shown below.
+
+      <img src="https://wso2.com/ballerina/vscode/docs/img/debug/remote-debug.gif" class="cInlineImage-full"/>
