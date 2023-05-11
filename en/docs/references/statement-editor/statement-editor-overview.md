@@ -86,7 +86,7 @@ Follow the steps below to build the statement.
 
 7. Follow the two approaches below to solve the diagnostics.
 
-    1. Select the**code-actions** provided by the Statement Editor provides based on your preference. To view the options, click on the bulb icon next to the diagnostic.
+    1. Select the **code-actions** provided by the Statement Editor provides based on your preference. To view the options, click on the bulb icon next to the diagnostic.
     2. Click the **Suggestions** tab and click **toString()** in the suggestions list to convert the value to a string format.
     
     The **Suggestions** tab will also provide other supported functions that can be called for the given expression.
