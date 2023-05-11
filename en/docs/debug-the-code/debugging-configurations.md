@@ -7,9 +7,9 @@ The Ballerina debugger supports various debug configuration options via the `lau
 Follow the steps below to generate the `launch.json` configurations file with the [default attributes](#default-configurations).
 
 !!! Info
-      Creating the `launch.json` file enables the **Ballerina Program**, **Ballerina Test**, and **Ballerina Remote**  options that are required to [debug your code using configurations](/debug-the-code/perform-debugging/#debug-using-configurations).
+      Creating the `launch.json` file enables the **Ballerina Program**, **Ballerina Test**, and **Ballerina Remote** options that are required to [debug your code using configurations](/debug-the-code/perform-debugging/#debug-using-configurations).
 
-Open the folder, which includes the Ballerina program you want to debug, and select the file.
+1. Open the folder, which includes the Ballerina program you want to debug, and select the file.
 
 2. Press the `Ctrl + Shift + D` keys (for macOS: `⌘ + ↑ + D`) to launch the Debugger view.
 
@@ -17,10 +17,10 @@ Open the folder, which includes the Ballerina program you want to debug, and sel
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-debug-session.gif" class="cInlineImage-full"/>
 
-4. Add/edit the relevant configurations for debugging in the opened `launch.json` file.   
-
-!!! Info
+    !!! Info
       This generates a `launch.json` file in your workspace root under the `.vscode` directory. You can edit the [configuration attributes](#configuration-attributes) to perform advanced debugging operations.
+
+4. Add/edit the relevant configurations for debugging in the opened `launch.json` file.   
 
 ## Default configurations
 

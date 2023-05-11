@@ -1,14 +1,16 @@
 # Perform debugging 
 The debugging experience of the Ballerina VS Code extension provides multiple options and features to debug Ballerina applications.
 
+The VS Code extension provides three types of sessions (i.e., program, test, and remote)to debug your Ballerina code.
+
 ## Debug using CodeLens
 
 The Ballerina extension provides multiple options to debug Ballerina applications and the most convenient way will be using the context-aware debug CodeLens support.
 
-However, if you require launching debug sessions with additional configurations (i.e., program arguments, environment variables), you can use the `launch.json` configurations.
+You can use CodeLens for program and test debug sessions as shown in the sections below.
 
 !!! Info
-    For more information, see [Debug using configurations](#debug-using-configurations).
+    If you require launching debug sessions with additional configurations (i.e., program arguments, environment variables), or to start a remote debug session, you can use the `launch.json` configurations. For more information, see [Debug using configurations](#debug-using-configurations).
 
 ### Program debug sessions
 
@@ -38,6 +40,9 @@ Follow the steps below to start a debug session with configurations. All the con
 
 1. Create the `launch.json` file. For instructions, see [Create the configuration file](/debug-the-code/debugging-configurations/#create-the-configuration-file).
 
+    !!! Info
+        This enables the **Ballerina Program**, **Ballerina Test**, and **Ballerina Remote** options that are required to debug your code using configurations.
+
 2. Add the debug points you require by clicking in front of the line numbers of the file you want to debug.
 
 3. Start a program, test, or remote debug session as shown below.        
@@ -46,7 +51,7 @@ Follow the steps below to start a debug session with configurations. All the con
 
 Follow the steps below to start a program debug session.
 
-1. Select **Ballerina Debug** from the drop-down available in the upper left corner to start a program debugging session.
+1. Select **Ballerina Debug** from the drop-down menu available in the upper left corner to start a program debugging session.
 
 2. Click the **Start Debugging** icon on the upper left corner to start debugging.
 
@@ -95,3 +100,6 @@ Follow the steps below to start a remote debug session.
       You will see the output in the **DEBUG CONSOLE** as shown below.
 
       <img src="https://wso2.com/ballerina/vscode/docs/img/debug/remote-debug.gif" class="cInlineImage-full"/>
+
+!!!Info 
+    For detailed information on the feature-rich debugging experience for troubleshooting Ballerina applications provided via the Ballerina VS Code extension, see [Debugging features](/debug-the-code/debugging-features).
