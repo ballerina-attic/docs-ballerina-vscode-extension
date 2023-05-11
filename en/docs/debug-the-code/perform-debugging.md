@@ -75,7 +75,10 @@ Follow the steps below to start a test debug session.
 
 Follow the steps below to start a remote debug session.
 
-1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Set up debugging configurations](#debugging-configurations).
+1. Create the `launch.json` configuration file if it is not created already. 
+
+    !!! Info
+        For instructions on creating the `launch.json` file, see [Set up debugging configurations](#debugging-configurations).
 
 2. Open the `launch.json` file and configure the `debuggeeHost` and `debuggeePort` attributes under the `Ballerina Remote` configurations section accordingly.
 

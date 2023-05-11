@@ -3,15 +3,15 @@
 The debugging features below are currently supported by the Ballerina VS Code extension.
 
 - Breakpoints
-  - Conditional Breakpoints
+  - Conditional breakpoints
   - Logpoints
-- Pause & Continue
+- Pause & continue
 - Expression evaluation
-- Ballerina Strand and Stacktrace view
+- Ballerina strand and Stacktrace view
 - Variable view
-- Variable/Expression Watch Window
+- Variable/Expression watch window
 - Launch/Attach
-- Step In/Out/Over
+- Step in/out/over
 
 !!! Info
       The key features of the above list are described below. For information on the other VS Code debugging features, go to <a href="https://code.visualstudio.com/docs/editor/debugging" target="_blank">VS Code documentation</a>.
