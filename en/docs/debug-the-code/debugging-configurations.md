@@ -1,4 +1,4 @@
-# Set up debugging configurations
+# Debugging configurations
 
 The Ballerina debugger supports various debug configuration options via the `launch.json` file.
 
@@ -9,7 +9,7 @@ Follow the steps below to generate the `launch.json` configurations file with th
 !!! Info
       Creating the `launch.json` file enables the **Ballerina Program**, **Ballerina Test**, and **Ballerina Remote**  options that are required to [debug your code using configurations](/debug-the-code/perform-debugging/#debug-using-configurations).
 
-Open the folder, which includes the Ballerina program you want to debug and select the file.
+Open the folder, which includes the Ballerina program you want to debug, and select the file.
 
 2. Press the `Ctrl + Shift + D` keys (for macOS: `⌘ + ↑ + D`) to launch the Debugger view.
 
@@ -75,9 +75,9 @@ The following attributes are mandatory for all configurations.
 | `type`  	| The type of debugger to use for this launch configuration. The attribute value must be kept as `ballerina` for all Ballerina debugging configuration types.                   	|
 | `request` 	| The request type of this launch configuration. Currently, `launch` and `attach` are supported.                                               	|
 
-### Attributes for `launch` configurations
+### Attributes for the `launch` configurations
 
-The following attributes are supported for all Ballerina `launch` configurations related to Ballerina code available locally.
+The following attributes are supported for all the Ballerina `launch` configurations related to the Ballerina code available locally.
 
 | Attribute        	| Description                                                                                                                                                                                                                                                                                                                                                           	|
 |------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
@@ -86,9 +86,9 @@ The following attributes are supported for all Ballerina `launch` configurations
 | `env`            	| Any environment variables you need to configure for launching the Ballerina program can be passed as a map of strings (name and value).                                                                                                                                                                                                                                	|
 | `debugTests`     	| Indicates whether to debug the tests for the given script.                                                                                                                                                                                                                                                                                                             	|
 
-### Attributes for `attach` configurations
+### Attributes for the `attach` configurations
 
-The following attributes are supported for all Ballerina `attach` configurations related to Ballerina code available remotely.
+The following attributes are supported for all the Ballerina `attach` configurations related to the Ballerina code available remotely.
 
 | Attribute                      	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|

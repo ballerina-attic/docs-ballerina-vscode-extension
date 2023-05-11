@@ -36,7 +36,7 @@ Follow the steps below to start a debug session with configurations. All the con
 !!!Info 
     If you launch the debug session through VS Code, the working directory will be the Ballerina package root. However, you can use remote debugging for alternative working directories.
 
-1. Create the `launch.json` file. For instructions, see [Create the configuration file](/debug-the-code/set-up-debugging-configurations/#create-the-configuration-file).
+1. Create the `launch.json` file. For instructions, see [Create the configuration file](/debug-the-code/debugging-configurations/#create-the-configuration-file).
 
 2. Add the debug points you require by clicking in front of the line numbers of the file you want to debug.
 
@@ -70,7 +70,7 @@ Follow the steps below to start a test debug session.
 
 Follow the steps below to start a remote debug session.
 
-1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Set up debugging configurations](#set-up-debugging-configurations).
+1. Create the `launch.json` configuration file if it is not created already. For instructions on creating the `launch.json` file, see [Set up debugging configurations](#debugging-configurations).
 
 2. Open the `launch.json` file and configure the `debuggeeHost` and `debuggeePort` attributes under the `Ballerina Remote` configurations section accordingly.
 

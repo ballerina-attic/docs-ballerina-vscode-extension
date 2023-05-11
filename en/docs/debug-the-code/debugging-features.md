@@ -1,28 +1,32 @@
-# Use the debugging features
+# Debugging features
 
 The debugging features below are currently supported by the Ballerina VS Code extension.
 
-- Launch/Attach
 - Breakpoints
   - Conditional Breakpoints
   - Logpoints
 - Pause & Continue
-- Step In/Out/Over
+- Expression evaluation
 - Ballerina Strand and Stacktrace view
 - Variable view
 - Variable/Expression Watch Window
-- Expression Evaluation
+- Launch/Attach
+- Step In/Out/Over
 
-The key features out of the above are described below.
+The key features of the above list are described below.
 
-## Conditional breakpoints
+## Breakpoints
 
-The Ballerina debugger provides the ability of setting Ballerina expression-based conditions for regular breakpoints.
+The VS Code extension provides the ability to add two types of breakpoints when debugging Ballerina code.
+
+### Conditional breakpoints
+
+The Ballerina debugger provides the ability to set Ballerina expression-based conditions for regular breakpoints.
 The debugger will suspend at the breakpoint whenever the expression evaluates to true.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-conditional-breakpoints.gif" class="cInlineImage-full"/>
 
-## Logpoints
+### Logpoints
 
 Logpoints are another variant of breakpoints, which do not "break" the program execution and instead, log a message to the console. Logpoints are especially useful for injecting logging while debugging production servers that cannot be paused or stopped.
 
@@ -37,7 +41,7 @@ Log messages can either be plain texts or string templates, which can contain ex
 ## Pause and continue
 
 Any running Ballerina programs can be suspended immediately at the current execution line of the program using the `pause` command in VS Code as shown below.
-With this feature, you are able to suspend (and resume) the remote VM resulting in a debug hit at the current execution line of the program.
+With this feature, you can suspend (and resume) the remote VM resulting in a debug hit at the current execution line of the program.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-pause-resume-commands.gif" class="cInlineImage-full"/>
 
@@ -45,7 +49,7 @@ This feature will be useful in contexts where the program seems to be hanged due
 
 ## Expression evaluation
 
-Ballerina expression evaluator allows evaluating Ballerina variables and expressions at runtime by allowing them to be viewed when the IDE is in the break mode.
+The Ballerina expression evaluator allows evaluating Ballerina variables and expressions at runtime by allowing them to be viewed when the IDE is in the break mode.
 
 The Ballerina VSCode debugger lets you evaluate expressions in the ways below.
 
