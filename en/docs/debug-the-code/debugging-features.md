@@ -13,7 +13,8 @@ The debugging features below are currently supported by the Ballerina VS Code ex
 - Launch/Attach
 - Step In/Out/Over
 
-The key features of the above list are described below.
+!!! Info
+      The key features of the above list are described below. For information on the other VS Code debugging features, go to <a href="https://code.visualstudio.com/docs/editor/debugging" target="_blank">VS Code documentation</a>.
 
 ## Breakpoints
 
@@ -64,6 +65,3 @@ You can evaluate expressions using the debug console as shown below.
 You can evaluate expressions using the watch window as shown below.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-watch-window.gif" class="cInlineImage-full"/>
-
-!!! Info
-      For more information on the other VS Code debugging features, go to <a href="https://code.visualstudio.com/docs/editor/debugging" target="_blank">VS Code documentation</a>.
