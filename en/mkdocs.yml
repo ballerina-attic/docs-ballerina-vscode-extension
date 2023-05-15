@@ -74,9 +74,9 @@ nav:
       - GraphQL Designer: visual-programming/graphql-designer.md
   - Notebooks: notebooks.md
   - Debug the code:
-      - Perform debugging: debug-the-code/perform-debugging.md
-      - Debugging configurations: debug-the-code/debugging-configurations.md
+      - Debugging overview: debug-the-code/debugging-overview.md
       - Debugging features: debug-the-code/debugging-features.md
+      - Debugging configurations: debug-the-code/debugging-configurations.md
   - Configure the extension: configure-the-extension.md
   - References:
       - Statement Editor: 

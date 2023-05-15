@@ -1,9 +1,25 @@
-# Perform debugging 
+# Debugging overview
 The debugging experience of the Ballerina VS Code extension provides multiple options and features to debug Ballerina applications.
 
-The VS Code extension provides three types of sessions (i.e., program, test, and remote)to debug your Ballerina code.
+## Debugging sessions
 
-## Debug using CodeLens
+The VS Code extension provides the three types of sessions below to debug your Ballerina code.
+
+- **Program debug sessions** - debug a complete Ballerina program
+- **Test debug sessions** - debug a test function
+- **Remote debug sessions** - debug a Ballerina program that is running remotely
+
+## Debugging methods
+
+There are two methods to debug the above sessions.
+
+1. Click on the [**Debug** CodeLens](#debug-using-codelens), which appears at the top of a complete Ballerina program or a test function
+2. Create a [`launch.json` file](#debug-using-configurations) with the required configuration attributes (use the default configurations or edit them as required) and use either of the options below.
+    - **Ballerina Debug**
+    - **Ballerina Test**
+    - **Ballerina Remote**
+
+### Debug using CodeLens
 
 The Ballerina extension provides multiple options to debug Ballerina applications and the most convenient way will be using the context-aware debug CodeLens support.
 
@@ -12,7 +28,7 @@ You can use CodeLens for program and test debug sessions as shown in the section
 !!! Info
     If you require launching debug sessions with additional configurations (i.e., program arguments, environment variables), or to start a remote debug session, you can use the `launch.json` configurations. For more information, see [Debug using configurations](#debug-using-configurations).
 
-### Program debug sessions
+#### Program debug sessions
 
 Follow the steps below to start a quick debug session using CodeLens.
 
@@ -24,14 +40,14 @@ Follow the steps below to start a quick debug session using CodeLens.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-main-debug-session.gif" class="cInlineImage-full"/>
 
-### Test debug sessions
+#### Test debug sessions
 
 The Ballerina test functions can also be debugged using CodeLens. The `debug` CodeLens will automatically appear on top of each Ballerina test function
 and you are able to execute/debug only the selected test case by clicking on the corresponding CodeLens as shown below.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/debug/start-quick-test-debug-session.gif" class="cInlineImage-full"/>
 
-## Debug using configurations
+### Debug using configurations
 
 Follow the steps below to start a debug session with configurations. All the configurations need to be added in the `launch.json` file.
 
@@ -47,7 +63,7 @@ Follow the steps below to start a debug session with configurations. All the con
 
 3. Start a program, test, or remote debug session as shown below.        
 
-### Program debug sessions
+#### Program debug sessions
 
 Follow the steps below to start a program debug session.
 
@@ -59,7 +75,7 @@ Follow the steps below to start a program debug session.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/debug/program-debug.gif" class="cInlineImage-full"/>
 
-### Test debug sessions 
+#### Test debug sessions 
 
 Follow the steps below to start a test debug session.
 
@@ -71,7 +87,7 @@ Follow the steps below to start a test debug session.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/debug/test-debug.gif" class="cInlineImage-full"/>
 
-### Remote debug sessions
+#### Remote debug sessions
 
 Follow the steps below to start a remote debug session.
 

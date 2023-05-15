@@ -7,7 +7,7 @@ The Ballerina debugger supports various debug configuration options via the `lau
 Follow the steps below to generate the `launch.json` configurations file with the [default attributes](#default-configurations).
 
 !!! Info
-      Creating the `launch.json` file enables the **Ballerina Program**, **Ballerina Test**, and **Ballerina Remote** options that are required to [debug your code using configurations](/debug-the-code/perform-debugging/#debug-using-configurations).
+      Creating the `launch.json` file enables the **Ballerina Program**, **Ballerina Test**, and **Ballerina Remote** options that are required to [debug your code using configurations](/debug-the-code/debugging-overview/#debug-using-configurations).
 
 1. Open the folder, which includes the Ballerina program you want to debug, and select the file.
 
