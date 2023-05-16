@@ -2,16 +2,13 @@
 
 The debugging features below are currently supported by the Ballerina VS Code extension.
 
-- Breakpoints
-  - Conditional breakpoints
-  - Logpoints
-- Pause & continue
-- Expression evaluation
-- Ballerina strand and Stacktrace view
-- Variable view
-- Variable/Expression watch window
-- Launch/Attach
-- Step in/out/over
+- [Breakpoints](#breakpoints)
+- [Pause & continue](#pause-and-continue)
+- [Expression evaluation](#expression-evaluation)
+- [Strand and Stacktrace view](#strand-and-stack-trace-view)
+- [Variable view](https://code.visualstudio.com/docs/editor/debugging#_data-inspection)
+- [Launch/Attach](https://code.visualstudio.com/docs/editor/debugging#_launch-versus-attach-configurations)
+- [Step in/out/over](https://code.visualstudio.com/docs/editor/debugging#_debug-actions)
 
 !!! Info
       The key features of the above list are described below. For information on the other VS Code debugging features, go to <a href="https://code.visualstudio.com/docs/editor/debugging" target="_blank">VS Code documentation</a>.
@@ -65,3 +62,9 @@ You can evaluate expressions using the debug console as shown below.
 You can evaluate expressions using the watch window as shown below.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/debug/debugger-watch-window.gif" class="cInlineImage-full"/>
+
+## Strand and stack trace view
+
+The Ballerina strand and stack trace view provides information about the call stack of the running program or the stack when the defined debug breakpoint is hit.
+
+<img src="https://wso2.com/ballerina/vscode/docs/img/debug/stack-trace-view.gif" class="cInlineImage-full"/>
