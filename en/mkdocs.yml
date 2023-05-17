@@ -73,7 +73,10 @@ nav:
       - HTTP API Designer: visual-programming/http-api-designer.md
       - GraphQL Designer: visual-programming/graphql-designer.md
   - Notebooks: notebooks.md
-  - Debug the code: debug-the-code.md
+  - Debug the code:
+      - Debugging overview: debug-the-code/debugging-overview.md
+      - Debugging features: debug-the-code/debugging-features.md
+      - Debugging configurations: debug-the-code/debugging-configurations.md
   - Configure the extension: configure-the-extension.md
   - References:
       - Statement Editor: 
