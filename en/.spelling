@@ -6,71 +6,8 @@ COVID-19
 cInlineImage-full 
 microservices
 OpenAPI
-api-rate-limiting
 lifecycle
-microservice
-choreo-concepts
-id_token
-RequestFlow
-ResponseFlow
-FaultFlow
-choreo-apim-mediation-fault-flow
-http
-choreo-apim-mediation-policy
-choreo-apim-mediation-request-flow
-choreo-apim-mediation-response-flow
-namespace
-pre-released
-pre-release
-Autoscale
-Autoscaling
-customizable
-departmentId
-develop-a-rest-api-proxy
-tmpfs
-work-with-choreo-insights-api
-access-the-choreo-insights-api
-documents.md
-configurables
-liveness
-readingListApp
-ORGANIZATION_ID
-Petstore
-build-your-first-cloud-native-application-with-choreo
-expose-a-service-as-a-managed-api-with-choreo-api-manager
-build-your-first-integration-with-choreo-ipaas
-devops-and-ci-cd
-autoscale-component-replicas
-test-rest-endpoints-via-the-openapi-console
-test-graphql-endpoints-via-the-graphql-console
-test-apis-with-curl
-test-apis-using-postman
-settings.toml
-BALLERINA_CENTRAL_ACCESS_TOKEN
-WebApps
-cron
-deployment.toml
-subpath
-codebase
-libs
-work-with-the-micro-integrator-runtime-in-choreo
-project.md
-component.md
-endpoint.md
-environments.md
-subject_token
-WSO2_LOGIN_FOR_CHOREO_DEV_PORTAL
-Signups
-SHA-256
-lookups
-JWTs
-JWT-based
-hrEndpoint
-geo
-api-insights.md
-OAuth2.0
-IDaaS
-Readinglist
+OAuth 2.0
 developer-centric
 timeframe
 https
@@ -78,7 +15,6 @@ integrations
 cInlineImage-half
 choreo-connectors-list
 prebuilt
-Pre-released
 ForEach
 md
 cInlineImage-bordered
@@ -89,6 +25,7 @@ SendGrid
 subusers
 Spotify
 Gmail
+OAuth
 hostname
 millicores
 MiB
@@ -354,46 +291,6 @@ Asgardeo
 Auth0
 Keycloak
 WSO2_LOGIN
-discoverability
-ClouDNS
-IdP
-OpenID
-Okta
-IdPs
-Devportal
-Base64
-NodeJs
-Dockerfile
-monorepo
-filepath
-Trivy
-Kubernetes-level
-Kubernetes
-serverless
-Vercel
-predesigned
-AuthProvider
-undeploy
-undeploying
-IPs
-config
-console.choreo.dev.
-2x
-vCPUs
-50x
-VMWare
-OpenShift
-Tanzu
-OAuth
-cInlineImage-xsmall
-IPaaS
-automations
-natively
-Configs
-ConfigMap
-OSGi
-CAs
-Bitbucket
 
 
  - docs/references/upgrading-from-the-previous-version.md
@@ -409,17 +306,6 @@ getPopulationByCountry
  - docs/get-started/quick-start-guide.md
 personalizedMessage
 Param
-readingList
-env
-readingListApp
-ORGANIZATION_ID
-allowlist
-dbHost
-dbUser
-dbPassword
-dbName
-dbPort
-step-23-deploy-a-web-application-and-invoke-the-rest-api
  - docs/insights/configure-alerts.md
 10-minute
  - docs/references/migrate-applications-to-the-latest-version.md
@@ -441,6 +327,7 @@ dev_addr
 localhost
 custom_dir
 logo.svg
+wso2-logo-white.svg
 favicon
 favicon.png
 svg
@@ -451,7 +338,6 @@ index.md
 what-is-choreo
 create-your-first-rest-api
 create-your-first-rest-api-proxy
-secure-an-api-with-role-based-access-control
 rest-api
 api-proxies
 triggers.md
@@ -514,47 +400,6 @@ site_version
 choreo-insights-api
 programmatic-access-choreo-insights-api
 pricing.md
-create-your-first-integration-as-an-api
-api-proxy
-configs-and-secrets
-runtime.md
-containers.md
-health-checks.md
-configs-and-secrets.md
-scaling.md
-storage.md
-webhook.md
-graphql-api
-connect-your-own-github-repository-to-choreo
-api-policies
-policies.md
-deploy-a-containerized-choreo-component
-open-api-console
-curl.md
-api-management
-lifecycle.md
-test-api
-alerts.md
-ipaas
-get-started-with-choreo-ipaas
-configure-a-custom-domain-for-apis
-organization.md
-redirect_maps
-configure-cio-dashboard
-service.md
-invoke-apis-via-console
-graphql-console
-choreo-logo
-vs.min.css
-blue-palette-alt2
-choreotheme.css
-fontawesome-free-6
-all.min.css
-choreotheme.js
-fontawesome
-glightbox
-logo.png
-develop-a-rest-api
  - theme/material/templates/home-page.html
 doctype
 html
@@ -567,40 +412,3 @@ uuid
 750ms
  - docs/references/enterprise-login.md
 cInlineImage-small
- - docs/administer/configure-a-custom-domain-for-apis.md
-cInlineImage-small
-cInlineImage-threeQuarter
- - docs/administer/configure-developer-portal-self-sign-up.md
-WSO2_LOGIN_FOR_CHOREO_DEV_PORTAL
-Signups
- - docs/administer/configure-enterprise-login.md
-starkindustries
-stark.com
-starkindustries.com
-stark.eu.
-wso2-domain-verification
-WSO2_LOGIN_FOR_CHOREO_CONSOLE
- - docs/administer/connect-to-an-external-identity-provider.md
-subject_token
-Your_IdP_name
- - docs/administer/organization.md
-Env
- - docs/consume/manage-application.md
-id_token
- - docs/deploy/deploy-a-containerized-choreo-component.md
-choreo-sample-apps
- - docs/devops/devops-portal.md
-Pre-released
- - docs/manage/lifecycle.md
-pre-released
-pre-release
- - docs/deploy/ballerina-application.md
-cInlineImage-quarter
-600px
-Ballerina.toml
-Dependencies.toml
- - docs/deploy/deploy-a-containerized-application.md
-DB_PASS
- - docs/develop-components/work-with-the-micro-integrator-runtime-in-choreo.md
-user_pass
-secret_value_1
