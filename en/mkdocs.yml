@@ -164,8 +164,6 @@ extra_css:
 extra_javascript:
   - assets/lib/json-formatter/json-formatter.umd.js
   - assets/lib/highlightjs/highlight.min.js
- # - assets/js/theme.js
-  #- assets/js/prism-ballerina.js
   - assets/js/choreotheme.js
 extra:
   social:
