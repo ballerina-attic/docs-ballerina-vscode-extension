@@ -146,10 +146,6 @@ plugins:
   - markdownextradata: {}
   
 extra_css:
-  # - assets/lib/highlightjs/default.min.css
-  # - assets/css/theme.css
-  # - assets/css/prism.css
-  # - assets/lib/json-formatter/json-formatter.css
   
   - assets/lib/highlightjs/styles/vs.min.css
   - assets/css/blue-palette-alt2.css
