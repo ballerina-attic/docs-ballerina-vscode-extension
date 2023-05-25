@@ -1,4 +1,3 @@
-#Copyright (c) 2023, WSO2 LLC. (http://www.wso2.com) All Rights Reserved.
 #
 # WSO2 Inc. licenses this file to you under the Apache License,
 # Version 2.0 (the "License"); you may not use this file except
@@ -32,7 +31,15 @@ copyright: Copyright © WSO2 LLC (2022-2023)
 theme:
   name: material
   custom_dir: theme/material
-  logo: assets/images/wso2-logo-white.svg
+  palette:
+    primary: indigo
+    accent: indigo
+  logo: images/wso2-logo-white.svg
+  favicon: images/favicon.png
+  discord: images/discord-help-icon.svg
+  highlightjs: true
+  feature:
+    tabs: true
   font:
     text: Montserrat
   favicon: assets/images/favicon.png
@@ -116,8 +123,12 @@ nav:
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      use_pygments: false
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
+  - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
       toc_depth: 3
@@ -140,30 +151,32 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: docs
   - attr_list
+  - markdown_include.include:
+      base_path: docs
 plugins:
   - search
-  # - glightbox
-  - markdownextradata: {}
-  
+#  - markdownextradata: {}
+
 extra_css:
-  
-  - assets/lib/highlightjs/styles/vs.min.css
-  - assets/css/blue-palette-alt2.css
-  - assets/css/choreotheme.css
+  - assets/lib/highlightjs/default.min.css
+  - assets/css/theme.css
+  - assets/css/prism.css
   - assets/lib/json-formatter/json-formatter.css
-  - assets/css/config-catalog.css
-  - assets/lib/fontawesome-free-6.3.0-web/css/all.min.css  
-
-
 extra_javascript:
   - assets/lib/json-formatter/json-formatter.umd.js
   - assets/lib/highlightjs/highlight.min.js
-  - assets/js/choreotheme.js
+  - assets/lib/prism/prism.js
+  - assets/js/theme.js
+  - assets/js/prism-ballerina.js
+  - assets/lib/backtotop/js/util.js
+  - assets/lib/backtotop/js/main.js
 extra:
   social:
-    - icon: fontawesome/brands/github
+    - type: github
       link: https://github.com/wso2
-    - icon: fontawesome/brands/twitter
+    - type: twitter
       link: https://twitter.com/wso2
-    - icon: fontawesome/brands/linkedin
+    - type: linkedin
       link: https://www.linkedin.com/company/wso2
+  site_version: 1.0.0
+  #base_path: http://localhost:8000
