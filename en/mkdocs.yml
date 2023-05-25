@@ -15,7 +15,7 @@
 # under the License.
 
 # Project information
-site_name: Ballerina extension for Visual Studio Code
+site_name: Ballerina Extension for Visual Studio Code
 site_description: Ballerina Visual Studio Code Extension
 site_author: WSO2
 site_url: https://wso2.com/ballerina/vscode/docs/
