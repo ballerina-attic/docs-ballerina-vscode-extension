@@ -25,8 +25,7 @@
         <h1>Ballerina Visual Studio Code Extension Documentation</h1>
         </div>
         <div class="col-sm-12" >
-        <p>The Ballerina Visual Studio Code extension is offered by WSO2 for the <a href="https://ballerina.io/">Ballerina programming language</a>. It provides a set of rich language features along with an enhanced user experience. Also, it offers easy development, execution, debugging, and testing for the Ballerina programming language.</p>
-        <p>The Ballerina language possesses a bidirectional mapping between its syntaxes and the visual representation. You can visualize the graphical representation of your Ballerina source further via the extension.</p>
+        <p>The Ballerina Visual Studio Code extension is offered by WSO2 for the <a href="https://ballerina.io/">Ballerina programming language</a>. It provides a set of rich language features along with an enhanced user experience. Also, it offers easy development, execution, debugging, and testing for the Ballerina programming language. The Ballerina language possesses a bidirectional mapping between its syntaxes and the visual representation. You can visualize the graphical representation of your Ballerina source further via the extension.</p>
         </div>
     
 </div>
