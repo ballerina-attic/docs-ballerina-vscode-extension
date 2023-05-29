@@ -15,14 +15,13 @@
 # under the License.
 
 # Project information
-site_name: Ballerina extension for Visual Studio Code
+site_name: Ballerina Extension for Visual Studio Code
 site_description: Ballerina Visual Studio Code Extension
 site_author: WSO2
 site_url: https://wso2.com/ballerina/vscode/docs/
 
 # Repository
 repo_name: wso2/docs-ballerina-vscode-extension
-repo_url: https://github.com/wso2/docs-ballerina-vscode-extension/
 edit_uri: https://github.com/wso2/docs-ballerina-vscode-extension/tree/main/en/docs
 dev_addr: localhost:8000
 
@@ -42,7 +41,6 @@ theme:
     - navigation.sections
     - content.code.copy
     - content.action.edit
-    - content.action.view
   language: 'en'
   palette:
     # Palette toggle for automatic mode
