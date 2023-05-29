@@ -70,34 +70,35 @@ strict: false
 # Navigation
 nav:
   - Home: index.md
-  - Get started: 
-      - Install the extension: get-started/install-the-extension.md
-      - Run a program: get-started/run-a-program.md
-      - Try the code:
-        - Try HTTP services: get-started/try-the-code/try-http-services.md
-        - Try GraphQL services: get-started/try-the-code/try-graphql-services.md
-      - Build the executables: get-started/build-the-executables.md
-  - Edit the code:
-      - IntelliSense: edit-the-code/intellisense.md
-      - Code navigation: edit-the-code/code-navigation.md
-      - Code actions: edit-the-code/code-actions.md
-      - Diagnostics: edit-the-code/diagnostics.md
-      - Commands: edit-the-code/commands.md
-  - Visual programming:
-      - Sequence Diagram view: visual-programming/sequence-diagram-view.md
-      - Architecture View:
-          - Architecture Diagram: visual-programming/architecture-view/architecture-diagram.md
-          - Design using the Architecture Diagram: visual-programming/architecture-view/design-using-architecture-diagram.md
-          - Type Diagram: visual-programming/architecture-view/type-diagram.md
-      - Data Mapper: visual-programming/data-mapper.md
-      - HTTP API Designer: visual-programming/http-api-designer.md
-      - GraphQL Designer: visual-programming/graphql-designer.md
+  - Get started: get-started.md
+  - Design your application:
+      - Architecture View: design-your-application/architecture-view.md
+      - Design using the Architecture Diagram: design-your-application/design-using-architecture-diagram.md
+      - Type Diagram: design-your-application/type-diagram.md
+  - Design services:
+      - HTTP API designer: design-services/http-api-designer.md
+      - GraphQL designer: design-services/graphql-designer.md
+  - Implement the code:
+      - Sequence Diagram view: implement-the-code/sequence-diagram-view.md
+      - Data Mapper: implement-the-code/data-mapper.md
+  - Develop the code:
+      - IntelliSense: develop-the-code/intellisense.md
+      - Code navigation: develop-the-code/code-navigation.md
+      - Code actions: develop-the-code/code-actions.md
+      - Diagnostics: develop-the-code/diagnostics.md
+      - Commands: develop-the-code/commands.md
+  - Try the code:
+      - Try HTTP services: try-the-code/try-http-services.md
+      - Try GraphQL services: try-the-code/try-graphql-services.md
   - Notebooks: notebooks.md
+  - Run a program: run-a-program.md
+  - Test the code: test-the-code.md
   - Debug the code:
       - Debugging overview: debug-the-code/debugging-overview.md
       - Debugging features: debug-the-code/debugging-features.md
       - Debugging configurations: debug-the-code/debugging-configurations.md
-  - Configure the extension: configure-the-extension.md
+  - Build executables: build-executables.md
+  - Deploy the code: deploy-the-code.md
   - References:
       - Statement Editor: 
           - Statement Editor overview: references/statement-editor/statement-editor-overview.md
@@ -106,6 +107,8 @@ nav:
           - Define a configurable variable: references/statement-editor/define-a-configurable-variable.md
       - Record Editor: references/record-editor.md
       - Convert JSON to records: references/convert-json-to-records.md
+  - Configure the extension: configure-the-extension.md
+  - Troubleshoot: troubleshoot.md
   - Release notes:
       - Version 3.3.0: release-notes/version-3.3.0.md
       - Version 4.0.0: release-notes/version-4.0.0.md

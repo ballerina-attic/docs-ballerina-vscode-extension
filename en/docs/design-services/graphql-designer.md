@@ -1,8 +1,8 @@
-# GraphQL Designer
+# GraphQL designer
 
-The GraphQL Designer streamlines the visual creation of GraphQL APIs in Ballerina. This powerful tool simplifies understanding and navigating of complex GraphQL services and lets you browse through them effortlessly without examining the code directly.
+The GraphQL designer streamlines the visual creation of GraphQL APIs in Ballerina. This powerful tool simplifies understanding and navigating of complex GraphQL services and lets you browse through them effortlessly without examining the code directly.
 
-## Open the GraphQL Designer 
+## Open the GraphQL designer 
 
 Use the source code below to create a GraphQL service using the code editor and click on the **Visualize** codeLens, which is placed above the service. 
 
@@ -34,17 +34,17 @@ service /graphql on new graphql:Listener(9090) {
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/visualize.gif" class="cInlineImage-full"/>
 
-## Explore the GraphQL Designer 
+## Explore the GraphQL designer 
 
-The GraphQL Designer provides the following features.
+The GraphQL designer provides the following features.
 
 - Add GraphQL queries, mutations, and subscription operations
 - Create and edit constructs such as records and service classes
 - Navigate to the specific source code
 
-## Use the GraphQL Designer functionalities
+## Use the GraphQL designer functionalities
 
-You can perform the above functionalities using the GraphQL Designer as follows.
+You can perform the above functionalities using the GraphQL designer as follows.
 
 ### Add a GraphQL query
 
