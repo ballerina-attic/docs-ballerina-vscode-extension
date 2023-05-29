@@ -1,4 +1,4 @@
-# Build the executables
+# Build executables
 
 Follow the steps below to create an executable JAR file to deploy. 
   

@@ -1,4 +1,4 @@
-# Install the extension
+# Get started
 
 The sections below walk you through how to get started with the Ballerina VS Code extension by installing it and opening a Ballerina package in it.
 
