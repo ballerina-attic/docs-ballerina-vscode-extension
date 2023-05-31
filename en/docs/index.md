@@ -18,6 +18,8 @@
   </script>
 <!-- End Google Tag Manager -->
 
+<!-- Introduction -->
+
 <div class="md-content__inner md-typeset cHomeContainer">
     <div class="row">
         <div class="col-sm-12">
@@ -30,6 +32,8 @@
         </div>
     
 </div>
+
+<!-- End of Introduction -->
 
 <a href="https://wso2.com/ballerina/vscode/docs/get-started/install-the-extension/" class="cGetStartedButton">Get Started</a>
 
