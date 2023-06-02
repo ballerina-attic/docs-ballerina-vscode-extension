@@ -1,4 +1,4 @@
-# Debugging overview
+# Debug the code
 The debugging experience of the Ballerina VS Code extension provides multiple options and features to debug Ballerina applications.
 
 ## Debugging sessions
