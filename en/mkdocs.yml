@@ -74,9 +74,8 @@ nav:
   - Get started: get-started.md
   - Design your application: 
       - design-your-application/index.md
-      - Architecture View: design-your-application/architecture-view.md
+      - Explore the Architecture View: design-your-application/explore-the-architecture-view.md
       - Design using the Architecture Diagram: design-your-application/design-using-architecture-diagram.md
-      - Type Diagram: design-your-application/type-diagram.md
   - Design services:
       - design-services/index.md
       - HTTP API designer: design-services/http-api-designer.md
