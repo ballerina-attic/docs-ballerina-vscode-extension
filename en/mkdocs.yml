@@ -39,6 +39,7 @@ theme:
   features:    
     - navigation.top
     - navigation.sections
+    - navigation.indexes
     - content.code.copy
     - content.action.edit
   language: 'en'
@@ -71,36 +72,42 @@ strict: false
 nav:
   - Home: index.md
   - Get started: get-started.md
-  - Design your application:
+  - Design your application: 
+      - design-your-application/index.md
       - Architecture View: design-your-application/architecture-view.md
       - Design using the Architecture Diagram: design-your-application/design-using-architecture-diagram.md
       - Type Diagram: design-your-application/type-diagram.md
   - Design services:
+      - design-services/index.md
       - HTTP API designer: design-services/http-api-designer.md
       - GraphQL designer: design-services/graphql-designer.md
   - Implement the code:
+      - implement-the-code/index.md
       - Sequence Diagram view: implement-the-code/sequence-diagram-view.md
       - Data Mapper: implement-the-code/data-mapper.md
   - Develop the code:
+      - develop-the-code/index.md
       - IntelliSense: develop-the-code/intellisense.md
       - Code navigation: develop-the-code/code-navigation.md
       - Code actions: develop-the-code/code-actions.md
       - Diagnostics: develop-the-code/diagnostics.md
       - Commands: develop-the-code/commands.md
   - Try the code:
+      - try-the-code/index.md
       - Try HTTP services: try-the-code/try-http-services.md
       - Try GraphQL services: try-the-code/try-graphql-services.md
   - Notebooks: notebooks.md
   - Run a program: run-a-program.md
   - Test the code: test-the-code.md
   - Debug the code:
-      - Debugging overview: debug-the-code/debugging-overview.md
+      - debug-the-code/index.md
       - Debugging features: debug-the-code/debugging-features.md
       - Debugging configurations: debug-the-code/debugging-configurations.md
   - Build executables: build-executables.md
   - Deploy the code: deploy-the-code.md
   - References:
       - Statement Editor: 
+          - references/statement-editor/index.md
           - Statement Editor overview: references/statement-editor/statement-editor-overview.md
           - Call a Ballerina library function: references/statement-editor/call-a-ballerina-library-function.md
           - Construct a record: references/statement-editor/construct-a-record.md
