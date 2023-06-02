@@ -108,7 +108,6 @@ nav:
   - References:
       - Statement Editor: 
           - references/statement-editor/index.md
-          - Statement Editor overview: references/statement-editor/statement-editor-overview.md
           - Call a Ballerina library function: references/statement-editor/call-a-ballerina-library-function.md
           - Construct a record: references/statement-editor/construct-a-record.md
           - Define a configurable variable: references/statement-editor/define-a-configurable-variable.md
