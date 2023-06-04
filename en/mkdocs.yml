@@ -28,6 +28,11 @@ dev_addr: localhost:8000
 # Copyright
 copyright: Copyright © WSO2 LLC (2022-2023)
 
+# React components
+extra_javascript:
+  - ai/use-cases/UseCases.js
+
+
 # Configuration
 theme:
   name: material
