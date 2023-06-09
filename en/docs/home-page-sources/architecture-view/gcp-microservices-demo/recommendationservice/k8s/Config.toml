@@ -1,0 +1,14 @@
+catalogHost="catalog-service"
+catalogTimeout=3.0
+
+[ballerina.observe]
+tracingEnabled=true
+tracingProvider="jaeger"
+
+[ballerinax.jaeger]
+agentHostname="jaeger"
+agentPort=55680
+samplerType="const"
+samplerParam=1.0
+reporterFlushInterval=2000
+reporterBufferSize=1000
