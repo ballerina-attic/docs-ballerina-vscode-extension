@@ -76,10 +76,10 @@ nav:
       - design-your-project/index.md
       - Explore the Architecture View: design-your-project/explore-the-architecture-view.md
       - Design using the Architecture Diagram: design-your-project/design-using-architecture-diagram.md
-  - Design services:
-      - design-services/index.md
-      - HTTP API designer: design-services/http-api-designer.md
-      - GraphQL designer: design-services/graphql-designer.md
+  - Design your services:
+      - design-your-services/index.md
+      - HTTP API designer: design-your-services/http-api-designer.md
+      - GraphQL designer: design-your-services/graphql-designer.md
   - Implement the code:
       - implement-the-code/index.md
       - Sequence Diagram view: implement-the-code/sequence-diagram-view.md
@@ -91,10 +91,10 @@ nav:
       - Code actions: develop-the-code/code-actions.md
       - Diagnostics: develop-the-code/diagnostics.md
       - Commands: develop-the-code/commands.md
-  - Try the code:
-      - try-the-code/index.md
-      - Try HTTP services: try-the-code/try-http-services.md
-      - Try GraphQL services: try-the-code/try-graphql-services.md
+  - Try your services:
+      - try-your-services/index.md
+      - Try HTTP services: try-your-services/try-http-services.md
+      - Try GraphQL services: try-your-services/try-graphql-services.md
   - Notebooks: notebooks.md
   - Run a program: run-a-program.md
   - Test the code: test-the-code.md
@@ -103,7 +103,7 @@ nav:
       - Debugging features: debug-the-code/debugging-features.md
       - Debugging configurations: debug-the-code/debugging-configurations.md
   - Build executables: build-executables.md
-  - Deploy the code: deploy-the-code.md
+  - Deploy with WSO2 Choreo: deploy-with-wso2-choreo.md
   - References:
       - Statement Editor: 
           - references/statement-editor/index.md
