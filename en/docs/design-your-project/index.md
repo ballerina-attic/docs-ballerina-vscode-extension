@@ -1,4 +1,4 @@
-# Design your application
+# Design your project
 
 Software applications have evolved into a composition of multiple interrelated components to be able to handle increasing complexities. When the number and/or depth of such components grow, it is convenient to have a high-level picture of the system components and their interactions. 
 
