@@ -1,9 +1,0 @@
-query {
-    hero(episode: EMPIRE) {
-        ...on Human {
-            name,
-            mass,
-            homePlanet
-        }
-    }
-}
