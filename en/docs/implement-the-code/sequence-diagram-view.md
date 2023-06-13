@@ -1,4 +1,4 @@
-# Sequence Diagram view
+# sequence diagram view
 
 The visual representation provided by the Ballerina VS Code extension has its roots in sequence diagrams and can capture how the logic of your program flows, how the concurrent execution flow works, which remote endpoints are involved, and how those endpoints interact with the different objects in the program.
 
