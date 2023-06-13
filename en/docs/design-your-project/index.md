@@ -1,6 +1,6 @@
 # Design your project
 
-Software applications have evolved into a composition of multiple interrelated components to be able to handle increasing complexities. When the number and/or depth of such components grow, it is convenient to have a high-level picture of the system components and their interactions. 
+Software applications have evolved into a composition of multiple interrelated components to handle increasing complexities. When the number and/or depth of such components grow, it is convenient to have a high-level picture of the system components and their interactions. 
 
 The Architecture View of the Ballerina VS Code extension (i.e., formerly, the **Project Design View**) provides a high-level picture of Ballerina projects purely based on the source code.
 
