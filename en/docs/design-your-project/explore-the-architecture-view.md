@@ -31,7 +31,7 @@ If these data types are Ballerina records, click on them to access the compositi
 
 ## Type Diagram
 
-The Type Diagram provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations. This can be accessed via the **Architecture View** command as shown below.
+The Type Diagram provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations. This can be accessed via the **Architecture View** command, as shown below.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/type-diagram/type-diagram.gif" class="cInlineImage-full"/>
 
