@@ -2,9 +2,9 @@
 
 Software applications have evolved into a composition of multiple interrelated components to be able to handle increasing complexities. When the number and/or depth of such components grow, it is convenient to have a high-level picture of the system components and their interactions. 
 
-The Architecture View of the Ballerina VS Code extension (i.e., formerly, the **Project Design View**) provides a high-level picture of Ballerina projects purely based on the source code.
+The Architecture View of the Ballerina VS Code extension provides a high-level picture of Ballerina projects purely based on the source code.
 
-## Learn related concepts
+## Related concepts
 
 Before getting started with the Architecture View, the following are a few concepts that are essential to be aware of.
 
@@ -90,6 +90,4 @@ To set up a Ballerina project as a VS Code workspace, add all the Ballerina pack
     !!! Info 
         The [workspace file](https://github.com/ballerina-guides/gcp-microservices-demo/blob/main/project.code-workspace) of the Online Boutique microservices demo is available in the repository. 
 
-3. Once the packages are added to the workspace, activate the Architecture View via the `Ballerina: Architecture View` command in the command palette.
-
-    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/architecture-view-cmd.gif" class="cInlineImage-full"/>
+3. Once the packages are added to the workspace, open the Architecture View via the `Ballerina: Architecture View` command in the command palette.
