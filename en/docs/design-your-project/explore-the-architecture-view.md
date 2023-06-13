@@ -1,6 +1,6 @@
 # Explore the Architecture View
 
-Explore the features of the Architecture View using the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) Ballerina project that you set up in the previous section.
+Explore the features of the Architecture View using the [Online Boutique microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo) Ballerina project.
 
 Once you open the Architecture View, you will see the following types of diagrams.
 
@@ -50,7 +50,7 @@ You can also view the **composition** of an individual record type. Use either o
 
 2. Click the head of the records displayed in the **Type Diagram**.
 
-The below is the Composition Diagram generated for the `ContextSearchProductsResponse` record type shown in the Type Diagram above.
+Below is the Composition Diagram generated for the `ContextSearchProductsResponse` record type shown in the Type Diagram above.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/type-diagram/gcp-type-composition.png" class="cInlineImage-full"/>
 

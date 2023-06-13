@@ -75,14 +75,14 @@ nav:
   - Design your project: 
       - design-your-project/index.md
       - Explore the Architecture View: design-your-project/explore-the-architecture-view.md
-      - Design using the Architecture Diagram: design-your-project/design-using-architecture-diagram.md
+      - Design using the architecture diagram: design-your-project/design-using-architecture-diagram.md
   - Design your services:
       - design-your-services/index.md
       - HTTP API designer: design-your-services/http-api-designer.md
       - GraphQL designer: design-your-services/graphql-designer.md
   - Implement the code:
       - implement-the-code/index.md
-      - Sequence Diagram view: implement-the-code/sequence-diagram-view.md
+      - sequence diagram view: implement-the-code/sequence-diagram-view.md
       - Data Mapper: implement-the-code/data-mapper.md
   - Develop the code:
       - develop-the-code/index.md

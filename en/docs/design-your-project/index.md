@@ -90,4 +90,4 @@ To set up a Ballerina project as a VS Code workspace, add all the Ballerina pack
     !!! Info 
         The [workspace file](https://github.com/ballerina-guides/gcp-microservices-demo/blob/main/project.code-workspace) of the Online Boutique microservices demo is available in the repository. 
 
-3. Once the packages are added to the workspace, open the Architecture View via the `Ballerina: Architecture View` command in the command palette.
+Once the packages are added to the workspace, open the Architecture View via the `Ballerina: Architecture View` command in the command palette.

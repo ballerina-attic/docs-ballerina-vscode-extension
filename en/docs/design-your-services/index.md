@@ -4,4 +4,3 @@ The sections below describe the interactive visual interfaces provided by the Ba
 
 - [HTTP API Designer](https://wso2.com/ballerina/vscode/docs/visual-programming/http-api-designer/)
 - [GraphQL Designer](https://wso2.com/ballerina/vscode/docs/visual-programming/graphql-designer/)
-
