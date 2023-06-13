@@ -40,7 +40,7 @@ The following is a snippet of the Type Diagram generated for the [Online Boutiqu
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/type-diagram/gcp-type-diagram.png" class="cInlineImage-full"/>
 
 !!! Tip 
-    The multiplicities of the associations are represented on either side of the connector while the type inclusions are differentiated using a directed link (represents inheritance).
+    The multiplicities of the associations are represented on either side of the connector, while the type inclusions are differentiated using a directed link (represents inheritance).
 
 ## Composition Diagram
 
