@@ -82,7 +82,7 @@ nav:
       - GraphQL designer: design-the-services/graphql-designer.md
   - Implement the code:
       - implement-the-code/index.md
-      - sequence diagram view: implement-the-code/sequence-diagram-view.md
+      - Sequence Diagram View: implement-the-code/sequence-diagram-view.md
       - Data Mapper: implement-the-code/data-mapper.md
   - Develop the code:
       - develop-the-code/index.md
