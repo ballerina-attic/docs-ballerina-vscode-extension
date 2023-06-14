@@ -6,5 +6,5 @@ Also, the Data Mapper allows you to visually translate data from one format to a
 
 For more detailed information on these tools, see the sections below.
 
-- [Sequence Diagram View](/implement-the-code/sequence-diagram-view/)
-- [Data Mapper](/implement-the-code/data-mapper/)
+- [Sequence Diagram View](../implement-the-code/sequence-diagram-view.md)
+- [Data Mapper](../implement-the-code/data-mapper.md)

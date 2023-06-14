@@ -144,7 +144,6 @@ You can also view the **composition** of an individual record type. Use either o
 Below is the composition diagram generated for the `ContextSearchProductsResponse` record type shown in the type diagram above.
 
 <img src="../img/visual-programming/architecture-view/type-diagram/gcp-type-composition.png" class="cInlineImage-full"/>
-![Architecture Diagram](../img/visual-programming/architecture-view/type-diagram/gcp-type-composition.png){.cInlineImage-full}
 
 ## Other capabilities of the Architecture View
 
