@@ -28,6 +28,15 @@ dev_addr: localhost:8000
 # Copyright
 copyright: Copyright © WSO2 LLC (2022-2023)
 
+#Plugins
+plugins:
+  - glightbox
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 # Configuration
 theme:
   name: material
@@ -82,7 +91,7 @@ nav:
       - GraphQL designer: design-the-services/graphql-designer.md
   - Implement the code:
       - implement-the-code/index.md
-      - sequence diagram view: implement-the-code/sequence-diagram-view.md
+      - Sequence Diagram View: implement-the-code/sequence-diagram-view.md
       - Data Mapper: implement-the-code/data-mapper.md
   - Develop the code:
       - develop-the-code/index.md
@@ -100,11 +109,13 @@ nav:
   - Test the code: test-the-code.md
   - Debug the code:
       - debug-the-code/index.md
+      - Debugging sessions: debug-the-code/debugging-sessions.md
       - Debugging features: debug-the-code/debugging-features.md
       - Debugging configurations: debug-the-code/debugging-configurations.md
   - Build executables: build-executables.md
   - Deploy with WSO2 Choreo: deploy-with-wso2-choreo.md
   - References:
+      - references/index.md
       - Statement Editor: 
           - references/statement-editor/index.md
           - Call a Ballerina library function: references/statement-editor/call-a-ballerina-library-function.md
@@ -115,6 +126,7 @@ nav:
   - Configure the extension: configure-the-extension.md
   - Troubleshoot: troubleshoot.md
   - Release notes:
+      - release-notes/index.md
       - Version 3.3.0: release-notes/version-3.3.0.md
       - Version 4.0.0: release-notes/version-4.0.0.md
   - License: license.md

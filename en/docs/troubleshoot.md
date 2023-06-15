@@ -6,7 +6,11 @@ You can troubleshoot the Ballerina VS Code extension as follows.
 
 To view the Ballerina output tab, click **View**, click **Output**, and select **Ballerina** from the output list. It displays the details of the current Ballerina distribution and provides additional information if the plugin fails to detect a Ballerina distribution.
 
-<img src="https://github.com/wso2/docs-ballerina-vscode-extension/blob/revamp-vs-code-docs/en/docs/img/troubleshoot/view-ballerina-output.gif" class="cInlineImage-full"/>
+![View Ballerina output](./img/troubleshoot/view-ballerina-output.gif){ width="1000" } 
+
+<figure markdown>
+![View Ballerina output](./img/troubleshoot/view-ballerina-output.gif){ width="300" }
+</figure>
 
 ## Set up a custom Ballerina path
 
@@ -22,10 +26,10 @@ Follow the steps below to change the currently active Ballerina distribution and
 
 5. Select **Enable plugin development mode**.
 
-<img src="https://github.com/wso2/docs-ballerina-vscode-extension/blob/revamp-vs-code-docs/en/docs/img/troubleshoot/set-custom-ballerina-path.png" class="cInlineImage-full"/>
+![Set custom Ballerina path](./img/troubleshoot/set-custom-ballerina-path.png){cInlineImage-full}
 
 ## Enable debug logs
 
 You can also enable the [debug logs](https://wso2.com/ballerina/vscode/docs/configure-the-extension/#advanced-configurations) from the Ballerina extension settings to view any issues arising from the extension features.
 
-<img src="https://github.com/wso2/docs-ballerina-vscode-extension/blob/revamp-vs-code-docs/en/docs/img/troubleshoot/enable-debug-log.png" class="cInlineImage-full"/>
+![Enable debug logs](./img/troubleshoot/enable-debug-log.png){cInlineImage-full}
