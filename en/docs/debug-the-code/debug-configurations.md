@@ -1,4 +1,4 @@
-# Debugging configurations
+# Debug configurations
 
 The Ballerina debugger supports various debug configuration options via the `launch.json` file.
 

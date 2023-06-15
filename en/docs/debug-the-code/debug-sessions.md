@@ -1,4 +1,4 @@
-# Debugging sessions
+# Debug sessions
 
 The VS Code extension provides the three types of sessions below to debug your Ballerina code.
 
@@ -118,4 +118,4 @@ Follow the steps below to start a remote debug session.
       <img src="https://wso2.com/ballerina/vscode/docs/img/debug/remote-debug.gif" class="cInlineImage-full"/>
 
 !!!Info 
-    For detailed information on the feature-rich debugging experience for troubleshooting Ballerina applications provided via the Ballerina VS Code extension, see [Debugging features](../debugging-features/).
+    For detailed information on the feature-rich debugging experience for troubleshooting Ballerina applications provided via the Ballerina VS Code extension, see [Debugging features](../debug-features/).
