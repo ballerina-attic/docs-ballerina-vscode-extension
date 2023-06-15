@@ -98,7 +98,7 @@ Once you open the Architecture View, you will see the following types of diagram
 
 ### Service diagram level 1
 
-This diagram displays all the services available within the workspace with links representing any interactions between them. The basic service diagram (level 1) generated for the 10 Ballerina packages in the Online Boutique microservices demo project is shown below.
+This diagram displays all the services available within the workspace, with links representing any interactions between them. The basic service diagram (level 1) generated for the 10 Ballerina packages in the Online Boutique microservices demo project is shown below.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-one-copy.png" class="cInlineImage-full"/>
 
