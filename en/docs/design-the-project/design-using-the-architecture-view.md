@@ -4,7 +4,7 @@ The Architecture View includes a range of editing capabilities that makes it pos
 
 ## Add components
 
-Use the **Add Component** option of the Architecture View to add the first component of your project as shown below. 
+Use the **Add Component** option of the Architecture View to add the first component of your project, as shown below. 
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/add-component.gif" class="cInlineImage-full"/>
 
