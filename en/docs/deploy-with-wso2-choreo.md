@@ -4,4 +4,4 @@ You can manage your Ballerina projects by deploying them in [WSO2 Choreo](https:
 
 For detailed information, see the [WSO2 Choreo documentation](https://wso2.com/choreo/docs/develop-components/develop-components-using-vs-code/).
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/choreo-integration/choreo-integration.png" class="cInlineImage-half"/>
+![Choreo Deployment](./img/choreo-integration/choreo-integration.png){cInlineImage-half}
