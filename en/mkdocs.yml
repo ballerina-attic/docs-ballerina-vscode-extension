@@ -28,6 +28,15 @@ dev_addr: localhost:8000
 # Copyright
 copyright: Copyright © WSO2 LLC (2022-2023)
 
+#Plugins
+plugins:
+  - glightbox
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 # Configuration
 theme:
   name: material
