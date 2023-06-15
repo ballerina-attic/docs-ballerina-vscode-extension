@@ -81,7 +81,7 @@ To set up a Ballerina project as a VS Code workspace, add all the Ballerina pack
     !!! Info 
         When the workspace is set up, you will see the following folder structure in the **Explorer**. The workspace name may be different if you set up the workspace from scratch.
 
-      <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/project-workspace.png" class="cInlineImage-half"/>
+      ![Project workspace](../img/visual-programming/architecture-view/architecture-diagram/project-workspace.png){width="350"}
 
 2. Use the **VS Code workspace file** from an already created workspace to import its packages to a new workspace.
 
@@ -136,7 +136,7 @@ The following is a snippet of the type diagram generated for the [Online Boutiqu
 
 You can also view the **composition** of an individual record type. Use either of the methods below to access these composition diagrams.
 
-1. Click the record types that are included in the request/response bodies of the service invocations shown in the [level 2 service diagram](https://wso2.com/ballerina/vscode/docs/visual-programming/architecture-view/architecture-diagram/#service-diagram-level-2).
+1. Click the record types that are included in the request/response bodies of the service invocations shown in the [level 2 service diagram](../design-the-project/explore-the-architecture-view/#service-diagram-level-2).
 
 2. Click the head of the records displayed in the **Type Diagram**.
 
