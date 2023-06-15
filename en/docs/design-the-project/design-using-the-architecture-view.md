@@ -1,4 +1,4 @@
-# Design using the architecture view
+# Design using the Architecture View
 
 The Architecture View includes a range of editing capabilities that makes it possible to design projects via the diagram. The sections below explore these capabilities by executing the **Architecture View** command on an empty workspace.
 

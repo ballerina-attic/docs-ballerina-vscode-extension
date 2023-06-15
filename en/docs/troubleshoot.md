@@ -6,7 +6,7 @@ You can troubleshoot the Ballerina VS Code extension as follows.
 
 To view the Ballerina output tab, click **View**, click **Output**, and select **Ballerina** from the output list. It displays the details of the current Ballerina distribution and provides additional information if the plugin fails to detect a Ballerina distribution.
 
-![View Ballerina output](./img/troubleshoot/view-ballerina-output.gif){ width="1500" } 
+![View Ballerina output](./img/troubleshoot/view-ballerina-output.gif){cInlineImage-full}
 
 ## Set up a custom Ballerina path
 
