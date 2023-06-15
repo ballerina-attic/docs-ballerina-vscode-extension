@@ -6,4 +6,4 @@ Click the **Run** CodeLens, which appears when you hover over the `@test:Config:
 
 ![Write tests](./img/test-the-code/write-tests.png){cInlineImage-full}
 
-For more information on debugging tests, see [Test debug sessions](../debug-the-code/debugging-sessions/#test-debug-sessions/).
+For more information on debugging tests, see [Test debug sessions](../debug-the-code/debug-sessions/#test-debug-sessions/).

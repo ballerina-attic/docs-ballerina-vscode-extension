@@ -109,9 +109,9 @@ nav:
   - Test the code: test-the-code.md
   - Debug the code:
       - debug-the-code/index.md
-      - Debugging sessions: debug-the-code/debugging-sessions.md
-      - Debugging features: debug-the-code/debugging-features.md
-      - Debugging configurations: debug-the-code/debugging-configurations.md
+      - Debug sessions: debug-the-code/debug-sessions.md
+      - Debug features: debug-the-code/debug-features.md
+      - Debug configurations: debug-the-code/debug-configurations.md
   - Build executables: build-executables.md
   - Deploy with WSO2 Choreo: deploy-with-wso2-choreo.md
   - References:

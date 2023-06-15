@@ -1,4 +1,4 @@
-# Debugging sessions
+# Debug sessions
 
 The VS Code extension provides the three types of sessions below to debug your Ballerina code.
 
@@ -51,7 +51,7 @@ Follow the steps below to start a debug session with configurations. All the con
 !!!Info 
     If you launch the debug session through VS Code, the working directory will be the Ballerina package root. However, you can use remote debugging for alternative working directories.
 
-1. Create the `launch.json` file. For instructions, see [Create the configuration file](../../debug-the-code/debugging-configurations/#create-the-configuration-file).
+1. Create the `launch.json` file. For instructions, see [Create the configuration file](../../debug-the-code/debug-configurations/#create-the-configuration-file).
 
     !!! Info
         This enables the **Ballerina Program**, **Ballerina Test**, and **Ballerina Remote** options that are required to debug your code using configurations.
@@ -118,4 +118,4 @@ Follow the steps below to start a remote debug session.
       <img src="https://wso2.com/ballerina/vscode/docs/img/debug/remote-debug.gif" class="cInlineImage-full"/>
 
 !!!Info 
-    For detailed information on the feature-rich debugging experience for troubleshooting Ballerina applications provided via the Ballerina VS Code extension, see [Debugging features](../debugging-features/).
+    For detailed information on the feature-rich debugging experience for troubleshooting Ballerina applications provided via the Ballerina VS Code extension, see [Debugging features](../debug-features/).

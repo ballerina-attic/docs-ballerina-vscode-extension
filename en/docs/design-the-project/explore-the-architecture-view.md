@@ -96,18 +96,18 @@ Once you open the Architecture View, you will see the following types of diagram
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/diagram-types.gif" class="cInlineImage-full"/>
 
-### Service diagram level 1
+### Service Diagram Level 1
 
-This diagram displays all the services available within the workspace, with links representing any interactions between them. The basic service diagram (level 1) generated for the 10 Ballerina packages in the Online Boutique microservices demo project is shown below.
+This diagram displays all the services available within the workspace, with links representing any interactions between them. The basic Service Diagram Level 1 generated for the 10 Ballerina packages in the Online Boutique microservices demo project is shown below.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-one-copy.png" class="cInlineImage-full"/>
 
 !!! Info
     The link between the `Checkout` service and the `Email` service indicates that a resource of the `Checkout` service invokes the `Email` service. In addition to this, the `Email` service also invokes an `external` service via a connector.
 
-### Service diagram level 2
+### Service Diagram Level 2
 
-The detailed level 2 service diagram (resources) dives deeper into the compositions of the services and the interactions between them. The below is the detailed representation of the demo project, which depicts the individual resource/remote functions of the services and their invocations.
+The detailed Service Diagram Level 2 (resources) dives deeper into the compositions of the services and the interactions between them. The below is the detailed representation of the demo project, which depicts the individual resource/remote functions of the services and their invocations.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/service-level-two-copy.png" class="cInlineImage-full"/>
 
@@ -136,7 +136,7 @@ The following is a snippet of the type diagram generated for the [Online Boutiqu
 
 You can also view the **composition** of an individual record type. Use either of the methods below to access these composition diagrams.
 
-1. Click the record types that are included in the request/response bodies of the service invocations shown in the [level 2 service diagram](#service-diagram-level-2).
+1. Click the record types that are included in the request/response bodies of the service invocations shown in the [Service Diagram Level 2](#service-diagram-level-2).
 
 2. Click the head of the records displayed in the **Type Diagram**.
 

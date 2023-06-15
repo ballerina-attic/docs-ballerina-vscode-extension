@@ -1,4 +1,4 @@
-# Debugging features
+# Debug features
 
 The debugging features below are currently supported by the Ballerina VS Code extension.
 
