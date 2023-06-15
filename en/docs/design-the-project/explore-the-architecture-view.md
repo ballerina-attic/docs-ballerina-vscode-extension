@@ -136,13 +136,13 @@ The following is a snippet of the type diagram generated for the [Online Boutiqu
 
 You can also view the **composition** of an individual record type. Use either of the methods below to access these composition diagrams.
 
-1. Click the record types that are included in the request/response bodies of the service invocations shown in the [level 2 service diagram](../design-the-project/explore-the-architecture-view/#service-diagram-level-2).
+1. Click the record types that are included in the request/response bodies of the service invocations shown in the [level 2 service diagram](#service-diagram-level-2).
 
 2. Click the head of the records displayed in the **Type Diagram**.
 
 Below is the composition diagram generated for the `ContextSearchProductsResponse` record type shown in the type diagram above.
 
-<img src="../img/visual-programming/architecture-view/type-diagram/gcp-type-composition.png" class="cInlineImage-full"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/type-diagram/gcp-type-composition.png" class="cInlineImage-full"/>
 
 ## Other capabilities of the Architecture View
 

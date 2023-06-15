@@ -37,7 +37,7 @@
 <div class="cDocsContainer">
     <div class="cDocsRow">  
         <div class="cDocsGrid">
-            <a class="cIconContainer" href="edit-the-code/intellisense/">
+            <a class="cIconContainer" href="../docs/develop-the-code/">
                 <div class="cIconWrap">
                     <img src="assets/img/home/coding.svg"/>
                 </div>
@@ -53,7 +53,7 @@
             </a>
         </div> 
         <div class="cDocsGrid">
-            <a class="cIconContainer" href="visual-programming/sequence-diagram-view/">
+            <a class="cIconContainer" href="../docs/design-the-project/">
                 <div class="cIconWrap">
                     <img src="assets/img/home/visual.svg"/>
                 </div>
@@ -69,7 +69,7 @@
             </a>
         </div>   
         <div class="cDocsGrid">
-            <a class="cIconContainer" href="debug-the-code/debugging-overview/">
+            <a class="cIconContainer" href="../docs/debug-the-code/">
                 <div class="cIconWrap">
                     <img src="assets/img/home/notebook.svg"/>
                 </div>
@@ -85,7 +85,7 @@
             </a>
         </div>
         <div class="cDocsGrid">
-            <a class="cIconContainer" href="configure-the-extension/">
+            <a class="cIconContainer" href="../docs/configure-the-extension/">
                 <div class="cIconWrap">
                     <img src="assets/img/home/buildandrun.svg"/>
                 </div>
