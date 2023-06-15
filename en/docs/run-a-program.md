@@ -71,7 +71,7 @@ The integrated terminal will open automatically and run the program.
 You just ran your first Ballerina program.
 
 !!! Tip 
-    If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-the-code.md).
+    If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-the-code/).
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/debug-button.png" class="cInlineImage-full"/>
 
@@ -79,5 +79,5 @@ You just ran your first Ballerina program.
 
 The Ballerina VS Code extension allows you to try out and debug HTTP/GraphQL services (without using any third-party tools) while you develop them. 
 
-* [Try HTTP services in Swagger view](try-the-code/try-http-services.md)
-* [Try GraphQL services](try-the-code/try-graphql-services.md)
+* [Try HTTP services in Swagger view](../try-the-services/try-http-services/)
+* [Try GraphQL services](../try-the-services/try-graphql-services/)
