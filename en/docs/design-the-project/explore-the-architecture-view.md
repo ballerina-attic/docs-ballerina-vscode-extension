@@ -82,7 +82,6 @@ To set up a Ballerina project as a VS Code workspace, add all the Ballerina pack
         When the workspace is set up, you will see the following folder structure in the **Explorer**. The workspace name may be different if you set up the workspace from scratch.
 
       <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/project-workspace.png" class="cInlineImage-half"/>
-      ![Project Workspace](../img/visual-programming/architecture-view/architecture-diagram/project-workspace.png){.cInlineImage-small}
 
 2. Use the **VS Code workspace file** from an already created workspace to import its packages to a new workspace.
 

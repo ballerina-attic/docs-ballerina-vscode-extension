@@ -242,3 +242,40 @@
 .cDocsContainerLink{
     margin-top: auto;
 }
+
+.cInlineImage-small {
+    display: inline-block;
+    text-align: center;
+    height:45%;
+    width:30%;
+    border: 1px solid gray;
+    }
+    
+    
+.cInlineImage-full {
+    display: inline-block;
+    text-align: center;
+    height:75%;
+    width:90%;
+    border: 1px solid gray;
+    }
+    
+.cInlineImage-threeQuarter {
+    display: inline-block;
+    text-align: center;
+    width:65%;
+    border: 1px solid gray;
+    }
+    
+.cInlineImage-half {
+    display: inline-block;
+    text-align: center;
+    width:50%;
+    border: 1px solid gray;
+    }
+    
+.cInlineImage-bordered {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid gray;
+    }
