@@ -29,6 +29,6 @@ Below are the improvements included in this release.
 
 ### GraphQL service designer
 
-A new option is added to the GraphQL service designer to filter between queries, mutations, and subscriptions, together with a few other improvements related to the GraphQL designer UI.
+A new option is added to the GraphQL service designer to filter between queries, mutations, and subscriptions.
 
 ![GraphQL filtering](../img/release-notes/v-4.3.0/graphql-filtering.gif){.cInlineImage-full}
