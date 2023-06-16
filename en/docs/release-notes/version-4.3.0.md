@@ -13,7 +13,7 @@ Below are the new features introduced by this release.
 
 ## Entity Relationship Diagram
 
-With the latest Ballerina VS Code extension release (version 4.3.0) and <a href="https://ballerina.io/downloads/" target="_blank">Ballerina Swan lake Update 6 release</a>, now, you can generate an entity relationship diagram for your Ballerina program using the corresponding icon on the top-right corner of the editor panel or using the command palette itself.
+With the latest Ballerina VS Code extension release (version 4.3.0) and <a href="https://ballerina.io/downloads/" target="_blank">Ballerina Swan lake Update 6 release</a>, now, you can generate the entity relationship diagram for your Ballerina persist model. This feature can be accessed using the icon available on the top-right corner of the editor panel or using the `Ballerina: Entity Relationship Diagram` command available in the VS Code command palette.
 
 ![Entity Relationship Diagram](../img/release-notes/v-4.3.0/er-diagram.gif){.cInlineImage-full}
 
