@@ -9,6 +9,7 @@ If you are new to Ballerina, you can download the [installers](https://ballerina
 
 ## New features
 
+Below are the new features introduced by this release.
 
 ## Entity Relationship Diagram
 
