@@ -127,7 +127,7 @@ The type diagram provides a comprehensive view of all the Ballerina record types
 
 The following is a snippet of the type diagram generated for the [Online Boutique Microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo). 
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/type-diagram/gcp-type-diagram.png" class="cInlineImage-full"/>
+![GCP Type Diagram](../img/visual-programming/architecture-view/type-diagram/gcp-type-diagram.png){width="800"}
 
 !!! Tip 
     The multiplicities of the associations are represented on either side of the connector, while the type inclusions are differentiated using a directed link (represents inheritance).
@@ -142,7 +142,7 @@ You can also view the **composition** of an individual record type. Use either o
 
 Below is the composition diagram generated for the `ContextSearchProductsResponse` record type shown in the type diagram above.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/type-diagram/gcp-type-composition.png" class="cInlineImage-full"/>
+![GCP type composition](../img/visual-programming/architecture-view/type-diagram/gcp-type-composition.png){cInlineImage-full}
 
 ## Other capabilities of the Architecture View
 
