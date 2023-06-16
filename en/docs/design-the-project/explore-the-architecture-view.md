@@ -123,7 +123,7 @@ If these data types are Ballerina records, click on them to access the compositi
 
 The type diagram provides a comprehensive view of all the Ballerina record types defined in the project workspace and their associations. This can be accessed via the **Architecture View** command, as shown below.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/type-diagram/type-diagram.gif" class="cInlineImage-full"/>
+![Type Diagram](../img/visual-programming/architecture-view/type-diagram/type-diagram.gif){width="800"}
 
 The following is a snippet of the type diagram generated for the [Online Boutique Microservices demo](https://github.com/ballerina-guides/gcp-microservices-demo). 
 
