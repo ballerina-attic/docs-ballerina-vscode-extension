@@ -1,4 +1,4 @@
-# GraphQL designer
+# GraphQL service designer
 
 The GraphQL designer streamlines the visual creation of GraphQL APIs in Ballerina. This powerful tool simplifies understanding and navigating of complex GraphQL services and lets you browse through them effortlessly without examining the code directly.
 
