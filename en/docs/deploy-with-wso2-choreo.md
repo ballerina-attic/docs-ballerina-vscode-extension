@@ -4,4 +4,4 @@ You can deploy the Ballerina projects you create in [WSO2 Choreo](https://wso2.c
 
 For detailed information, see the [WSO2 Choreo documentation](https://wso2.com/choreo/docs/develop-components/develop-components-using-vs-code/).
 
-![Choreo Deployment](./img/choreo-integration/choreo-integration.png){cInlineImage-half}
+![Choreo Deployment](./img/choreo-integration/choreo-integration.png){ width="535" }
