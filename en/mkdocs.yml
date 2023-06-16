@@ -88,7 +88,7 @@ nav:
   - Design the services:
       - design-the-services/index.md
       - HTTP API designer: design-the-services/http-api-designer.md
-      - GraphQL designer: design-the-services/graphql-service-designer.md
+      - GraphQL service designer: design-the-services/graphql-service-designer.md
   - Implement the code:
       - implement-the-code/index.md
       - Sequence Diagram View: implement-the-code/sequence-diagram-view.md
