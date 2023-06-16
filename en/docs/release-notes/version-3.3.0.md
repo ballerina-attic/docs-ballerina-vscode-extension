@@ -38,3 +38,5 @@ If you are new to Ballerina, you can download the [installers](https://ballerina
 - This release includes an experimental feature that allows you to visualize service interactions in your project.
 - It also comes with a view to see record-type compositions and relationships.
 - Use the `Ballerina: Project Design` command to open the design view.
+
+
