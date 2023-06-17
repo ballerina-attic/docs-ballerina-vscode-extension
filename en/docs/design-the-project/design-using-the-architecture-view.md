@@ -39,4 +39,4 @@ By hovering over a link, you can choose to remove the particular interaction in 
 
 You can edit the display names of your project components using the **Edit Label** option in the node menu. This will update the **label** value of the particular component’s display annotation.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/architecture-view/architecture-diagram/edit-label.gif" class="cInlineImage-full"/>
+<img src="../../img/visual-programming/architecture-view/architecture-diagram/edit-label.gif" class="cInlineImage-full"/>
