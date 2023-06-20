@@ -1,22 +1,22 @@
-# HTTP API designer
+# HTTP API Designer
 
-The new HTTP API designer enables you to design HTTP services interactively. This feature allows you to design services rapidly without the need to have extensive knowledge of the HTTP service syntax of Ballerina. 
+The new HTTP API Designer enables you to design HTTP services interactively. This feature allows you to design services rapidly without the need to have extensive knowledge of the HTTP service syntax of Ballerina. 
 
 ## Open the service 
 
-To open the HTTP API designer, add an HTTP service using the code or the **Add** button in the visual editor and then, click the **Visualize** CodeLens, which is placed above the HTTP service.
+To open the HTTP API Designer, add an HTTP service using the code or the **Add** button in the visual editor and then, click the **Visualize** CodeLens, which is placed above the HTTP service.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/release-notes/v-4.0.0/service-design.gif" class="cInlineImage-full"/>
 
 ## Visualize the service
 
-The HTTP API designer provides an overview of the design of the service resources. This gives a broad idea of the behavior of the service. It will visualize the service similar to the OpenAPI viewer. You can see the parameters and response details. Also, you can interact with record types and modify type definitions from the [Statement Editor](https://wso2.com/ballerina/vscode/docs/references/statement-editor/statement-editor-overview/#statement-editor-overview).
+The HTTP API Designer provides an overview of the design of the service resources. This gives a broad idea of the behavior of the service. It will visualize the service similar to the OpenAPI viewer. You can see the parameters and response details. Also, you can interact with record types and modify type definitions from the [Statement Editor](https://wso2.com/ballerina/vscode/docs/references/statement-editor/statement-editor-overview/#statement-editor-overview).
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/http-api-designer/visualize.gif" class="cInlineImage-full"/>
 
 ## Add resources to the service
 
-The HTTP API designer lets you implement a service in Ballerina from scratch with a little knowledge of coding syntax or by using an existing API. Therefore, the API designer will help you to get started with the developments of a service by providing you with the basic standard templates.
+The HTTP API Designer lets you implement a service in Ballerina from scratch with a little knowledge of coding syntax or by using an existing API. Therefore, the HTTP API Designer will help you to get started with the developments of a service by providing you with the basic standard templates.
 
 Follow the steps below to add resources to the service.
 

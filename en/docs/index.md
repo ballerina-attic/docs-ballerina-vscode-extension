@@ -37,7 +37,7 @@
 <div class="cDocsContainer">
     <div class="cDocsRow">  
         <div class="cDocsGrid">
-            <a class="cIconContainer" href="../docs/develop-the-code/">
+            <a class="cIconContainer" href="../docs/write-the-code/">
                 <div class="cIconWrap">
                     <img src="assets/img/home/coding.svg"/>
                 </div>
@@ -53,7 +53,7 @@
             </a>
         </div> 
         <div class="cDocsGrid">
-            <a class="cIconContainer" href="../docs/design-the-project/">
+            <a class="cIconContainer" href="../docs/design-the-application/">
                 <div class="cIconWrap">
                     <img src="assets/img/home/visual.svg"/>
                 </div>
