@@ -1,4 +1,4 @@
-# Try HTTP services in Swagger view
+# Try HTTP services
 
 While you develop an HTTP service, you need to try it and debug it to check how it works. The Ballerina VS Code extension provides the Swagger Try it view, which gives the ability to try HTTP services within VS Code instead of using any third-party software.
 

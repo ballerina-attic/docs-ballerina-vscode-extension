@@ -1,4 +1,4 @@
-# Ballerina VS Code extension version 4.0.0
+# Version 4.0.0
 
 We are delighted to announce the v4.0.0 release of the Ballerina VS Code extension with new features and enhancements. The key highlights of this release include the following.
 
