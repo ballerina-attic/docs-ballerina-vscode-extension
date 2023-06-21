@@ -8,7 +8,7 @@ There are two methods for switching to the graphical mode using the VS Code exte
 
 -   Using the `Visualize` code lense that appears in the editor.
     
-    <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/visualize-code-block.png" class="cInlineImage-half"/>
+    <img src="../../img/visual-programming/sequence-diagram-view/visualize-code-block.png" class="cInlineImage-full"/>
 
 -   Click `Show Diagram` in the editor group.
     
