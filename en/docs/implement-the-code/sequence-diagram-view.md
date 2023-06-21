@@ -14,7 +14,7 @@ There are two methods for switching to the graphical mode using the VS Code exte
     
     <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/editor-group-button.png" class="cInlineImage-full"/>
 
-Shown below is the code editor and graphical editor in view graphical mode is focused on the function main.
+Shown below is the code editor and graphical editor in the split view. The graphical mode is focused on the main function.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/graphical-view.png" class="cInlineImage-full"/>
 
