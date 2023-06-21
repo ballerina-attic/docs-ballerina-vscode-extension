@@ -21,7 +21,7 @@ You can work on a single [Ballerina package](https://ballerina.io/learn/package-
 !!! Info
     When the extension is activated properly, you can see the `Ballerina SDK: <version>` in the status bar at the bottom left corner.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/get-started/show-version-on-vscode.png" class="cInlineImage-half"/>
+<img src="https://wso2.com/ballerina/vscode/docs/img/get-started/show-version-on-vscode.png" class="cInlineImage-threeQuarter"/>
 
 ### Open a single Ballerina package
 
