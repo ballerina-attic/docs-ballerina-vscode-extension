@@ -17,11 +17,14 @@ With the latest Ballerina VS Code extension release (version 4.3.0) and <a href=
 
 ![Entity Relationship Diagram](../img/release-notes/v-4.3.0/er-diagram.gif){.cInlineImage-full}
 
-## TOMl config generator
+## TOML config generator
 
-You can now automatically generate the `Config.toml` file for your Ballerina project. When you run the program via VSCode if there are mandatory configurable variables it will prompt asking if you would like to create the config.toml. If you select "Creat Config.toml" it will create the Config.toml in package root. If there is a Config.toml it will update it with new configurable fields. Also note Config.toml will be added to git ignore file to prevent keys from getting commited to git repository.
+You can now automatically generate the `Config.toml` file for your Ballerina project. If there are mandatory configurable variables when you run the program via VS Code, it will prompt asking if you would like to create the `Config.toml` file. If you select **Create Config.toml**, it will create the `Config.toml` file in the package root. If a `Config.toml` file is already available, it will update it with new configurable fields. 
 
-![TOMl config generator](../img/release-notes/v-4.3.0/toml-config-creator.gif){.cInlineImage-full}
+!!! Tip
+    The `Config.toml` file will be added to the `.gitignore` file to prevent keys from getting committed to the GitHub repository.
+
+![TOML config generator](../img/release-notes/v-4.3.0/toml-config-creator.gif){.cInlineImage-full}
 
 ## Improvements
 
