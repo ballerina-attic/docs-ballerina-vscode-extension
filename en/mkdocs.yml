@@ -69,7 +69,6 @@ theme:
 strict: false
 # Navigation
 nav:
-  - Home: index.md
   - Get started: 
       - Install the extension: get-started/install-the-extension.md
       - Run a program: get-started/run-a-program.md
