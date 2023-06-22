@@ -19,9 +19,12 @@
 import * as React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import Image from 'next-image-export-optimizer';
+import Carousel from 'react-bootstrap/Carousel';
 
 import { prefix } from '../../../utils/prefix';
 import styles from './Intro.module.css';
+
+
 
 export default function Intro() {
 
@@ -50,10 +53,6 @@ export default function Intro() {
             <Row className='pageContentRow integration'>
                 <Col xs={12} lg={5} className={styles.introText}>
                     <div>
-
-                        {/* <p className={styles.introText2}>
-                        "Code and Visualize Ballerina"
-                        </p> */}
                         <br/>
                         <h1 className={styles.title}>Code and visualize<br/>Ballerina</h1>
                         
@@ -69,12 +68,10 @@ export default function Intro() {
                             className={styles.cDownload} target="_blank" rel="noreferrer">
                             Install the extension
                         </a>
-                        {/* <a href={`https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina`}
-                            className={styles.cDownloadOutlined} target="_blank" rel="noreferrer">
-                            See it in action
-                        </a> */}
                     
-                        <p className={styles.dGetBallerinaText}>If you are new to Ballerina,</p>
+
+                    </p>
+                    <p className={styles.dGetBallerinaText}>If you are new to Ballerina,</p>
                         <p>
                         <a href={`https://ballerina.io/downloads/`}
                             className={styles.cVideoBtn} target="_blank" rel="noreferrer"> 
@@ -83,48 +80,29 @@ export default function Intro() {
                             
                         </a>
                         </p>
-                    </p>
                     </div>
-                    <br/>     
-
-                    <div>
-                    <p >
-                           
-            
-                            {/* <a href="https://www.youtube.com/watch?v=NYrKeElltg8&t=6s" className={styles.cVideoBtn} target="_blank" rel="noreferrer">
-                            <Image src={`${prefix}/images/you-tube-play.svg`} width={20} height={20} alt="Try GraphQL services" />
-                                        See it in action
-                                        </a> */}
-                         
-                        </p>
-                    </div>
-          
-                 
-
+                    <br/>    
                 </Col>
                 <Col xs={12} lg={7} className={styles.introImg}>
-                    {/* <Image src='/images/maxresdefault.jpg' alt='Integration' width={1280} height={780} /> */}
-                    <img src={`${prefix}/images/vs-code-intro.png`} alt="AI" />
+                
+
+                <Carousel controls={false}>
+      <Carousel.Item>
+      <img className={styles.SliderImg1} src={`${prefix}/images/vsc-slider-images-5.png`} alt="AI" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img className={styles.SliderImg1} src={`${prefix}/images/vsc-slider-images-4.png`} alt="AI" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img className={styles.SliderImg1} src={`${prefix}/images/vsc-slider-images-1.png`} alt="AI" />
+      </Carousel.Item>
+      <Carousel.Item>
+      <img className={styles.SliderImg1} src={`${prefix}/images/vsc-slider-images-3.png`} alt="AI" />
+      </Carousel.Item>
+    </Carousel>
+
                 </Col>
             </Row>
-
-            {/* <Row className='pageContentRow integration'>
-                <Col xs={12}>
-                    <div className={styles.introText3}>
-                        <p>Just write the code using the only language with integration friendly abstractions</p>
-                    </div>
-
-                    <div className={styles.dVersion}>
-                        <a href={`${prefix}/downloads/`}
-                            className={styles.cDownload}>
-                            Download Ballerina
-                        </a>
-                    </div>
-
-                </Col>
-            </Row> */}
-
-
 
             </Container>
             </Col>

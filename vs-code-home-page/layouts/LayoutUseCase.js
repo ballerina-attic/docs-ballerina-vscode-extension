@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2023, WSO2 LLC (http://www.wso2.com) All Rights Reserved.
+ * Copyright (c) 2022, WSO2 LLC (http://www.wso2.com) All Rights Reserved.
  *
  * WSO2 LLC licenses this file to you under the Apache License,
  * Version 2.0 (the "License"); you may not use this file except
@@ -20,7 +20,10 @@ import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import { Row, Stack } from 'react-bootstrap';
 
+import Footer from '../components/common/footer/Footer';
+
 export default function Layout({ children }) {
+  const TopNav = dynamic(() => import('../components/common/top-nav/TopNav'), { ssr: false });
   const Meta = dynamic(() => import('../components/common/meta/Meta'), { ssr: false });
 
   return (
@@ -48,11 +51,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAtt
       </Head>
       <Meta />
       <Stack gap={0} className='main-wrapper usecases'>
+        <TopNav launcher='usecases' />
         <div className='wrap-page-content'>
           <Row className='community-wrap-row'>
             {children}
           </Row>
         </div>
+
+        <Footer />
 
       </Stack>
 
