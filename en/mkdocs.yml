@@ -28,6 +28,15 @@ dev_addr: localhost:8000
 # Copyright
 copyright: Copyright © WSO2 LLC (2022-2023)
 
+#Plugins
+plugins:
+  - glightbox
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 # Configuration
 theme:
   name: material
@@ -39,6 +48,7 @@ theme:
   features:    
     - navigation.top
     - navigation.sections
+    - navigation.indexes
     - content.code.copy
     - content.action.edit
   language: 'en'
@@ -69,43 +79,53 @@ theme:
 strict: false
 # Navigation
 nav:
-  - Get started: 
-      - Install the extension: get-started/install-the-extension.md
-      - Run a program: get-started/run-a-program.md
-      - Try the code:
-        - Try HTTP services: get-started/try-the-code/try-http-services.md
-        - Try GraphQL services: get-started/try-the-code/try-graphql-services.md
-      - Build the executables: get-started/build-the-executables.md
-  - Edit the code:
-      - IntelliSense: edit-the-code/intellisense.md
-      - Code navigation: edit-the-code/code-navigation.md
-      - Code actions: edit-the-code/code-actions.md
-      - Diagnostics: edit-the-code/diagnostics.md
-      - Commands: edit-the-code/commands.md
-  - Visual programming:
-      - Sequence Diagram view: visual-programming/sequence-diagram-view.md
-      - Architecture View:
-          - Architecture Diagram: visual-programming/architecture-view/architecture-diagram.md
-          - Design using the Architecture Diagram: visual-programming/architecture-view/design-using-architecture-diagram.md
-          - Type Diagram: visual-programming/architecture-view/type-diagram.md
-      - Data Mapper: visual-programming/data-mapper.md
-      - HTTP API Designer: visual-programming/http-api-designer.md
-      - GraphQL Designer: visual-programming/graphql-designer.md
+  - Get started: index.md
+  - Design the application: 
+      - design-the-application/index.md
+      - Explore the Architecture View: design-the-application/explore-the-architecture-view.md
+      - Design using the architecture diagram: design-the-application/design-using-the-architecture-view.md
+  - Design the services:
+      - design-the-services/index.md
+      - HTTP API Designer: design-the-services/http-api-designer.md
+      - GraphQL API Designer: design-the-services/graphql-api-designer.md
+  - Implement the code:
+      - implement-the-code/index.md
+      - Sequence Diagram View: implement-the-code/sequence-diagram-view.md
+      - Data Mapper: implement-the-code/data-mapper.md
+  - Write the code:
+      - write-the-code/index.md
+      - IntelliSense: write-the-code/intellisense.md
+      - Code navigation: write-the-code/code-navigation.md
+      - Code actions: write-the-code/code-actions.md
+      - Diagnostics: write-the-code/diagnostics.md
+      - Commands: write-the-code/commands.md
+  - Try the services:
+      - try-the-services/index.md
+      - Try HTTP services: try-the-services/try-http-services.md
+      - Try GraphQL services: try-the-services/try-graphql-services.md
   - Notebooks: notebooks.md
+  - Run a program: run-a-program.md
+  - Test the code: test-the-code.md
   - Debug the code:
-      - Debugging overview: debug-the-code/debugging-overview.md
-      - Debugging features: debug-the-code/debugging-features.md
-      - Debugging configurations: debug-the-code/debugging-configurations.md
-  - Configure the extension: configure-the-extension.md
+      - debug-the-code/index.md
+      - Debug sessions: debug-the-code/debug-sessions.md
+      - Debug features: debug-the-code/debug-features.md
+      - Debug configurations: debug-the-code/debug-configurations.md
+  - Build executables: build-executables.md
+  - Deploy with WSO2 Choreo: deploy-with-wso2-choreo.md
   - References:
+      - references/index.md
       - Statement Editor: 
-          - Statement Editor overview: references/statement-editor/statement-editor-overview.md
+          - references/statement-editor/index.md
           - Call a Ballerina library function: references/statement-editor/call-a-ballerina-library-function.md
           - Construct a record: references/statement-editor/construct-a-record.md
           - Define a configurable variable: references/statement-editor/define-a-configurable-variable.md
       - Record Editor: references/record-editor.md
       - Convert JSON to records: references/convert-json-to-records.md
+  - Configure the extension: configure-the-extension.md
+  - Troubleshoot: troubleshoot.md
   - Release notes:
+      - release-notes/index.md
       - Version 3.3.0: release-notes/version-3.3.0.md
       - Version 4.0.0: release-notes/version-4.0.0.md
       - Version 4.3.0: release-notes/version-4.3.0.md
@@ -144,8 +164,7 @@ plugins:
   - markdownextradata: {}
   - redirects:
       redirect_maps:
-          'https://wso2.com/ballerina/vscode/docs/': 'https://wso2.com/ballerina/vscode/docs/get-started'
-  
+          'https://wso2.com/ballerina/vscode/docs/': 'https://wso2.com/ballerina/vscode/docs/get-started' 
 extra_css:
   
   - assets/lib/highlightjs/styles/vs.min.css

@@ -1,4 +1,4 @@
-# Ballerina VS Code extension version 4.0.0
+# Version 4.0.0
 
 We are delighted to announce the v4.0.0 release of the Ballerina VS Code extension with new features and enhancements. The key highlights of this release include the following.
 
@@ -58,7 +58,7 @@ The language client version has been updated to 8.0.2. This adds support for the
 
 The combination of the Ballerina extension together with the [Choreo extension](https://marketplace.visualstudio.com/items?itemName=WSO2.choreo) offers additional features to help you develop and deploy cloud-native applications. You can try out the features below that are provided by the integration by installing the Choreo extension.
 
-- Scaffold and deploy cloud-native applications quickly using the Architecture Diagram.
+- Scaffold and deploy cloud-native applications quickly using the architecture diagram.
 - Clone and open Choreo projects locally and monitor component statuses.
 - Visualize the deployment of a Choreo project via the **Cell view**.
 - View performance information in diagrams. 

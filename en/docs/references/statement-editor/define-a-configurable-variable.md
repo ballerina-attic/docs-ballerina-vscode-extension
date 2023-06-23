@@ -1,4 +1,4 @@
-# Define a configurable variable using the Statement Editor
+# Define a configurable variable
 
 As you develop your construct, you may identify a parameter for which the value needs to be configurable and for which you have not already defined the required configurable. Then, you can access the configurable variable template while defining/editing the current statement. 
 

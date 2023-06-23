@@ -1,4 +1,4 @@
-# Ballerina VS Code extension license 
+# License 
 
 WSO2 grants you a worldwide, non-exclusive right to copy and use the Ballerina Visual Studio Code extension in 
 accordance with its license terms.
