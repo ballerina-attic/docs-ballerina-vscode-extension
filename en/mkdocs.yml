@@ -162,10 +162,6 @@ plugins:
   - search
   # - glightbox
   - markdownextradata: {}
-  - redirects:
-      redirect_maps:
-          'http://localhost:8000/ballerina/vscode/docs/index.md': 'http://localhost:8000/ballerina/vscode/docs/get-started'
-  
 extra_css:
   
   - assets/lib/highlightjs/styles/vs.min.css
