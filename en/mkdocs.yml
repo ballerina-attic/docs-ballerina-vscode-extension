@@ -142,6 +142,9 @@ plugins:
   - search
   # - glightbox
   - markdownextradata: {}
+  - redirects:
+      redirect_maps:
+          'https://wso2.com/ballerina/vscode/docs/': 'https://wso2.com/ballerina/vscode/docs/get-started'
   
 extra_css:
   
