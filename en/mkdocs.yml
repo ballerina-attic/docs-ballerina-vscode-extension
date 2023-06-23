@@ -79,8 +79,7 @@ theme:
 strict: false
 # Navigation
 nav:
-  - Home: index.md
-  - Get started: get-started.md
+  - Get started: index.md
   - Design the application: 
       - design-the-application/index.md
       - Explore the Architecture View: design-the-application/explore-the-architecture-view.md
@@ -163,6 +162,9 @@ plugins:
   - search
   # - glightbox
   - markdownextradata: {}
+  - redirects:
+      redirect_maps:
+          'http://localhost:8000/ballerina/vscode/docs/index.md': 'http://localhost:8000/ballerina/vscode/docs/get-started'
   
 extra_css:
   
