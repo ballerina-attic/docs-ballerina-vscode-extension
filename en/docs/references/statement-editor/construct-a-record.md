@@ -1,4 +1,4 @@
-# Construct a record using the Statement Editor
+# Construct a record
 
 Follow the steps below to construct a record using the Statement Editor.
 

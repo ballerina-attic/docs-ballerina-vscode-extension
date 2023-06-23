@@ -1,6 +1,6 @@
 # Configure the extension
 
-The extension offers a number of settings. These can be configured by modifying your [user or workspace settings](https://code.visualstudio.com/docs/getstarted/settings) or by modifying the `settings.json` file of VS Code.
+The extension offers a number of settings. These can be configured by modifying the [user or workspace settings](https://code.visualstudio.com/docs/getstarted/settings) or the `settings.json` file of VS Code.
 
 ## Basic configurations
 
