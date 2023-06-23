@@ -12,7 +12,7 @@ To view the Ballerina output tab, click **View**, click **Output**, and select *
 
 Follow the steps below to change the currently active Ballerina distribution and add a custom Ballerina path.
 
-1. Download the Ballerina distribution version, which you want to use and save it in a preferred location.
+1. Download the Ballerina distribution version you want to use and save it in a preferred location.
 
 2. Click the **Manage** icon in the left-hand-side menu of the VS Code editor.
 
