@@ -33,7 +33,7 @@ plugins:
   - glightbox
   - exclude:
       glob:
-        - ../_vs-code-home-page/*
+        - _vs-code-home-page/*
 
 # Markdown extensions
 markdown_extensions:
