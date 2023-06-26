@@ -33,7 +33,7 @@ plugins:
   - glightbox
   - redirects:
       redirect_maps:
-          'vscode/out/index.html': 'http://localhost:8000/ballerina/vscode/'
+          'home/out/index.html': 'http://localhost:8000/ballerina/vscode/'
 
 # Markdown extensions
 markdown_extensions:
