@@ -551,3 +551,5 @@ html .md-footer-meta.md-typeset a,
   .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
     background-color: #f1f1f1 !important;
   }
+
+#code-tab li { list-style: none !important}
