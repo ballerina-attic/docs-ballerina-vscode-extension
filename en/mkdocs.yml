@@ -31,9 +31,9 @@ copyright: Copyright © WSO2 LLC (2022-2023)
 #Plugins
 plugins:
   - glightbox
-  - exclude:
-      glob:
-        - _vs-code-home-page/*
+  - redirects:
+      redirect_maps:
+          'http://localhost:8000/ballerina/vscode/out/': 'http://localhost:8000/ballerina/vscode/'
 
 # Markdown extensions
 markdown_extensions:
@@ -82,7 +82,7 @@ theme:
 strict: false
 # Navigation
 nav:
-  - Home: vs-code-home-page/index.md
+  - Home: vscode/out/index.html
   - Get started: get-started.md
   - Design the application: 
       - design-the-application/index.md
