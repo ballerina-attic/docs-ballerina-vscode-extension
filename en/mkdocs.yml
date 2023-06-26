@@ -162,24 +162,30 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: docs
   - attr_list
+
 plugins:
-  - search
-  # - glightbox
-  - markdownextradata: {}
-extra_css:
-  
+    - redirects:
+        redirect_maps:
+            'http://localhost:8000/ballerina/vscode/': 'http://localhost:8000/ballerina/vscode/docs/vscode/out/'
+    - search
+    # - glightbox
+    - markdownextradata: {}
+
+extra_css:  
   - assets/lib/highlightjs/styles/vs.min.css
   - assets/css/blue-palette-alt2.css
   - assets/css/choreotheme.css
   - assets/lib/json-formatter/json-formatter.css
   - assets/css/config-catalog.css
   - assets/lib/fontawesome-free-6.3.0-web/css/all.min.css  
+  # - https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css
 
 
 extra_javascript:
   - assets/lib/json-formatter/json-formatter.umd.js
   - assets/lib/highlightjs/highlight.min.js
   - assets/js/choreotheme.js
+  # - https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
 extra:
   social:
     - icon: fontawesome/brands/github

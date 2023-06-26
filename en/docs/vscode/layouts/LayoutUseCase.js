@@ -20,10 +20,10 @@ import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import { Row, Stack } from 'react-bootstrap';
 
+import TopNav from '../components/common/top-nav/TopNav';
 import Footer from '../components/common/footer/Footer';
 
 export default function Layout({ children }) {
-  const TopNav = dynamic(() => import('../components/common/top-nav/TopNav'), { ssr: false });
   const Meta = dynamic(() => import('../components/common/meta/Meta'), { ssr: false });
 
   return (

@@ -25,12 +25,12 @@ import { prefix } from '../../../utils/prefix';
 import styles from './TopNav.module.css';
 
 const TopNav = (props) => {
-  const launcher = props.launcher;
-  const versionPicker = 'Swan Lake';
+  const launcher = "usecases";
+  // const versionPicker = 'Swan Lake';
 
-  if (global.location.pathname.indexOf('learn') > 0) {
-    launcher = launcher + '-learn';
-  }
+  // if (global.location.pathname.indexOf('learn') > 0) {
+  //   launcher = launcher + '-learn';
+  // }
 
   return (
     <>
