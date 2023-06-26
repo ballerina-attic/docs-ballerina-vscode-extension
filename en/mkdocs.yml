@@ -82,6 +82,7 @@ theme:
 strict: false
 # Navigation
 nav:
+  - Home: vs-code-home-page/index.md
   - Get started: get-started.md
   - Design the application: 
       - design-the-application/index.md
