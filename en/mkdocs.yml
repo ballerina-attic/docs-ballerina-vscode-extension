@@ -33,7 +33,7 @@ plugins:
   - glightbox
   - redirects:
       redirect_maps:
-          'http://localhost:8000/ballerina/vscode/out/': 'http://localhost:8000/ballerina/vscode/'
+          'vscode/out/index.html': 'http://localhost:8000/ballerina/vscode/'
 
 # Markdown extensions
 markdown_extensions:
@@ -82,7 +82,7 @@ theme:
 strict: false
 # Navigation
 nav:
-  - Home: vscode/out/index.html
+  - Home: https://wso2.com/ballerina/vscode/
   - Get started: get-started.md
   - Design the application: 
       - design-the-application/index.md

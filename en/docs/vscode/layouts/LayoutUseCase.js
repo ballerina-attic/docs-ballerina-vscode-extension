@@ -46,7 +46,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAtt
 
         <script type="text/javascript" crossOrigin="true" src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha" />
         {/* CookiePro Cookies Consent Notice start for ballerina.io */}
-        <script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js" type="text/javascript" charSet="UTF-8" data-domain-script="630ad396-5fd5-4745-92ae-2765dc8841ee" defer />
+        <script type="text/javascript" src="https://cookie-cdn.cookiepro.com/consent/486163bc-a8c5-40d8-b185-c707cc718a23/OtAutoBlock.js" ></script>
+     <script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="486163bc-a8c5-40d8-b185-c707cc718a23" ></script>
+     <script src="https://wso2.com//sites/all/themes/wso2_d7/js/cookie-revoke.js"></script>
         {/* CookiePro Cookies Consent Notice end for ballerina.io */}
       </Head>
       <Meta />

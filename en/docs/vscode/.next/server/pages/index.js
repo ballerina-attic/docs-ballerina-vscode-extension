@@ -1868,11 +1868,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAtt
                         src: "https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        type: "text/javascript",
+                        src: "https://cookie-cdn.cookiepro.com/consent/486163bc-a8c5-40d8-b185-c707cc718a23/OtAutoBlock.js"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
                         src: "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js",
                         type: "text/javascript",
-                        charSet: "UTF-8",
-                        "data-domain-script": "630ad396-5fd5-4745-92ae-2765dc8841ee",
-                        defer: true
+                        charset: "UTF-8",
+                        "data-domain-script": "486163bc-a8c5-40d8-b185-c707cc718a23"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        src: "https://wso2.com//sites/all/themes/wso2_d7/js/cookie-revoke.js"
                     })
                 ]
             }),
