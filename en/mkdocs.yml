@@ -31,6 +31,9 @@ copyright: Copyright © WSO2 LLC (2022-2023)
 #Plugins
 plugins:
   - glightbox
+  - redirects:
+      redirect_maps:
+          'index.md': 'get-started.md'
 
 # Markdown extensions
 markdown_extensions:
@@ -80,7 +83,6 @@ theme:
 strict: false
 # Navigation
 nav:
-  - Home: https://wso2.com/ballerina/vscode/
   - Get started: get-started.md
   - Design the application: 
       - design-the-application/index.md
