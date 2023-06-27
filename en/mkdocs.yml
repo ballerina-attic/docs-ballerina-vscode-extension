@@ -80,7 +80,7 @@ theme:
 strict: false
 # Navigation
 nav:
-  - Get started: get-started.md
+  - Get started: index.md
   - Design the application: 
       - design-the-application/index.md
       - Explore the Architecture View: design-the-application/explore-the-architecture-view.md
