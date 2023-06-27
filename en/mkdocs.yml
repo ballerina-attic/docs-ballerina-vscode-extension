@@ -31,9 +31,6 @@ copyright: Copyright © WSO2 LLC (2022-2023)
 #Plugins
 plugins:
   - glightbox
-  - redirects:
-      redirect_maps:
-          'home/out/index.html': 'http://localhost:8000/ballerina/vscode/'
 
 # Markdown extensions
 markdown_extensions:
