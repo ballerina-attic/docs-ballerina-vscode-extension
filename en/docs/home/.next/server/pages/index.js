@@ -2061,7 +2061,7 @@ function Integrations({ samples  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:image",
                         itemProp: "image",
-                        content: "https://ballerina.io/images/vs-code-sm-banner.png"
+                        content: "./images/vs-code-sm-banner.png"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:title",
@@ -2069,7 +2069,7 @@ function Integrations({ samples  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:image",
-                        content: "https://ballerina.io/images/vs-code-sm-banner.png"
+                        content: "./images/vs-code-sm-banner.png"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:description",
@@ -2102,7 +2102,7 @@ function Integrations({ samples  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "twitter:image",
-                        content: "https://ballerina.io/images/vs-code-sm-banner.png"
+                        content: "./images/vs-code-sm-banner.png"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "twitter:text:description",
@@ -2110,7 +2110,7 @@ function Integrations({ samples  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "twitter:image",
-                        content: "https://ballerina.io/images/vs-code-sm-banner.png"
+                        content: "./images/vs-code-sm-banner.png"
                     })
                 ]
             }),
