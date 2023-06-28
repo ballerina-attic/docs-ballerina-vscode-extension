@@ -2061,7 +2061,7 @@ function Integrations({ samples  }) {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:image",
                         itemProp: "image",
-                        content: "./images/vs-code-sm-banner.png"
+                        content: "https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:title",
@@ -2069,7 +2069,7 @@ function Integrations({ samples  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:image",
-                        content: "./images/vs-code-sm-banner.png"
+                        content: "https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "og:description",
@@ -2102,7 +2102,7 @@ function Integrations({ samples  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "twitter:image",
-                        content: "./images/vs-code-sm-banner.png"
+                        content: "https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "twitter:text:description",
@@ -2110,7 +2110,7 @@ function Integrations({ samples  }) {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         property: "twitter:image",
-                        content: "./images/vs-code-sm-banner.png"
+                        content: "https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
                     })
                 ]
             }),

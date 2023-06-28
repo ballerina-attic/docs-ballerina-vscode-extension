@@ -116,14 +116,14 @@ export default function Integrations({ samples }) {
         <meta
           property="og:image"
           itemProp="image"
-          content="./images/vs-code-sm-banner.png"
+          content="https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
         />
 
         {/* LINKED IN */}
         <meta property="og:title" content="Ballerina - Ballerina VS Code extension" />
         <meta
           property="og:image"
-          content="./images/vs-code-sm-banner.png"
+          content="https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
         />
         <meta
           property="og:description"
@@ -143,7 +143,7 @@ export default function Integrations({ samples }) {
         />
         <meta
           name="twitter:image"
-          content="./images/vs-code-sm-banner.png"
+          content="https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
         />
         <meta
           property="twitter:text:description"
@@ -151,7 +151,7 @@ export default function Integrations({ samples }) {
         />
         <meta
           property="twitter:image"
-          content="./images/vs-code-sm-banner.png"
+          content="https://wso2.com/ballerina/vscode/docs/img/ballerina-vs-code-ext-sm-banner.png"
         />
       </Head>
 
