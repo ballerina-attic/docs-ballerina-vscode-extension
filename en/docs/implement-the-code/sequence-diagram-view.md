@@ -6,7 +6,7 @@ The visual representation provided by the Ballerina VS Code extension has its ro
 
 There are two methods for switching to the graphical mode using the VS Code extension.
 
--   Using the `Visualize` code lense that appears in the editor.
+1.  Click the `Visualize` CodeLens that appears in the editor.
     
     <img src="../../img/visual-programming/sequence-diagram-view/visualize-code-block.png" class="cInlineImage-full"/>
 
@@ -51,8 +51,7 @@ public function main() {
 
 ### Concurrent execution
 
-Concurrent executions are supported in Ballerina through workers. Each worker has a lifeline that runs parallel to 
-the lifeline of the main function body. The diagram also captures asynchronous messaging between workers.
+Concurrent executions are supported in Ballerina through workers. Each worker has a lifeline that runs parallel to the lifeline of the main function body. The diagram also captures asynchronous messaging between workers.
 
 The following example shows how asynchronous messaging is represented in the diagram.
 
@@ -120,7 +119,6 @@ function execute() returns error? {
 
 ## Develop programs in graphical mode
 
-You can interact with the diagram using the `plus` icons placed in the lifeline. You can add a statement at the 
-function execution flow by clicking **Add**.
+You can interact with the diagram using the `plus` icons placed in the lifeline. Click **Add** to add a statement at the function execution.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/sequence-diagram-view/diagram-interaction.gif" class="cInlineImage-full"/>
