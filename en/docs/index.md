@@ -27,11 +27,17 @@ You can either work on a single [Ballerina package](https://ballerina.io/learn/p
 
 Use one of the following options to open a Ballerina package:
 
-- From the command line, navigate to the directory path of the package, and execute the `code .` command.
-- From the top menu of the VS Code editor, click **File > Open Folder...**, and select the package.
+1. From the command line, navigate to the directory path of the package, and execute the `code .` command.
+
+2. From the top menu of the VS Code editor, click **File > Open Folder...**, and select the package.
 
 ### Open multiple Ballerina packages
 
-Once you have one Ballerina package opened in the VS Code editor, you can add other related packages to the same workspace.
+To open multiple Ballerina packages as a VS Code workspace, add all the related Ballerina packages to the workspace using one of the following methods. 
 
-For more details, see the instructions on [adding folders to multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_adding-folders) in the VS Code editor.
+!!! Info
+    If you already have one Ballerina package opened in the VS Code editor, you can add other related packages to the same workspace. For instructions, see [adding folders to multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_adding-folders).
+
+1. Add each Ballerina package to the workspace using the **Add folder to workspace** option in the top menu of the VS Code editor.
+
+2. Click the **VS Code workspace file** option in the top menu of the VS Code editor to import the packages of an already created workspace to a new workspace.
