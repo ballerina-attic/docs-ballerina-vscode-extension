@@ -6,7 +6,7 @@ The Ballerina VS Code extension enables the following code actions.
 ## Quick fixes
 
 Quick fixes are suggested based on the diagnostics displayed at a given cursor position.
-The Ballerina VS Code extension provides a wide range of quick fixes to such diagnostics.
+The Ballerina VS Code extension provides a wide range of quick fixes for such diagnostics.
 
 ### Variable assignment
 
@@ -37,7 +37,7 @@ The following quick fixes are available for missing check expressions.
 
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
-| `Add 'check' error`                 	| Add the `check` keyword when the selected expression's type is a subtype of `error` or a union with an `error` member while the expected type doesn't contain an `error`.
+| `Add 'check' error`                 	| Add the `check` keyword when the selected expression's type is a subtype of `error`, or a union with an `error` member while the expected type doesn't contain an `error`.
 
 ![Missing check expressions](../img/edit-the-code/code-actions/quick-fixes-for-missing-check-expressions.gif){.cInlineImage-full}
 
@@ -59,7 +59,7 @@ The following quick fixes are available for imports.
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
 | `Import module`                 	| Add the import statement for a module that has a reference without an import statement.                                  	|
-| `Pull unresolved module`  	| Pull one or more Ballerina packages (which are imported in the source and are unavailable locally) from Ballerina central.                   	|
+| `Pull unresolved module`  	| Pull one or more Ballerina packages (which are imported in the source and are unavailable locally) from Ballerina Central.                   	|
 | `Remove import` 	| Remove an unused or re-declared module import.                                               	|
 | `Remove all unused imports`             	| Remove all unused imports except when there is a re-declared import statement. 	|
 
@@ -71,7 +71,7 @@ The following quick fixes are available for documentation.
 
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
-| `Document this`                 	| Add the documentation to the closest node that can be documented clause.                                  	|
+| `Document this`                 	| Add the documentation to the closest node that can be the documented clause.                                  	|
 | `Update documentation`  	| Update the existing documentation when parameters are missing or not documented. This depends on the warning diagnostics issued by the compiler. 
 
 ![Documentation](../img/edit-the-code/code-actions/quick-fixes-for-documentation.gif){.cInlineImage-full}
@@ -109,7 +109,7 @@ The following quick fixes are available for creating functions.
 | `Implement all` 	| Implement all the methods declared by an included object type.                                       	|
 | `Add explicit return statement`             	| Add an explicit return statement to a function. 	|
 | `Convert to public function`  	| Add a `public` access modifier to a function definition.
-| `Add isolated qualifier`             	| Add an isolated qualifier to a function. 	|
+| `Add isolated qualifier`             	| Add an `isolated` qualifier to a function. 	|
 
 The `Create function`, `Implement method`, and `Implement all` quick fixes are demonstrated below.
 
@@ -147,7 +147,7 @@ The following quick fixes are available for annotations.
 | `Convert to readonly clone`                 	| Convert an `e` expression to `e.cloneReadOnly()`.                                	|
 | `Ignore unused variable`  	| Ignore an unused variable. |
 | `Make construct pubic`                 	| Make a construct public where the `attempt to expose non-public symbol` warning is present.                                 	|
-| `Convert module variable to listener declaration`  	| Convert a module var declaration statement to a listener declaration. |
+| `Convert module variable to listener declaration`  	| Convert a `module var` declaration statement to a listener declaration. |
 | `Remove unreachable code`                 	| Remove unreachable statements.                  	|
 
 The `Convert to readonly clone`, `Ignore unused variable`, and `Remove unreachable code` quick fixes are demonstrated below.
@@ -181,7 +181,7 @@ The following refactoring actions are available for extracting expressions.
 
 ### Rewrite code actions
 
-The following refactoring actions are available as rewrite actions.
+The following refactoring actions are available as rewrite code actions.
 
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
@@ -221,13 +221,13 @@ The following source actions are available for imports.
 
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|
-| `Optimize imports`                	| Optimize import statements to remove unused imports and arrange imports in alphabetical order.	|
+| `Optimize imports`                	| Optimize the import statements to remove unused imports and arrange imports in alphabetical order.	|
 
 ![Imports](../img/edit-the-code/code-actions/source-actions-for-imports.gif){.cInlineImage-full}
 
 ### Documentation
 
-The following source actions are available for documentations.
+The following source actions are available for documentation.
 
 | Code action                     	| Description                                                          	|
 |---------------------------------	|----------------------------------------------------------------------	|

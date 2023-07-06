@@ -4,7 +4,7 @@ While you develop an HTTP service, you need to try it and debug it to check how 
 
 ## Write the HTTP service
 
-Add the code below to the `main.bal` file.
+Add the code below to the `main.bal` file of your Ballerina project.
 
 ```ballerina
 import ballerina/http;
@@ -39,7 +39,7 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 3. Once the Swagger view is opened, click **Try it out**.
 
     !!! Tip 
-        You can find all available APIs from the opened side menu.
+        You can find all the available APIs from the opened side menu.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-http-services/http-try-it-out.png" class="cInlineImage-full"/>
 

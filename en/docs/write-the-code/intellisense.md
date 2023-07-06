@@ -30,7 +30,7 @@ The `typeguard` completion item is provided for union-typed variables.
 ![Type guard completion](../img/edit-the-code/intellisense/type-guard-completion.gif){.cInlineImage-full}
 
 ### Filling required fields of a record
-The `Fill Record required fields` completion item is provided for filling the remaining fields of a `Record` typed value.
+The `Fill Record required fields` completion item is provided for filling the remaining fields of a `Record`-typed value.
 
 ![Fiill required record fields](../img/edit-the-code/intellisense/fill-req-fileds-completion.gif){.cInlineImage-full}
 

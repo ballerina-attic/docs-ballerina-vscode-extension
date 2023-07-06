@@ -7,18 +7,18 @@ Follow the steps below to run a sample Ballerina program in VS Code.
 Follow the steps below to use the code view to run a Ballerina program.
 
 !!! Note
-    Skip the steps 1-3, if you already have a Ballerina code.
+    Skip the steps 1-3 if you already have a Ballerina code.
   
 1. Click **View** in the menu bar of the editor, and click **Command Palette**.
 
     !!! Tip 
-        You can use the shortcut methods `⌘ + ↑ + P` on macOS and `Ctrl + Shift + P` on Windows and Linux.
+        Alternatively, use the shortcut methods `⌘ + ↑ + P` on macOS and `Ctrl + Shift + P` on Windows and Linux.
 
 2. In the search bar, type `Show Examples`, and click **Ballerina: Show Examples**.
 
 3. Select the **Hello World Main** example.
 
-4. Run the program.
+4. Run the program using one of the options below.
 
     - **Option 1**
       
@@ -36,7 +36,7 @@ Follow the steps below to use the code view to run a Ballerina program.
 
 Follow the steps below to use the code view to run a Ballerina program.
   
-1. View the diagram:
+1. View the diagram using one of the options below.
 
     - **Option 1**
 
@@ -50,7 +50,7 @@ Follow the steps below to use the code view to run a Ballerina program.
         
         <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/diagram-explorer.png" class="cInlineImage-full"/>
 
-2. Run the program:
+2. Run the program using one of the options below.
 
     - **Option 1**
 
@@ -68,16 +68,5 @@ The integrated terminal will open automatically and run the program.
 
 <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/run-output.png" class="cInlineImage-full"/>
 
-You just ran your first Ballerina program.
-
 !!! Tip 
-    If you wish to debug further, use either **Debug** or see the [debugging guidelines](../debug-the-code/).
-
-<img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/build-and-run/debug-button.png" class="cInlineImage-full"/>
-
-## Next steps - Try it
-
-The Ballerina VS Code extension allows you to try out and debug HTTP/GraphQL services (without using any third-party tools) while you develop them. 
-
-* [Try HTTP services in Swagger view](../try-the-services/try-http-services/)
-* [Try GraphQL services](../try-the-services/try-graphql-services/)
+    Click the **Debug** CodeLens to debug the Ballerina program you ran. For more information, see [Debug the code](../debug-the-code/).
