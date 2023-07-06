@@ -1,6 +1,6 @@
 # Statement Editor
 
-The Statement Editor allows you to construct Ballerina statements depending on the use case you want to build. It is an intuitive visual editor that is easy to use without an in-depth knowledge of the [Ballerina Programming Language](https://ballerina.io/).
+The Statement Editor allows you to construct Ballerina statements depending on the use case you want to build. It is an intuitive visual editor that is easy to use without an in-depth knowledge of the Ballerina language.
 
 It provides the following:
 
@@ -32,72 +32,65 @@ public function main() returns error? {
 
 Follow the steps below to build the statement.
 
-1. On the low-code diagram, click **+** within the main method. Then, click **Variable** in the **Add Constructs** pane that opens.
+1. On the low-code diagram, click **+** within the main method, and click **Variable** in the **Add Constructs** pane that opens.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/add-variable-statement.gif" class="cInlineImage-half"/>
 
-    The Statement Editor opens displaying the syntax of a variable statement with the **`<add-expression>`** selected by default.v
+    The Statement Editor opens displaying the syntax of a variable statement with the **`<add-expression>`** selected by default.
 
 2.  Click the **var** type descriptor on the statement and click **string** on the **Suggestions** tab.
 
     !!! Info
-        The **Suggestions** tab provides contextual suggestions based on the selected item. The **Suggestions** tab currently lists type suggestions because you selected the type descriptor.    
+        The **Suggestions** tab provides contextual suggestions based on the selected item. It lists type suggestions in this example because you selected the type descriptor. Here, you are specifying that the variable value is a string.   
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/change-type-descriptor.gif" class="cInlineImage-half"/>
-
-    Here, you are specifying that the variable value is a string.
 
 3. To edit the variable name, double-click **`variable`** and type `userIdMsg` in the text box.
 
     !!! Info 
-        Another way to make a part of a statement editable is to click on the required statement component and press  **Enter**/**Return**.
+        Another way to make a part of a statement editable is to click on the required statement component and press **Enter**/**Return**. If you want to make changes to the content you have added to the statement, you can undo and redo your actions via the relevant icons on the top left of the toolbar. You can also remove content via the icon for deleting.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/edit-variable-name.gif" class="cInlineImage-half"/>
-
-    If you want to make changes to the content you have added to the statement, you can undo and redo your actions via the relevant icons on the top left of the toolbar. You can also remove content via the icon for deleting.
 
 4. Double click **`<add-expression>`** and type `"UserID : "` in the text box.
 
     !!! Info
-        To navigate from one item on the statement to another, you can also press **Tab** or **Shift** + **Tab**.
+        To navigate from one item on the statement to another, you can also press **Tab** or **Shift** + **Tab**. In this example, you are entering static text as a part of the variable value.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/edit-variable-expression.gif" class="cInlineImage-half"/>
 
-    Here, you are entering static text as a part of the variable value.
+5.  Follow either of the two approaches below to concatenate another expression to the String that you added right now.
 
-5.  Follow the two approaches below to concatenate another expression to the String that you added right now.
-    1. Click the **Plus (+)** operator in the toolbar
-    2. Click the **Expressions** tab, and under the **Arithmetic** section, click the **Es + Ex** expression.
+    1. Click the **Plus (+)** operator in the toolbar.
+    2. Click the **Expressions** tab and under the **Arithmetic** section, click the **Es + Ex** expression.
 
     Both of these methods will append another expression template to the existing expression. 
 
     !!! Info 
-        The **Expressions** tab lists all the pre-defined templates that you can use to define complex expressions.
+        The **Expressions** tab lists all the pre-defined templates that you can use to define complex expressions. In the `Es + Ex` expression template, `Es` refers to the existing expression you clicked and selected. `+ Ex` combines another expression with `Es`.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/select-expression-template.gif" class="cInlineImage-half"/>
-
-    In the `Es + Ex` expression template, `Es` refers to the existing expression you clicked and selected. `+ Ex` combines another expression with `Es`.
 
 6. Click the **Suggestions** tab and click on the **id** suggestion.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/select-id-from-suggestions.gif" class="cInlineImage-half"/>
 
-     You view see some diagnostics generated for the suggestion you selected. Move on to the next step to resolve them. 
+     You view some diagnostics generated for the suggestion you selected. Move on to the next step to resolve them. 
 
 7. Follow the two approaches below to solve the diagnostics.
 
-    1. Select the **code-actions** provided by the Statement Editor provides based on your preference. To view the options, click on the bulb icon next to the diagnostic.
+    1. Select the **code-actions** provided by the Statement Editor based on your preference. To view the options, click on the bulb icon next to the diagnostic.
     2. Click the **Suggestions** tab and click **toString()** in the suggestions list to convert the value to a string format.
     
     The **Suggestions** tab will also provide other supported functions that can be called for the given expression.
 
     !!! Info
-        When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call, including details about parameters, descriptions, and return type descriptions. On this tab, you can easily add parameters to the expression by selecting the checkboxes of the relevant parameters.
+        When you select a function or a method call, the **Parameters** tab opens by default. This tab displays information about the selected function or method call, including details about parameters, descriptions, and return type descriptions. You can add parameters to the expression On this tab by selecting the checkboxes of the relevant parameters.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/convert-to-string.gif" class="cInlineImage-half"/>
 
     !!! Note
-        The Statement Editor clears all the diagnostics messages indicating that the statement is valid.
+        The Statement Editor clears all the diagnostic messages indicating that the statement is valid.
 
      Now, follow the steps below to make the variable a final. 
 

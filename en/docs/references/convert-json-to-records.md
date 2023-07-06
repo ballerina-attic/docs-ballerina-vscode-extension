@@ -4,7 +4,7 @@ The Ballerina language provides several options to convert JSON files into recor
 
 ## Via the Record Editor
 
-Follow the steps below to convert a JSON to record via the Record Editor.
+Follow the steps below to convert a JSON to a record via the Record Editor.
 
 1.  Create a file with the data below in JSON format.
 
@@ -55,7 +55,7 @@ Follow the steps below to convert a JSON to record via the Record Editor.
 
 ## Via the Command Palette
 
-Follow the steps below to convert a JSON to record via the Command Palette.
+Follow the steps below to convert a JSON to a record via the Command Palette.
 
 1.  Copy the JSON code block to the Clipboard (`Ctrl + C`).
 
@@ -94,7 +94,7 @@ Follow the steps below to convert a JSON to record via the Command Palette.
 
 3. Select the **Paste JSON as Record** option.
 
-    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/paste-JSON.gif" class="cInlineImage-full"/>
-
     !!! Info
         The command will generate separate record definitions accordingly.
+
+    <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/paste-JSON.gif" class="cInlineImage-full"/>

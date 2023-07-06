@@ -14,22 +14,28 @@ Follow the steps below to construct a record using the Statement Editor.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/add-record-fields.gif" class="cInlineImage-half"/>
 
-4. To convert the record field to a default-valued field, click the **semicolon(;)**. This selects the complete record field and selects the **Expressions** tab.
+4. To convert the record field to a default-valued field, click the **semicolon(;)**. 
+
+    !!! Info 
+        This selects the complete record field and selects the **Expressions** tab.
 
 5. Click the **Es=Ex** template.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/add-default-record-field.gif" class="cInlineImage-half"/>
 
- The selected field gets updated with the **`<add-expression>`** template. You can double-click and update it.
+    !!! Info 
+        The selected field gets updated with the **`<add-expression>`** template. You can double-click and update it.
 
-6. Follow the two approaches below to mark a record field as **Optional**. First, select the variable name of the field that is needed to mark as optional and then,
+6. Follow either of the two approaches below to mark a record field as **Optional**. First, select the variable name of the field that is needed to mark as optional, and then,
     1. select the **?** from the toolbar
     2. select the **Es?** template from the **Expressions** tab
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/make-record-optional.gif" class="cInlineImage-half"/>
 
-7. To convert the record to an open/closed record, first, select the complete record by clicking on the record keyword.
-    This selects the **Expressions** tab in which you are given the option to make a record a closed record.
+7. To convert the record to an open/closed record, select the complete record by clicking on the record keyword.
+
+    !!! Info 
+        This selects the **Expressions** tab, which gives the option to make a record a closed record.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/statement-editor/closed-record.gif" class="cInlineImage-half"/>
 

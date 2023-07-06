@@ -6,48 +6,36 @@ Ballerina is a multi-paradigm language. You can define records in an imperative 
 
 In the record editor, you have the ability to create a record from scratch or create a record by importing a JSON.
 
-## Set up the prerequisites
-
-Follow the steps below to set up the prerequisites.
-
-1. Install the latest versions of [Ballerina](https://ballerina.io/downloads/) and [Ballerina Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=wso2.ballerina).
-
-2. Execute the command below to create a package (if you are not already working on one).
-
-    ```bash
-    bal new convert
-    ```
-
-3. Open the created package in VS Code.
-
 ## Create records from scratch
 
 Follow the steps below to create records from scratch.
 
-1. Navigate to the record editor and select **Create New**.
+1. Open a Ballerina package in VS Code.
+
+2. Navigate to the record editor and select **Create New**.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/create-new.gif" class="cInlineImage-full"/>
 
-2. Double-click the default record name to change it.
+3. Double-click the default record name to change it.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/change-record-name.png" class="cInlineImage-half"/>
 
-3. Click the plus button at the end of the field to add new fields to the record.
+4. Click the plus button at the end of the field to add new fields to the record.
 
     !!! Info
         Use the **Expressions** tab in the record editor to create nested records by selecting the particular record expression.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/add-fields.gif" class="cInlineImage-half"/>
 
-4. Select the semicolon(;) of a field and select the default value expression to add default values.
+5. Select the semicolon(;) of a field and select the default value expression to add default values.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/default-value.gif" class="cInlineImage-half"/>
 
-5. Use the **isClosed** option to switch between the open and closed records.
+6. Use the **isClosed** option to switch between the open and closed records.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/open-close-switch.gif" class="cInlineImage-half"/>
 
-6. Once the record field configuration is done, click **Save**.
+7. Once the record field configuration is done, click **Save**.
 
     <img src="https://wso2.com/ballerina/vscode/docs/img/record-editor/save-create-new.gif" class="cInlineImage-full"/>
 
