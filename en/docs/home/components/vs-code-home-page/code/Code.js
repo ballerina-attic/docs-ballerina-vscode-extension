@@ -198,14 +198,14 @@ export default function UseCases(props) {
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="HTTP API designer" />
                                             HTTP API Designer
                                         </a>
-                                        <a href='https://github.com/ballerina-guides/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href='https://github.com/ballerina-guides/integration-samples/tree/main/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
                                             <Image src={`${prefix}/images/github-grey.svg`} width={20} height={20} alt="View code on GitHub" />
                                             View code on GitHub
                                         </a>
                                     </div>
 
                                     <div className={styles.dVersion}>
-                                        <a href="https://wso2.com/ballerina/vscode/docs/design-the-services/graphql-service-designer/" className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href="https://wso2.com/ballerina/vscode/docs/design-the-services/graphql-api-designer/" className={styles.cDownload} target="_blank" rel="noreferrer">
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="GraphQL service designer" />
                                         GraphQL API Designer
                                         </a>
@@ -271,7 +271,7 @@ export default function UseCases(props) {
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="Implement the code" />
                                             Write the code
                                         </a>
-                                        <a href='https://github.com/ballerina-guides/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href='https://github.com/ballerina-guides/integration-samples/tree/main/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
                                             <Image src={`${prefix}/images/github-grey.svg`} width={20} height={20} alt="View code on GitHub" />
                                             View code on GitHub
                                         </a>
@@ -349,7 +349,7 @@ export default function UseCases(props) {
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="Debug the code" />
                                         Debug the code
                                         </a>
-                                        <a href='https://github.com/ballerina-guides/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href='https://github.com/ballerina-guides/integration-samples/tree/main/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
                                             <Image src={`${prefix}/images/github-grey.svg`} width={20} height={20} alt="View code on GitHub" />
                                             View code on GitHub
                                         </a>
@@ -409,7 +409,7 @@ export default function UseCases(props) {
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="HTTP API designer" />
                                             Try HTTP services
                                         </a>
-                                        <a href='https://github.com/ballerina-guides/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href='https://github.com/ballerina-guides/integration-samples/tree/main/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
                                             <Image src={`${prefix}/images/github-grey.svg`} width={20} height={20} alt="View code on GitHub" />
                                             View code on GitHub
                                         </a>
@@ -539,7 +539,7 @@ export default function UseCases(props) {
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="Data Mapper" />
                                             Data Mapper
                                         </a>
-                                        <a href='https://github.com/ballerina-guides/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href='https://github.com/ballerina-guides/integration-samples/tree/main/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
                                             <Image src={`${prefix}/images/github-grey.svg`} width={20} height={20} alt="View code on GitHub" />
                                             View code on GitHub
                                         </a>
@@ -599,7 +599,7 @@ export default function UseCases(props) {
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="Notebooks" />
                                             Notebooks
                                         </a>
-                                        <a href='https://github.com/ballerina-guides/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href='https://github.com/ballerina-guides/integration-samples/tree/main/restful-api-with-data-mapper' className={styles.cDownload} target="_blank" rel="noreferrer">
                                             <Image src={`${prefix}/images/github-grey.svg`} width={20} height={20} alt="View code on GitHub" />
                                             View code on GitHub
                                         </a>
@@ -655,7 +655,7 @@ export default function UseCases(props) {
                                     <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{choreo.frontmatter.description}</ReactMarkdown>
 
                                     <div className={styles.dVersion}>
-                                        <a href="https://wso2.com/ballerina/vscode/docs/deploy-the-code/" className={styles.cDownload} target="_blank" rel="noreferrer">
+                                        <a href="https://wso2.com/ballerina/vscode/docs/deploy-with-wso2-choreo/" className={styles.cDownload} target="_blank" rel="noreferrer">
                                         <Image src={`${prefix}/images/docs-grey.svg`} width={20} height={20} alt="Deploy the code" />
                                             Deploy with WSO2 Choreo
                                         </a>
