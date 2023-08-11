@@ -6,9 +6,9 @@ Diagnostics are the syntax and semantic errors that are identified in the source
 
 Diagnostics will show up in multiple places:
 
-* In the Status Bar, there is a summary of all errors and warnings counts.
-* The summary view and the PROBLEMS panel lists all of the current errors.
-* Errors or warnings in a Ballerina file will be rendered inline with the text and in the overview ruler.
+* There is a summary of all errors and warning counts displayed in the **Status Bar**.
+* The **Summary** view and the **PROBLEMS** panel lists all of the current errors.
+* Errors or warnings in a Ballerina file will be rendered in line with the text and in the **Overview** ruler.
 
 ![Diagnostics](../img/edit-the-code/diagnostics/diagnostics.png){.cInlineImage-full}
 

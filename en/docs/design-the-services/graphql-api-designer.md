@@ -50,10 +50,10 @@ You can perform the above functionalities using the GraphQL API Designer as foll
 
 Add a query to the GraphQL service with a `Profile` record as the output object.
 
-<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/query-creation.gif" class="cInlineImage-full"/>
-
 !!! Info
-    Hover over each field to view the provided **Edit**, **Delete**, and **Design** GraphQL operations. 
+    Hover over each field to view the provided **Edit**, **Delete**, and **Design** GraphQL operations.
+
+<img src="https://wso2.com/ballerina/vscode/docs/img/visual-programming/graphql-designer/query-creation.gif" class="cInlineImage-full"/> 
 
 ### Access the query source
 

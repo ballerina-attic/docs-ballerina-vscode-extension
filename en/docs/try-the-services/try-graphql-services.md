@@ -1,10 +1,10 @@
 # Try GraphQL services
 
-GraphQL is an open-source data querying and manipulation language for APIs. While you develop a GraphQL service, you need to try it and debug it to check how it works. The Ballerina VS Code extension provides the GraphQL Try it view, which gives the ability to try GraphQL services within VS Code instead of using any third-party software.
+GraphQL is an open-source data querying and manipulation language for APIs. While you develop a GraphQL service, you need to try it and debug it to check how it works. The Ballerina VS Code extension provides the GraphQL **Try it** view, which gives the ability to try GraphQL services within VS Code instead of using any third-party software.
 
 ## Write the GraphQL service
 
-Add the code below to the `main.bal` file.
+Add the code below to the `main.bal` file of your Ballerina project.
 
 ```ballerina
 import ballerina/graphql;
@@ -47,15 +47,16 @@ Once you add the above function, the VS Code extension will display a CodeLens c
 3. Once the GraphQL view is opened, click **Explorer** to open the **Explorer** view.
 
     !!! Tip 
-        You can find the available APIs from the side menu that opens.
+        You can find all the available APIs from the side menu that opens.
 
 4. Select the APIs that you want to try from the **Explorer** menu.
 
     !!! Info
-        This will automatically generate the payload in the editor. You can edit the payload and add the required parameters (e.g., type your name under the name parameter). **Prettify** will format the code for you.
+        This will automatically generate the payload in the editor. You can edit the payload and add the required parameters (e.g., type your name under the name parameter). Click **Prettify** to format the code.
 
 5. Click **Run** to send the request.
 
-    The response is displayed in the right-side window.
+    !!! Info 
+        The response gets displayed in the right-side window.
     
     <img src="https://wso2.com/ballerina/vscode/docs/img/build-and-try/try-graphql-services/graphql-tryit.gif" class="cInlineImage-full"/>
