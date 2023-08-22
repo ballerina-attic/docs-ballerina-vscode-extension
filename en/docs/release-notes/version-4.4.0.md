@@ -14,4 +14,4 @@ If you are new to Ballerina, you can download the [installers](https://ballerina
 
 ## Improvements
 
-- The GraphQL designer, Entity-relationship diagram, Type diagram, and Composition diagram, now provide support for users to navigate to a specific node based on their selection in the field type.
+- The GraphQL designer, Entity-relationship diagram, and Type diagram, now provide support for users to navigate to a specific node based on their selection in the field type.
