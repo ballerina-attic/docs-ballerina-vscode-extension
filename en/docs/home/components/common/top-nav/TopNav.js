@@ -37,8 +37,8 @@ const TopNav = (props) => {
       <Navbar className={(launcher === 'home') ? `${styles[launcher]} navbar-dark` : styles[launcher]} expand="lg" sticky='top'>
         <Container fluid className={(launcher === 'home') ? styles.toggleFloat : null}>
           {(launcher !== "home") ?
-            <Navbar.Brand href={`${prefix}/`} className={styles.logo}>
-              <Image src={`${prefix}/images/ballerina-logo-white.svg`} height={28} width={150} alt="Ballerina Logo" /> VS Code extension
+            <Navbar.Brand href={`${prefix}/`} className={styles.logo} style={{display:"flex", flexDirection:"row", alignItems:"center"}}>
+            <Image src={`${prefix}/images/ballerina-logo-white.svg`} height={50} width={150} alt="Ballerina Logo" /> <span style={{color:"#ffffff", marginLeft:"10px", fontSize:"1.5rem"}}>VS Code extension</span>
             </Navbar.Brand>
             : null
           }
