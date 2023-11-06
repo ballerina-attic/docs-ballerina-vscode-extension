@@ -1,4 +1,4 @@
-# [DEPRICATED] ballerina-in-action-samples
+# [DEPRICATED] docs-ballerina-vscode-extension
 
 ## Ballerina Visual Studio Code Extension Documentation
 
