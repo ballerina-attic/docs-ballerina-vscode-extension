@@ -1,10 +1,12 @@
-# Ballerina Visual Studio Code Extension Documentation
+# [DEPRICATED] docs-ballerina-vscode-extension
+
+## Ballerina Visual Studio Code Extension Documentation
 
 This is the Ballerina VS Code extension documentation repository. This repository is open and we welcome your contributions!
 
 To see the documentation site, go to [https://wso2.com/ballerina/vscode/docs/](https://wso2.com/ballerina/vscode/docs/).
 
-## Contribute to Ballerina VS Code extension documentation
+### Contribute to Ballerina VS Code extension documentation
 
 Before you contribute, read the following guidelines to understand how you can start contributing:
 
@@ -18,15 +20,15 @@ Fork this repository, make your changes, and send in a pull request.
 
 We look forward to your contributions.
 
-## Run the project locally
+### Run the project locally
 
 Follow the steps given below to set up the documentation site locally.
 
-### Step 1 - Install Python
+#### Step 1 - Install Python
 
 See the instructions relevant to your operating system.
 
-#### MacOS
+##### MacOS
 If you are using macOS, you probably already have a version of Python installed on your machine. Run the following command to verify:
 
 ```shell
@@ -38,11 +40,11 @@ If your version of Python is 2.x.x, you need to install Python3. Follow the inst
 
 Once you are done, you should see two versions of Python on your machine; python2 and python3.
 
-#### Ubuntu and other versions of Debian Linux
+##### Ubuntu and other versions of Debian Linux
 
 Python 3 is pre-installed in these versions, which you can verify using the `python3 -V` command. Run `sudo apt install -y python3-pip` to install `pip` and verify using `pip3 -V`.
 
-### Step 2 - Install pip
+#### Step 2 - Install pip
 >
 > **INFO**
 >
@@ -58,7 +60,7 @@ Pip is most likely installed by default. However, you may need to upgrade pip to
 $ pip install --upgrade pip
 ```
 
-### Step 3 - Install the pip packages
+#### Step 3 - Install the pip packages
 
 To clone the GitHub repository for this documentation and to run the site on your local server, follow these steps:
 
@@ -97,7 +99,7 @@ To clone the GitHub repository for this documentation and to run the site on you
       $ pip3 install -r requirements.txt
       ```
 
-### Step 4 - Run MkDocs
+#### Step 4 - Run MkDocs
 
 1. To start the server and view the site on your local server, run the following command:
 
@@ -128,6 +130,6 @@ To clone the GitHub repository for this documentation and to run the site on you
 >
 > `strict: true` 
 
-## License
+### License
 
 Licenses this source under the Apache License, Version 2.0 ([LICENSE](LICENSE)), You may not use this file except in compliance with the License.
